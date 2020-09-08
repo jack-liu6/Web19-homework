@@ -1,0 +1,392 @@
+.bg{
+	background-color:#e9f0f8
+}
+/*头部导航栏样式*/
+.toubu{
+	height:70px;
+	background:url(../images/top-bg.gif);
+}
+.wancheng td{
+	 border:1px solid #CDCDCD;
+	 align:center;
+	 cellspacing:0;
+	 cellpadding:10
+}
+.daohangtu{
+	margin-top:50px
+}
+.tubiaoziti{
+	display: inline-block;
+	top:50px;
+	left: 200px
+}
+.toubu span{
+	margin: 0px 10px 0px 10px
+}
+.dzzy{
+	margin-top:18px
+}
+.mt40{
+	margin-right:22px
+}
+.daohang{
+	margin-top:40px;
+	background-color: #e9f0f8;
+	border-radius: 5px;
+	width: 244px;
+	height: 30px;
+	padding-right: 20px
+}
+.daohang li a{
+	color:#5893ce;
+	font-size: 12px;
+}
+
+
+.yello:hover{
+   font-size: 15px
+}
+.daohang li a:hover{
+	color: #09A1EC
+}
+.daohang li{
+	margin-left: 15px;
+	line-height: 30px
+}
+.tupian{
+	bottom: 40px;
+	left: 86px
+}
+.tupian img{
+	height: 15px;
+	width: 15px;
+	margin-left: 42px;
+}
+.tupian img:hover{
+     transform: scale(1.5);
+}
+.tupian img{
+	cursor: pointer;
+	transition: all 2s;
+}
+.icon-home,.icon-book,.icon-pencil,.icon-profile{
+	cursor: pointer;
+	transition: all 3s;
+}
+/*主体部分样式*/
+
+
+/*//按钮特效*/
+.bubbly-button {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #ff0081;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+}
+.bubbly-button:focus {
+  outline: 0;
+}
+.bubbly-button:before, .bubbly-button:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+
+.bubbly-button:active {
+  transform: scale(0.9);
+  box-shadow: 0 2px 25px #FBC930;
+}
+
+//特效结束
+
+/*
+蓝色部分样式
+*/
+
+.zhuti{
+   height: 1080px;
+}
+.dzbiaoti{
+	margin :5px 0px 12px 20px;
+	padding-top: 20px
+}
+.gong{
+	color:#999999
+}
+.yuwen{
+    border-radius: 5px;
+	width: 778px;
+	background-color: #fff
+}
+.fw{
+	font-weight:700
+}
+.shici{
+	width: 770px;
+	height:260px
+}
+.yuwen{
+	width:760px;
+	padding: 0px 20px
+}
+.at{
+	margin: 0px auto
+}
+.jiexi{
+	width:760px;
+	height:33px;
+	background-color: #6c9dce;
+    margin-top: 15px;
+	border-radius: 5px;
+}
+.yw{
+	display: inline-block;
+	width: 37px;
+	height:31px;
+	line-height: 31px;
+	text-align: center;
+	border: 1px solid #e4e4e4;
+    margin-left: 10px
+}
+.yw a{
+	color:#666666;
+	font-weight:600
+}
+.ml5{
+	margin-left: 5px
+}
+.ml10{
+	margin-left: 10px
+}
+.mt25{
+	margin-top: 25px
+}
+.ml20{
+	margin-left: 20px
+}
+.ml25{
+	margin-left: 25px
+}
+.m{
+	margin: 15px 20px 7px 0px
+}
+.ml12{
+	margin-left: 12px
+}
+.mb15{
+	margin-bottom:15px
+}
+.inl{
+	display: inline-block;
+}
+.zuozuoye{
+	width: 89px;
+	height: 27px;
+	background: url(../images/作业_03.jpg);
+	bottom:20px;
+	border: none;
+}
+.wancheng{
+	width: 758px;
+	height: 65px;
+    border:1px solid #cccccc;
+    margin-top: 6px
+}
+
+.wancheng td{
+	width: 149px;
+	height: 32px;
+	font-size: 12px;
+    color: #999
+}
+.wancheng .z{
+	padding-left: 66px
+}
+.wancheng .zj{
+	text-align: center
+}
+.cg{
+	color: #999
+}
+.keshi a{
+	color: #ff9900;
+	display: inline-block;
+	margin-bottom: 20px
+}
+.dati{
+	height: 100px;
+	border: 1px solid #e2e2e2;
+	border-radius: 7px;
+	background: url(../images/icos.gif)no-repeat;
+	background-position: 0px -46px;
+	padding: 14px 10px 9px 33px;
+	margin-bottom: 10px
+}
+.dati1{
+	height: 250px;
+	border: 1px solid #e2e2e2;
+	border-radius: 7px;
+	background: url(../images/icos.gif)no-repeat;
+	background-position: 0px -46px;
+	padding: 14px 10px 9px 33px;
+	margin-bottom: 10px;
+}
+.dati2{
+	height: 315px;
+	border: 1px solid #ffc2c2;
+	border-radius: 7px;
+	background: url(../images/icos.gif)no-repeat;
+	background-position: -94px 0px;
+	padding: 14px 10px 9px 33px;
+	margin-bottom: 10px;
+}
+.zs{
+	right:28px;
+	bottom: 15px;
+	font-weight: 700
+}
+.xiahua{
+	display: inline-block;
+	width: 130px;
+	height: 12px;
+	top: 3px;
+	border-bottom: 1px solid #000
+}
+.c6{
+	color: #666666
+}
+.dan{
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	top:1px;
+	background-color: #73cb74
+}
+
+/*单选按钮*/
+
+label.radio {
+  /* 保证布局特性保持一致 */
+  margin: 3px 3px 0px 5px;
+  display:inline-block;
+  box-sizing:border-box;
+  width: 10px;
+  height: 10px;
+  TOP: 1PX
+}
+
+.radio__appearance{
+  display: block; /* 设置为block则不受vertical-align影响，从而不会意外影响到.radio的linebox高度 */
+  position: relative;
+  box-shadow: 0 0 0 1px #4a5358; /* box-shadow不像border那样会影响盒子的框高 */
+  border-radius: 50%;
+  height: 90%;
+  width: 90%;
+}
+label.radio [type=radio] + .radio__appearance::before{
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 85%;
+  height: 85%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: background .1s;
+}
+label.radio [type=radio]:checked + .radio__appearance::before{
+  background-color:#63bd65
+}
+label.radio [type=radio][disabled] + .radio__appearance{
+  opacity: .5;
+}
+label.radio:focus{
+  outline-offset: 0px;
+  outline: #fff auto 1px;
+}
+/* 通过鼠标单击获得焦点时，outline效果不生效 */
+label.radio.clicked{
+  outline: none 0;
+}
+/* 自定义单选框的行为主要是基于原生单选框的，因此先将原生单选框隐藏 */
+label.radio input {
+  display: none;
+}
+
+.huida{
+	height: 19px;
+	line-height: 19px;
+	background-color: #eef8ec;
+	padding:8px 0px 3px 5px;
+	margin-top: 8px
+}
+.huida1{
+	height:82px;
+	line-height: 18px;
+	background-color: #fff7e5;
+	padding:8px 0px 3px 5px;
+	margin-top: 8px
+}
+.gre{
+	color: #01b523;
+	bottom: 5px;
+	margin-left: 10px
+}
+.mr8{
+	margin-right: 8px
+}
+.re{
+	color: #ff0000;
+	bottom: 5px;
+	margin-left: 10px
+}
+.bt{
+	display: inline-block;
+	width: 90px;
+	height: 27px;
+	border:none;
+	background: url(../images/button_03.png)no-repeat;
+	left:320px;
+	margin: 10px 0px 30px 0px
+}
+.bt1{
+	display: inline-block;
+	width: 90px;
+	height: 27px;
+	border:none;
+	background:url(../images/作业系统_03.png)no-repeat;
+	left:320px;
+	margin: 10px 0px 50px 0px
+}
+
+
+/*版权样式*/
+
+.banquan{
+	border-top:5px solid #f4f4f4;
+	height: 50px;
+	background-color:#fbfbfb;
+	margin-top: 10px;
+	line-height: 50px;
+	text-align: center;
+	color: #999
+}

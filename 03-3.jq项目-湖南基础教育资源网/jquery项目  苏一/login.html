@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="bg posir">
+			<img src="img/bg.png" >
+			<div class="logo">
+				<img src="img/logo1.png" >
+			</div>
+			<div class="loginbox">
+				<div class="logintop">
+					<span>用户登录</span>
+				</div>
+				<form action="index.html" id="loginform" name="loginform">
+					<div class="usertop clearfix">
+						<div class="fl"><span>用户名：</span></div>
+						<div class="fr mr10"><a href="rec.html" class="blue">免费注册</a></div>
+					</div>
+					<p class="posir">
+						<input type="text" name="username" id="username" value="" />
+						<span class="usersp"></span>
+					</p>
+					<div class="usertop clearfix">
+						<div class="fl"><span>密码：</span></div>
+						<div class="fr ml10"><a href="rec.html" class="blue">忘记密码？</a></div>
+					</div>
+					<p class="posir">
+						<input type="password" name="password" id="password" value="" />
+						<span class="psdsp"></span>
+					</p>
+					<div class="mt10">
+						<span>验证码：</span>
+					</div>
+					<div class="clearfix">
+						<div class="fl">
+							<input type="text" name="yzm" id="yzm" value="" />
+						</div>
+						<div class="fr">
+							<img src="img/code_img.png" class="yzmpic">
+						</div>
+					</div>
+					<p class="mt20">
+						<button type="submit" name="submit" id="submit"></button>
+					</p>
+				</form>
+			</div>
+		</div>
+		
+		<div class="loginline">
+			<img src="img/loginline.png" >
+		</div>
+		<!-- 底部 -->
+		<div class="bq">
+			<p class="gray">湖南省基础教育资源平台版权所有 站内资源仅限于教育系统内部使用</p>
+			<p class="gray">电话：0731-82220187 企业QQ号:800009196 邮箱：hnszyzx@126.com </p>
+			<p class="gray">地址:湖南省长沙市文运街23号；邮编410005 </p>
+			<p class="gray">湘教QS1-200505-00101 </p>
+		</div>
+		
+		
+		
+		
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

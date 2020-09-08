@@ -1,0 +1,138 @@
+/* 设置左边导航 */
+.center-left-ul{
+    margin-top: 44px;
+}
+/* 设置应用中心左边的导航 */
+.center-main-left{
+    width: 143px;
+    height: 721px;
+}
+.center-main-right{
+    height: 715px;
+}
+.center-left-ul li{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 49px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+.center-left-ul li{
+    font-weight: bold;
+    width: 98px;
+    background-size: 100% 100%;
+    position: relative;
+    left: 1px;
+}
+.center-main-right{
+    width: 825px;
+    border: #e5e5e5 solid 1px;
+}
+.rem-app{
+    border-top: 1px solid #e0e0e0;
+    width: 790px;
+}
+.rem-app h2{
+    position: absolute;
+    left: 0;
+    top: -8px;
+}
+.rem-app>h2{
+    font-weight: bold;
+}
+.app-btns{
+    position: absolute;
+    right: 0;
+    top: -12px;
+}
+.app-btns span{
+    width: 24px;
+    height: 22px;
+    cursor: pointer;
+}
+.app-btn-left{
+    background: url(../images/app_slide_btn.png) no-repeat 0 -26px;
+}
+.app-btn-right{
+    background: url(../images/app_slide_btn.png) no-repeat -29px 0;
+}
+.left-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px #999;
+}
+.left-img img{
+    border-radius: 5px;
+    width: 100%;
+}
+.rem-app-ul li{
+    margin-top: 30px;
+}
+.star{
+    width: 12px;
+    height: 12px;
+    background: url(../images/star_03.png);
+}
+.star2{
+    background: url(../images/star_05.png);
+}
+.hover-details{
+    width: 315px;
+    height: 239px;
+    background: url(../images/hover-bg.png);
+}
+.add{
+    width: 85px;
+    height: 26px;
+    background: url(../images/add.png);
+}
+.hover-text{
+    width: 285px;
+    height: 118px;
+    background: url(../images/text.png);
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.hover-text p{
+    width: 240px;
+    height: 104px;
+    margin-left: 22px;
+    padding-top: 16px;
+    overflow: hidden;
+}
+.hover-details{
+    position: absolute;
+    top: 66px;
+    left: 0;
+    z-index: 99;
+}
+.center-main-right{
+    padding-bottom: 2px;
+}
+/* 设置左右移动的轮播图 */
+/* 显示屏的固定宽高 */
+.rem-app-ul-wrapper{
+    width: 745px;
+    height: 190px;
+    /* overflow-x: hidden; */
+    /* overflow: hidden; */
+    /* overflow-y:visible; */
+}
+/* 设置胶卷 */
+.rem-app-ul-fa1,.rem-app-ul-fa2,.rem-app-ul-fa3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 1580px; */
+    /* width: 1490px; */
+    /* width: 745px; */
+    /* overflow: hidden; */
+}
+/* 设置每一个胶片 */
+.rem-app-ul{
+    width: 745px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

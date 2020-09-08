@@ -1,0 +1,58 @@
+#bul{
+	background: url('../img/ico_sprite.png') no-repeat -18px -22px;
+}
+#ora{
+		background: url('../img/ico_sprite.png') no-repeat 0 -49px;
+		
+}
+/* 城市 */
+
+.dh-1{
+	background: url('../img/blue_skin/nav_bg.png') no-repeat 0 0;
+	
+}
+.shouye{
+	background: url('../img/blue_skin/nav_hover.png') no-repeat 0 0;
+	
+}
+.dh-1 li a{
+	color: white;
+}
+.shouye-1{
+	color: #83C4EE;
+}
+.ziyuan-1:hover{
+	color: #1A5DA4;
+	background-color: #F6FBFF;
+}
+.ziyuan-2 li{
+	background-color: #F6FBFF;
+	border:1px solid #8ABBE4 ;
+}
+.ziyuan-2 a:hover{
+	background-color: #1E8AC8;
+	color: white;
+}
+.ziyuan-2 li a{
+	color: #1A5DA4;
+}
+/* 主体内容部分 */
+/* 左边 */
+.yy-1{
+	display: inline-block;
+	background: url('../img/blue_skin/app_menu_bg.png') no-repeat 0 0;
+	width: 143px;
+	height: 721px;
+}
+.qb-1{
+	color: #003580;
+}
+.qb-2{
+	color: #003580;
+}
+.qb-3{
+	color: #003580;
+}
+.qb-4{
+	color: #003580;
+}

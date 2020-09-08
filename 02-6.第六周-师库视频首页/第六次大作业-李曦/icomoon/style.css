@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?6drd3');
+  src:  url('fonts/icomoon.eot?6drd3#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?6drd3') format('truetype'),
+    url('fonts/icomoon.woff?6drd3') format('woff'),
+    url('fonts/icomoon.svg?6drd3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shopping-cart:before {
+  content: "\e900";
+}
+.icon-align-justified:before {
+  content: "\e905";
+}
+.icon-align-left:before {
+  content: "\e906";
+}
+.icon-edit-pencil:before {
+  content: "\e907";
+}
+.icon-film:before {
+  content: "\e908";
+}
+.icon-list1:before {
+  content: "\e909";
+}
+.icon-navigation-more:before {
+  content: "\e90a";
+}
+.icon-play:before {
+  content: "\e90b";
+}
+.icon-play-outline:before {
+  content: "\e90c";
+}
+.icon-search:before {
+  content: "\e90d";
+}
+.icon-view-list:before {
+  content: "\e90e";
+}
+.icon-window-open:before {
+  content: "\e90f";
+}
+.icon-cheveron-left:before {
+  content: "\e911";
+}
+.icon-cheveron-left1:before {
+  content: "\e912";
+}
+.icon-cart:before {
+  content: "\e901";
+}
+.icon-file-video:before {
+  content: "\e92a";
+}
+.icon-phone:before {
+  content: "\e942";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-bubbles2:before {
+  content: "\e96d";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-stats-bars:before {
+  content: "\e99c";
+}
+.icon-gift:before {
+  content: "\e99f";
+}
+.icon-list:before {
+  content: "\e9ba";
+}
+.icon-play3:before {
+  content: "\ea1c";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+.icon-ctrl1:before {
+  content: "\ea51";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-caret-square-o-right:before {
+  content: "\e902";
+}
+.icon-toggle-right:before {
+  content: "\e902";
+}
+.icon-caret-right:before {
+  content: "\e903";
+}
+.icon-caret-down:before {
+  content: "\e904";
+}
+.icon-caret-down1:before {
+  content: "\e910";
+}

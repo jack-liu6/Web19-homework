@@ -1,0 +1,334 @@
+/*教学视频*/
+.video .leftP{
+	width: 740px;
+}
+.video .searchFor{
+/*	width: 100%;*/
+	margin: 10px 0;
+	padding:0 10px;
+	border: 1px solid #a6c9f2;
+}
+.video .searchFor li{
+	height: 46px;
+	line-height: 46px;
+	border-bottom: 1px dashed #ebebeb;
+}
+.video .searchFor li span{
+	font-size: 12px;
+	
+	padding:15px 8px;
+}
+.video .searchFor li .select{
+	color: #0062dd;	
+	cursor: pointer;
+}
+.video .searchFor li .select:hover{
+	color: #ef7b14
+}
+.video .searchFor li .all{
+	color: #0062dd;	
+	cursor: pointer;
+}
+.video .searchFor li .all:hover{
+	color: #ef7b14
+}
+.video .searchFor li .allselected{
+	color: #e27000;	
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+.video .searchFor li .selected{
+	color: #e27000;	
+	text-decoration-line: underline;
+	cursor: pointer;
+}
+.video .leftP .tiaojian{
+	border-left: 1px solid #bebebe;
+}
+.video .leftP .tiaojian h2{
+	display: inline-block;
+	width: 90px;
+	height: 33px;
+	line-height: 33px;
+	/*line-height: 100%;*/
+	font-weight: bold;
+	background-image: linear-gradient(#dadada,#fff);
+	/*background-image: linear-gradient(#deeff7,#fff)*/
+	border-top: 1px solid #bebebe;
+	
+
+}
+.video .leftP .tiaojian .TJlist{
+	width: 628px;
+	padding: 0 10px;
+	border-bottom:  1px solid #bebebe;
+	border-left:  1px solid #bebebe;
+}
+.video .leftP .tiaojian .TJlist h5{
+	display: inline-block;
+	width: 90px;
+	height: 33px;
+	line-height: 33px;
+	color: #7f7f7f;
+	padding: 0 5px;
+	float:left;
+}
+.video .leftP .tiaojian .TJlist .insertList{
+	width:425px;
+	float: left;
+}
+.video .leftP .tiaojian .TJlist .listSp{
+	display: inline-block;
+}
+.video .leftP .tiaojian .TJlist .listSp span{
+	height: 16px;
+	line-height: 16px;
+	padding: 2px 28px 2px 8px;
+	color: #e27000;
+	border: 1px solid #e27000;
+	font-size: 12px;
+	position: relative;
+	margin: 0 4px;
+	float: left;
+}
+.video .leftP .tiaojian .TJlist .listSp span:after{
+	content: "";
+	width: 17px;
+	height: 17px;
+	background: url(../image/sprite.png);
+	background-position: 0 -250px;
+	position: absolute;
+	top: 1px;
+	right: 1px;	
+}
+.video .leftP .tiaojian .clearAll{
+	display: inline-block;
+	width: 68px;
+	height: 16px;
+	color: #0062dd;
+	margin-left: 22px;
+	float: left;
+}
+.video .leftP .tiaojian .clearAll:hover{
+	color: #ef7b14;
+}
+.video .leftP .tiaojian .clearIco{
+	display: inline-block;
+	width: 16px;
+	height: 12px;
+	background-position: -36px -250px;
+}
+
+/*视频列表*/
+.videoList{
+	border: 1px solid #bebebe;
+	border-top: none;
+	padding: 8px;
+}
+.video .leftP .Toppage{
+	
+	border: 1px solid #bebebe;
+	padding: 0 7px;
+	line-height: 28px;
+	background-image: linear-gradient(#fff,#efefef)
+
+}
+.video .leftP .Toppage>a{
+	padding: 6px 5px;
+	font-size: 12px;
+	/*line-height: 19px;*/
+}
+.video .leftP .Toppage>a span{
+	vertical-align: middle;
+}
+.video .leftP .Toppage>a .sprite{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	
+}
+.video .leftP .Toppage>a .pageIco1{
+	width: 13px;
+	background-position: -66px -246px;
+}
+.video .leftP .Toppage>a .pageIco2{
+	width: 13px;
+	background-position: -81px -246px;
+}
+.video .leftP .Toppage>a .pageIco3{
+	background-position: -108px -250px;
+}
+.video .leftP .Toppage>a .pageIco4{
+	background-position: -145px -250px;
+}
+
+
+.videoList .page a{
+	display: inline-block;
+	width: 20px;
+	height: 100%;
+	line-height: 24px;
+	font-size: 12px;
+	text-align: center;
+	color: #1f85d9;
+	border-left: 1px solid #bebebe;
+}
+
+.videoList .page a:hover{
+	color: #ef7b14;
+	cursor: pointer;
+}
+.videoList .page a.next{
+	width: 46px;
+}
+.videoList .page  .pageChecked{
+	color: #333;
+}
+.videoList .jianlue{
+	padding: 14px 0;
+	border-bottom:1px dashed #bfbfbf;
+}
+.videoList .jianlue a{
+	display: inline-block;
+	/*text-align: center;*/
+	width: 140px;
+	margin: 0 auto;
+}
+.videoList .jianlue  a:hover{
+	background-color: #fff8e2;
+	transition: all 0.6s;
+	transform: scale(1.2,1.2);
+
+}
+
+.videoList  .imgBrd{
+	height: 97px;
+	padding: 2px;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+}
+.videoList  a:hover .imgBrd{
+	border-color:  #ef7b14;
+}
+.videoList .jianlue p{
+	font-size: 7px;
+	color: #bfbfbf;
+	padding: 0 6px;
+}
+.videoList .sprite{
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+}
+.videoList  .videoIco1{
+	background-position: 0 -325px;
+}
+.videoList  .videoIco2{
+	background-position: -33px -325px;
+}
+
+.videoList .xijie{
+	padding: 7px 0;
+	border: 1px dashed #bfbfbf;
+	border-right:none;
+	border-left: none;
+	font-size: 12px;
+}
+
+.videoList .xijie:hover{
+	background-color: #fff8e2;
+	background-clip:content-box;
+}
+.videoList .xijie a{
+	display: inline-block;
+}
+
+.videoList .xijie .XJtext{
+	width: 570px;
+}
+.videoList .xijie .XJtext p{
+	color: #575757;
+	line-height: 20px;
+}
+.videoList .xijie .XJtext h4{
+	font-weight: bold;
+	/*margin: 5px;*/
+}
+.videoList .xijie .XJtext .icos{
+	margin: 2px;
+
+}
+.videoList .xijie .XJtext .icos a{
+	line-height: 16px;
+	margin-right: 15px;
+}
+.videoList .icos .sprite{
+	height: 16px;
+	vertical-align: middle;
+}
+.videoList .icos span{
+	color: #0136ba;
+}
+.videoList  .videoIco3{
+	
+	background-position: -40px -390px;
+}
+.videoList  .videoIco4{
+	background-position: 0 -390px;
+}
+
+.videoList  .videoIco5{
+	background-position: -79px -390px;
+}
+.videoList .xijie a:hover p{
+	color: #ef7b14;
+}
+.videoList .xijie .icos a:hover span{
+	color: #ef7b14;
+}
+.video .tuijian{
+	width: 234px;
+}
+.video .tuijian .sBanner li{
+	display: none;
+}
+.video .tuijian a{
+	display: inline-block;
+	margin: 10px 0;
+}
+.video .tuijian .tuijianList{
+	padding: 1px;
+	border: 1px solid #e2e2e2;
+	margin-bottom: 10px;
+}
+
+.video .tuijian .tuijianList h4{
+	padding: 5px 10px;
+	background-image: linear-gradient(#f5fcff,#c4dfee);
+	font-weight: bold;
+}
+.video .tuijian .tuijianList ul{
+	border-top: 1px solid #a9d9f3;
+	margin-top: 1px;
+	padding: 4px;
+}
+.video .tuijian .tuijianList li{
+	border-bottom: 1px dashed #cfcfcf;
+	line-height: 20px;
+}
+.video .tuijian .tuijianList a{
+	display: inline-block;
+	width: 100%;
+	padding: 4px 0;
+	margin:0;
+}
+.video .tuijian .tuijianList a:hover span{
+	color: #ef7b14;
+}
+.video .tuijian .tuijianList a .TJico{
+	display: inline-block;
+	width: 10px;
+	height: 16px;
+	vertical-align: middle;
+	background-position: 0 -431px;
+}

@@ -1,0 +1,281 @@
+/* boby设置背景色 */
+.zt{
+	background-color: #FFF8E6;
+}
+/* 头部、雪碧图 */
+.yq{
+	background: url(../image/zonesprite.png) no-repeat;
+	display:inline-block;
+	width: 230px;
+	height: 68px;
+	margin-top: 22px;
+}
+.yi{
+	background-position:-0px -0px;
+	
+}
+.yg{
+	background: url(../image/zonesprite.png) no-repeat;
+	display:inline-block;
+	width: 85px;
+	height: 28px;
+	margin-left: 390px;
+	margin-bottom: 22px;
+}
+.er{
+	background-position:-27px -98px;
+}
+.yl{
+	background: url(../image/zonesprite.png) no-repeat;
+	display:inline-block;
+	width: 34px;
+	height: 28px;
+	margin-left: 10px;
+	margin-bottom: 22px;
+	
+}
+.yu{
+	margin-left: 20px;
+	padding: 6px;
+	display:inline-block;
+	position: relative;bottom: 28px;	
+}
+.san{
+	background-position:-199px -100px;
+}
+/* 上部引导 */
+.ssu{
+	height: 44px;
+	background-image: linear-gradient(#ff9933,#ff6600);
+}
+
+.lunwen,a{
+	color: #F5F5F5;
+	line-height: 44px;
+	margin-left: 15px;
+}
+.xj{
+	margin-left: 30px;
+	line-height: 0;
+	margin-top: 10px;
+}
+
+/* 中间内容左边第一部分 */
+.jx{
+	width: 345px;
+	border: #ff9966 2px solid;
+	margin-top: 14px;
+	margin-right: 10px;
+	
+}
+.libu{
+	width: 342px;
+	height: 34px;
+	border: #EEEEEE 1px solid;
+	background-color:#EEEEEE;
+}
+.jt{
+	background: url(../image/zonesprite.png) no-repeat;
+	display:inline-block;
+	width: 12px;
+	height: 14px;
+	
+}
+.jd{
+	background-position:-0px -74px;
+	margin-top: 10px;
+	
+}
+.jl{
+	color: red;
+	margin-left: 4px;
+}
+.mo{
+	margin-left: 180px;
+	margin-bottom: 5px;
+}
+.mo2{
+	margin-left: 150px;
+	margin-bottom: 4px;
+	
+}
+.jf{
+	width: 335px;
+	height: 120px;
+	border-bottom: 2px dashed #EEEEEE;
+}
+.jp{
+	width: 120px;
+	height: 90px;
+	border: 3px solid #EEEEEE;
+	margin-top: 10px;
+}
+.wz{
+	font-size: 12px;
+}
+.limian{
+	font-size: 12px;
+	list-style: disc;
+	text-indent: 2em;
+}
+/* 中间内容第三部分 */
+.zg3{
+	margin-top: 14px;
+	margin-right: 25px;
+}
+.you1{
+	width: 230px;
+	height: 275px;
+	border: #ff9966 2px solid;
+	border-radius: 5px;
+	margin-bottom: 10px;	
+}
+.zx{
+	font-size: 14px;
+	color: #666699;
+	border-bottom: 2px dashed #EEEEEE;
+	margin-top: 10px;
+}
+.gs{
+	color: #009900;
+}
+.qz{
+	list-style: url(../image/效果图_03.png);
+	margin-left: 18px;
+	font-size: 12px;
+}
+.you2{
+	width: 230px;
+	height: 287px;
+	border: #ff9966 2px solid;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.zr{
+	margin-top: 10px;
+}
+.qe{
+	margin-right: 5px;
+}
+.ys{
+	color: #999933;
+}
+.you3{
+	width:230px ;
+	height: 220px;
+	border: #ff9966 2px solid;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.you4{
+	width: 230px;
+	height: 100px;
+	border: #ff9966 2px solid;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	line-height: 24px;
+}
+.xz{font-size: 12px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.you5{
+	width: 230px;
+	height: 275px;
+	border: #ff9966 2px solid;
+	border-radius: 5px;
+	
+}
+.dzg{
+	margin-bottom: 80px;
+}
+.xx{
+	height: 44px;
+	background-image: linear-gradient(#ff9933,#ff6600);
+}
+/* 底部 */
+.dx{
+	background-image: linear-gradient(#333333,#383838);
+	
+}
+.dxi{
+	background-color: #222222;
+	/* height: 155px; */
+	height: 185px;
+	width: 148px;
+	
+}
+.dx2{
+	color: #999966;
+	font-size: 18px;
+	padding-top: 20px;
+}
+.dx3{
+	
+	font-family: 宋体;
+	text-indent: 1em;
+	
+}
+.dx4{
+	padding-bottom: 30px;
+	color: #666666;
+	font-family: 宋体;
+	text-indent: 1em;
+}
+.dy{
+	margin-left: 10px;
+}
+.cu{
+	background: url(../image/zonesprite.png) no-repeat;
+	display:inline-block;
+	width: 23px;
+	height: 23px;
+}
+.wb{
+	background-position: -78px -204px;
+	margin-right: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.bw{
+	background-position: -35px -204px;
+	margin-top: 10px;
+	height: 23px;
+}
+.qq{
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 23px;
+	height: 23px;
+}
+.xf{
+	background-position: -118px -204px;
+	margin-bottom: 150px;
+	margin-top: 26px;
+	margin-left: 32px;
+	}
+.kj{
+	background: url(../image/zonesprite.png) no-repeat;
+	display:inline-block;
+	width: 224px;
+	height: 40px;
+	margin-top: 20px;
+}
+.dg{
+	background-position: -0px -245px;
+}
+.kh{
+	color: #6D6D6D;
+	padding: 4px;
+}
+#al a{
+	line-height: 30px;
+	color: #666666;
+}
+#al a:hover{
+	color: white;
+}
+.hw li{
+	list-style: square;
+	margin-left: 6px;
+}

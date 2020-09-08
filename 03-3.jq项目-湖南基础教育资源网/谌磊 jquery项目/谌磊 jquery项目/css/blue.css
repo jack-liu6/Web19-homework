@@ -1,0 +1,392 @@
+.head-2 {
+	width: 17px;
+	height: 17px;
+	background: url(../image/ico_sprite.png);
+	margin-top: 10px;
+	margin-left: 8px;
+}
+
+.head-3 {
+	background-position: 0 -49px;
+}
+
+.head-4 {
+	background-position: -18px -22px;
+}
+
+.logo-1 span {
+	color: #316EAF;
+	font-size: 20px;
+	font-weight: 800;
+	font-family: "微软雅黑";
+	margin-left: 7px;
+}
+
+.logo-3 {
+	width: 320px;
+	height: 28px;
+	background: url(../image/blue_skin/search_bg.png);
+	margin-right: 10px;
+}
+
+.home {
+	width: 980px;
+	height: 42px;
+	background: url(../image/blue_skin/nav_bg.png);
+	margin: 0 auto;
+	display: flex;
+}
+
+.fu {
+	position: absolute;
+	top: 10px;
+	left: 15px;
+	width: 100px;
+	/* height: 150px; */
+	background: #FFFFFF;
+	border: 1px solid #316EAF;
+	color: #000000;
+	border-radius: 5px;
+	display: none;
+	z-index: 999;
+}
+
+.fu-1 {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	color: #316EAF;
+}
+
+.fu-2 {
+	text-align: center;
+	color: #316EAF;
+}
+
+.fu-2:hover {
+	background: #316EAF;
+	color: #FFFFFF;
+}
+
+.home-2 {
+	background: url(../image/blue_skin/nav_hover.png);
+	width: 113px;
+	height: 42px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 42px;
+	margin: 0 10px;
+	position: relative;
+	top: -3px;
+}
+
+.poking-2 {
+	width: 730px;
+	border: 1px solid #EEEBB6;
+	background: #FFFAEA;
+}
+
+.deng-1 {
+	float: left;
+	width: 216px;
+	margin-right: 10px;
+	border: 1px solid #BDD7F2;
+	background: #FFFBE5;
+}
+
+.deng-2 {
+	background: url(../image/blue_skin/inner_tt.png);
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+}
+
+.ge {
+	width: 230px;
+	height: 270px;
+	border: 1px solid #BDD7F2;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.ge-1 {
+	background: url(../image/blue_skin/inner_tt.png);
+	height: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	position: relative;
+}
+
+.ge-2 {
+	width: 21px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background: url(../image/blue_skin/tab_sm.png);
+	color: #FFFFFF;
+	margin: 7px 5px 0 5px;
+	cursor: pointer;
+}
+
+.ge-3 {
+	width: 21px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #316EAF;
+	margin: 7px 5px 0 5px;
+	cursor: pointer;
+}
+
+.ming-4 {
+	color: #316EAF;
+}
+
+.left {
+	width: 218px;
+	height: 293px;
+	border: 1px solid #BDD7F2;
+	position: relative;
+}
+
+.left-1 {
+	width: 108px;
+	line-height: 30px;
+	border-top: 1px solid #316EAF;
+	color: #316EAF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.left-2 {
+	width: 108px;
+	line-height: 30px;
+	border: 1px solid #BDD7F2;
+	background: url(../image/blue_skin/inner_tt.png);
+	border-top: none;
+	border-right: none;
+	/* color: #316EAF; */
+	text-align: center;
+	font-weight: bold;
+}
+
+.right {
+	width: 754px;
+	border: 1px solid #BDD7F2;
+}
+
+.right-1 {
+	width: 158px;
+	line-height: 30px;
+	border-top: 1px solid #316EAF;
+	color: #316EAF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.right-2 {
+	width: 158px;
+	line-height: 30px;
+	border: 1px solid #BDD7F2;
+	background: url(../image/blue_skin/inner_tt.png);
+	border-top: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.right-4 {
+	/* width: 275px; */
+	line-height: 30px;
+	border: 1px solid #BDD7F2;
+	background: url(../image/blue_skin/inner_tt.png);
+	border-top: none;
+	border-right: none;
+	padding: 0 10px 0 223px;
+}
+
+.rightzh {
+	width: 754px;
+	border: 1px solid #BDD7F2;
+	margin-top: 10px;
+}
+
+.rightzh-1 {
+	background: url(../image/blue_skin/inner_tt.png);
+	height: 32px;
+	line-height: 32px;
+}
+
+.rightzh-1 span {
+	font-weight: bold;
+	color: #316EAF;
+}
+
+.bottom {
+	width: 754px;
+	border: 1px solid #BDD7F2;
+	margin-top: 10px;
+}
+
+.bottom-1 {
+	width: 158px;
+	line-height: 30px;
+	border-top: 1px solid #316EAF;
+	color: #316EAF;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bottom-2 {
+	width: 158px;
+	line-height: 30px;
+	border: 1px solid #BDD7F2;
+	background: url(../image/blue_skin/inner_tt.png);
+	border-top: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.bottom-4 {
+	width: 275px;
+	line-height: 30px;
+	border: 1px solid #BDD7F2;
+	background: url(../image/blue_skin/inner_tt.png);
+	border-top: none;
+	border-right: none;
+}
+
+.ziyuan-1 {
+	background: url(../image/blue_skin/inner_tt.png);
+	height: 32px;
+	line-height: 32px;
+}
+
+.ziyuan-1 span {
+	font-weight: bold;
+	color: #316EAF;
+}
+
+.san {
+	width: 750px;
+	border: 1px solid #BDD7F2;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.san-1 {
+	background: url(../image/blue_skin/inner_tt.png);
+	height: 32px;
+	line-height: 32px;
+}
+
+.ziyuan-2 span {
+	color: #316EAF;
+}
+
+.san-1 span {
+	font-weight: bold;
+	color: #316EAF;
+	float: left;
+	margin-right: 20px;
+}
+
+.san-3 {
+	width: 64px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 8px 10px 0 30px;
+	background: url(../image/blue_skin/tab_big.png);
+}
+
+.you {
+	width: 980px;
+	border: 1px solid #BDD7F2;
+	margin: 10px auto;
+	display: flex;
+}
+
+.you-1 {
+	line-height: 48px;
+	font-size: 14px;
+	color: #316EAF;
+	font-weight: bold;
+	margin: 0 5px;
+}
+.ziyuan {
+	width: 218px;
+	border: 1px solid #BDD7F2;
+	margin-top: 10px;
+}
+
+.xin-1 {
+	width: 143px;
+	height: 678px;
+	padding-top: 43px;
+	background: url(../image/blue_skin/app_menu_bg.png);
+}
+
+.fote {
+	width: 147px;
+	height: 41px;
+	text-align: center;
+	margin:2px 0 0 2px;
+	line-height: 41px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #316EAF;
+	background: url(../image/blue_skin/all_app_hover.png);
+}
+.fota{
+	width: 147px;
+	height: 41px;
+	text-align: center;
+	margin:2px 0 0 2px;
+	line-height: 41px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #316EAF;
+	background: url(../image/blue_skin/rec_app_hover.png);
+}
+.fotb{
+	width: 147px;
+	height: 41px;
+	text-align: center;
+	margin:2px 0 0 2px;
+	line-height: 41px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #316EAF;
+	background: url(../image/blue_skin/free_app_hover.png);
+}
+.fotc{
+	width: 147px;
+	height: 41px;
+	text-align: center;
+	margin:2px 0 0 2px;
+	line-height: 41px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #316EAF;
+	background: url(../image/blue_skin/fee_app_hover.png);
+}
+.foe {
+	width: 147px;
+	height: 41px;
+	line-height: 41px;
+	text-align: center;
+	margin:2px 0 0 2px;
+	font-size: 14px;
+	color: #316EAF;
+}
+.dian-3 span {
+	color: #316EAF;
+}
+.xuan-3 span {
+	color: #316EAF;
+}

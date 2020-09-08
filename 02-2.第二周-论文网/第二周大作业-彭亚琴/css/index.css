@@ -1,0 +1,575 @@
+body{
+	background-color: #fff8e6;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#ding{
+	width: 100%;
+	height: 85px;
+}
+#ding:after{
+	height:0;
+	content:" ";
+	display:block;
+	clear:both;
+}
+#ding{
+*zoom:1;
+}/*清除浮动*/
+.top{
+	background-image: url(../image/zonesprite.png);
+	background-repeat: no-repeat;
+}
+.logo{
+	display: inline-block;
+	width: 230px;
+	height:72px;
+	background-position: 0 0;
+	float: left;
+	margin-left: 188px;
+	margin-top: 10px;
+}
+.right{
+	display: inline-block;
+	width: 84px;
+	height:27px;
+	background-position: -30px -101px; 
+	float: left;
+	margin-left:400px;
+	margin-top: 20px;
+}
+input{
+	width: 179px;
+	height: 28px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 17px;
+	border: 1px solid #C2BEB9;
+	padding-left: 5px;
+}
+.right1{
+	display: inline-block;
+	width: 35px;
+	height:28.5px;
+	background-position: -201px -101px; 
+	float: right;
+	margin-right:188px;
+	margin-top: 18px;
+}
+.nav{
+	width: 100%;
+	height: 40px;
+	background: linear-gradient(#FF9E5E,#FE6502);/*设置渐变*/
+	border-top: 1px solid #FA4203;
+	margin-top: 5px;
+}
+.nav ul{
+	width: 990px;
+	height: 41px;
+	float: left;
+	margin: 0 188px;
+	line-height: 40px;
+}
+.nav .four{
+	width: 95px;
+	height: 41px;
+	float: left;
+	list-style-type: none;
+	margin-left:20px;
+}
+.nav .four a{
+	display: inline-block;
+	width:95px;
+	height: 40px; 
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 41px;
+}
+.nav .one{
+	width: 56px;
+	height: 41px;
+	float: left;
+	list-style-type: none;
+}
+.nav .one a{
+	display: inline-block;
+	width:56px;
+	height: 40px; 
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 41px;
+}
+.nav .two{
+	width: 66px;
+	height: 41px;
+	float: left;
+	list-style-type: none;
+	margin-left:20px;
+}
+.nav .two a{
+	display: inline-block;
+	width:66px;
+	height: 40px; 
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 41px;
+}
+.nav .five{
+	width: 85px;
+	height: 41px;
+	float: left;
+	list-style-type: none;
+	margin-left:20px;
+}
+.nav .five a{
+	display: inline-block;
+	width:85px;
+	height: 40px; 
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 41px;
+}
+.six{
+	width: 2px;
+	height: 41px;
+	float: left;
+	list-style-type: none;
+	margin:0 45px;
+}
+.six img{
+	width:2px;
+	height: 25px; 
+	margin: 8px 0;
+}
+.nav .the{
+	width: 32px;
+	height: 41px;
+	float: left;
+	list-style-type: none;
+}
+.the1{
+	margin-left: 45px;
+}
+.nav .the a{
+	display: inline-block;
+	width:32px;
+	height: 40px; 
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 41px;
+}
+.zuo{
+	width: 674px;
+	height: 1000px;
+	float: left;
+	margin:10px 30px 30px 188px;
+/*	border: 1px solid #666;*/
+}
+.you{
+	width: 265px;
+	height:1000px;
+	float: right;
+	margin: 10px 188px 0 0;
+}
+.zuo1{
+	width: 330px;
+	height:340px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	float: left;
+}
+.shang{
+	width: 330px;
+	height: 40px;
+	border-radius: 5px 5px 0 0;
+	background: linear-gradient(#FDFDF9,#E3E4E3);
+
+}
+.zhong{
+	width: 320px;
+	height: 90px;
+	border-bottom: 1px dashed #D5D6D2;
+	margin: 0 5px;
+}
+.tu{
+	background-image: url(../image/zonesprite.png);
+	background-repeat: no-repeat;
+}
+.tu1{
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	float: left;
+	background-position: 0 -75px;
+	margin: 13px 5px;
+}
+.wen{
+	display: inline-block;
+	font-size: 15px;
+	color: #E11700;
+	font-weight: bold;
+	float: left;
+	margin: 9.5px 0;
+}
+.tu2{
+	float: right;
+	margin: 16.5px 20px;
+}
+.tu3{
+	width: 100px;
+	height:70px;
+	float: left;
+	border:1px solid #D5D6D2;
+	margin: 5px 5px 5px 0;
+}
+p{
+	font-size: 12px;
+	text-align: justify;
+	width: 213px;
+	height: 16px;
+	float: left;
+	margin: 5px 0 0 0;
+
+}
+.xia{
+	font-size: 12px;
+	width: 300px;
+	height: 200px;
+	margin: 5px 0 0px 20px;
+}
+.xia li{
+	margin-bottom: 4px;
+}
+.zuo2{
+	width: 330px;
+	height:340px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	float: left;
+	margin-left: 10px;
+}
+.zuo3{
+	width: 330px;
+	height:340px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	float: left;
+	margin-top: 10px;
+}
+.zuo4{
+	width: 330px;
+	height:340px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.zuo5{
+	width: 330px;
+	height:340px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	float: left;
+	margin-top: 10px;
+}
+.zuo6{
+	width: 330px;
+	height:340px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.zuo6 .lu{
+	color: #209921;
+	margin: 0;
+}
+.you1{
+	width: 263px;
+	height: 230px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+}
+.ti{
+	width: 249px;
+	height: 23px;
+	margin: 10px 7px 0 ;
+	border-bottom: 1px dashed #EBE7E4;
+	font-size: 15px;
+	font-weight: bold;
+	color: #7B7D78;
+	float: left;
+}
+.you .mu{
+	width: 240px;
+	height: 220px;
+	margin: 40px 0 0 0 ;
+}
+.jia{
+	list-style-type: none;
+	background-image: url(../image/zonesprite.png);
+	background-repeat: no-repeat;
+	margin-bottom:5px;
+	margin-left: 5px;
+
+}
+.jia2{
+/*	width: 100px;
+	height: 20px;*/
+	background-position: -331px -283px;
+	padding: 0 0 0 15px;
+	font-size: 12px;
+	color: #148B16;
+}
+.jia1{
+/*	width: 100px;
+	height: 20px;*/
+	background-position: -331px -283px;
+	padding: 0 0 0 15px;
+	font-size: 12px;
+}
+.you2{
+	width: 263px;
+	height: 247px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	margin-top: 10px;
+}
+.you3{
+	width: 263px;
+	height: 225px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	margin-top: 10px;
+}
+.call{
+	width: 253px;
+	height: 50px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.call1{
+	float: left;
+}
+.call p{
+	float: left;
+	width: 160px;
+	height: 16px;
+	margin-left: 10px;
+}
+.call .num{
+	font-size: 14px;
+	font-weight: bold;
+	color: #B3CD80;
+}
+.num1{
+	background-image: url(../image/zonesprite.png);
+	background-repeat: no-repeat;
+}
+.num2{
+	/*width: 10px;
+	height: 10px;*/
+	background-position:-331px -283px;
+	padding-left: 15px;
+	color: #DC2813;
+	font-size: 14px;
+	font-weight: bold;
+}
+.num3{
+	font-size: 14px;
+	color: #B3CD80;
+	font-weight: bold;
+}
+.you4{
+	width: 263px;
+	height: 70px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	margin-top: 10px;
+}
+.you4 ul{
+	width: 230px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.you4 li{
+	font-size: 12px;
+}
+.you5{
+	width: 263px;
+	height: 230px;
+	border-radius: 5px;
+	border: 1px solid #FF9864;
+	background-color: #FFF;
+	margin-top: 10px;
+}
+.bottom{
+	width: 100%;
+	height: 40px;
+	float: left;
+	background: linear-gradient(#FFC199,#FE6502);/*设置渐变*/
+	margin-top: 100px;
+}
+.bottom ul{
+	width: 500px;
+	height: 40px;
+	float: right;
+	margin: 0 130px 0 300px;
+	line-height: 40px;
+}
+.bottom ul li{
+	width:56px;
+	height: 40px;
+	float: left;
+	list-style-type: none;
+	margin-right: 20px;
+}
+.bottom ul li a{
+	display: inline-block;
+	width:56px;
+	height: 40px; 
+	text-decoration: none;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+}
+.foot{
+	width: 100%;
+	height: 190px;
+	float: left;
+	background: linear-gradient(#252125,#373737);/*设置渐变*/
+}
+.foot1{
+	width: 990px;
+	height: 180px;
+	margin: 0 188px;
+	background-color: #222222;
+}
+.foot1 ul{
+	float: left;
+	width: 130px;
+	height: 140px;
+	border-right: 1px solid #2E2A28;
+	margin: 20px 5px 0 10px;
+}
+.foot1 ul li{
+	list-style-type: none;
+	margin-bottom: 7px;
+	color: #767676;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.foot1 a{
+	text-decoration: none;
+	color: #767676;
+	font-size: 12px;
+}
+.foot1 .cu{
+	font-weight: bold;
+	color: #A1917A;
+	margin-left: 0;
+}
+.foot1 .cu a{
+	font-weight: bold;
+	color: #A1917A;
+}
+.foot2{
+	float: left;
+	margin-left: 10px;
+}
+.xy{
+	width: 100%;
+	height: 24px;
+	margin-top: 10px
+}
+.wb{
+	background-image: url(../image/zonesprite.png);
+	background-repeat: no-repeat;
+}
+.wb1{
+	display: inline-block;
+	float: left;
+	width: 23.5px;
+	height: 23.5px;
+	background-position: -78px -209px;
+}
+.wb2{
+	display: inline-block;
+	float: left;
+	width: 23.5px;
+	height: 23.5px;
+	background-position: -39px -209px;
+	margin-left: 10px;
+}
+.wb3{
+	float: left;
+	width: 23.5px;
+	height: 23.5px;
+	margin-top: 10px;
+}
+.wb4{
+	display: inline-block;
+	float: left;
+	width: 23.5px;
+	height: 23.5px;
+	background-position: -117px -209px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.finaly{
+	float: left;
+	width: 224px;
+	height: 140px;
+	margin: 20px 0px;
+}
+.wb5{
+	display: inline-block;
+	float: left;
+	width: 223.5px;
+	height: 39px;
+	background-position: 0px -248px;
+}
+.finaly p{
+	font-size: 12px;
+	color: #3A3A3A;
+}
+.finaly p span{
+	color: #656565;
+}
+.finaly img{
+	float: left;
+	margin-top: 5px;
+}

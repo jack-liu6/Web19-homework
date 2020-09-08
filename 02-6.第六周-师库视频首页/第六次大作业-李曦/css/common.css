@@ -1,0 +1,350 @@
+ /*公共样式 */
+ 
+ .fl {
+     float: left;
+ }
+ 
+ .fr {
+     float: right;
+ }
+ 
+ @font-face {
+     /*1. 这个字体名称要注意 icomoon*/
+     font-family: 'icomoon';
+     /*2. 要注意路径的问题*/
+     src: url('../fonts/icomoon.eot?7kkyc2');
+     src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ .fr .icomoon {
+     font-family: 'icomoon';
+     /* 
+	行高等于高居中
+	行高小于高居上
+	行高大于高居下
+	*/
+ }
+ /* 版心 */
+ 
+ .w {
+     width: 980px;
+     margin: 0 auto;
+ }
+ 
+ .style-grey {
+     color: #868686;
+ }
+ 
+ .style-orange {
+     color: #ff7300;
+ }
+ 
+ .style-hot {
+     color: #cf6201;
+ }
+ 
+ .spacer {
+     width: 1px;
+     height: 12px;
+     background-color: #c6c6c6;
+     margin: 8px 12px 0;
+ }
+ /*头部样式*/
+ /*顶部快捷导航*/
+ 
+ .shortcut {
+     height: 28px;
+     background-color: #e8e8e8;
+     line-height: 28px;
+ }
+ 
+ .shortcut li {
+     float: left;
+ }
+ 
+ .orderul li {
+     position: relative;
+ }
+ 
+ .shop-list {
+     width: 80px;
+     height: 100px;
+     background-color: #e8e8e8;
+     position: absolute;
+     top: 27px;
+     left: -7px;
+     display: none;
+     text-indent: 8px;
+ }
+ /* .shop-list li {
+     clear: both;
+ } */
+ 
+ .bg {
+     height: 136px;
+     background: linear-gradient(#deeff7, #e3f1f8, #f3f9fc, #f6fbfd);
+ }
+ /* header区域 */
+ 
+ .header {
+     position: relative;
+     height: 136px;
+ }
+ 
+ .star {
+     /* position: absolute;
+     top: 0;
+     left: 0; */
+     height: 40px;
+     background: url(../images/star_03.jpg) no-repeat;
+     background-size: 100%;
+ }
+ /* logo图片作为背景图插入 */
+ 
+ .logo {
+     width: 311px;
+     height: 48px;
+     position: absolute;
+     top: 60px;
+     left: 0;
+ }
+ 
+ .logo a {
+     display: block;
+     overflow: hidden;
+     width: 311px;
+     height: 48px;
+     background: url(../images/logo.png) no-repeat;
+     text-indent: -999px;
+ }
+ 
+ .search {
+     position: absolute;
+     left: 522px;
+     top: 68px;
+     border: 2px solid #dedede;
+     height: 27px;
+     background: #fff;
+ }
+ 
+ #search-a {
+     display: inline-block;
+     width: 78px;
+     height: 22px;
+     text-indent: 4px;
+     border: 0;
+     font-size: 12px;
+     outline: none;
+ }
+ 
+ #search-a option {
+     border: 0;
+ }
+ 
+ .search-list {
+     display: block;
+     background: #fff;
+     margin-top: 2px;
+     color: #033887;
+ }
+ 
+ .heart {
+     width: 12px;
+     height: 12px;
+     position: absolute;
+     background: url(../images/sprite.jpg) -303px 0;
+     left: 64px;
+     top: 10px;
+ }
+ 
+ .text {
+     /* float: right; */
+     width: 239px;
+     height: 20px;
+     /* border: 1px solid #c9c9c9; */
+     border: 0;
+     border-left: 1px solid #c9c9c9;
+     text-indent: 12px;
+     margin-top: 5px;
+     color: #b1b1b1;
+ }
+ 
+ .btn {
+     float: right;
+     width: 69px;
+     height: 29px;
+     background-color: #f1861d;
+     border: 1px solid #c9c9c9;
+     font-size: 16px;
+     color: #fff;
+ }
+ 
+ .hotwords {
+     position: absolute;
+     top: 106px;
+     left: 522px;
+ }
+ 
+ .hotwords a {
+     margin: 0 6px;
+ }
+ 
+ .customized-search {
+     position: absolute;
+     top: 68px;
+     right: 10px;
+     width: 52px;
+     height: 33px;
+ }
+ /* nav start */
+ 
+ .nav {
+     height: 25px;
+     border-bottom: 2px solid #006dc8;
+ }
+ 
+ .nav-items {
+     margin-top: 1px;
+ }
+ 
+ .nav-items li {
+     float: left;
+ }
+ 
+ .nav-items li a {
+     display: block;
+     height: 25px;
+     padding: 0 22px;
+     line-height: 25px;
+     font-weight: 700;
+ }
+ 
+ .nav-items li a:hover {
+     background: #006dc8;
+     color: #fff;
+ }
+ /* dropdown 我看过的*/
+ 
+ .dropdown {
+     /* width: 160px; */
+     height: 26px;
+     line-height: 26px;
+ }
+ 
+ .dropdown ul li {
+     float: left;
+     margin-left: 13px;
+ }
+ 
+ .icos-1 {
+     display: inline-block;
+     width: 15px;
+     height: 11px;
+     background: url(../images/sprite.png) -277px 0;
+ }
+ 
+ .icos-2 {
+     display: inline-block;
+     width: 15px;
+     height: 11px;
+     background: url(../images/sprite.png) -351px 0;
+ }
+ /* 风云榜边框 */
+ /*历史记录*/
+ 
+ .record-list {
+     position: absolute;
+     top: 25px;
+     right: 0;
+     width: 235px;
+     height: 221px;
+     line-height: 18px;
+     border: 1px solid #c6c6c6;
+     display: none;
+ }
+ 
+ .record-list li {
+     /* padding-left: 6px; */
+     margin-left: 0;
+     padding-top: 4px;
+ }
+ 
+ .wokan {
+     position: relative;
+ }
+ 
+ .replay {
+     margin-left: 85px;
+ }
+ 
+ .icos-wrong {
+     width: 12px;
+     height: 12px;
+     display: inline-block;
+     background: url(../images/sprite.png)-557px 0;
+     vertical-align: middle;
+     margin-right: 8px;
+     margin-left: 8px;
+ }
+ 
+ .clearAll a {
+     margin-right: 8px;
+     color: #033887;
+ }
+ 
+ .recomV {
+     width: 235px;
+     height: 108px;
+     margin-top: 22px;
+     border-top: 1px dashed#ccc;
+ }
+ 
+ .recomV p {
+     padding-left: 8px;
+ }
+ 
+ .recomV-hd {
+     color: #096c8d;
+ }
+ 
+ .recomV-s {
+     width: 222px;
+     height: 35px;
+     line-height: 35px;
+     background-color: #eaf9fe;
+     margin-top: 12px;
+     margin-left: 6px;
+     text-align: center;
+ }
+ 
+ .play_history:hover {
+     border-bottom: 0;
+ }
+ 
+ .play_history {
+     position: relative;
+     width: 80px;
+     height: 25px;
+ }
+ /*footer部分*/
+ 
+ .footer {
+     height: 109px;
+     background: #f3f3f3;
+     padding-top: 18px;
+ }
+ 
+ .copyright {
+     text-align: center;
+     line-height: 24px;
+ }
+ 
+ .footer_icos {
+     width: 50px;
+     height: 12px;
+     display: inline-block;
+     margin-right: 28px;
+     background: url(../images/footer_03.jpg);
+ }

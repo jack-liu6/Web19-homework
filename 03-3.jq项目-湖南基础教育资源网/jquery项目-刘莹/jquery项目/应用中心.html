@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>应用中心</title>
+		<!--引入公共样式 -->
+		<link rel="stylesheet" href="css/公共01.css">
+		<!-- 引入当前应用中心样式表-->
+		<link rel="stylesheet" href="css/应用中心.css">
+		<!-- 引入blue样式 -->
+		<link rel="stylesheet" id="blue" href="css/应用中心blue.css">
+		<!-- 引入orange样式 -->
+		<!-- <link rel="stylesheet" href="css/应用中心orange.css"> -->
+		<!-- 引入jQuery工具库 -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<!-- 引入JS样式 -->
+		<script src="js/应用中心.js"></script>
+	</head>
+	<body>
+		<!-- 顶部容器 -->
+		<div class="header ">
+			<!-- 顶部容器980div -->
+			<div class="header-div">
+				<!-- 左边 -->
+				<div class="header-ul clearfix">
+					<ul>
+						<!-- 左边 -->
+						<li class="fl">
+							<span>您好,张文莉</span>
+							<span>(</span>
+							<a class="header-sprite" href="#"></a>
+							<a class="header-a" href="#">2</a>
+							<span>)</span>
+							<span>|</span>
+							<a href="#">个人中心</a>
+							<span>|</span>
+							<a href="#">我的空间</a>
+							<span>|</span>
+							<a href="#">我的购物车</a>
+							<span>|</span>
+							<a href="#">后台管理</a>
+							<span>|</span>
+							<a href="#">注销</a>
+						</li>
+						<!-- 右边 -->
+						<li class="fr">
+							<a href="#">收藏夹首页</a>
+							<span>|</span>
+							<a href="#">帮助中心</a>
+							<span>|</span>
+							<a href="#">换肤</a>
+							<!-- 切换皮肤 -->
+							<span>
+								<button id="bul"></button>
+								<button id="ora"></button>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- LOGO部分 -->
+		<div class="wt980 logo clearfix ">
+			<div class="logo-tu fl"></div>
+			<span class="logo-tuu2 "></span>
+			<!-- 省中心 -->
+			<div class="ss fl">
+				<span class="sheng posir">省中心</span>
+				<!-- 切换城市 -->
+				<div class="posir chengshi">
+					<span class="cs">
+						<a href="#">切换县市</a>
+					</span>
+					<!--  -->
+					<div class="cs-2 none">
+						<!-- 市级上部分 -->
+						<div class="sj ">
+							<span>
+								<a href="#">省中心</a>
+								<a href="#">长沙</a>
+								<a href="#">株洲</a>
+								<a href="#">湘潭</a>
+								<a href="#">衡阳</a>
+								<a href="#">邵阳</a>
+								<a href="#">岳阳</a>
+								<a href="#">常德</a>
+							</span>
+							<span>
+								<a href="#">张家界</a>
+								<a href="#">益阳</a>
+								<a href="#">郴州</a>
+								<a href="#">永州</a>
+								<a href="#">怀化</a>
+								<a href="#">娄底</a>
+								<a href="#">湘西</a>
+							</span>
+						</div>
+						<!-- 县级下部分 -->
+						<div class="sj-2">
+							<span class="xjs">
+								<p class="dy" href="#">对应区县</p>
+								<a href="#">岳麓区</a>
+								<a href="#">开福区</a>
+								<a href="#">天心区</a>
+								<a href="#">雨花区</a>
+								<a href="#">芙蓉区</a>
+							</span>
+							<span class="xjs-2">
+								<a href="#">浏阳市</a>
+								<a href="#">长沙县</a>
+								<a href="#">望城县</a>
+								<a href="#">宁乡县</a>
+								<a href="#">全部</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 搜索部分 -->
+			<div class="clearfix fr">
+				<div class="sou fl">
+					<form action="" class="fl">
+						<select name="cat" class="postform">
+							<option>国家资源网</option>
+							<option>请选择</option>
+						</select>
+						<span class="foo "></span>
+						<input type="" value="请输入您要查询的关键字" class="input">
+						<a class="foo2" href="#"></a>
+					</form>
+				</div>
+				<a href="#" class="gaoji fr"><u>高级搜索</u></a>
+			</div>
+		</div>
+		<!-- 首页导航 -->
+		<div class="dh">
+			<div class="dh-1">
+				<ul class="clearfix">
+					<li class="fl shouye"><a href="#">首页</a></li>
+					<li class="fl"><span class="shouye-1">|</span></li>
+					<li class="fl ziyuan posir">
+						<a class="ziyuan-1" href="#">资源中心</a>
+						<ul class="ziyuan-2 none">
+							<li><a href="#">公共资源</a></li>
+							<li><a href="#">市场资源</a></li>
+							<li><a href="#">本地资源</a></li>
+							<li><a href="#">同盟资源</a></li>
+						</ul>
+					</li>
+					<li class="fl"><span class="shouye-1">|</span></li>
+					<li class="fl"><a class="jiao" href="#">教室空间</a></li>
+					<li class="fl"><span class="shouye-1 shouye-3">|</span></li>
+					<li class="fl"><a class="jiao" href="#">在线备课</a></li>
+					<li class="fl"><span class="shouye-1 shouye-3">|</span></li>
+					<li class="fl"><a class="jiao" href="#">名师工作室</a></li>
+					<li class="fl"><span class="shouye-1 shouye-3">|</span></li>
+					<li class="fl"><a class="jiao" href="#">应用中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 主体内容部分 -->
+		<div class="wt980">
+			<!-- 左边部分宽140高720 -->
+			<div class="fl zuo">
+				<div class="zuos">
+					<span class="yy-1 posir">
+						<a class="qb-1" href="#">全部应用</a>
+						<a class="qb-2" href="#">推荐应用</a>
+						<a class="qb-3" href="#">免费应用</a>
+						<a class="qb-4" href="#">收费应用</a>
+					</span>
+				</div>
+			</div>
+			<!-- 右边部分宽830高720 -->
+			<div class="fr you">
+				<!-- 推荐应用 -->
+				<div class="tjj">
+					<div class="jiantou">
+						<span class="jiantou-1">推荐应用</span>
+						<img class="jiantou-2" src="img/pic/应用中心(鼠标经过)_03.png">
+						<span class="jiantou-3"></span>
+						<span class="jiantou-4"></span>
+					</div>
+					<!--  -->
+					<div class="cidian">
+						<div class="zcd ">
+							<dl class="clearfix dll posir">
+								<a  href="#">
+									<img class="fl" src="img/pic/app_01.png"></a>
+								<dd class="cidian-1 fl ">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_01.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+								<!-- 图2 -->
+							</dl>
+							<dl class="clearfix dll ">
+								<a class="xianshi" href="#">
+									<img class="fl" src="img/pic/app_02.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-1" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_02.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+			
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_03.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-1" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_03.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_04.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-1" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_04.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+						</div>
+						<!-- 下图 -->
+						<div class="zcd">
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_05.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_05.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_06.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_06.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_07.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_07.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_01.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_01.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+						</div>
+					</div>
+				</div>
+				
+				<!-- 免费应用 -->
+				<div class="tjj">
+					<div class="jiantou">
+						<span class="jiantou-1">免费应用</span>
+						<img class="jiantou-2" src="img/pic/应用中心(鼠标经过)_03.png">
+						<span class="jiantou-3"></span>
+						<span class="jiantou-4"></span>
+					</div>
+					<!--  -->
+					<div class="cidian">
+						<div class="zcd ">
+							<dl class="clearfix dll posir">
+								<a  href="#">
+									<img class="fl" src="img/pic/app_01.png"></a>
+								<dd class="cidian-1 fl ">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_01.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+								<!-- 图2 -->
+							</dl>
+							<dl class="clearfix dll ">
+								<a class="xianshi" href="#">
+									<img class="fl" src="img/pic/app_02.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-4" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_02.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_03.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-4" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_03.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_04.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-4" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_04.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+						</div>
+						<!-- 下图 -->
+						<div class="zcd">
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_05.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-5" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_05.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_06.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-5" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_06.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_07.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-5" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_07.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_01.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-5" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_01.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<!-- 收费应用 -->
+				<div class="tjj">
+					<div class="jiantou">
+						<span class="jiantou-1">收费应用</span>
+						<img class="jiantou-2" src="img/pic/应用中心(鼠标经过)_03.png">
+						<span class="jiantou-3"></span>
+						<span class="jiantou-4"></span>
+					</div>
+					<!--  -->
+					<div class="cidian">
+						<div class="zcd ">
+							<dl class="clearfix dll posir">
+								<a  href="#">
+									<img class="fl" src="img/pic/app_01.png"></a>
+								<dd class="cidian-1 fl ">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-6" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_01.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+								<!-- 图2 -->
+							</dl>
+							<dl class="clearfix dll ">
+								<a class="xianshi" href="#">
+									<img class="fl" src="img/pic/app_02.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-6" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_02.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_03.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-6" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_03.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_04.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-6" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_04.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+						</div>
+						<!-- 下图 -->
+						<div class="zcd">
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_05.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_05.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_06.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_06.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_07.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_07.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+							<dl class="clearfix dll">
+								<a href="#">
+									<img class="fl" src="img/pic/app_01.png"></a>
+								<dd class="cidian-1 fl">
+									<span class="cidian-2">中小学成语字典</span>
+									<p><img class="" src="img/应用中心-_03.png"></p>
+									<p class="cidian-3">2128<span class="cidian-4">人使用</span></p>
+								</dd>
+								<!-- 显示的图片 -->
+								<div class="tu2 tun-3" style="display: none;">
+									<div class="tu2-1 clearfix">
+										<p class="fl"><img src="img/pic/app_01.png"></p>
+										<p class="cidian-2 fl">中小学生成语词典</p>
+										<br>
+										<p class="uu-1">
+											<img src="img/应用中心-_03.png">
+											<span class="uu-2">2312</span>
+											<span class="uu-3">人使用</span></p>
+											<p class="uu-4"><img src="img/pic/应用中心0001_03.png" ></p>
+									</div>
+									<div class="tu2-2 ">
+										<em>“学单词，用海词，海词词典是最好的学习词</em>
+										<em>典，释意更准确更清晰，独家拥有最详尽的用法</em>
+										<em>和讲解，比其他词典更快掌握每个词。软件共</em>
+										<em>收录2000万词汇，除具有“查词、翻译背单</em>
+										<em>词，每日学习”等功能外，个性设置为..."</em>
+									</div>
+								</div>
+							</dl>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<div class="wiba">
+			<div class="wiba-2">
+				<p class="wb-3">湖南省基础教育资源平台版权所有 站内资源仅限于教育系统内部使用</p>
+				<p>电话：0731-82220187 企业QQ号:800009196 邮箱：hnszyzx@126.com</p>
+				<p>地址:湖南省长沙市文运街23号；邮编410005 </p>
+				<p>湘教QS1-200505-00101</p>
+			</div>
+		</div>
+	</body>
+</html>

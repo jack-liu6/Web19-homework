@@ -1,0 +1,1093 @@
+/* 头部 */
+
+.header {
+    height: 32px;
+    line-height: 32px;
+    background-image: linear-gradient(#fff, #EDEDED);
+}
+
+.toubu-left {
+    width: 390px;
+}
+
+.toubu-right {
+    width: 208px;
+}
+
+.toubu-right button {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* logo图部分 */
+
+.logo {
+    margin-top: 1px;
+    border-top: 1px solid #DDDDDD;
+}
+
+.logo-img {
+    border-right: 1px solid #EBEBEB;
+}
+
+.logo-img,
+.logo-img a {
+    width: 365px;
+    height: 80px;
+    display: inline-block;
+}
+
+
+/*logo图右边的省中心部分 */
+
+.sheng {
+    margin-top: 30px;
+    width: 80px;
+}
+
+.sheng h4 {
+    color: #FF6500;
+}
+
+.shixian {
+    display: inline-block;
+    width: 73px;
+    height: 19px;
+    line-height: 19px;
+    background: url(../img/select_bg.png) no-repeat;
+    border: 1px solid #DEDEDE;
+}
+
+.shengshi {
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    width: 400px;
+    z-index: 1000;
+    height: 128px;
+    border: 2px solid #B8E1F3;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.shengsang {
+    height: 50%;
+    margin: 0px 9px;
+    border-bottom: 1px solid #B5E0F2;
+}
+
+.shengsang li {
+    height: 20px;
+    float: left;
+    width: 12%;
+    text-align: center;
+    color: #1A1AD1;
+    line-height: 24px;
+}
+
+.shengsang li.on {
+    color: #fff;
+    background-color: #FF6500;
+}
+
+.on {
+    color: #fff;
+    background-color: #FF6500;
+}
+
+.duiying {
+    height: 50%;
+    margin: 0px 45px 0px 5px;
+}
+
+.jiantou {
+    display: inline-block;
+    background: url('../img/ico_sprite.png') no-repeat 0 -96px;
+    width: 57px;
+    height: 20px;
+    padding-left: 2px;
+    color: #9C9C9C;
+}
+
+.duiying ul {
+    width: 280px;
+}
+
+.duiying li {
+    height: 20px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: #565656;
+}
+
+
+/* 搜索框 */
+
+.sousuo {
+    width: 380px;
+    margin-top: 2px;
+    margin-top: 45px;
+}
+
+.sou {
+    height: 28px;
+    width: 320px;
+}
+
+.proso {
+    appearance: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 28px;
+    border: none;
+    outline: none;
+    width: 85px;
+    color: #515151;
+    padding-left: 5px;
+}
+
+.sou input {
+    position: absolute;
+    left: 90px;
+    top: 0px;
+    width: 180px;
+    height: 28px;
+    color: #9E9E9E;
+}
+
+.sou button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 32px;
+    height: 28px;
+}
+
+.gaoji {
+    color: #515151;
+    text-decoration: underline;
+}
+
+
+/* 导航部分 */
+
+.daohang {
+    height: 42px;
+    margin-top: 20px;
+}
+
+.daohang .daoul {
+    padding: 0px 50px;
+    line-height: 42px;
+}
+
+.daoul li {
+    float: left;
+    /* width: 95px; */
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 40px;
+    padding: 0px 15px;
+}
+
+.daoul li.gang {
+    width: 5px;
+    margin: 0px 10px;
+}
+
+.daoul .bgdaohang {
+    width: 115px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 0px;
+    margin-top: -2px;
+}
+
+.daoul .zhongxin {
+    padding: 0px;
+    width: 94px;
+    z-index: 999;
+}
+
+.ziyuan {
+    display: inline-block;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* .ygul {
+    width: 94px;
+    height: 105px;
+} */
+
+.yingul {
+    text-align: center;
+    padding: 1px;
+    width: 92px;
+    height: 95px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.yingul li {
+    padding: 0px 25px 0px 17px;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 22px;
+}
+
+.bgziyuan {
+    font-weight: bold;
+    margin-bottom: -1px;
+    height: 35px;
+    margin-top: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+/* 首页的主体内容 */
+
+.bodyer {
+    margin-top: 3px;
+}
+
+.wt740 {
+    width: 740px;
+}
+
+.bodyer-left {
+    width: 738px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.tongzhi {
+    width: 515px;
+    padding-left: 5px;
+    line-height: 24px;
+    color: #868687;
+}
+
+.laba {
+    display: inline-block;
+    background: url('../img/ico_sprite.png') no-repeat 0 -76px;
+    width: 10px;
+    height: 10px;
+}
+
+.tongzhi a {
+    display: inline-block;
+    margin-right: 5px;
+    color: #525151;
+}
+
+.tongzhi .new {
+    display: inline-block;
+    background: url(../img/ico_new.png) no-repeat;
+    width: 25px;
+    height: 10px;
+}
+
+
+/* 登录与轮播图部分 */
+
+.denglu {
+    width: 216px;
+    padding: 2px;
+}
+
+.denglup {
+    color: #707070;
+    height: 31px;
+    line-height: 31px;
+}
+
+.sanjiao {
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+}
+
+.dengluye {
+    padding: 16px 9px 11px 9px;
+}
+
+.yonghu {
+    height: 28px;
+    line-height: 28px;
+    color: #5C5C5C;
+}
+
+.yonghu input {
+    width: 150px;
+    height: 26px;
+    background-color: #fff;
+    border: 1px solid #BDD7F2;
+}
+
+.yanzheng {
+    width: 152px;
+}
+
+.yanzheng input {
+    width: 79px;
+}
+
+.ma {
+    display: inline-block;
+    width: 55px;
+    height: 20px;
+    margin-top: 3px;
+    background: url(../img/code_img.png) no-repeat;
+}
+
+.yanzheng .deng {
+    display: inline-block;
+    background: url('../img/ico_sprite.png') no-repeat 0 -132px;
+    width: 75px;
+    height: 25px;
+}
+
+.yanzheng .zhu {
+    display: inline-block;
+    background: url('../img/ico_sprite.png') no-repeat 0 -173px;
+    width: 75px;
+    height: 25px;
+}
+
+.yanzheng {
+    color: #5E5E5E;
+}
+
+.yanzheng a {
+    color: #626262;
+    text-decoration: underline;
+}
+
+
+/* 轮播图 */
+
+.lunbo {
+    border: 4px solid #C7E0F2;
+    width: 502px;
+}
+
+.slide {
+    width: 502px;
+    height: 234px;
+    overflow: hidden;
+    position: relative;
+}
+
+.picList {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.picList>li {
+    float: left;
+    width: 502px;
+    height: 234px;
+}
+
+.picList>li img {
+    width: 502px;
+    height: 234px;
+}
+
+
+/* .dots {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+} */
+
+.dibu {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(000, 000, 000, 0.5);
+}
+
+.hunan {
+    width: 195px;
+    color: #C9CBCB;
+}
+
+.dots {
+    width: 150px;
+}
+
+.dots span {
+    display: inline-block;
+    width: 22px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: #969696;
+}
+
+.dots .on {
+    background-color: #fff;
+}
+
+.btns a {
+    position: absolute;
+    top: 40%;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.btns .prev {
+    left: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.btns .next {
+    right: 0;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+
+/* 主体的头部的右边 */
+
+.bodyer-right {
+    width: 226px;
+    padding: 2px;
+}
+
+.shi {
+    margin-left: 40px;
+}
+
+.shi,
+.xian {
+    display: inline-block;
+    width: 21px;
+    height: 19px;
+    line-height: 19px;
+    padding-bottom: 5px;
+}
+
+.mingcheng {
+    padding: 2px;
+    background-color: #fff;
+}
+
+.huayue {
+    height: 25px;
+    line-height: 25px;
+    background-color: #F6F6F6;
+}
+
+.huayue span {
+    width: 45%;
+    display: inline-block;
+}
+
+.shixianul {
+    padding: 0px 4px;
+}
+
+.shixianul li {
+    color: #222222;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    line-height: 20px;
+    border-bottom: 1px dashed #DBDBDB;
+}
+
+.shixianul li.li {
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.mingci {
+    display: inline-block;
+    background: url(../img/ico_sprite.png) no-repeat;
+    width: 19px;
+    height: 15px;
+    margin-right: 40px;
+}
+
+.mingci1 {
+    background-position: 0 -220px;
+}
+
+.mingci2 {
+    background-position: 0 -248px;
+}
+
+.mingci3 {
+    background-position: 0 -276px;
+}
+
+.mingci4 {
+    background-position: 0 -304px;
+}
+
+.mingci5 {
+    background-position: 0 -332px;
+}
+
+.mingci6 {
+    background-position: 0 -360px;
+}
+
+.mingci7 {
+    background-position: 0 -388px;
+}
+
+.mingci8 {
+    background-position: 0 -416px;
+}
+
+
+/* 下面的左右浮动部分 */
+
+.xmleft {
+    width: 220px;
+}
+
+.fannao {
+    height: 55px;
+}
+
+.fannao a {
+    display: inline-block;
+    width: 220px;
+    height: 55px;
+}
+
+
+/* 空间访问量 */
+
+.kongjian {
+    padding: 2px;
+    width: 216px;
+}
+
+.kongjianul {
+    padding-top: 8px;
+}
+
+.kongjianul .mingci {
+    margin-right: 20px;
+}
+
+.kongjianul .ren {
+    display: inline-block;
+    background: url('../img/ico_sprite.png') no-repeat -1px -454px;
+    width: 14px;
+    height: 16px;
+}
+
+
+/* 用户贡献排行 */
+
+.gongxian,
+.xiazai {
+    display: inline-block;
+    width: 48%;
+    height: 29px;
+}
+
+.gongspan,
+.neili {
+    padding-bottom: 1px;
+    background-color: #fff;
+}
+
+
+/* 下面的浮动部分的右边 */
+
+.tabdiv {
+    padding: 2px;
+}
+
+.tab-nei {
+    height: 31px;
+    line-height: 31px;
+}
+
+.tab-nei li {
+    float: left;
+    width: 152px;
+    text-align: center;
+}
+
+.tab-xia {
+    padding: 15px 8px;
+    background-color: #fff;
+}
+
+.tablun {
+    height: 100px;
+}
+
+.gongjian {
+    display: inline-block;
+    width: 20px;
+    height: 100px;
+}
+
+.zuojain {
+    margin-right: 10px;
+    background: url(../img/slide_left.png) no-repeat;
+}
+
+.youjian {
+    background: url(../img/slide_right.png) no-repeat;
+}
+
+.tabul {
+    width: 667px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.tabul ul {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.tabul li {
+    float: left;
+    width: 75px;
+    height: 100px;
+    margin-right: 22px;
+}
+
+.tabul li.divli {
+    margin-right: 10px;
+}
+
+.tabul li a {
+    display: inline-block;
+    width: 74px;
+    height: 74px;
+    line-height: 72px;
+    text-align: right;
+    background: url(../img/app_bg.png) no-repeat;
+}
+
+.tabul li span {
+    display: inline-block;
+    width: 74px;
+    height: 20px;
+    background-color: #ACACAC;
+    color: #fff;
+    border-radius: 10px;
+}
+
+
+/* 下面的名师工作室 */
+
+.gongzuoshiul {
+    padding: 17px 18px 0px 17px;
+}
+
+.laoshi {
+    padding-bottom: 14px;
+    border-bottom: 1px dashed #AAAAAA;
+}
+
+.dierul {
+    border-bottom: none;
+    margin-top: 13px;
+}
+
+.laoshi li {
+    float: left;
+    width: 33%;
+    height: 85px;
+}
+
+.laoshi .bajia {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    background: url(../img/img_bg_85.png) no-repeat;
+}
+
+.laoshi .img-loashi {
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+.jiaoshidiv {
+    width: 110px;
+    height: 85px;
+}
+
+.jiaoshidiv p {
+    color: #6F6F6F;
+    line-height: 20px;
+}
+
+.jiaoshidiv .xue {
+    color: #969696;
+}
+
+.xiaotu {
+    padding-bottom: 14px;
+}
+
+.xiaotu .xiaotua {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: url(../img/img_bg_60.png) no-repeat;
+}
+
+.xiaotu .xiaotuimg {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.xiaotu li {
+    float: left;
+    width: 60px;
+    margin-right: 20px;
+}
+
+.xiaotu .xiaotyli {
+    margin-right: 5px;
+}
+
+.xiaotuspan {
+    display: inline-block;
+    width: 60px;
+    height: 17px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    background: #B0B0B0;
+}
+
+
+/* 按学科分类 */
+
+.table {
+    padding: 3px 8px;
+}
+
+.table table {
+    width: 100%;
+    padding: 2px 0px;
+    border-bottom: 1px dashed #818181;
+}
+
+.table .xiatable {
+    border-bottom: none;
+}
+
+.table table tr {
+    display: inline-block;
+    margin: 2px 0px;
+    height: 28px;
+    padding-left: 10px;
+    line-height: 28px;
+}
+
+.table table.se tr {
+    background-color: #F8F8F8;
+}
+
+.table td {
+    display: inline-block;
+    width: 116px;
+    text-align: left;
+    color: #747474;
+}
+
+.tablespan {
+    display: inline-block;
+    background: url('../img/ico_sprite.png') no-repeat 0 -498px;
+    width: 14px;
+    height: 16px;
+}
+
+
+/* 下面的额大图 */
+
+.you {
+    height: 60px;
+}
+
+.ziyuan2 {
+    padding: 2px;
+    background-color: #fff;
+}
+
+.ziyuan2 p {
+    height: 30px;
+    width: 100%;
+    color: #8C8C8C;
+    line-height: 30px;
+}
+
+.ziyuan2 p.bjp {
+    background-color: #F6F6F6;
+}
+
+.ketangi {
+    display: inline-block;
+    width: 64px;
+    font-size: 12px;
+    height: 23px;
+    line-height: 23px;
+}
+
+
+/* 网络课堂 */
+
+.wangluoul {
+    padding: 15px 11px 12px 18px;
+    background-color: #fff;
+}
+
+.wangluoul li {
+    float: left;
+    width: 133px;
+    height: 125px;
+    margin-right: 10px;
+}
+
+.wangluoul a {
+    display: inline-block;
+    width: 133px;
+    height: 104px;
+    background: url(../img/video_bg.png) no-repeat;
+}
+
+.wangluoul a img {
+    width: 127px;
+    height: 87px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+.wangluoul span {
+    width: 100%;
+    text-align: center;
+    color: #505050;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+
+/* 下面的友情链接 */
+
+.lianjie {
+    height: 49px;
+    padding: 0px 12px;
+}
+
+.divspan {
+    width: 69px;
+    height: 49px;
+}
+
+.lianjie span {
+    line-height: 49px;
+    display: inline-block;
+}
+
+.lianjie .youspan {
+    line-height: 0px;
+    display: inline-block;
+    width: 15%;
+    height: 33px;
+    padding: 8px 0px
+}
+
+.lianjie .youspan a {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    width: 100%;
+    color: #8F8F8F;
+}
+
+
+/* 应用中心部分 */
+
+.yingyong {
+    width: 143px;
+    height: 721px;
+}
+
+.zhongxin2 {
+    position: absolute;
+    top: 44px;
+    left: 0px;
+}
+
+.zhongxin2 {
+    padding: 1px;
+    padding-right: 0px;
+    width: 148px;
+    height: 40px;
+}
+
+.zhongxin2 p {
+    height: 42px;
+    line-height: 42px;
+}
+
+
+/* 推荐 */
+
+.tuijian {
+    top: 88px;
+}
+
+.mianfei {
+    top: 132px;
+}
+
+.shoufei {
+    top: 176px;
+}
+
+
+/* app中心 */
+
+.app,
+.app2 {
+    width: 830px;
+    background-color: #FBFBFB;
+}
+
+.ruanjina {
+    padding: 15px 20px;
+    border: 1px solid #E7E7E7;
+}
+
+.tou {
+    height: 22px;
+    line-height: 22px;
+}
+
+.xian1 {
+    width: 662px;
+    height: 1px;
+    background-color: #E8E8E8;
+}
+
+.zuoyou {
+    width: 55px;
+}
+
+.zuo {
+    display: inline-block;
+    background: url('../img/app_slide_btn.png') no-repeat 0 -26px;
+    width: 24px;
+    height: 22px;
+}
+
+.qyou {
+    display: inline-block;
+    background: url('../img/app_slide_btn.png') no-repeat -29px 0;
+    width: 24px;
+    height: 22px;
+}
+
+
+/* 推荐的应用 */
+
+.tj {
+    overflow: hidden;
+}
+
+.zhu2 {
+    padding: 20px 0px;
+    width: 788px;
+    height: 167px;
+    /* overflow: hidden; */
+}
+
+#box,
+.boxbox {
+    /* width: 788px; */
+    height: 196px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+}
+
+.boxbox ul {
+    float: left;
+    width: 788px;
+    height: 100%;
+}
+
+.zhu2 li {
+    float: left;
+    height: 67px;
+    width: 25%;
+}
+
+.cidian {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background: url(../img/img_bg_60.png) no-repeat;
+}
+
+.cidian img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.youzi {
+    width: 110px;
+    height: 60px;
+}
+
+.xing {
+    display: inline-block;
+    width: 62px;
+    height: 12px;
+    background: url(../img/hduasihd.jpg) no-repeat;
+}
+
+.yanse {
+    color: #FF4500;
+}
+
+.youzi p {
+    line-height: 20px;
+}
+
+.mo {
+    position: fixed;
+    left: 0;
+    z-index: 10;
+    top: 214px;
+    left: 0;
+    display: none;
+}

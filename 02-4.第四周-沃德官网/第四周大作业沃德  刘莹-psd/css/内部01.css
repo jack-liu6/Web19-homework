@@ -1,0 +1,444 @@
+/* 头部搜索条 */
+.tou{
+	line-height: 108px;
+	background-color: #082939;
+}
+.wen{
+	color: white;
+}
+.wz{
+	margin-left: 50px;
+}
+.tu{
+	margin-left: 380px;
+	margin-top: 25px;
+}
+.wo2,.wen a{
+	color: white;
+	font-size: 18px;
+}
+#tou a:hover{
+	color:#E68323;
+}
+/*  咨询部分*/
+.zx{
+	/* width: 1200px; */
+	height: 195px;
+}
+.zixu{
+	font-size: 32px;
+	text-align: center;
+	margin-top: 65px;
+}
+.zixu2{
+	font-size: 30px;
+	color: #A7ACB0;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.lj{
+	width: 435px;
+	height: 98px;
+	background-color: #1975A5;
+}
+#lj a:hover{
+	color:#E68323;
+}
+.lj2{
+	color: white;
+	font-size: 21px;
+	padding-top: 15px;
+	margin-left: 10px;
+}
+.lj3{
+	font-size: 14px;
+	color: white;
+	margin-left:280px;
+}
+.lj4{
+	font-size: 18px;
+	color: white;
+	padding-bottom: 15px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.geng{
+	width: 760px;
+	height: 358px;
+	border: #A7ACB0 1px solid;
+}
+/* 资讯右边文字 */
+.hy{
+	border-radius:12px;
+	border: #1975A5 1px solid;
+	width: 125px;
+	height: 32px;
+	font-size: 19px;
+	margin-left: 28px;
+	margin-top: 20px;
+	line-height: 32px;
+	text-align: center;
+}
+.hy2{
+	border-radius:12px;
+	border: #1975A5 1px solid;
+	width: 125px;
+	height: 30px;
+	font-size: 19px;
+	margin-top: 20px;
+	margin-left: 28px;
+	line-height: 32px;
+	text-align: center;
+}
+#geng1 a:hover{
+	background-color: #1975A5;
+	color: white;
+}
+.hy3{
+	margin-top: 20px;
+	margin-right: 15px;
+	font-size: 14px;
+}
+.shu{
+	font-size: 30px;
+	color: #cccccc;
+	margin-top: 10px;
+	padding: 5px;
+}
+.shu1{
+	font-size: 15px;
+}
+.sz{
+	width: 720px;
+	margin-top: 22px;
+	margin-left: 24PX;
+}
+.shu2{
+	color: #cccccc;
+	font-size: 15px;
+	margin-left: 20px;
+}
+.sh{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-bottom: #CCCCCC 1px dashed;
+}
+/* 产品系列部分 */
+.cp{
+	background-color: #EFF1F4;
+}
+.xl{
+	
+	height: 195px;
+}
+.xilie{
+	font-size: 32px;
+	text-align: center;
+	margin-top: 93px;
+	padding-top:65px;
+}
+.xilie2{
+	font-size: 30px;
+	color: #A7ACB0;
+	text-align: center;
+	margin-top: 20px;
+}
+.mar{
+	width: 315px;
+	margin-left: 386px;
+	margin-top: 78px;
+	
+}
+.mar2{
+	font-size: 22px;
+	width: 255px;
+	text-align: center;
+	
+}
+.mar3{
+	width: 286px;
+	font-size: 18px;
+	color: #646464;
+}
+.marr{
+	margin-top: 78px;
+	margin-left: 70px;
+}
+.tk{
+	border-radius:20px;
+	border: #CCCCCC 1px solid;
+	width: 408px;
+	height: 70px;
+	margin-top: 78px;
+	margin-left: 80px;
+	background-color: #1975A5;
+}
+.tk1{
+	margin-left: 70px;
+}
+.tk2{
+	color: #CCCCCC;
+	font-size: 30px;
+	margin-left: 50px;
+	position: absolute;
+	bottom: 20px;
+}
+.tk:hover{
+	background-color: white;
+}
+.kk{
+	margin-top: 50px;
+}
+.tuer{
+	background:url(../images/沃夫德尔首页_02.png) no-repeat;
+	width: 1920px;
+	height: 568px;
+	margin-top: 90px;
+}
+.lxx{
+	height: 568px;
+}
+.qy{
+	width: 128px;
+	height: 30px;
+	background-color:#FF7300 ;
+	border-radius: 12px;
+	border: #FF7300 1px solid;
+	font-size: 20px;
+	color: white;
+}
+.lx{
+	position: absolute;
+	bottom: 110px;
+	margin-left: 390px;
+}
+.qy1{
+	width: 128px;
+	height: 30px;
+	color: white;
+	border-radius: rgba(255.255.255.0.7);
+	border: rgba(255.255.255.0.7) 1px solid;
+	border-radius: 12px;
+	font-size: 20px;
+	margin-left: 180px;
+}
+.qy2{
+	width: 128px;
+	height: 30px;
+	color: white;
+	border-radius: rgba(255.255.255.0.7);
+	border: rgba(255.255.255.0.7) 1px solid;
+	border-radius: 12px;
+	font-size: 20px;
+	margin-left: 345px;
+}
+.lx1{
+	position: absolute;
+	bottom: 110px;
+	margin-left: 380px;
+}
+.lx2{
+	position: absolute;
+	bottom: 110px;
+	margin-left: 370px;
+}
+/* 招商加盟 */
+.jm{
+	height: 915px;
+}
+.zs{
+	font-size: 32px;
+	margin-top: 105px;
+	margin-left: 520px;
+}
+.yq{
+	background: url(../images/雪图.png) no-repeat;
+	display:inline-block;
+	width: 80px;
+	height: 80px;
+	margin-left: 410px;
+}
+.yi{
+	background-position:-0px -0px;
+}
+.yi1{
+	margin-top: 40px;
+	margin-left: 20px;
+	color: #FF9000;
+	font-size: 28px;
+}
+.yi2{
+	font-size: 18px;
+	margin-top: 14px;
+	margin-left: 165px;
+	
+}
+.yi3{
+	border-bottom: #CCCCCC 1px solid;
+	margin-top: 150px;
+}
+.cj{
+	height: 170px;
+}
+.cj1{
+	text-align: center;
+	font-size: 32px;
+	margin-top: 100px;
+}
+.cj2{
+	font-size: 14px;
+	margin-top: 100px;
+}
+.qa{
+	height: 300px;
+	border-top: #CCCCCC 1px solid;
+	border-bottom: #CCCCCC 1px solid;
+}
+.gl{
+	border-right: #CCCCCC 1px dashed ;
+	width: 600px;
+	height: 300px;
+}
+.xb{
+	background: url(../images/雪图.png) no-repeat;
+	display:inline-block;
+	width: 30px;
+	height: 26px;
+	margin-top: 5px;
+	vertical-align: top;
+}
+.xbt{
+	background-position:-27px -313px;
+}
+.gl1{
+	display:inline-block;
+}
+.gl1 a{
+	width: 545px;
+}
+.xbtt{
+	background-position:-27px -174px;
+}
+.gg{
+	margin-top: 20px;
+}
+.hx{
+	width: 518px;
+	display:inline-block;	
+	}
+.bf{
+	background:url(../images/041.jpg) no-repeat;
+	width: 100%;
+	height: 560px;
+	background-size: 100% 100%;
+}
+.wm{
+	color: white;
+	font-size: 44px;
+}
+.wm1{
+	font-size: 30px;
+	color: #878D92;
+}
+.xw{
+	padding-top: 90px;
+	line-height: 63px;
+	text-align: center;
+}
+.dd{
+	width: 200px;
+	height: 220px;
+}
+.ju{
+	margin-left: 30px;
+	margin-top: 80px;
+}
+.huan{
+	width: 200px;
+	height: 205px;
+	text-align: center;
+	margin-right: 90px;
+}
+.dh{
+	width: 160px;
+	height: 160px;
+	border-radius:50%;
+	border:1px white solid;
+	display:inline-block;
+	
+}
+.dh1{
+	width: 100px;
+	height: 100px;
+	margin-top: 25px;
+
+}
+.dh2{
+	margin-top: 10px;
+	font-size: 18px;
+	color: #CCCCCC;
+}
+/* 底部 */
+.db{
+	height: 282px;
+	background-color: #264252;
+}
+.dx{
+	padding-top: 24px;
+}
+.sy{
+	margin-left: 80px;
+	font-size: 14px;
+	color: white;
+}
+.zuo{
+	width: 650px;
+}
+.gy{
+	margin-right: 25px;
+	
+}
+#gy li a{
+	color: white;
+	margin-bottom: 10px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.gy li{
+	margin-bottom: 5px;
+}
+.xia{margin-right: 100px;
+	width: 320ppx;
+	height: 240px;
+}
+.dzz{
+	display:inline-block;
+	color: white;
+}
+.dzz2 a{
+	display:inline-block;
+	width: 230px;
+	height: 40px;
+}
+#dz {
+	color: white;
+}
+.ew{
+	margin-top: 40px;
+}
+.bq{text-align: center;
+	height: 48px;
+	background-color: #171717;
+}
+.bq1{
+	color: white;
+	margin-right: 30px;
+	
+}
+.bbq{
+	display:inline-block;
+	line-height: 48px;
+	
+	
+}

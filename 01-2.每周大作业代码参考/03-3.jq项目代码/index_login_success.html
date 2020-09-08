@@ -1,0 +1,708 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>湖南省基础教育资源网</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/global.css"/> 
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/styleswitch.js"></script><!--根据cookie换肤 blue默认，orange为橙色-->
+<link type="text/css" rel="stylesheet" href="css/skin_blue.css" title="s1" /> 
+<link type="text/css" rel="stylesheet" href="css/skin_orange.css" title="s2" /> 
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/plugins/changeArea.js"></script>
+<script type="text/javascript" src="js/plugins/drop.nav.js"></script>
+<script type="text/javascript" src="js/plugins/pic.slide.js"></script>
+<script type="text/javascript" src="js/plugins/jcarousel.min.js"></script>
+
+</head>
+
+<body>
+<div class="topNav">
+	<div class="topNavInner brown">
+        <div class="fl">
+            欢迎您，<b>杨益军</b>&nbsp;(<a href="#" class="message">2</a>)&nbsp;|&nbsp;
+            <a href="#">个人中心</a>&nbsp;|&nbsp;
+            <a href="#">我的空间</a>&nbsp;|&nbsp;
+            <a href="#">我的购物车</a>&nbsp;|&nbsp;
+            <a href="#">后台管理</a>&nbsp;|&nbsp;
+            <a href="#">注销</a>            
+        </div>
+        <div class="fr">
+            <a href="javascript:bookmarkit()" >收藏首页</a>&nbsp;|&nbsp;
+            <a href="#">帮助中心</a>&nbsp;|&nbsp;
+            <span>换肤</span>&nbsp;&nbsp;
+            <a href="#" class="styleswitch skin_blue" rel="s1">&nbsp;</a>
+            <a href="#" class="styleswitch skin_orange" rel="s2">&nbsp;</a>               
+        </div>     
+    </div>   
+</div>
+
+<div class="header clearfix">
+	<div class="logo fl"><a href="/" title="首页"><img src="img/logo.png" width="363" height="80" alt="湖南省基础教育资源网" /></a></div>
+    <div class="area fl">
+    	<h4>省中心</h4>
+        <div class="changeArea">
+        	<a href="javascript:" rel="area" id="area_a" title="点击切换地区">切换市县</a>
+        </div>
+        <!--切换区域-->
+        <div class="acss" id="area">
+            <div class="arealist">
+            	<div class="ca">
+                    <a href="#" class="st on">省中心</a> 
+                    <a href="#" class="st">长沙</a> 
+                    <a href="#" class="st">株洲</a>
+                    <a href="#" class="st">湘潭</a> 
+                    <a href="#" class="st">衡阳</a> 
+                    <a href="#" class="st">邵阳</a> 
+                    <a href="#" class="st">岳阳</a>    
+                    <a href="#" class="st">常德</a> 
+                    <a href="#" class="st">张家界</a> 
+                    <a href="#" class="st">益阳</a>
+                    <a href="#" class="st">郴州</a> 
+                    <a href="#" class="st">永州</a> 
+                    <a href="#" class="st">怀化</a> 
+                    <a href="#" class="st">娄底</a>    
+                    <a href="#" class="st">湘西</a>                                                                               
+                </div>
+                <dl>
+                	<dt>对应区县</dt>
+                    <dd class="cTab">
+                    	<div class="showThis">
+                        	无
+                        </div>                    
+                    	<div class="showThis">
+                            <a href="#">岳麓区</a> 
+                            <a href="#">芙蓉区</a> 
+                            <a href="#">天心区</a> 
+                            <a href="#">雨花区</a> 
+                            <a href="#">开福区</a>
+                            <a href="#">望城区</a> 
+                            <a href="#">宁乡县</a> 
+                            <a href="#">长沙县</a> 
+                            <a href="#">浏阳市</a> 
+                            <a href="#">全部</a> 
+                        </div>  
+                    	<div class="showThis">
+                            <a href="#">雨湖区</a> 
+                            <a href="#">天元区</a> 
+                            <a href="#">攸县</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">雨湖区</a> 
+                            <a href="#">湘潭</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">蒸湘区</a> 
+                            <a href="#">南山</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">邵阳县</a> 
+                            <a href="#">邵阳</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">岳阳楼区</a> 
+                            <a href="#">岳阳市</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">常德市</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">张家界</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">益阳</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">苏仙区</a> 
+                            <a href="#">北湖区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">永州</a> 
+                            <a href="#">道县</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">怀化市</a> 
+                            <a href="#">天元区</a> 
+                        </div>                        
+                    	<div class="showThis">
+                            <a href="#">娄底</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">湘西</a> 
+                            <a href="#">凤凰</a> 
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="search fr">
+        <form action="" name="form" class="fl">
+            <div class="searchBox">
+                <div id="divselect">
+                  <cite>国家资源网</cite>
+                  <ul>
+                     <li><a href="javascript:" selectid="1">国家资源网</a></li>
+                     <li><a href="javascript:" selectid="2">站内资源</a></li>
+                  </ul>
+                </div>
+                <input name="" type="hidden" value="" id="inputselect" />                                    
+                <input name="keyword" type="text" class="txt" id="keyword" value="请输入搜索关键字" size="32" />  
+                <input type="submit" name="schBtn" class="schBtn" value="" />
+            </div>            
+        </form>  
+        <div class="searchTip fr"><a href="#">高级搜索</a></div>
+    </div>
+</div>
+
+<div class="nav clearfix">
+    <ul class="navInner">
+        <li class="fm current"><a href="index.html">首  页</a></li>
+        <li class="fm"><a href="资源中心.html">资源中心</a>
+            <ul class="subNav">
+                <li><a href="#">公共资源</a></li>
+                <li><a href="#">市场资源</a></li>
+                <li><a href="#">同盟资源</a></li>
+                <li><a href="#">本地资源</a></li>
+            </ul>
+        </li>
+        <li class="fm"><a href="教师空间.html">教师空间</a></li>
+        <li class="fm"><a href="在线备课.html">在线备课</a></li>
+        <li class="fm"><a href="名师工作室.html">名师工作室</a></li>
+        <li class="fm last"><a href="应用中心.html">应用中心</a></li>
+    </ul>       
+</div>
+
+<div class="layout mt10 clearfix" id="withNotice">
+	<div class="leftArea">
+    	<div class="notice mb10 clearfix">
+            <em class="fl">最新公告：</em>	
+            <ul class="fl scrollList">
+              <li><a href="#" class="newIco" target="_blank" >关于召开湖南省2013年中小学部分学科教学资源开发研讨会的通知..</a></li>
+              <li><a href="#" class="newIco" target="_blank" >关于召开湖南省2013年中小学部分学科教学资源开发研讨会的通知...</a></li>
+              <li><a href="#" target="_blank">热烈祝贺湖南省基础教育资源网开通....</a></li>
+            </ul>        
+        </div>
+        <div class="ie6Box clearfix"><!--ie6Box解决ie6下margin-bottom多10px问题-->
+            <div class="box fl" id="loginBox">
+                <div class="inner">
+                    <div class="tt">
+                        <h4 class="tt_h4 ico_arr brown">用户登陆</h4>
+                    </div>
+                    <div class="bd">
+                        <div class="userInfo">
+                            <img src="img/pic/people_75.png" width="75" height="75" alt="张文丽" />
+                            <h5><a href="#" target="_blank">张文丽</a></h5>
+                            <p>省中心用户</p>
+                            <p>积分：<em class="orange">200</em></p>
+                        </div>
+                        <div class="userMnt">
+                          <a href="#" target="_blank" class="ico_per">个人中心</a><a href="#" target="_blank" class="ico_space">我的空间</a>
+                          <a href="#" target="_blank" class="ico_cart">我的购物车</a><a href="#" target="_blank"  class="ico_mnt">后台管理</a>
+                        </div>
+                    </div>
+                </div>                                          
+            </div>
+            <div class="mod fr"  id="slideshow">
+                  <div class="image">
+                      <ul>
+                         <li>
+                              <a target="_blank" href="#"><img src="img/pic/slide_01.jpg" width="502" height="232" alt="湖南省基础教育资源建设专家入口" />
+                              </a>
+                              <div class="caption">湖南省基础教育资源建设专家入口</div>
+                          </li>
+                         <li>
+                              <a target="_blank" href="#"><img src="img/pic/slide_01.jpg" width="502" height="232" alt="湖南省基础教育资源网正式开通" />
+                              </a>
+                              <div class="caption">湖南省基础教育资源网正式开通</div>
+                          </li>
+                         <li>
+                              <a target="_blank" href="#"><img src="img/pic/slide_01.jpg" width="502" height="232" alt="湖南省基础教育资源网正式开通" />
+                              </a>
+                              <div class="caption">湖南省基础教育资源建设专家入口</div>
+                          </li>
+                         <li><a target="_blank" href="#"><img src="img/pic/slide_01.jpg" width="502" height="232" alt="湖南省基础教育资源网正式开通" /></a>
+                           <div class="caption">湖南省基础教育资源网正式开通</div>
+                          </li>
+                        </ul>
+                </div>
+                <ul id="trigger" class="trigger"> 
+                    <li onclick="slideshow.pos(0)" class="current">&nbsp;</li>
+                    <li onclick="slideshow.pos(1)" class="">&nbsp;</li>
+                    <li onclick="slideshow.pos(2)" class="">&nbsp;</li>
+                    <li onclick="slideshow.pos(3)" class="">&nbsp;</li>                    
+                </ul>
+                <script type="text/javascript">
+                var slideshow=new TINY.slider.slide('slideshow',{
+                  id:'slideshow',
+                  auto:3,
+                  resume:false,
+                  vertical:false,
+                  navid:'trigger',
+                  activeclass:'current',
+                  position:0,
+                  rewind:false,
+                  elastic:true
+                });
+                </script>
+            </div>
+        </div><!--ie6Box END-->
+    </div>
+    <div class="rightArea">
+    	<div class="box" id="areaRank">
+        	<div class="inner">
+                <div class="tt">
+                    <h4 class="tt_h4 ico_arr brown">各地活跃度排行</h4>
+                    <ul class="tabTt modTab fr">
+                        <li class="st tabOn"><a href="javascript:">市</a></li>
+                        <li class="st"><a href="javascript:">县</a></li>
+                    </ul>                    
+                </div>
+                <div class="bd tabBd">
+                    <div class="showThis" style="display: block;"> 
+                        <p class="rank-tt"><span>地名</span><em class="fr">活跃度</em></p>                                            
+                        <ul class="linum">  
+                            <li class="num1"><p><a href="#" >长沙市</a></p><span>1121</span></li>
+                            <li class="num2"><p><a href="#" >株洲市</a></p><span>1121</span></li>
+                            <li class="num3"><p><a href="#" >湘潭市</a></p><span>1121</span></li>
+                            <li class="num4"><p><a href="#" >衡阳市</a></p><span>1121</span></li>
+                            <li class="num5"><p><a href="#" >郴州市</a></p><span>1121</span></li>
+                            <li class="num6"><p><a href="#" >永州市</a></p><span>1121</span></li>     
+                            <li class="num7"><p><a href="#" >岳阳市</a></p><span>1121</span></li>     
+                        </ul>     
+                    </div>  
+                    <div class="showThis" style="display: none; ">  
+                        <p class="rank-tt"><span>地名</span><em>活跃度</em></p>                                                      
+                        <ul class="linum">  
+                            <li class="num1"><p><a href="#" >岳麓区</a></p><span>1121</span></li>
+                            <li class="num2"><p><a href="#" >宁乡县</a></p><span>1121</span></li>
+                            <li class="num3"><p><a href="#" >浏阳市</a></p><span>1121</span></li>
+                            <li class="num4"><p><a href="#" >长沙县</a></p><span>1121</span></li>
+                            <li class="num5"><p><a href="#" >嘉禾县</a></p><span>1121</span></li>
+                            <li class="num6"><p><a href="#" >临武县</a></p><span>1121</span></li> 
+                            <li class="num7"><p><a href="#" >道县</a></p><span>1121</span></li>     
+                        </ul>     
+                    </div>                   	                                 	
+                </div>                
+			</div>        	
+        </div>
+    </div>
+</div>
+
+<div class="layout mt10 clearfix">
+	<div class="leftArea">
+    	<div class="mod mb10"><a href="#"><img src="img/pic/ad_01.png" width="220" height="55" alt="要资源，点这里" /></a></div>
+        <div class="mod mb10"><a href="#"><img src="img/pic/ad_02.png" width="220" height="55" alt="了解数字化教学内容，参与专家老师互动交流" /></a></div>
+        <div class="box" id="spaceRank">
+        	<div class="inner">
+                <div class="tt">
+                    <h4 class="tt_h4 ico_arr brown">空间访问量排行</h4>
+                </div>
+                <div class="bd">
+                    <p class="rank-tt"><span>姓名</span><em class="fr">活跃度</em></p>                                            
+                    <ul class="linum">  
+                        <li class="num1"><p><a href="#" >张三</a></p><span>1121</span></li>
+                        <li class="num2"><p><a href="#" >李四</a></p><span>1121</span></li>
+                        <li class="num3"><p><a href="#" >王麻子</a></p><span>1121</span></li>
+                        <li class="num4"><p><a href="#" >王麻子</a></p><span>1121</span></li>
+                        <li class="num5"><p><a href="#" >张三</a></p><span>1121</span></li>
+                        <li class="num6"><p><a href="#" >张三</a></p><span>1121</span></li>     
+                        <li class="num7"><p><a href="#" >李四飞</a></p><span>1121</span></li>
+                        <li class="num8"><p><a href="#" >欧阳华生</a></p><span>1121</span></li>     
+                    </ul>     
+                </div>                
+			</div>        	
+        </div>            
+	</div>
+    <div class="rightArea">
+        <div class="box" id="appSlide">
+            <div class="inner">
+                <div class="tt">
+                    <ul class="tabTt modTab fl">
+                        <li class="st tabOn tabLine"><a href="javascript:">推荐应用</a></li>
+                        <li class="st tabLine"><a href="javascript:">免费应用</a></li>
+                        <li class="st tabLine"><a href="javascript:">收费应用</a></li>
+                    </ul>     
+                    <span class="imore gray"><a href="#" class="">更多&raquo;</a></span>               
+                </div>
+                <div class="bd tabBd">
+                    <div class="showThis" style="display: block;">
+                        <ul class="ul_pic appjcarousel">
+                            <li><a href="#"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /><span>成语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典" /><span>汉语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /><span>古汉语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /><span>公式词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /><span>新华词典</span></a></li>    
+                            <li><a href="#"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典"/><span>图解词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律"/><span>公式定律</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典"/><span>图解词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律"/><span>公式定律</span></a></li>                                                                                          
+                        </ul> 
+                    </div>  
+                    <div class="showThis" style="display: none; ">  
+                        <ul class="ul_pic appjcarousel">
+                            <li><a href="#"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典"/><span>图解词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律"/><span>公式定律</span></a></li>                                  
+                            <li><a href="#"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典"/><span>成语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典"/><span>汉语词典</span></a></li>    
+                            <li><a href="#"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典"/><span>古汉语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典"/><span>公式词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典"/><span>新华词典</span></a></li>    
+                            <li><a href="#"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典"/><span>图解词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律"/><span>公式定律</span></a></li>                                                                                          
+                        </ul> 
+                    </div>     
+                    <div class="showThis" style="display: none; ">  
+                        <ul class="ul_pic appjcarousel">
+                            <li><a href="#"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律"/><span>公式定律</span></a></li>                                                                                                                      
+                            <li><a href="#"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典"/><span>成语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典"/><span>汉语词典</span></a></li>    
+                            <li><a href="#"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典"/><span>古汉语词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典"/><span>公式词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典"/><span>新华词典</span></a></li>    
+                            <li><a href="#"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典"/><span>图解词典</span></a></li>
+                            <li><a href="#"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律"/><span>公式定律</span></a></li>      
+                        </ul>     
+                    </div>    
+                    <script type="text/javascript">
+						$('.appjcarousel').jcarousel({wrap: 'circular'});
+					</script>                  	                                 	
+                </div>                
+            </div>        	
+        </div>
+        <div class="box mt10" id="workshop">
+            <div class="inner">
+                <div class="tt">
+                	<h4 class="tt_h4 ico_arr skinColor">名师工作室</h4>
+                    <span class="imore gray"><a href="#" class="">更多&raquo;</a></span>               
+                </div>
+                <div class="bd">
+                    <ul class="ul_it clearfix">
+                        <li class="li1">
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青工作室</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                    
+                        </li>
+                        <li class="li1">
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青工作室</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                    
+                        </li>
+                        <li class="li1">
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青工作室</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                                        
+                        </li>
+                        <li class="li2">
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青工作室</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                    
+                        </li>
+                        <li class="li2">
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青工作室</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                    
+                        </li>
+                        <li class="li2">
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青工作室</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                                        
+                        </li>
+                    </ul>                	
+                </div>
+        	</div>
+		</div>        
+    </div>
+</div>    
+
+<div class="layout mt10 clearfix">
+	<div class="leftArea">
+    	<div class="mod mb10"><a href="#"><img src="img/pic/ad_03.png" width="220" height="55" alt="大型志愿填报" /></a></div>
+        <div class="mod mb10"><a href="#"><img src="img/pic/ad_04.png" width="220" height="55" alt="阅读季" /></a></div>
+        <div class="box" id="userRank">
+        	<div class="inner">
+                <div class="tt">
+                    <ul class="tabTt modTab">
+                        <li class="st tabOn tabLine"><a href="javascript:">用户贡献排行</a></li>
+                        <li class="st"><a href="javascript:">用户下载排行</a></li>
+                    </ul>                    
+                </div>
+                <div class="bd tabBd">
+                    <div class="showThis" style="display: block;"> 
+                        <p class="rank-tt"><span>姓名</span><em class="fr">贡献值</em></p>                                            
+                        <ul class="linum">  
+                            <li class="num1"><p><a href="#" >张三</a></p><span>1121</span></li>
+                            <li class="num2"><p><a href="#" >王麻子</a></p><span>1121</span></li>
+                            <li class="num3"><p><a href="#" >王麻子</a></p><span>1121</span></li>
+                            <li class="num4"><p><a href="#" >王麻子</a></p><span>1121</span></li>
+                            <li class="num5"><p><a href="#" >张三</a></p><span>1121</span></li>
+                            <li class="num6"><p><a href="#" >张三</a></p><span>1121</span></li>     
+                            <li class="num7"><p><a href="#" >张三</a></p><span>1121</span></li>  
+                            <li class="num8"><p><a href="#" >张三</a></p><span>1121</span></li>    
+                        </ul>     
+                    </div>  
+                    <div class="showThis" style="display: none; ">  
+                        <p class="rank-tt"><span>姓名</span><em>下载量</em></p>                                                      
+                        <ul class="linum">  
+                            <li class="num1"><p><a href="#" >欧阳华生</a></p><span>1121</span></li>
+                            <li class="num2"><p><a href="#" >欧阳华生</a></p><span>1121</span></li>
+                            <li class="num3"><p><a href="#" >张三</a></p><span>1121</span></li>
+                            <li class="num4"><p><a href="#" >张三</a></p><span>1121</span></li>
+                            <li class="num5"><p><a href="#" >张三</a></p><span>1121</span></li>
+                            <li class="num6"><p><a href="#" >王麻子</a></p><span>1121</span></li> 
+                            <li class="num7"><p><a href="#" >王麻子</a></p><span>1121</span></li>
+                            <li class="num8"><p><a href="#" >张三</a></p><span>1121</span></li>      
+                        </ul>     
+                    </div>                   	                                 	
+                </div>                
+			</div>        	
+        </div>        
+	</div>
+    <div class="rightArea">
+        <div class="box" id="teacherSpace">
+            <div class="inner">
+                <div class="tt">
+                	<h4 class="tt_h4 ico_arr skinColor">优秀教师空间</h4>
+                    <span class="imore gray"><a href="#" class="">更多&raquo;</a></span>               
+                </div>
+                <div class="bd">
+                    <ul class="ul_it clearfix">
+                        <li>
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青个人空间</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青个人空间</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <img src="img/pic/people_75.png" width="75" height="75" alt="许青青工作室" />
+                                <p><strong><a href="#">许青青个人空间</a></strong></p>
+                                <p>学科：<em class="brown">小学语文</em></p>
+                                <p>文章数：<em class="brown">32323</em>&nbsp;个</p>                            
+                                <p>访问数：<em class="brown">32323</em>&nbsp;次</p>
+                            </div>                                        
+                        </li>
+                    </ul> 
+                    <ul class="ul_pic clearfix">
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="张惠妹个人空间" /><span>张惠妹</span></a></li>
+                        <li class="last"><a href="#"><img src="img/pic/people_50.png" width="50" height="50" alt="刘德华个人空间" /><span>刘德华</span></a></li>
+                    </ul> 
+                </div>
+        	</div>
+		</div>
+        <div class="box mt10" id="subjectSlide">
+            <div class="inner">
+                <div class="tt">
+                    <ul class="tabTt modTab fl">
+                        <li class="st tabOn tabLine"><a href="javascript:">按学科</a></li>
+                        <li class="st tabLine"><a href="javascript:">按版本</a></li>
+                        <li class="st tabLine"><a href="javascript:">按专题</a></li>
+                    </ul>     
+                </div>
+                <div class="bd tabBd">
+                    <div class="showThis" style="display: block;">
+                        <ul class="ul_sub">
+                            <li><a href="#">语文</a><a href="#">数学</a><a href="#">英语</a><a href="#">政治生活</a><a href="#">物理</a><a href="#">生物</a></li>
+                            <li class="even"><a href="#">历史</a><a href="#">地理</a><a href="#">思想品德</a><a href="#">科学</a><a href="#">品德与社会</a><a href="#">品德与生活</a></li>
+                            <li><a href="#">音乐</a><a href="#">美术</a><a href="#">体育</a><a href="#">综合实践活动</a><a href="#">艺术</a><a href="#">信息技术</a></li>
+                            <li class="even last"><a href="#">生命与健康常识</a><a href="#">化学</a><a href="#">思想政治</a><a href="#">劳动与社会</a></li>
+                        </ul> 
+                    </div>  
+                    <div class="showThis" style="display: none; ">  
+                        <ul class="ul_sub">
+                            <li><a href="#">语文</a><a href="#">数学2</a><a href="#">英语</a><a href="#">政治生活</a><a href="#">物理</a><a href="#">生物</a></li>
+                            <li class="even"><a href="#">历史f</a><a href="#">地理</a><a href="#">思想品德</a><a href="#">科学</a><a href="#">品德与社会</a><a href="#">品德与生活</a></li>
+                            <li><a href="#">音乐</a><a href="#">美术</a><a href="#">体育</a><a href="#">综合实践活动</a><a href="#">艺术</a><a href="#">信息技术</a></li>
+                            <li class="even last"><a href="#">生命与健康常识s</a><a href="#">化学</a><a href="#">思想政治</a><a href="#">劳动与社会</a></li>
+                        </ul> 
+                    </div>     
+                    <div class="showThis" style="display: none; ">  
+                        <ul class="ul_sub">
+                            <li><a href="#">语文f</a><a href="#">数学</a><a href="#">英语</a><a href="#">政治生活</a><a href="#">物理</a><a href="#">生物</a></li>
+                            <li class="even"><a href="#">历史</a><a href="#">地理</a><a href="#">思想品德</a><a href="#">科学</a><a href="#">品德与社会</a><a href="#">品德与生活</a></li>
+                            <li><a href="#">音乐s</a><a href="#">美术</a><a href="#">体育</a><a href="#">综合实践活动</a><a href="#">艺术</a><a href="#">信息技术</a></li>
+                            <li class="even last"><a href="#">生命与健康常识</a><a href="#">化学</a><a href="#">思想政治</a><a href="#">劳动与社会</a></li>
+                        </ul> 
+                    </div>                   	                                 	
+                </div>                
+            </div>        	
+        </div>            
+    </div>
+</div>
+
+<div class="layout mt10">
+	<a href="#" target="_blank"><img src="img/pic/ad_05.jpg" width="980" height="60" alt="惟楚有才，于斯为盛" /></a>
+</div>    
+
+<div class="layout mt10 clearfix">
+	<div class="leftArea">
+        <div class="box" id="stat">
+        	<div class="inner">
+                <div class="tt">
+                    <h4 class="tt_h4 ico_arr brown">资源统计</h4>
+                </div>
+                <ul  class="bd">  
+                    <li><em>资源总数量：</em><span><b>121212</b>&nbsp;个</span></li>
+                    <li><em>资源总容量：</em><span><b>121212</b>&nbsp;GB</span></li>
+                    <li><em>注册用户数：</em><span><b>121212</b>&nbsp;人</span></li>
+                    <li><em>资源访问量：</em><span><b>1212312</b>&nbsp;次</span></li>
+                    <li><em>资源下载数：</em><span><b>1212312</b>&nbsp;次</span></li>
+                </ul>     
+			</div>        	
+        </div>    
+	</div>
+    <div class="rightArea">
+        <div class="box" id="classSlide">
+            <div class="inner">
+                <div class="tt">
+                	<h4 class="tt_h4 ico_arr skinColor">三类课堂</h4>
+                    <ul class="tabTt modTab fl">
+                        <li class="st tabOn"><a href="javascript:">网络课堂</a></li>
+                        <li class="st"><a href="javascript:">名师讲堂</a></li>
+                        <li class="st"><a href="javascript:">专题课堂</a></li>
+                    </ul>     
+                    <span class="imore gray"><a href="#" class="">更多&raquo;</a></span>               
+                </div>
+                <div class="bd tabBd">
+                    <div class="showThis" style="display: block;">
+                        <ul class="vList clearfix"> 
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:水彩画初级练习" target="_blank"><img src="img/pic/video.jpg" width="125" height="85" alt="视频:水彩画初级练习" /></a></div>
+                                <h5><a href="#">水彩画初级练习</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:水彩画初级练习" target="_blank"><img src="img/pic/video.jpg" width="125" height="85" alt="视频:水彩画初级练习" /></a></div>
+                                <h5><a href="#">水彩画初级练习</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:水彩画初级练习" target="_blank"><img src="img/pic/video.jpg" width="125" height="85" alt="视频:水彩画初级练习" /></a></div>
+                                <h5><a href="#">水彩画初级练习</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:水彩画初级练习" target="_blank"><img src="img/pic/video.jpg" width="125" height="85" alt="视频:水彩画初级练习" /></a></div>
+                                <h5><a href="#">水彩画初级练习</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:水彩画初级练习" target="_blank"><img src="img/pic/video.jpg" width="125" height="85" alt="视频:水彩画初级练习" /></a></div>
+                                <h5><a href="#">水彩画初级练习</a></h5>
+                            </li>                    
+                        </ul> 
+                    </div>  
+                    <div class="showThis" style="display: none; ">  
+                        <ul class="vList clearfix"> 
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:植物的光合作用" target="_blank"><img src="img/pic/video_02.png" width="125" height="85" alt="视频:植物的光合作用" /></a></div>
+                                <h5><a href="#">植物的光合作用</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:植物的光合作用" target="_blank"><img src="img/pic/video_02.png" width="125" height="85" alt="视频:植物的光合作用" /></a></div>
+                                <h5><a href="#">植物的光合作用</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:植物的光合作用" target="_blank"><img src="img/pic/video_02.png" width="125" height="85" alt="视频:植物的光合作用" /></a></div>
+                                <h5><a href="#">植物的光合作用</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:植物的光合作用" target="_blank"><img src="img/pic/video_02.png" width="125" height="85" alt="视频:植物的光合作用" /></a></div>
+                                <h5><a href="#">植物的光合作用</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:植物的光合作用" target="_blank"><img src="img/pic/video_02.png" width="125" height="85" alt="视频:植物的光合作用" /></a></div>
+                                <h5><a href="#">植物的光合作用</a></h5>
+                            </li>
+                        </ul> 
+                    </div>     
+                    <div class="showThis" style="display: none; ">  
+                        <ul class="vList clearfix"> 
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:分式的乘除" target="_blank"><img src="img/pic/video_03.png" width="125" height="85" alt="视频:分式的乘除" /></a></div>
+                                <h5><a href="#">分式的乘除</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:分式的乘除" target="_blank"><img src="img/pic/video_03.png" width="125" height="85" alt="视频:分式的乘除" /></a></div>
+                                <h5><a href="#">分式的乘除</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:分式的乘除" target="_blank"><img src="img/pic/video_03.png" width="125" height="85" alt="视频:分式的乘除" /></a></div>
+                                <h5><a href="#">分式的乘除</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:分式的乘除" target="_blank"><img src="img/pic/video_03.png" width="125" height="85" alt="视频:分式的乘除" /></a></div>
+                                <h5><a href="#">分式的乘除</a></h5>
+                            </li>
+                            <li>
+                                <div class="vimg"><a href="#" title="视频:分式的乘除" target="_blank"><img src="img/pic/video_03.png" width="125" height="85" alt="视频:分式的乘除" /></a></div>
+                                <h5><a href="#">分式的乘除</a></h5>
+                            </li>
+                        </ul> 
+                    </div>                   	                                 	
+                </div>                
+            </div>        	
+        </div>    
+    </div>
+</div>   
+ 
+<div class="layout mt10 box clearfix" id="friendln">
+    <div class="inner">
+        <h5 class="fl"><span>友情链接</span></h5>
+        <p class="clearfix"><a href="#">国家教育资源网</a><a href="#">湖南教育网</a><a href="#">国家教育资源网</a><a href="#">湖南教育网</a><a href="#">湖南省教育厅</a><a href="#">湖南教育网</a><a href="#">国家教育资源网</a><a href="#">湖南省招生考试网</a><a href="#">国家教育资源网</a><a href="#">湖南省教育厅</a><a href="#">国家教育资源网</a><a href="#">湖南教育网</a></p>
+    </div>
+</div>
+
+<div class="footer">
+    	<p>湖南省基础教育资源平台版权所有&nbsp;&nbsp;站内资源仅限于教育系统内部使用</p>
+		<p>电话：0731-82220187&nbsp;&nbsp;企业QQ号:800009196&nbsp;&nbsp;邮箱：hnszyzx@126.com</p> 
+        <p>地址:湖南省长沙市文运街23号&nbsp;&nbsp;邮编410005</p> 
+        <p>湘教QS1-200505-00101</p>
+</div>
+
+</body>
+</html>

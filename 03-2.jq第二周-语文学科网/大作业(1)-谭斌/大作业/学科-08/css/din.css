@@ -1,0 +1,147 @@
+*{margin: 0;padding: 0;}
+.din{
+	height: 360px;
+}
+.din-1{
+	width: 100%;
+	height: 30px;
+	background: #009900;
+}
+.din1-1{
+	width: 1000px;
+	height: 30px;
+	margin: 0 auto;
+	/* font-size: 12px; */
+	/* border: 1px solid #000000; */
+}
+.din1-1 a{
+	color: #FFFFFF;
+}
+.din1-1 span{
+	color: #FFFFFF;
+}
+.din-2{
+	width:100%;
+	height: 174px;
+	background: url(../image/11.png);
+	position: relative;
+}
+.din2-1{
+	width: 1000px;
+	height: 251px;
+	background: url(../image/12.png);
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+}
+.din2-1 h1{
+	position: absolute;
+	top:50px;
+	color:#0C6D0D ;
+	font-size: 30px;
+	margin-top: 80px;
+}
+.din2-1-1{
+	width: 1000px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+	background: #6FBE44;
+	font-size: 14px;
+	line-height: 23px;
+	/* border: 1px solid #000000; */
+}
+.din2-1-1 span{
+	font-weight: 800;
+	float: left;
+	margin-left: 30px;
+	color: #006634;
+	padding: 3px 19px;
+	display: block;
+	width: 40px;
+	height: 23px;
+	margin-top: 5px;
+	background: url(../image/路径.png);
+}
+.din2-1-1 a{
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+.din2-1-1 b{
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-left:15px;
+	margin-top: 0px;
+	font-size: 26px;
+}
+.din-3{
+	width: 1000px;
+	height: 50px;
+	background: #F2F2F2;
+	margin: 20px auto;
+	border: 1px solid #D0D0D0;
+	border-radius:3px ;
+	
+}
+.din3-1{
+	float: left;
+	margin-top: 15px;
+	width: 400px;
+	height:22px ;
+	/* border: 1px solid #000000; */
+	margin-left: 5px;
+	font-size: 13px;
+}
+.bjt{
+	width: 60px;
+	height: 18px;
+	background: url(../image/最新消息.png);
+	color: #FFFFFF;
+	font-size: 12px;
+	padding: 3px 8px;
+}
+.din3-1 a{
+	margin-left: 15px;
+}
+.din3-2{
+	float: right;
+	background: #6FBF44;
+	width:440px ;
+	height:38px;
+	border: 1px solid #6FBF44;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.din3-2 input{
+	float: left;
+	margin-top: 6px;
+	margin-left: 5px;
+	height: 20px;
+	width: 200px;
+}
+
+.din3-2 span{
+	float: left;
+	width: 70px;
+	height: 20px;
+	margin-top: 8px;
+	margin-left: 3px;
+	font-size: 13px;
+	background: #FFFFFF;
+	color: #8D8D8D;
+}
+.din3-2 span img{
+	width: 13px;
+	    height: 12px;
+	    margin-left: 2px;
+}
+.din3-2 button{
+	width: 64px;
+	height: 25px;
+	margin-left: 9px;
+	margin-top: 6px;
+}

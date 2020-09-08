@@ -1,0 +1,1307 @@
+/* 公共样式 */
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+body {
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wt1280 {
+    width: 1340px;
+    margin: 0px auto;
+}
+
+.wt960 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.posir {
+    position: relative;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+/* 开始部分 */
+
+.header {
+    height: 28px;
+    background-color: #009900;
+}
+
+.header-div1 ul {
+    width: 400px;
+    line-height: 28px;
+}
+
+.header-div1 ul li {
+    float: left;
+    padding: 5px 0px;
+    color: #fff;
+    font-size: 13px;
+    list-style: none;
+    line-height: 18px;
+}
+
+.header-div1 li.pindao {
+    margin: 0px 15px 0px 5px;
+}
+
+.header-div1 li.mima {
+    margin: 0px 5px 0px 2px;
+}
+
+.header-div1 li.a {
+    padding-top: 6px;
+}
+
+.header-div1 li input {
+    width: 90px;
+    height: 18px;
+    border: none;
+    background-color: #fff;
+    vertical-align: middle;
+    outline: none;
+}
+
+.header-div1 li a {
+    padding: 0px 10px;
+    margin-top: 2px;
+    color: #333333;
+    font-size: 12px;
+    background-image: linear-gradient(#fff, #DADADA);
+    border-radius: 2px;
+}
+
+
+/* 头部的右边部分 */
+
+.div-right ul {
+    width: 205px;
+    line-height: 28px;
+}
+
+.div-right li {
+    float: left;
+    padding: 5px 0px;
+    color: #CCCCCC;
+    line-height: 18px;
+    list-style: none;
+    font-size: 12px;
+}
+
+.div-right li a {
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #CCCCCC;
+}
+
+.div-right li .geren {
+    color: #fff;
+}
+
+
+/* 中间主体部分 */
+
+.div {
+    padding-top: 1px;
+    background: url(img/合成路径.png) no-repeat;
+    background-position-x: -5px;
+}
+
+.div-bj {
+    height: 230px;
+    background: url(img/images/浙江djsa_03.png) no-repeat;
+}
+
+.guanwen {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+.guanwen a {
+    font-size: 38px;
+    color: #006600;
+}
+
+
+/*官网logo的下面ul  */
+
+.div-ul {
+    position: absolute;
+    bottom: 5px;
+    padding-left: 35px;
+}
+
+.div-ul ul li {
+    float: left;
+    font-size: 14px;
+    color: #E7F4E0;
+}
+
+.div-ul li a {
+    font-size: 14px;
+    color: #E7F4E0;
+    padding: 0px 8px;
+}
+
+.div-ul li .shouye {
+    color: #006633;
+    margin-right: 25px;
+}
+
+.div-ul li .dayu {
+    display: inline-block;
+    background: url(img/images/a_03.png) no-repeat;
+    width: 18px;
+    height: 18px;
+}
+
+.div-ul .youjian {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+/* 中间的主题 */
+
+.sousuo {
+    height: 50px;
+    margin-top: 1px;
+    border: 1px solid #CCCCCC;
+    border-top: 1px solid #7BC67B;
+    border-radius: 5px;
+}
+
+.bodyer {
+    width: 310px;
+    padding-top: 13px;
+    padding-left: 10px;
+}
+
+.bodyer ul li {
+    float: left;
+}
+
+.bodyer li a {
+    padding: 5px;
+    display: inline-block;
+    font-size: 12px;
+    color: #0066CC;
+    text-decoration: underline
+}
+
+.bodyer li .kuaijie {
+    display: inline-block;
+    background: url(img/images/span_03.png) no-repeat;
+    width: 65px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+
+/* 中间搜索框部分 */
+
+.sou {
+    margin-top: 5px;
+    margin-right: 7px;
+    width: 475px;
+    height: 36px;
+    line-height: 36px;
+    background-color: #6FBE44;
+    border-radius: 5px;
+}
+
+.input {
+    width: 231px;
+    height: 23px;
+    border: none;
+    padding-top: 1px;
+    border-left: 1px solid #B5B5B5;
+    border-top: 1px solid #B5B5B5;
+    margin: 6px;
+    outline: none;
+}
+
+.postform {
+    margin-top: 7px;
+    padding: 0px 15px;
+    appearance: none;
+    height: 24px;
+    background-color: #fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    background: url("img/images/浙江学科主页定稿_03.png") no-repeat scroll 98% center transparent;
+    padding-right: 25px;
+    background-color: #fff;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    outline: none;
+    border: 1px solid #91C672;
+    padding: 2px 16px;
+    background-image: linear-gradient(#fff, #CECECE);
+}
+
+.gaoji {
+    color: #666666;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+
+/* 中间的具体内容部分 */
+
+.bodyer-div {
+    margin-top: 10px;
+}
+
+.left {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.left-div1 {
+    background-color: #E4FFCA;
+    padding: 9px 15px 0px 9px;
+    border: 1px solid #DDDDDD;
+}
+
+.menhu {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.div-img {
+    width: 89px;
+    height: 89px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #DDDDDD;
+}
+
+.div-img img {
+    width: 89px;
+    height: 89px;
+}
+
+.div-menhu {
+    width: 120px;
+}
+
+.div-menhu h6 {
+    color: #006600;
+    line-height: 20px;
+    padding: 0px 3px;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.div-menhu p {
+    padding-left: 5px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.div-menhu p span {
+    font-size: 12px;
+    color: #6C6C6C;
+}
+
+.div-menhu p .hei {
+    color: #343434;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.div-menhu a {
+    color: #0066CC;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.tongji {
+    height: 25px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.tongji p {
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666666;
+    padding-left: 7px;
+}
+
+.tongji p span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url(img/images/学科首页-sprite_05.png) no-repeat;
+    vertical-align: text-bottom;
+}
+
+.kexin {
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+
+.kexin p {
+    line-height: 20px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.kexin p span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+/* 中间主体左边的第二个 */
+
+.left-div2 {
+    height: 160px;
+    margin-top: 9px;
+    padding: 1px;
+    border: 1px solid #DDDDDD;
+}
+
+.chengguo {
+    height: 25px;
+    padding: 7px 8px 0px 12px;
+    background-image: linear-gradient(#E5FFE5, #fff);
+}
+
+.chengguo-left {
+    width: 65px;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.chengguo-left .hua {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: inherit;
+    margin-right: 2px;
+    background: url(img/images/学科首页-sprite_12.png) no-repeat;
+}
+
+.chengguo-right {
+    width: 90px;
+}
+
+.zuixin {
+    width: 45px;
+}
+
+.chengguo-right .chengguoa {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0px 10px;
+    color: #666666;
+    background-color: #D5D5D5;
+    font-size: 12px;
+}
+
+.chengguo-right .gong {
+    color: #fff;
+    background: url(img/学科首页-sprite.png) no-repeat;
+    background-position: 0px -155px;
+}
+
+.zuixin-div {
+    width: 220px;
+    position: absolute;
+    left: -135px;
+    top: 35px;
+}
+
+.zuixin-div ul li {
+    width: 100%;
+    line-height: 22px;
+}
+
+.zuixin-div li .fanghuai {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    vertical-align: middle;
+    background-color: #999999;
+}
+
+.zuixin-div li span {
+    color: #999;
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.zuixin-div li a {
+    color: #3D3D3D;
+    font-size: 12px;
+}
+
+
+/* 中间左边的第三个 */
+
+.left-div3 {
+    border: 1px solid #DDDDDD;
+    margin-top: 8px;
+    padding: 1px;
+}
+
+.chengyuan {
+    height: 25px;
+    padding: 7px 8px 0px 12px;
+    background-image: linear-gradient(#E4FFE4, #fff);
+}
+
+.chengyuan p {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #6FBE44;
+}
+
+.chengyuan p span {
+    color: #909090;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.chengyuan p .zuixinchengy {
+    font-weight: bold;
+    color: #000;
+}
+
+.chengyuanul ul {
+    overflow: hidden;
+    padding: 14px 12px 5px 12px;
+}
+
+.chengyuanul li {
+    float: left;
+    width: 33%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.chengyuanul li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #4C7D08;
+}
+
+.miao {
+    display: inline-block;
+    width: 72px;
+}
+
+
+/* 左边第四个 */
+
+.jiaoshi {
+    padding: 17px 8px 10px 12px;
+}
+
+.jiaoshi .xu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.jiaoshi .qing {
+    margin-bottom: 0px;
+}
+
+.xu .jiaoshi-img {
+    border: 1px solid #CCCCCC;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.xu .jiaoshi-img img {
+    width: 50px;
+    height: 50px;
+}
+
+.xu .jiaoshia {
+    padding-left: 10px;
+}
+
+.xu .jiaoshia p {
+    font-size: 12px;
+    color: #666666;
+    width: 100%;
+    line-height: 20px;
+}
+
+.xu .jiaoshia a {
+    color: #0066CC;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+
+/* 中间的右边部分 */
+
+
+/* 头部公告 */
+
+.right {
+    width: 700px;
+}
+
+.right-div1 {
+    width: 100%;
+    height: 26px;
+    border: 1px solid #D7F9DB;
+}
+
+.right-div1 p {
+    height: 26px;
+    line-height: 26px;
+    background-color: #FAFFF7;
+}
+
+.right-div1 p .gonggao {
+    margin: 1px;
+    display: inline-block;
+    width: 65px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #006633;
+    line-height: 26px;
+    height: 26px;
+    vertical-align: bottom;
+    background: url(img/images/学科首页-sprite_02.png) no-repeat;
+}
+
+.right-div1 p a {
+    color: #484948;
+    font-size: 12px;
+    vertical-align: top;
+}
+
+
+/* 右边的最新公告下面 */
+
+.right-div2 {
+    width: 100%;
+    margin-top: 7px;
+}
+
+.div2-left {
+    width: 458px;
+}
+
+.div2-left-div1 {
+    padding-left: 2px;
+    padding-bottom: 8px;
+}
+
+.zhuheimg {
+    width: 227px;
+    height: 163px;
+}
+
+.zhuheimg ul {}
+
+.zhuheimg ul li {
+    float: left;
+    width: 227px;
+    height: 163px;
+}
+
+.zhuheimg ul li a {
+    display: inline-block;
+    width: 227px;
+    height: 163px;
+}
+
+.zhuheimg .biaoti {
+    width: 227px;
+    height: 26px;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(000, 000, 000, 0.5);
+}
+
+.zhuheimg .biaoti .xinwen {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 10px;
+}
+
+.biaoti .bton {
+    width: 94px;
+    margin-right: 5px;
+}
+
+.biaoti .bton span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border: 2px solid #797977;
+    background-color: #616161;
+    text-align: center;
+    line-height: 11px;
+    margin-right: -4px;
+    color: #888888;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.biaoti .bton span.on {
+    border: 2px solid #A40404;
+    background-color: #9C0303;
+    color: #000;
+}
+
+
+/* 祝贺图的右边浙江师范 */
+
+.zhejiang {
+    width: 215px;
+    margin-left: 14px;
+}
+
+.zhejiang h4 {
+    color: #666666;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.zhejiang p {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #999999;
+    line-height: 18px;
+}
+
+.zhejiang ul {
+    margin-top: 15px;
+}
+
+.zhejiang ul li {
+    list-style-type: square;
+    line-height: 20px;
+    font-size: 10px;
+    color: #6B6B6B;
+    margin-left: 15px;
+}
+
+.zhejiang li a {
+    font-size: 13px;
+    color: #6B6B6B;
+}
+
+
+/* 中间的又浮动部分左边的第二学科资源导航部分 */
+
+.div2-left-div2 {
+    background-color: #F6F6F6;
+    padding: 0px 9px 5px 13px;
+}
+
+.daokang {
+    height: 23px;
+    padding-top: 8px;
+}
+
+.daokang p {
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.daokang p span {
+    color: #909090;
+    font-size: 14px;
+}
+
+.fenlei {
+    /* padding: 0px 9px 5px 13px; */
+    height: 102px;
+}
+
+.jiaocai {
+    color: #009933;
+    font-weight: bold;
+    font-size: 12px;
+    height: 35px;
+    margin-top: 5px;
+    line-height: 35px;
+    background-color: #DBE3F7;
+}
+
+.jiaocai span {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.jiaocai .chuban {
+    width: 96px;
+    height: 35px;
+}
+
+.jiaocai .renm {
+    width: 75px;
+}
+
+.jiaocai .chuban .wenxue {
+    display: inline-block;
+    padding: 5px;
+    color: #434446;
+    font-size: 12px;
+    height: 14px;
+    line-height: 14px;
+    border: 1px solid #DBE3F7;
+}
+
+.jiaocai .chuban .on {
+    background-image: linear-gradient(#86F25F, #00AC3D);
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #4DEA00;
+}
+
+.jiaocai .gengduo {
+    font-size: 12px;
+    color: #1974D1;
+    margin-right: 15px;
+    text-decoration: underline;
+}
+
+.nianji {
+    position: absolute;
+    left: 2px;
+    top: 35px;
+    width: 428px;
+    height: 55px;
+    padding-top: 10px;
+    line-height: 25px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.nianji p a {
+    display: inline-block;
+    width: 15.9%;
+    font-size: 12px;
+    text-align: center;
+    color: #6F6F6F;
+}
+
+.nianji p a:hover {
+    color: #FEA521;
+}
+
+.kebiao {
+    height: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    margin: 4px 6px 0px 3px;
+}
+
+.kebiao span {
+    display: inline-block;
+    margin-left: 5px;
+    color: #009933;
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.kebiao a {
+    display: inline-block;
+    color: #636363;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.kebiao a.xiehua {
+    color: #0B6CCE;
+}
+
+.kebiao a.gengduo {
+    color: #0F6ECF;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/* 左边的第三个 */
+
+.hua {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: inherit;
+    margin-right: 2px;
+    background: url(img/images/学科首页-sprite_12.png) no-repeat;
+}
+
+.div2-left-div3 {
+    padding: 1px 2px 0px 1px;
+    border: 1px solid #E1E1E1;
+    height: 128px;
+    margin-top: 9px;
+}
+
+.jiaoyan {
+    height: 15px;
+    padding: 7px 12px 8px 9px;
+    background-image: linear-gradient(#E6FFE6, #fff);
+}
+
+.div2-left-div3 p,
+.div2-left-div4 p {
+    width: 70px;
+    color: #333333;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.huodong {
+    width: 430px;
+    left: 9px;
+}
+
+.huodong ul li {
+    line-height: 20px;
+    border-bottom: 1px dashed #EAEAEA;
+}
+
+.huodong ul li.wu {
+    border-bottom: none;
+}
+
+
+/* 左边的第四个 */
+
+.div2-left-div4 {
+    height: 216px;
+    margin-top: 7px;
+}
+
+.display-head {
+    height: 15px;
+    padding: 7px 12px 8px 9px;
+    background-image: linear-gradient(#E6FFE6, #fff);
+}
+
+.act-top {
+    margin-left: 20px;
+    width: 135px;
+}
+
+.act-top div {
+    text-align: center;
+    width: 65px;
+    color: #999999;
+    font-size: 12px;
+}
+
+.act-top div.gray {
+    border: 1px solid #D5D5D5;
+    border-bottom: none;
+    background-color: #fff;
+    color: #000;
+}
+
+.last-content {
+    height: 178px;
+    margin-top: 10px;
+}
+
+.title {
+    margin-top: 10px;
+    width: 68px;
+}
+
+.title li {
+    text-align: center;
+    width: 67px;
+    color: #3A3A3A;
+    font-size: 12px;
+    line-height: 25px;
+    height: 26px;
+    border: 1px solid #FFFFFF;
+    border-right: none;
+}
+
+.title li.on {
+    margin-right: -1px;
+    background-color: #F2F9FF;
+    border: 1px solid #E1E1E1;
+    border-right: none;
+}
+
+.erji {
+    position: absolute;
+    left: 68px;
+    top: 0px;
+    width: 385px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border: 1px solid #E1E1E1;
+    background-color: #F2F9FF
+}
+
+.erji li {
+    text-indent: 1em;
+    padding-left: 10px;
+    list-style-type: square;
+    width: 350px;
+    margin-left: 10px;
+    line-height: 22px;
+    color: #757677;
+    font-size: 12px;
+}
+
+.erji li a {
+    color: #757677;
+    font-size: 12px;
+}
+
+.pt10 {
+    display: none;
+}
+
+.display {
+    display: none;
+}
+
+
+/* 中间主体的右边的右边部分 */
+
+.div2-right {
+    width: 230px;
+    margin-top: 0px;
+}
+
+.div2-right1 {
+    margin-top: 0px;
+}
+
+.dongtai {
+    width: 100%;
+    height: 24px;
+    border-bottom: 1px solid #6FBE44;
+}
+
+.pinlun ul {
+    padding-top: 10px;
+}
+
+.pinlun ul li {
+    padding: 0px 8px 0px 10px;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 15px;
+    line-height: 23px;
+}
+
+.pinlun ul li .pil {
+    color: #333333;
+}
+
+.pinlun li a {
+    color: #0066CC;
+    font-size: 12px;
+}
+
+.pinlun li .kuai {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    background: #999999;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+
+/* 右边的第二个人 */
+
+.sheji {
+    width: 208px;
+    left: -115px;
+    top: 25px;
+}
+
+.div2-right2 {
+    height: 160px;
+    margin-top: 9px;
+    padding: 1px;
+    border: 1px solid #DDDDDD;
+}
+
+
+/* 右边的第四个 */
+
+.div2-right3 {
+    border: 1px solid #E2E2E2;
+    margin-top: 8px;
+    padding: 1px;
+}
+
+.div2-right3 p,
+.div2-right5 p {
+    height: 30px;
+    padding: 0px 9px;
+    line-height: 30px;
+    color: #909090;
+    font-size: 12px;
+    background-color: #DFFFF4;
+}
+
+.gongxian {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.div2-right3 .paiming {
+    padding: 10px 12px 0px 14px;
+}
+
+.paiming ul li {
+    padding-right: 30px;
+    color: #666666;
+    font-size: 12px;
+    width: 170px;
+    line-height: 22px;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.paiming li a {
+    color: #666666;
+    font-size: 12px;
+}
+
+.paiming ul li.xu {
+    border-bottom: none;
+}
+
+.gongimg {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.mingci {
+    background: url(img/images/images/jiaj_03.jpg) no-repeat;
+}
+
+.mingci2 {
+    background: url(img/images/images/jiaj_06.jpg) no-repeat;
+}
+
+.mingci3 {
+    background: url(img/images/images/jiaj_08.jpg) no-repeat;
+}
+
+.mingci4 {
+    background: url(img/images/images/jiaj_10.jpg) no-repeat;
+}
+
+
+/* 右边第四个 */
+
+.div2-right4 {
+    height: 135px;
+    margin-top: 9px;
+    padding: 1px;
+}
+
+.div2-right4 .luntan {
+    background-color: #FFFFD9;
+    color: #929292;
+    background-image: none;
+    font-size: 12px;
+}
+
+.luntan .lun {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.div2-right4 .luntana {
+    width: 30px;
+    height: 25px;
+}
+
+.div2-right4 .tanluna {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    color: #A2A29F;
+    font-size: 12px;
+    margin-right: 10px;
+    border-bottom: 5px solid #FFFFD9;
+}
+
+.right4-luntan {
+    width: 68px;
+}
+
+.lt {
+    left: -140px;
+    top: 35px;
+}
+
+.lt li {
+    line-height: 22px;
+}
+
+
+/* 右边的第五个 */
+
+.div2-right5 {
+    border: 1px solid #E2E2E2;
+    margin-top: 8px;
+    padding: 1px;
+    overflow: hidden;
+}
+
+.shipin {
+    padding: 14px 3px 10px 14px;
+    overflow: hidden;
+}
+
+.haizi {
+    widows: 96px;
+    height: 130px;
+    margin-right: 5px;
+}
+
+.lushang {
+    margin-right: 5px;
+}
+
+.div2-right5 .haizi p {
+    line-height: 20px;
+    color: #999999;
+    font-size: 12px;
+    background: none;
+}
+
+.div2-right5 .haizi .biao {
+    color: #3C3C3C;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* 尾部 */
+
+.footer {
+    margin-top: 8px;
+}
+
+.fri-link {
+    background-color: #EFF7FF;
+    border: #beddff solid 1px;
+    height: 33px;
+    line-height: 33px;
+    padding: 1px;
+}
+
+.fri-link-title {
+    color: #336699;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 33px;
+    background-color: #BADBFF;
+}
+
+.fri-link-ul {
+    width: 865px;
+}
+
+.fri-link-ul li {
+    margin-left: 10px;
+}
+
+.fri-link-ul li a {
+    font-size: 12px;
+    color: #777879;
+    margin-left: 18px;
+}
+
+
+/* 设置底部的主办方信息等 */
+
+.footer-text {
+    border-top: #dcdcdc solid 1px;
+    height: 75px;
+    padding-top: 25px;
+    background-image: linear-gradient(#DFFFEF, #fff);
+}
+
+.footer-text p {
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #9C9D9D;
+}

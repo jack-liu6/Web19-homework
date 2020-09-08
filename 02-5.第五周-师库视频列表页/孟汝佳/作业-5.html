@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="wt1400 logo ma">
+        <div class="logo1 font12 fl">
+            <a href="#">您好，欢迎来到师库网！</a>请<a href="#" class="gray ml6">登录</a><span class="ml6">新用户？</span><a href="#" class="gray ml6">免费注册</a>
+        </div>
+        <div class="logo2 fr">
+            <ul>
+                <li><a href="#" class="font12 fl mt2">我的订单<span class="sprite fl"></span></a><span class="gan fl"></span>
+                    <ul>
+                        <li><a href="#">待付款</a></li>
+                        <li><a href="#">待发货</a></li>
+                        <li><a href="#">待收货</a></li>
+                    </ul>
+                </li>
+                <li><span class="sprite1 mt6 fl mt6"></span><a href="#" class="font12 fl ml4 mt2">购物车</a><span class="gan fl"></span>
+                    <ul>
+                        <li><a href="#">猛禽战斗机</a></li>
+                        <li><a href="#">福特级航母</a></li>
+                        <li><a href="#">攻击核潜艇</a></li> 
+                    </ul>
+                </li>
+                <li><a href="#" class="font12 fl mt2">我的师库<span class="sprite fl"></span></a><span class="gan fl"></span>
+                    <ul>
+                        <li><a href="#">我的师库1</a></li>
+                        <li><a href="#">我的师库2</a></li>
+                        <li><a href="#">我的师库3</a></li> 
+                    </ul>
+                </li>
+                <li><a href="#" class="font12">帮助中心</a><span class="gan fl"></span>
+                    <ul>
+                        <li><a href="#">上门服务</a></li>
+                        <li><a href="#">自助热线</a></li>
+                        <li><a href="#">工具箱</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="font12 fl mt2">网站导航<span class="sprite fl"></span></a><span class="gan fl"></span>
+                    <ul>
+                        <li><a href="#">网站导航1</a></li>
+                        <li><a href="#">网站导航2</a></li>
+                        <li><a href="#">网站导航3</a></li> 
+                    </ul>
+                </li>
+                <li><a href="#" class="font12 fl">加入收藏</a>
+                    <ul>
+                        <li><a href="#">加入收藏1</a></li>
+                        <li><a href="#">加入收藏2</a></li>
+                        <li><a href="#">加入收藏3</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <script>
+            var logo2=document.querySelectorAll('.logo2')[0];
+            var ul=logo2.children[0];
+            var li=ul.children;
+            console.log(li[2].children);
+            for(i=0;i<li.length;i++){
+                li[i].addEventListener("click",function(e){
+                    e.stopPropagation()
+                    if(this.lastElementChild.style.display=='none'||this.lastElementChild.style.display==''){
+                        this.lastElementChild.style.display='block';
+                    }else{
+                        this.lastElementChild.style.display='none';
+                    }
+                })
+                    document.onclick=function(){
+                        for(j=0;j<li.length;j++){
+                            li[j].lastElementChild.style.display='none';
+                }
+             }
+            }
+        </script>
+    </div>
+    <div class="wt1400 p1"></div>
+    <div class="bag wt1400 ma">
+        <div class="tu"></div>
+        <div class="tu1">
+            <div class="tu2 fl"></div>
+            <div class="sk fl">
+                <a href="#" class="crwh">师库视频</a>
+            </div>
+            <div class="sk1 fr">
+                <P><a href="#">高级搜索</a></P>
+                <p><a href="#">使用帮助</a></p>
+            </div>
+            <div class="sk2 fr mt6 mr10">
+                <div class="sk3 fl mt8">
+                    <a href="#" class="fl">教学视频</a><span class="spr fl"></span>
+                </div>
+                <input type="submit" value="搜索" class="fr wh">
+                <input type="text" placeholder="请输入关键字" class="ml10 wh1">
+            </div>
+            <div class="sk4 fr font12">
+                热门搜索：<a href="#" class="font14 ora">教学视频</a><a href="#" class="ml10 blus">课堂实录</a><a href="#" class="ml10 huise2">实习演习</a><a href="#" class="ml10 zong">教学参考</a><a href="#" class="ml10">课堂实录</a>
+            </div>
+        </div>
+        <div class="nav ma">
+            <ul class="fl">
+                <li class="ml10"><a href="#">首页</a></li>
+                <li class="ml10"><a href="#">师库课件</a></li>
+                <li class="ml30"><a href="#">师库教案</a></li>
+                <li class="ml30"><a href="#">师库试卷</a></li>
+                <li class="ml30"><a href="#">教学视频</a></li>
+                <li class="ml30"><a href="#">教书匠</a></li>
+                <li class="ml30"><a href="#">师说论坛</a></li>
+            </ul>
+            <div class="nav1 fr">
+                <a href="#" class="fl font12"><span class="spit fl mt6"></span><span class="ml4 ora">我看过的</span><span class="spit1 fr mt10 ml4"></span></a>
+            </div>
+            <div class="nav2 fr mr10">
+                <a href="#" class="fl font12"><span class="spit2 fl mt6"></span><span class="ora">风云版</span></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="banner ma">
+        <div class="banner1 fr">
+            <div class="wyy">
+                <a href="#"><img src="image/03.png"></a>
+            </div>
+            <div class="zxz mt10">
+                <div class="zxz1">
+                    <b class="ml10">最新促销</b>
+                </div>
+                <div class="zxz2"></div>
+                <div class="zxz3">
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">英语中考试题1《扫描版》</a><span class="font12 huise3 fl ml26">2536</span><span class="fr font12">次</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">尊敬我们的老师课堂练习</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">2321</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">政治第三单元练习</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1968</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《庄子故事两则》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1790</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《世说新语》两则</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1465</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《傅雷家书两则》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1244</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《祖国啊，我亲爱的祖国》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1165</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《回自己的祖国去》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1244</span>
+                    </div>
+                </div>
+            </div>
+            <div class="zxz mt10">
+                <div class="zxz1">
+                    <b class="ml10">最新促销</b>
+                </div>
+                <div class="zxz2"></div>
+                <div class="zxz3">
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">英语中考试题1《扫描版》</a><span class="font12 huise3 fl ml26">2536</span><span class="fr font12">次</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">尊敬我们的老师课堂练习</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">2321</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">政治第三单元练习</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1968</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《庄子故事两则》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1790</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《世说新语》两则</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1465</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《傅雷家书两则》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1244</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《祖国啊，我亲爱的祖国》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1165</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《回自己的祖国去》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1244</span>
+                    </div>
+                </div>
+            </div>
+            <div class="zxz mt10">
+                <div class="zxz1">
+                    <b class="ml10">最新促销</b>
+                </div>
+                <div class="zxz2"></div>
+                <div class="zxz3">
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">英语中考试题1《扫描版》</a><span class="font12 huise3 fl ml26">2536</span><span class="fr font12">次</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">尊敬我们的老师课堂练习</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">2321</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">政治第三单元练习</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1968</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《庄子故事两则》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1790</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《世说新语》两则</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1465</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《傅雷家书两则》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1244</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《祖国啊，我亲爱的祖国》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1165</span>
+                    </div>
+                    <div class="zxz4 mt6">
+                        <span class="jt fl mt10"></span><a href="#" class="font12 fl ml4">《回自己的祖国去》</a><span class="fr font12">次</span><span class="font12 huise3 fr mr5">1244</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xx fl">
+            <div class="xx1 font12 mt10">
+                按学历：<a href="#">不限</a>
+                <a href="#">语文</a>
+                <a href="#">数学</a>
+                <a href="#">英语</a>
+                <a href="#">物理</a>
+                <a href="#">化学</a>
+                <a href="#">历史</a>
+                <a href="#">地理</a>
+                <a href="#">生物</a>
+                <a href="#">思想政治</a>
+                <a href="#">历史与社会</a>
+                <a href="#">信息技术</a>
+            </div>
+            <div class="xx1 font12 mt10">
+                按学段：<a href="#">不限</a>
+                <a href="#">小学</a>
+                <a href="#">初中</a>
+                <a href="#">高中</a>
+            </div>
+            <div class="xx1 font12 mt10">
+                按学段：<a href="#">不限</a>
+                <a href="#">课堂实录</a>
+                <a href="#">实验演习</a>
+                <a href="#">教学参考</a>
+            </div>
+            <div class="xx1 font12 mt10">
+                按学段：<a href="#">不限</a>
+                <a href="#">免费</a>
+                <a href="#">促销</a>
+                <a href="#">积分</a>
+                <a href="#">学币</a>
+            </div>
+        </div>
+        <script>
+            var xx1=document.querySelectorAll('.xx1 a');
+            for(i=0;i<xx1.length;i++){
+                xx1[i].addEventListener("click",function(a){
+                    a.stopPropagation();
+                    if( this.style.textDecoration=="none"|| this.style.textDecoration==""){
+                        this.style.textDecoration="underline";
+                        this.style.color="orange";
+                    }else{
+                        this.style.textDecoration="none";
+                        this.style.color="#0565DE";
+                    }
+            });
+            }
+        </script>
+        <div class="navv fl mt10">
+            <div class="navv1 fl">
+                <div class="ys">
+                    <b>视频列表</b>
+                </div>
+            </div>
+            <div class="navv2 fl">
+                <div class="fl font12 mt6 ml20 huise2">您要搜索的条件:</div>
+                <span class="kkk fl mt6 ml16"><span class="kkk1 font12 ml8 fl">语文</span><span class="kkk2 fr mt2"></span></span>
+                <span class="kkk3 fl ml20 mt6"><span class="sz mt6 fl"></span><a href="#" class="zzz fl ml4 mt2">清空条件</a></span>
+            </div>
+            <script>
+                var kkk=document.querySelector('.kkk');
+                var kkk2=document.querySelector('.kkk2');
+                kkk2.addEventListener("click",function(){
+                    kkk.style.display='none';
+                })
+            </script>
+        </div>
+        <div class="nav3 fl">
+            <div class="xxk">
+                <div class="hp fl ml10">
+                    <a href="#" class="fl">最新<span class="jt1 mt6 ml4 fr"></span></a>
+                </div>
+                <div class="hp fl ml10">
+                    <a href="#" class="fl">热播</a><span class="jt1 fl mt6 ml4"></span>
+                </div>
+                <div class="hp fl ml10">
+                    <a href="#" class="fl">好评</a><span class="jt1 fl mt6 ml4"></span>
+                </div>
+                <div class="hp1 fl ml6 mt2">
+                    <a href="#" class="fl ml6">分栏</a><span class="jt2 fl ml4 mt2"></span>
+                </div>
+                <div class="hp2 fl mt2">
+                    <a href="#" class="fl ml6">顺序</a><span class="jt3 fl ml4 mt2"></span>
+                </div>
+                <div class="fy fr">
+                    <a href="#">下页</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml4">84</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">..</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml4">10</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">9</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">8</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">7</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">6</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">5</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">4</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">3</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">2</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">1</a>
+                </div>
+            </div>
+            <div class="spl mt10">
+                <div class="spl2 fl">
+                    <a href="#"><img src="image/72.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml8">
+                    <a href="#"><img src="image/74.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml8">
+                    <a href="#"><img src="image/76.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml6">
+                    <a href="#"><img src="image/78.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml6">
+                    <a href="#"><img src="image/80.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+            </div>
+            <div class="spl mt10">
+                <div class="spl2 fl">
+                    <a href="#"><img src="image/95.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml8">
+                    <a href="#"><img src="image/97.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml8">
+                    <a href="#"><img src="image/99.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml6">
+                    <a href="#"><img src="image/101.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+                <div class="spl2 fl ml6">
+                    <a href="#"><img src="image/103.png"></a>
+                    <p><a href="#" class="font12">《只有一个细胞的生物》</a></p>
+                    <p><a href="#" class="spri ml4 fl"></a><span class="fl font10 huise1 ml4 lh12">1，005</span><a href="#" class="spri1 fl ml4"></a><span class="fl font10 huise1 ml4 lh12">17</span></p>
+                </div>
+            </div>
+            <div class="pf">
+                <div class="bgcl">
+                    <div class="bgcl2 fl mt6">
+                        <a href="#"><img src="image/111.png"></a>
+                    </div>
+                    <p class="fl mt2"><a href="#" class="font12 fb">《只有一细胞的生物》</a></p>
+                    <p class="fl ml6"><a href="#" class="font12">简介：人民教育出版社，生物，必修1，光能在叶绿体中的转换课件2，师库网免费多媒体，新课标新
+                    课程<br>课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维教学目标
+                    突破<br>教学重难点：多媒体资源素材...</a></p>
+                    <div class="fl bgcl3 ml6">
+                        <a href="#" class="fl"><span class="spri fl"></span><span class="fl font12 ml4 lh12 blus">播放数（2368）</span></a>
+                        <a href="#" class="fl ml16"><span class="spri2 fl"></span><span class="fl font12 ml4 lh12 blus">评分：</span><span class="spri3 fl"></span><span class="spri3 fl"></span><span class="spri3 fl"></span><span class="spri3 fl"></span><span class="spri2 fl"></span></a>
+                        <a href="#" class="fl ml20"><span class="spri1 fl"></span><span class="fl font12 ml4 lh12 blus">影评（256）</span></a>
+                        <a href="#" class="fl ml20"><span class="spri4 fl"></span><span class="fl font12 ml4 lh12 blus">收藏（5987）</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="pf">
+                <div class="bgcl">
+                    <div class="bgcl2 fl mt6">
+                        <a href="#"><img src="image/111.png"></a>
+                    </div>
+                    <p class="fl mt2"><a href="#" class="font12 fb">《只有一细胞的生物》</a></p>
+                    <p class="fl ml6"><a href="#" class="font12">简介：人民教育出版社，生物，必修1，光能在叶绿体中的转换课件2，师库网免费多媒体，新课标新
+                    课程<br>课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维教学目标
+                    突破<br>教学重难点：多媒体资源素材...</a></p>
+                    <div class="fl bgcl3 ml6">
+                        <a href="#" class="fl"><span class="spri fl"></span><span class="fl font12 ml4 lh12 blus">播放数（2368）</span></a>
+                        <a href="#" class="fl ml16"><span class="spri2 fl"></span><span class="fl font12 ml4 lh12 blus">评分：</span><span class="spri3 fl"></span><span class="spri3 fl"></span><span class="spri3 fl"></span><span class="spri3 fl"></span><span class="spri2 fl"></span></a>
+                        <a href="#" class="fl ml20"><span class="spri1 fl"></span><span class="fl font12 ml4 lh12 blus">影评（256）</span></a>
+                        <a href="#" class="fl ml20"><span class="spri4 fl"></span><span class="fl font12 ml4 lh12 blus">收藏（5987）</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="xxk">
+                <div class="hp fl ml10">
+                    <a href="#" class="fl">最新</a><span class="jt1 fl mt6 ml4"></span>
+                </div>
+                <div class="hp fl ml10">
+                    <a href="#" class="fl">热播</a><span class="jt1 fl mt6 ml4"></span>
+                </div>
+                <div class="hp fl ml10">
+                    <a href="#" class="fl">好评</a><span class="jt1 fl mt6 ml4"></span>
+                </div>
+                <div class="hp1 fl ml6 mt2">
+                    <a href="#" class="fl ml6">分栏</a><span class="jt2 fl ml4 mt2"></span>
+                </div>
+                <div class="hp2 fl mt2">
+                    <a href="#" class="fl ml6">顺序</a><span class="jt3 fl ml4 mt2"></span>
+                </div>
+                <div class="fy fr">
+                    <a href="#">下页</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml4">84</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">..</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml4">10</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">9</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">8</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">7</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">6</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">5</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">4</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">3</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">2</a>
+                </div>
+                <div class="fy1 fr">
+                    <a href="#" class="ml8">1</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wt1400 ma wyd"></div>
+    <div class="wt1400 dx ma">
+        <div class="nav4 ma">
+            <ul>
+                <li><a href="#">关于我们</a></li>
+                <span>|</span>
+                <li><a href="#">商务合作</a></li>
+                <span>|</span>
+                <li><a href="#">客服中心</a></li>
+                <span>|</span>
+                <li><a href="#">网站地图</a></li>
+                <span>|</span>
+                <li><a href="#">用户留言</a></li>
+                <span>|</span>
+                <li><a href="#">帮助中心</a></li>
+            </ul>
+        </div>
+        <div class="nav5 ma">
+            <a href="#" class="huise4">跨区域ICP证：B2—20040040《网络文化经营许可证》编号：文网文[2003]0066号</a>
+        </div>
+        <div class="nav5 ma">
+            <a href="#" class="huise4">Copyright © Fortel Technology Holdings Limited and its affilates ALL Reserved</a>
+        </div>
+        <div class="nav6 ma">
+            <a href="#" class="huise4 fl">北京国之源软件技术有限公司提供技术支持 客服电话：0731-84531868</a><span class="chzz fl mt6 ml4"></span><a href="#" class="huise4 fl ml20">跟踪访问速度</a>
+        </div>
+    </div>
+</body>
+</html>

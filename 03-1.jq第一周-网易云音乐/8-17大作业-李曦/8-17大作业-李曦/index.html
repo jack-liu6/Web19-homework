@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- 引入css文件 -->
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+<!-- 引入js文件 -->
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/index.js"></script>
+
+<body>
+    <!-- 顶部导航 -->
+    <div class="top_nav">
+        <div class="w top_nav_w">
+            <div class="logo fl">
+                <h1>
+                    <a href="index.html">网易云音乐</a>
+                </h1>
+            </div>
+            <ul class="top_nav_ul fl">
+                <li>
+                    <a href="#">发现音乐</a>
+                </li>
+                <li>
+                    <a href="#">我的音乐</a>
+                </li>
+                <li>
+                    <a href="#">朋友</a>
+                </li>
+                <li>
+                    <a href="#">商城</a>
+                </li>
+                <li>
+                    <a href="#">音乐人</a>
+                </li>
+                <li>
+                    <a href="#">我的客户端</a>
+                    <span class="hot"></span>
+                </li>
+            </ul>
+            <div class="top_nav_search fr">
+                <div class="search_l fl">
+                    <span class="icos_1"></span>
+                    <input type="text" placeholder="音乐/视频/电台/用户" class="search_ipt">
+                </div>
+                <a href="#" class="search_m fl">创作者中心</a>
+                <a href="#" class="search_login fr">
+                    登录
+                    <div class="search_login_qrCode" style="display: none;">
+                        <div class="qrCode_hd">
+                            <div>登录</div> 
+                            <span class="qrCode_close">x</span>
+                        </div>
+                        <div class="qrCode_bd">
+                            <div class="qrCode_bd_l"></div>
+                            <div class="qrCode_bd_r">
+                                <div class="scanQr">扫码登录</div>
+                                <div class="erweima">
+                                    <img src="images/erweima" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="sub_nav_w">
+            <div class="w">
+                <ul class="sub_nav_ul">
+                    <li>
+                        <a href="#">
+                            <span class="icos_2"></span>
+                            <em>推荐</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em>排行榜</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em>歌单</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em>主播电台</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em>歌手</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em>新碟上架</em>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 内容区-->
+    <div class="main">
+        <!-- 轮播图 -->
+        <div class="main_t">
+            <div class="slide" id="slide">
+                <div class="picList-wrap">
+                    <ul class="picList">
+                        <li class="pic">
+                            <a href="#">
+                                <img src="images/pic_1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="pic">
+                            <a href="#">
+                                <img src="images/pic_2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="pic">
+                            <a href="#">
+                                <img src="images/pic_3.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="pic">
+                            <a href="#">
+                                <img src="images/pic_4.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="pic">
+                            <a href="#">
+                                <img src="images/pic_5.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="pic">
+                            <a href="#">
+                                <img src="images/pic_6.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 按钮 -->
+                <span class="arrow-l">《</span>
+                <span class="arrow-r">》</span>
+                <!-- 原点 -->
+                <ul class="circle">
+                    <li></li>
+                    <li class="cur"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="download">
+                <a href="#" class="download_btn"></a>
+            </div>
+        </div>
+
+        <!-- 热门推荐 -->
+        <div class="main_b">
+            <div class="w main_center">
+                <!-- 左 -->
+                <div class="recom_l fl">
+                    <!-- 楼层一 -->
+                    <div class="recom_1">
+                        <div class="recom_1_hd">
+                            <h2>热门推荐</h2>
+                            <ul class="recom_nav">
+                                <li><a href="#">华语</a><span class="line">|</span></li>
+                                <li><a href="#">流行</a><span class="line">|</span></li>
+                                <li><a href="#">摇滚</a><span class="line">|</span></li>
+                                <li><a href="#">民谣</a><span class="line">|</span></li>
+                                <li><a href="#">电子</a></li>
+                            </ul>
+                            <span href="#" class="more fr">
+                                <a href="#">更多</a>
+                                <span class="more_icos"></span>
+                            </span>
+                        </div>
+                        <ul class="recom_ul">
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                            <li>
+                                <div class="cover">
+                                    <img src="images/li2.jpg" alt="">
+                                    <div class="cover_b">
+                                        <span class="icon_headset"></span>
+                                        <span class="nb">35万</span>
+                                        <a href="#" class="icon_play"></a>
+                                    </div>
+                                </div>
+                                <p class="recom_p">
+                                    <a href="#">光影留声｜经典电影歌曲盘点</a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 楼层二  新碟上架 -->
+                    <div class="recom_1 cf">
+                        <div class="recom_1_hd">
+                            <h2>新碟上架</h2>
+                            <span href="#" class="more fr">
+                                <a href="#">更多</a>
+                                <span class="more_icos"></span>
+                            </span>
+                        </div>
+                        <div class="recom_2_bd">
+                            <div class="recom_2_bd_inner">
+                                <a href="#" class="recom_pre"></a>
+                                <div class="recom_slide">
+                                    <ul>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                        <li>
+                                            <div class="album">
+                                                <img src="images/x2.jpg" alt="">
+                                                <a href="#" class="album_msk"></a>
+                                                <a href="#" class="icos_play"></a>
+                                            </div>
+                                            <p><a href="#" class="album_name">In a dream</a></p>
+                                            <p><a href="#" class="artist">Troye Sivan</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="recom_nxt"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 楼层三  榜单 -->
+                    <div class="recom_1 recom_3 cf">
+                        <div class="recom_1_hd">
+                            <h2>榜单</h2>
+                            <span href="#" class="more fr">
+                                <a href="#">更多</a>
+                                <span class="more_icos"></span>
+                            </span>
+                        </div>
+                        <div class="recom_3_bd">
+                            <!-- 飙升榜 -->
+                            <dl class="blk fl">
+                                <dt class="blk_top">
+                                    <div class="blk_top_l fl">
+                                        <img src="images/biaosheng.jpg" alt="">
+                                    </div>
+                                    <div class="tit">
+                                        <a href="#"><h3>云音乐飙升榜</h3></a>
+                                        <div class="btn">
+                                            <a href="#" class="btn_1"></a>
+                                            <a href="#" class="btn_2"></a>
+                                        </div>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <ol>
+                                        <li>
+                                            <span class="no-top no">1</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top no">2</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top no">3</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">4</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">5</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">6</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">7</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">8</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">9</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">10</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <div class="rk_more">
+                                        <a href="#">查看更多</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <!-- 新歌榜 -->
+                            <dl class="blk fl">
+                                <dt class="blk_top">
+                                    <div class="blk_top_l fl">
+                                        <img src="images/xinge.jpg" alt="" class="xinge">
+                                    </div>
+                                    <div class="tit">
+                                        <a href="#"><h3>云音乐新歌榜</h3></a>
+                                        <div class="btn">
+                                            <a href="#" class="btn_1"></a>
+                                            <a href="#" class="btn_2"></a>
+                                        </div>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <ol>
+                                        <li>
+                                            <span class="no-top no">1</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top no">2</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top no">3</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">4</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">5</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">6</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">7</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">8</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">9</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">10</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <div class="rk_more">
+                                        <a href="#">查看更多</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                            <!-- 原创榜 -->
+                            <dl class="blk fr">
+                                <dt class="blk_top">
+                                    <div class="blk_top_l fl">
+                                        <img src="images/yuanchuan.jpg" alt="" class="yuanchuang">
+                                    </div>
+                                    <div class="tit">
+                                        <a href="#"><h3>网易原创歌曲榜</h3></a>
+                                        <div class="btn">
+                                            <a href="#" class="btn_1"></a>
+                                            <a href="#" class="btn_2"></a>
+                                        </div>
+                                    </div>
+                                </dt>
+                                <dd>
+                                    <ol>
+                                        <li>
+                                            <span class="no-top no">1</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top no">2</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top no">3</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">4</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">5</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">6</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">7</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">8</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">9</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <span class="no-top ">10</span>
+                                            <a href="#">药水哥</a>
+                                            <div class="play_3">
+                                                <a href="#" class="i1"></a>
+                                                <a href="#" class="i2"></a>
+                                                <a href="#" class="i3"></a>
+                                            </div>
+                                        </li>
+                                    </ol>
+                                    <div class="rk_more">
+                                        <a href="#">查看更多</a>
+                                    </div>
+                                </dd>
+                            </dl>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 右 -->
+                <div class="recom_r fr">
+                    <div class="r_info">
+                        <p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+                        <a href="#">用户登录</a>
+                    </div>
+                    <div class="r_singer">
+                        <h3>
+                            <span>入驻歌手</span>
+                            <a href="#" class="viewAll fr">查看全部</a>
+                        </h3>
+                        <ul class="r_singer_ul">
+                            <li>
+                                <a href="#" class="itm">
+                                    <div class="itm_head">
+                                        <img src="images/amei.jpg" alt="">
+                                    </div>
+                                    <div class="itm_info">
+                                        <h4>张惠妹aMEI</h4>
+                                        <p> 台湾歌手张惠妹</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="itm">
+                                    <div class="itm_head">
+                                        <img src="images/amei.jpg" alt="">
+                                    </div>
+                                    <div class="itm_info">
+                                        <h4>张惠妹aMEI</h4>
+                                        <p> 台湾歌手张惠妹</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="itm">
+                                    <div class="itm_head">
+                                        <img src="images/amei.jpg" alt="">
+                                    </div>
+                                    <div class="itm_info">
+                                        <h4>张惠妹aMEI</h4>
+                                        <p> 台湾歌手张惠妹</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="itm">
+                                    <div class="itm_head">
+                                        <img src="images/amei.jpg" alt="">
+                                    </div>
+                                    <div class="itm_info">
+                                        <h4>张惠妹aMEI</h4>
+                                        <p> 台湾歌手张惠妹</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="itm">
+                                    <div class="itm_head">
+                                        <img src="images/amei.jpg" alt="">
+                                    </div>
+                                    <div class="itm_info">
+                                        <h4>张惠妹aMEI</h4>
+                                        <p> 台湾歌手张惠妹</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="apply">
+                            <a href="#">申请成为网易音乐人</a>
+                        </div>
+                    </div>
+                    <div class="r_zb">
+                        <h3>
+                            <span>入驻歌手</span>
+                            <a href="#" class="viewAll fr">查看全部</a>
+                        </h3>
+                        <ul class="r_zb_ul">
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="fl">
+                                    <img src="images/cl.jpg" alt="">
+                                </a>
+                                <div class="zb_info">
+                                    <p>
+                                        <a href="#">陈立</a>
+                                        <span class="Vplus"></span>
+                                    </p>
+                                    <p>心理学家、美食家陈立教授</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 小火箭 -->
+    <a href="#" id="rocket" title="回到顶部"></a>
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="footer_center"></div>
+    </div>
+
+</body>
+
+</html>

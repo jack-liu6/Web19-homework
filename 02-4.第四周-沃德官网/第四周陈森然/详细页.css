@@ -1,0 +1,160 @@
+.toububg{
+	background-color:  #082939;
+}
+.toubu{height: 100px;
+	width:1165px; margin:0 auto;
+	padding-left: 35px;
+	padding-top: 30px;
+	/*padding-bottom: 25px;*/
+}
+.toubuwz{
+	margin-top: 15px;
+	margin-left: 77px;
+}
+.tbwz{color: #fff;
+
+}
+.toubuwz1{
+	margin-top: 15px;
+	margin-left: 50px;
+}
+.tbwz1{color:#ff9600;
+
+}
+/*版权快*/
+.banquan{
+/*	background: url(image/沃夫德尔首页_37.png)no-repeat;	
+	height: 580px;
+	width: 1686.25px;*/
+	
+
+}
+.banquan img{
+	width: 1716px;
+	position: absolute;
+	left: -30px;
+}
+
+
+.wenzi13 strong{
+
+	margin-top: 50px;
+	font-size: 34px;
+	position: absolute;
+	left: 700px;
+	color: #fff;
+}
+.wenzi13 p{
+	position: absolute;
+	left: 660px;
+	color: #fff;
+	font-size: 34px;
+	margin-top: 80px;
+}
+.wenzi13 span{
+	color: #696969;
+	position: absolute;
+	left: 380px;
+	margin-top: 370px;
+}
+.s2{
+	margin-left: 230px;
+}
+.s3{
+	margin-left: 495px;
+}
+.s4{
+	margin-left: 800px;
+}
+.banquan2{
+	background-color: #264252;
+}
+.shouye{
+	color: #fff;
+	margin-left: 110px;
+}
+.banquan3{padding-bottom: 40px;
+	padding-top: 25px;
+
+}
+ li a{
+ 	margin-left: 10px;
+		color: #fff;
+}
+.wenzi15,.bqyc p{
+	color: #fff;
+}
+.logo-5{
+
+	margin-right: 200px;
+}
+.logo-6{
+	margin-left: 20%;
+	margin-top:15%;
+}
+.wenzi14{background-color: #fff;
+	padding: 10px;
+	color:#101010 ;
+}
+.baise{background-color: #fff;
+	height: 138px;
+	width: 161px;
+	border-top: 1px solid;
+}
+.dibu{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: black;
+}
+.dibu span{
+	color: #fff;
+	margin-left: 200px;
+}
+.wenzi-5{
+		position: absolute;
+	left: 550px;
+	top: 200px;
+
+	color: #fff;
+	
+
+}
+/*内容*/
+.nryz{
+	margin-top: 42px;
+	width: 818px;
+	
+}
+.brzc{
+	margin-top: 42px;
+	width: 319px;
+	
+}
+.nr-1{
+	background-color: #f3f3f3;
+	padding: 10px;
+}
+.font24{
+	padding-top: 20px;
+	margin-left: 10px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed  #f3f3f3;
+	font-size: 26px;
+}
+.wenzi-1{
+	color: #f3f3f3;
+	margin-top: 10px;
+	margin-left: 190px;
+}
+.wenzi-2{
+	margin-left: 240px;
+}
+.wenzi-3{
+	color: #f3f3f3;
+}
+.nr-2{padding-bottom: 15px;
+		border-bottom: 1px dashed  #f3f3f3;
+}
+.nr-3,.nr-4{
+	margin-top: 20px;
+}

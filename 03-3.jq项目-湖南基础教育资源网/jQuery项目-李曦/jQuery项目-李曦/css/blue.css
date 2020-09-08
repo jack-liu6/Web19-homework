@@ -1,0 +1,22 @@
+/* 边框 */
+
+.borderBlue {
+    border: 1px solid #bdd7f2;
+    /* border-radius: 4px; */
+}
+
+.borderBlueBottom {
+    border-bottom: 1px solid #bdd7f2;
+}
+
+.borderBlue2 {
+    border: 1px solid #bdd7f2;
+    box-shadow: -1px 0 0 2px #eaf6ff;
+}
+
+
+/* 背景渐变 */
+
+.bgBlueShade {
+    background: linear-gradient(#fdffff, #f5fdfe, #f2fcfd, #effbfe);
+}

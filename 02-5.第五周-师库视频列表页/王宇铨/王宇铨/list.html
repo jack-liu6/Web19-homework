@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>师库网</title>
+	<link rel="stylesheet" type="text/css" href="CSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="CSS/list.css">
+	<link rel="stylesheet" type="text/css" href="CSS/list-video.css">
+	<link rel="stylesheet" type="text/css" href="CSS/list-index.css">
+	
+</head>
+<body>
+
+	<!-- 顶部 -->
+	<div class="topBarBG">
+		<div class="topBar wt1000 clearfix">
+			<div class="fl">
+				<span>您好，欢迎来到师库网！请</span>
+				<a href="#" target="_blank">登录</a>
+				<span>新用户？</span>
+				<a href="#" target="_blank">免费注册</a>
+			</div>
+			<div class="fr">
+				<a href="#" target="_blank" class="barLV1 posir " id="myOder">
+					<span>我的订单</span>
+					<span class="sprite barico1"></span>
+					<ul class="barlv2" id="myOderList" style="display: none;">
+						<li>订单1</li>
+						<li>订单2</li>
+						<li>订单3</li>
+						<li>订单4</li>
+					</ul>
+				</a>
+				<span class="sprite barico3"></span>
+				<a href="#" target="_blank" class="barLV1 posir">
+					<span class="sprite barico2"></span>
+					<span>购物车</span>	
+					<ul class="barlv2" style="display: none;">
+						<li>商品1</li>
+						<li>商品2</li>
+						<li>商品3</li>
+						<li>商品4</li>
+					</ul>			
+				</a>
+				<span class="sprite barico3"></span>
+				<a href="#" target="_blank" class="barLV1 posir">
+					<span>我的师库</span>
+					<span class="sprite barico1"></span>
+					<ul class="barlv2" style="display: none;">
+						<li>教师</li>
+						<li>教师</li>
+						<li>教师</li>
+						<li>教师</li>
+					</ul>
+				</a>
+				<span class="sprite barico3"></span>
+				<a href="#" target="_blank" >
+					<span>帮助中心</span>
+					
+				</a>
+				<a href="#" target="_blank" class="barLV1 posir">
+					<span>网站导航</span>
+					<span class="sprite barico1"></span>
+					<ul class="barlv2" style="display: none;">
+						<li>网页</li>
+						<li>网页</li>
+						<li>网页</li>
+						<li>网页</li>
+					</ul>
+				</a>
+				<span class="sprite barico3"></span>
+				<a href="#" target="_blank" >
+					<span>加入收藏</span>					
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+
+	<!-- 搜索栏部分 -->
+	<div class="topBG">
+		<div class="sprite barBGPIC wt1000"></div>
+		<div class="wt1000 clearfix search">
+			<div class="sprite logo fl"></div>
+			<div class="spkOut fl">
+				<div class="spkIns font14">师库视频</div>
+			</div>
+
+			<div class="fr pt10">
+				<form class="searchIpt clearfix">
+					<div class="option">
+						<select >
+							<option>师库课件</option>
+							<option>师库教案</option>
+							<option>师库试卷</option>
+							<option>教学视频</option>
+						</select>
+					</div>
+					<!-- <div class="select posir">
+						<div class="selectText">
+							
+						</div>
+						<ul>
+							<li>师库课件</li>
+							<li>师库教案</li>
+							<li>师库试卷</li>
+							<li>教学视频</li>
+						</ul>
+						
+					</div> -->
+					<!-- <span>1111</span> -->
+					<input type="text" name="searchText" placeholder="请输入关键字"><!-- w238 h28 -->
+					<input type="submit" name="searchSub" value="搜索">
+					
+				</form>
+				<div class="searchHelp font12">
+					<a href="#">高级搜索</a>
+					<br>
+					<a href="#">使用帮助</a>					
+				</div>
+				<p class="font14">
+					<span class="mr10">热门搜索:</span>
+					<a href="#" target="_blank" class="hot1 mr10">教学视频</a>
+					<a href="#" target="_blank" class="hot2 mr10">课堂实录</a>
+					<a href="#" target="_blank" class="hot3 mr10">实习演习</a>
+					<a href="#" target="_blank" class="hot4 mr10">教学参考</a>
+					<a href="#" target="_blank" class="hot3 mr10">课堂实录</a>
+				</p>
+
+				
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 主体部分 -->
+		<!-- 主体导航 -->
+		<div class="wt1000 bodyMenu clearfix posir">
+			<span class="menueOP" id="MenuChecked">首页</span>
+			<span class="menueOP">师库课件</span>
+			<span class="menueOP">师库教案</span>
+			<span class="menueOP">师库试卷</span>
+			<span class="menueOP">教学视频</span>
+			<span class="menueOP">教书匠</span>
+			<span class="menueOP">师说论坛</span>
+			<div class="fr">
+				<a href="#" target="_blank">
+					<span class="sprite BMenuIco1"></span>
+					风云榜
+				</a>
+				<a href="#" target="_blank" class="historyBtn">
+					<span class="sprite BMenuIco2"></span>
+					我看过的
+					<span class="sprite BMenuIco3"></span>
+				</a>
+				<ul class="history">
+						<li>
+							<a href="#" target="_blank">
+								浏览记录1
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								浏览记录1
+							</a>
+						</li><li>
+							<a href="#" target="_blank">
+								浏览记录1
+							</a>
+						</li><li>
+							<a href="#" target="_blank">
+								浏览记录1
+							</a>
+						</li>
+				</ul>
+			</div>
+		</div>
+
+<!-- 主体内容 -->
+	<!-- 首页 -->
+	<div class="wt1000 clearfix bodyDetail index" id="index" style="display: block;">
+		<ul class="posir" id="banner">
+			<li style="/*display:block;*/ opacity: 1;">
+				<a href="#" target="_blank" >
+					<img src="image/沃夫德尔首页_06.png">
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" >
+					<img src="image/沃夫德尔详情页_03.png">
+				</a>
+			</li>
+			<li>
+				<a href="#" target="_blank" >
+					<img src="image/沃夫德尔首页_28.png">
+				</a>
+			</li>
+		</ul>
+
+		<!-- 招商 -->
+		<div class=" join">
+			<h3>招商加盟</h3>
+			<h4><!-- <span class="sprite"></span> -->400-60000-798</h4>
+			<p class="font16">
+				<span>智能骑行————充满机遇与挑战的热门行业</span>
+				<span>沃夫德尔————值得信赖的行业领导品牌</span>
+				<span>期待您的加盟</span>
+			</p>
+		</div>
+
+		<!-- 常见问题 -->
+		<div class="wt1000 question">
+			<h3>常见问题</h3>
+			<p class="tr">
+				<a href="#" target="">更多</a>
+			</p>
+			<ul class="QA clearfix">
+				<div class="fl br">
+					<a href="#" target="_blank">
+						<li class="clearfix">
+							<div class="Q fl sprite"></div>
+							<div class="fl font14">公路头盔和山地头盔的区别在哪？</div>
+						</li>
+						<li class="clearfix">
+							<div class="A fl sprite"></div>
+							<div class="fl font14">山地头盔有帽檐，公路头盔一般没有</div>
+						</li>
+					</a>
+					<a href="#" target="_blank">
+						<li class="clearfix">
+							<div class="Q fl sprite"></div>
+							<div class="fl font14">头盔的使用寿命多长？</div>
+						</li>
+						<li class="clearfix">
+							<div class="A fl sprite"></div>
+							<div class="fl font14">
+								一般头盔使用2-3年就需要更换，而且它属于一次性产品，如果摔跤后，头盔出现裂
+								痕等，就需要重新更换新的
+							</div>
+						</li>
+					</a>
+					<a href="#" target="_blank">
+						<li class="clearfix">
+							<div class="Q fl sprite"></div>
+							<div class="fl font14">livall智能头盔的待机时间多长，电池的使用寿命多久？</div>
+						</li>
+						<li class="clearfix">
+							<div class="A fl sprite"></div>
+							<div class="fl font14">
+								电池容量是380MA，可正常工作时间是6个多小时，每次充电时间大概需要1.5小时。
+								而电池的使用寿命跟平常我们使用的智能手机电池（大约500次充电）差不多
+							</div>
+						</li>
+					</a>
+				</div>
+				<div class="fl">
+					<a href="#" target="_blank">
+						<li class="clearfix">
+							<div class="Q fl sprite"></div>
+							<div class="fl font14">公路头盔和山地头盔的区别在哪？</div>
+						</li>
+						<li class="clearfix">
+							<div class="A fl sprite"></div>
+							<div class="fl font14">山地头盔有帽檐，公路头盔一般没有</div>
+						</li>
+					</a>
+					<a href="#" target="_blank">
+						<li class="clearfix">
+							<div class="Q fl sprite"></div>
+							<div class="fl font14">头盔的使用寿命多长？</div>
+						</li>
+						<li class="clearfix">
+							<div class="A fl sprite"></div>
+							<div class="fl font14">
+								一般头盔使用2-3年就需要更换，而且它属于一次性产品，如果摔跤后，头盔出现裂
+								痕等，就需要重新更换新的
+							</div>
+						</li>
+					</a>
+					<a href="#" target="_blank">
+						<li class="clearfix">
+							<div class="Q fl sprite"></div>
+							<div class="fl font14">livall智能头盔的待机时间多长，电池的使用寿命多久？</div>
+						</li>
+						<li class="clearfix">
+							<div class="A fl sprite"></div>
+							<div class="fl font14">
+								电池容量是380MA，可正常工作时间是6个多小时，每次充电时间大概需要1.5小时。
+								而电池的使用寿命跟平常我们使用的智能手机电池（大约500次充电）差不多
+							</div>
+						</li>
+					</a>
+				</div>
+			</ul>
+		</div>
+
+	</div>
+	<!-- 师库课件 -->
+	<div class="wt1000 clearfix bodyDetail video" id="files">
+		<div class="fl leftP">
+			<ul class="searchFor">
+				<li class="searchli" name='0'>
+					<span>按学科：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">语文</span>
+					<span class=" select">数学</span>
+					<span class=" select">英语</span>
+					<span class=" select">物理</span>
+					<span class=" select">化学</span>
+					<span class=" select">历史</span>
+					<span class=" select">地理</span>
+					<span class=" select">生物</span>
+					<span class=" select">思想政治</span>
+					<span class=" select">历史与社会</span>
+					<span class=" select">信息技术</span>							 
+				</li>
+				<li  class="searchli" name='1'>
+					<span>按学段：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">小学</span>
+					<span class=" select">初中</span>
+					<span class=" select">高中</span>
+					
+				</li>
+				<li  class="searchli" name='2'>
+					<span>按类型：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">课堂实录</span>
+					<span class=" select">实验演习</span>
+					<span class=" select">教学参考</span>
+					
+				</li>
+				<li  class="searchli" name='3'>
+					<span>按级别：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">免费</span>
+					<span class=" select">促销</span>
+					<span class=" select">积分</span>
+					<span class=" select">学币</span>
+
+					
+				</li>
+			</ul>
+
+			<div class="tiaojian clearfix">
+				<h2 class="tc font14 fl">视频列表</h2>
+				<!-- 筛选条件 -->
+				<div class="TJlist fl font12">
+					<h5 class="font12">您搜索的条件：</h5>
+					<div class="insertList" >
+						<div class="listSp" index='0'>
+							
+						</div>
+						<div class="listSp" index='1'>
+							
+						</div>
+						<div class="listSp" index='2'>
+							
+						</div>
+						<div class="listSp" index='3'>
+							
+						</div>
+					</div>
+					<a href="#" class=" clearAll font12">
+						<span class="sprite clearIco"></span>
+						清空条件
+					</a>
+				</div>
+				
+				
+			</div>
+
+
+			<!-- 视频列表 -->
+			<div class="videoList">
+				<div class="Toppage clearfix">
+					<a href="#">
+						 <span>最新</span>
+						<span class="sprite pageIco1"></span>
+					</a>
+					<a href="#">
+						<span>热播</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>好评</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>分栏</span>
+						<span class="sprite pageIco3"></span>
+					</a>
+					<a href="#">
+						<span>顺序</span>
+						<span class="sprite pageIco4"></span>
+					</a>
+
+					<div class="page fr">
+						<a href="#" class="pageChecked">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+						<a href="#">10</a>
+						<a href="#">..</a>
+						<a href="#">84</a>
+						<a href="#" class="next">下一页</a>
+					</div>
+				</div>
+
+				<ul>
+					<li class="xijie clearfix">
+						<a href="#" target="_blank" class="fl">
+							<div class="imgBrd fl mt5">
+								<img src="image/第五次大作业-师库视频列表页_111.png">
+							</div>	
+						</a>
+						
+						<div class="fr XJtext font12" >
+							<a href="#" target="_blank">
+								<h4 class="font12">《只有一个细胞的生物》</h4>
+								<p>
+									简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换 课件2，师库网免费多媒体课件，新课标新
+									课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+									突破教学重难点；多媒体资源素材...
+								</p>
+							</a>
+							<div class="fl icos">
+								<a href="#">
+									<span class="sprite videoIco1"></span>
+									<span>播放数（2368）</span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco3"></span>
+									<span>评分：</span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco3"></span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco2"></span>
+									<span>影评（256）</span>	
+								</a>
+								<a href="#">
+									<span class="sprite videoIco5"></span>
+									<span>收藏（5987）</span>	
+								</a>
+							</div>
+						</div>	
+					</li>
+
+					<li class="xijie clearfix">
+						<a href="#" target="_blank" class="fl">
+							<div class="imgBrd fl mt5">
+								<img src="image/第五次大作业-师库视频列表页_111.png">
+							</div>	
+						</a>
+						
+						<div class="fr XJtext font12" >
+							<a href="#" target="_blank">
+								<h4 class="font12">《只有一个细胞的生物》</h4>
+								<p>
+									简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换 课件2，师库网免费多媒体课件，新课标新
+									课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+									突破教学重难点；多媒体资源素材...
+								</p>
+							</a>
+							<div class="fl icos">
+								<a href="#">
+									<span class="sprite videoIco1"></span>
+									<span>播放数（2368）</span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco3"></span>
+									<span>评分：</span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco3"></span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco2"></span>
+									<span>影评（256）</span>	
+								</a>
+								<a href="#">
+									<span class="sprite videoIco5"></span>
+									<span>收藏（5987）</span>	
+								</a>
+							</div>
+						</div>	
+					</li>
+
+					<li class="xijie clearfix">
+						<a href="#" target="_blank" class="fl">
+							<div class="imgBrd fl mt5">
+								<img src="image/第五次大作业-师库视频列表页_111.png">
+							</div>	
+						</a>
+						
+						<div class="fr XJtext font12" >
+							<a href="#" target="_blank">
+								<h4 class="font12">《只有一个细胞的生物》</h4>
+								<p>
+									简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换 课件2，师库网免费多媒体课件，新课标新
+									课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+									突破教学重难点；多媒体资源素材...
+								</p>
+							</a>
+							<div class="fl icos">
+								<a href="#">
+									<span class="sprite videoIco1"></span>
+									<span>播放数（2368）</span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco3"></span>
+									<span>评分：</span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco3"></span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco2"></span>
+									<span>影评（256）</span>	
+								</a>
+								<a href="#">
+									<span class="sprite videoIco5"></span>
+									<span>收藏（5987）</span>	
+								</a>
+							</div>
+						</div>	
+					</li>
+
+					<li class="xijie clearfix">
+						<a href="#" target="_blank" class="fl">
+							<div class="imgBrd fl mt5">
+								<img src="image/第五次大作业-师库视频列表页_111.png">
+							</div>	
+						</a>
+						
+						<div class="fr XJtext font12" >
+							<a href="#" target="_blank">
+								<h4 class="font12">《只有一个细胞的生物》</h4>
+								<p>
+									简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换 课件2，师库网免费多媒体课件，新课标新
+									课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+									突破教学重难点；多媒体资源素材...
+								</p>
+							</a>
+							<div class="fl icos">
+								<a href="#">
+									<span class="sprite videoIco1"></span>
+									<span>播放数（2368）</span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco3"></span>
+									<span>评分：</span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco3"></span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco2"></span>
+									<span>影评（256）</span>	
+								</a>
+								<a href="#">
+									<span class="sprite videoIco5"></span>
+									<span>收藏（5987）</span>	
+								</a>
+							</div>
+						</div>	
+					</li>
+
+				</ul>
+
+				<div class="Toppage clearfix mt10">
+					<a href="#">
+						 <span>最新</span>
+						<span class="sprite pageIco1"></span>
+					</a>
+					<a href="#">
+						<span>热播</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>好评</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>分栏</span>
+						<span class="sprite pageIco3"></span>
+					</a>
+					<a href="#">
+						<span>顺序</span>
+						<span class="sprite pageIco4"></span>
+					</a>
+
+					<div class="page fr">
+						<a href="#" class="pageChecked">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+						<a href="#">10</a>
+						<a href="#">..</a>
+						<a href="#">84</a>
+						<a href="#" class="next">下一页</a>
+					</div>
+				</div>
+				
+			</div>
+
+
+		</div>
+
+		<!-- 右边推荐 -->
+		<div class="tuijian fr">
+			<a href="#" target="_blank">
+				<img src="image/第五次大作业-师库视频列表页_38.png">
+			</a>
+			<div class="tuijianList">
+				<h4 class="font12">最新促销</h4>
+				<ul>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>英语中考试题1（扫描版）</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>尊敬我们的老师课堂练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>政治第三单元练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《庄子故事两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《世说新语》两则</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《傅雷家书两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《祖国啊，我亲爱的祖国》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《回自己的祖国去》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>	
+				</ul>
+			</div>
+			<div class="tuijianList">
+				<h4 class="font12">精品视频</h4>
+				<ul>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>英语中考试题1（扫描版）</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>尊敬我们的老师课堂练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>政治第三单元练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《庄子故事两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《世说新语》两则</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《傅雷家书两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《祖国啊，我亲爱的祖国》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《回自己的祖国去》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>	
+				</ul>
+			</div>
+
+			<div class="tuijianList">
+				<h4 class="font12">特供视频</h4>
+				<ul>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>英语中考试题1（扫描版）</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>尊敬我们的老师课堂练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>政治第三单元练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《庄子故事两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《世说新语》两则</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《傅雷家书两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《祖国啊，我亲爱的祖国》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《回自己的祖国去》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>	
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 师库教案 -->
+	<div class="wt1000 bodyDetail jiaoan">
+		
+	</div>
+	<!-- 师库试卷 -->
+	<div class="wt1000 bodyDetail jiaoan">
+		
+	</div>
+	<!-- 教学视频 -->
+	<div class="wt1000 clearfix video bodyDetail" id="video">
+		<!-- 左边列表 -->
+		<div class="fl leftP">
+			<ul class="searchFor">
+				<li class="searchli" name='0'>
+					<span>按学科：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">语文</span>
+					<span class=" select">数学</span>
+					<span class=" select">英语</span>
+					<span class=" select">物理</span>
+					<span class=" select">化学</span>
+					<span class=" select">历史</span>
+					<span class=" select">地理</span>
+					<span class=" select">生物</span>
+					<span class=" select">思想政治</span>
+					<span class=" select">历史与社会</span>
+					<span class=" select">信息技术</span>							 
+				</li>
+				<li  class="searchli" name='1'>
+					<span>按学段：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">小学</span>
+					<span class=" select">初中</span>
+					<span class=" select">高中</span>
+					
+				</li>
+				<li  class="searchli" name='2'>
+					<span>按类型：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">课堂实录</span>
+					<span class=" select">实验演习</span>
+					<span class=" select">教学参考</span>
+					
+				</li>
+				<li  class="searchli" name='3'>
+					<span>按级别：</span>
+					<span class="allselected">不限</span>
+					<span class=" select">免费</span>
+					<span class=" select">促销</span>
+					<span class=" select">积分</span>
+					<span class=" select">学币</span>
+
+					
+				</li>
+			</ul>
+
+			<div class="tiaojian clearfix">
+				<h2 class="tc font14 fl">视频列表</h2>
+				<!-- 筛选条件 -->
+				<div class="TJlist fl font12">
+					<h5 class="font12 ">您搜索的条件：</h5>
+					<div class="insertList" >
+						<div class="listSp clearfix" index='0'>
+							
+						</div>
+						<div class="listSp clearfix" index='1'>
+							
+						</div>
+						<div class="listSp clearfix" index='2'>
+							
+						</div>
+						<div class="listSp clearfix" index='3'>
+							
+						</div>
+					</div>
+					<a href="#" class="clearAll font12">
+						<span class="sprite clearIco"></span>
+						清空条件
+					</a>
+				</div>
+				
+				
+			</div>
+
+			<!-- 视频列表 -->
+			<div class="videoList">
+				<div class="Toppage clearfix">
+					<a href="#">
+						 <span>最新</span>
+						<span class="sprite pageIco1"></span>
+					</a>
+					<a href="#">
+						<span>热播</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>好评</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>分栏</span>
+						<span class="sprite pageIco3"></span>
+					</a>
+					<a href="#">
+						<span>顺序</span>
+						<span class="sprite pageIco4"></span>
+					</a>
+
+					<div class="page fr">
+						<a href="#" class="pageChecked">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+						<a href="#">10</a>
+						<a href="#">..</a>
+						<a href="#">84</a>
+						<a href="#" class="next">下一页</a>
+					</div>
+				</div>
+
+				<ul>
+					<li class="jianlue">
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_72.png">
+							</div>
+							<h4 class="font12">《只有一个细胞的生物》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_74.png">
+							</div>
+							<h4 class="font12">《只有一个细胞的生物》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_76.png">
+							</div>
+							<h4 class="font12">《人类的居住地—聚落》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_78.png">
+							</div>
+							<h4 class="font12">《计算机硬件》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_80.png">
+							</div>
+							<h4 class="font12">《开花和结果》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+					</li>
+					<li class="jianlue">
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_95.png">
+							</div>
+							<h4 class="font12">《只有一个细胞的生物》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_97.png">
+							</div>
+							<h4 class="font12">《只有一个细胞的生物》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_99.png">
+							</div>
+							<h4 class="font12">《人类的居住地—聚落》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_101.png">
+							</div>
+							<h4 class="font12">《计算机硬件》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+						<a href="#" target="_blank">
+							<div class="imgBrd">
+								<img src="image/第五次大作业-师库视频列表页_103.png">
+							</div>
+							<h4 class="font12">《开花和结果》</h4>
+							<p>
+								<span class="sprite videoIco1"></span>
+								<span>1,005</span>
+								<span class="sprite videoIco2"></span>
+								<span>17</span>
+							</p>
+						</a>
+					</li>
+
+					<li class="xijie clearfix">
+						<a href="#" target="_blank" class="fl">
+							<div class="imgBrd fl mt5">
+								<img src="image/第五次大作业-师库视频列表页_111.png">
+							</div>	
+						</a>
+						
+						<div class="fr XJtext font12" >
+							<a href="#" target="_blank">
+								<h4 class="font12">《只有一个细胞的生物》</h4>
+								<p>
+									简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换 课件2，师库网免费多媒体课件，新课标新
+									课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+									突破教学重难点；多媒体资源素材...
+								</p>
+							</a>
+							<div class="fl icos">
+								<a href="#">
+									<span class="sprite videoIco1"></span>
+									<span>播放数（2368）</span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco3"></span>
+									<span>评分：</span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco3"></span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco2"></span>
+									<span>影评（256）</span>	
+								</a>
+								<a href="#">
+									<span class="sprite videoIco5"></span>
+									<span>收藏（5987）</span>	
+								</a>
+							</div>
+						</div>	
+					</li>
+
+					<li class="xijie clearfix">
+						<a href="#" target="_blank" class="fl">
+							<div class="imgBrd fl mt5">
+								<img src="image/第五次大作业-师库视频列表页_111.png">
+							</div>	
+						</a>
+						
+						<div class="fr XJtext font12" >
+							<a href="#" target="_blank">
+								<h4 class="font12">《只有一个细胞的生物》</h4>
+								<p>
+									简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换 课件2，师库网免费多媒体课件，新课标新
+									课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+									突破教学重难点；多媒体资源素材...
+								</p>
+							</a>
+							<div class="fl icos">
+								<a href="#">
+									<span class="sprite videoIco1"></span>
+									<span>播放数（2368）</span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco3"></span>
+									<span>评分：</span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco4"></span>
+									<span class="sprite videoIco3"></span>
+								</a>
+								<a href="#">
+									<span class="sprite videoIco2"></span>
+									<span>影评（256）</span>	
+								</a>
+								<a href="#">
+									<span class="sprite videoIco5"></span>
+									<span>收藏（5987）</span>	
+								</a>
+							</div>
+						</div>	
+					</li>
+
+				</ul>
+
+				<div class="Toppage clearfix mt10">
+					<a href="#">
+						 <span>最新</span>
+						<span class="sprite pageIco1"></span>
+					</a>
+					<a href="#">
+						<span>热播</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>好评</span>
+						<span class="sprite pageIco2"></span>
+					</a>
+					<a href="#">
+						<span>分栏</span>
+						<span class="sprite pageIco3"></span>
+					</a>
+					<a href="#">
+						<span>顺序</span>
+						<span class="sprite pageIco4"></span>
+					</a>
+
+					<div class="page fr">
+						<a href="#" class="pageChecked">1</a>
+						<a href="#">2</a>
+						<a href="#">3</a>
+						<a href="#">4</a>
+						<a href="#">5</a>
+						<a href="#">6</a>
+						<a href="#">7</a>
+						<a href="#">8</a>
+						<a href="#">9</a>
+						<a href="#">10</a>
+						<a href="#">..</a>
+						<a href="#">84</a>
+						<a href="#" class="next">下一页</a>
+					</div>
+				</div>
+				
+			</div>
+
+
+		</div>
+
+		<!-- 右边推荐 -->
+		<div class="tuijian fr">
+			<ul class="sBanner">
+				<li style="display: block;">
+					<a href="#" target="_blank">
+						<img src="image/第五次大作业-师库视频列表页_38.png">
+					</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">
+						<img src="image/第五次大作业-师库视频列表页_39.png">
+					</a>
+				</li>
+			</ul>
+			
+			<div class="tuijianList">
+				<h4 class="font12">最新促销</h4>
+				<ul>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>英语中考试题1（扫描版）</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>尊敬我们的老师课堂练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>政治第三单元练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《庄子故事两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《世说新语》两则</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《傅雷家书两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《祖国啊，我亲爱的祖国》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《回自己的祖国去》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>	
+				</ul>
+			</div>
+			<div class="tuijianList">
+				<h4 class="font12">精品视频</h4>
+				<ul>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>英语中考试题1（扫描版）</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>尊敬我们的老师课堂练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>政治第三单元练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《庄子故事两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《世说新语》两则</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《傅雷家书两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《祖国啊，我亲爱的祖国》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《回自己的祖国去》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>	
+				</ul>
+			</div>
+
+			<div class="tuijianList">
+				<h4 class="font12">特供视频</h4>
+				<ul>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>英语中考试题1（扫描版）</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>尊敬我们的老师课堂练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>政治第三单元练习</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《庄子故事两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《世说新语》两则</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《傅雷家书两则》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《祖国啊，我亲爱的祖国》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank" class="clearfix font12">
+							<span class="sprite TJico"></span>
+							<span>《回自己的祖国去》</span>
+							<div class="fr">
+								<span class="gray">2536</span>
+								<span >次</span>
+							</div>
+						</a>
+					</li>	
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- 教书匠 -->
+	<div class="wt1000 bodyDetail jiaoan">
+		
+	</div>
+	<!-- 师说论坛 -->
+	<div class="wt1000 bodyDetail jiaoan">
+		
+	</div>
+
+<!-- 底部 -->
+<div class="foot tc font12 ">
+	<div class="floor1 ">
+		<a href="#" target="_blank">关于我们</a>
+		<a href="#" target="_blank">商务合作</a>
+		<a href="#" target="_blank">客服中心</a>
+		<a href="#" target="_blank">网站地图</a>
+		<a href="#" target="_blank">用户留言</a>
+		<a href="#" target="_blank" class="last">帮助中心</a>
+	</div>
+	<p>跨地区ICP证：B2 - 20040040 《网络文化经营许可证》编号：文网文[2003] 0066号</p>
+	<P>Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved</P>
+	<p>
+		北京国之源软件技术有限公司提供技术支持 客服电话：0731-84531868
+		<span class="sprite footIco"></span>
+		跟踪访问速度
+	</p>
+</div>
+
+<!-- 固定导航 -->
+<div class="fixMenu font12 tc">
+	<div class="menu">
+		<a href="#" target="_blank">
+			<span class="sprite fixico1"></span>
+			在线客服
+		</a>
+	</div>
+	<div class="menu">
+		<a href="#" target="_blank">
+			<span class="sprite fixico2"></span>
+			在线调查
+		</a>
+	</div>
+</div>
+
+
+
+
+
+<script src='JS/list.js'></script>
+<!-- <script>
+	
+// 	function topMenu(){
+// 	var barLV1=document.getElementsByClassName('barLV1');
+// 	for(var i=0;i<barLV1.length;i++){
+// 		barLV1[i].onmouseover=function(){
+// 			this.lastElementChild.style.display='block';
+// 		}
+// 		barLV1[i].onmouseout=function(){
+// 			this.lastElementChild.style.display='none';
+// 		}
+// 	}
+// };
+// topMenu();
+</script> -->
+
+</body>
+</html>

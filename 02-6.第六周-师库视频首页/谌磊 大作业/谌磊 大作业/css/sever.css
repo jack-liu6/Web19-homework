@@ -1,0 +1,353 @@
+.firse {
+	width: 100%;
+	background: #F8F8F8;
+}
+
+.firse .box {
+	height: 30px;
+	line-height: 30px;
+	display: flex;
+	width: 1000px;
+	margin: 0 auto;
+	/* background: #ECECEC; */
+	position: relative;
+}
+
+.firse .box .firse-a {
+	display: flex;
+	font-size: 14px;
+}
+
+.firse .box .firse-a a {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 5px;
+	border-right: 1px solid #D9D9D9;
+	color: #5E5E5E;
+	text-decoration: none;
+}
+
+.firse-b {
+	display: flex;
+
+}
+
+.firse-c {
+	margin-left: 85px;
+}
+
+.firse-c a {
+	text-decoration: none;
+	color: #8F8F8F;
+	font-size: 12px;
+	line-height: 30px;
+	margin: 0 10px;
+}
+
+#list {
+	width: 260px;
+	height: 22px;
+	display: flex;
+	position: relative;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	border: 1px solid #ECECEC;
+	background: #FFFFFF;
+	border-radius: 3px;
+}
+
+.list {
+	position: absolute;
+	left: 5px;
+	line-height: 22px;
+	font-size: 12px;
+}
+
+#list img {
+	position: absolute;
+	left: 60px;
+	top: 5px;
+}
+
+#list input {
+	position: absolute;
+	right: 39px;
+	top: 0;
+	width: 140px;
+	height: 22px;
+	line-height: 22px;
+	border: none;
+	color: #ECECEC;
+}
+
+#list button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 40px;
+	height: 22px;
+	line-height: 22px;
+	border: none;
+	background: #F08318;
+	color: #FFFFFF;
+}
+
+.had {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.had-a {
+	width: 1000px;
+	height: 150px;
+	position: relative;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+
+.had-b {
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.had-c {
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.had-d {
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+
+.had-e {
+	margin-left: 10px;
+	color: #F3AC6D;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.had-e img {
+	margin: 0 3px;
+}
+
+.fours {
+	width: 1000px;
+	margin-top: -50px;
+}
+
+.fours-a {
+	width: 720px;
+}
+
+.fours-b {
+	width: 720px;
+}
+
+.fours-c {
+	width: 710px;
+	height: 30px;
+	border: 5px solid #EAEAEA;
+	display: flex;
+	line-height: 30px;
+	position: relative;
+}
+
+.fours-d {
+	position: absolute;
+	right: 5px;
+	display: flex;
+}
+
+.fours-e {
+	margin-left: 10px;
+}
+
+.fours-f {
+	margin-left: 30px;
+}
+
+.fours-g {
+	width: 718px;
+	border: 1px solid #EEEEEE;
+	margin-top: 10px;
+	position: relative;
+}
+
+.fours-h {
+	width: 705px;
+	background: #EEEEEE;
+	padding: 7px;
+	font-weight: bold;
+}
+
+.fours-i {
+	padding: 7px 10px;
+	color: #6E6E6E;
+}
+
+.fours-i div {
+	padding: 7px;
+}
+
+.fours-i div a {
+	text-decoration: none;
+	color: #0A01AF;
+}
+
+.fours-h span {
+	font-weight: normal;
+	position: absolute;
+	right: 10px;
+}
+
+.fours-h span a {
+	text-decoration: none;
+	color: #0A01AF;
+}
+
+.fours-g textarea {
+	width: 685px;
+	height: 150px;
+	margin: 15px;
+}
+
+.fours-j {
+	margin-left: 15px;
+}
+
+.fours-j span {
+	color: #8C8C8C;
+}
+
+.fours-j button {
+	position: absolute;
+	right: 15px;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+	border: 1px solid #00559F;
+	background: #0178BC;
+	border-radius: 5px;
+}
+
+.fours-k {
+	width: 718px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.fours-l {
+	padding: 20px 0 20px 15px;
+}
+
+.fours-l div {
+	margin: 10px 0;
+	color: #6E6E6E;
+}
+
+.fours-m {
+	width: 700px;
+	border: 1px dashed #F0F0F0;
+	margin: 0 auto;
+}
+
+.fours-n {
+	font-size: 14px;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	color: #6A6A6A;
+}
+
+.fousr {
+	display: flex;
+}
+
+.rights {
+	width: 260px;
+	border: 1px solid #E2E2E2;
+}
+
+.rights-a {
+	width: 248px;
+	background: #F1F1F1;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 1px;
+}
+
+.rights-b {
+	display: flex;
+	margin-top: 10px;
+}
+
+.rights-b img {
+	margin: 0 8px;
+}
+
+.rights-c {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.rights-d {
+	font-size: 14px;
+}
+
+.rights-e {
+	padding: 5px 3px;
+}
+
+.rights-f {
+	margin-left: 50px;
+}
+
+.rights-g {
+	width: 240px;
+	border: 1px dashed #F0F0F0;
+	margin: 0 auto;
+}
+
+.rights img {
+	padding: 5px 0 5px 15px;
+}
+
+.rights-h {
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+}
+
+.rights-h span {
+	width: 75px;
+	padding: 5px;
+	border: 1px solid #E2E2E2;
+	background: #F7F7F7;
+	text-align: center;
+	cursor: pointer;
+	color: 000000;
+}
+
+#let {
+	background: #FFFFFF;
+	border: none;
+	border-top: 2px solid #9CD6F5;
+	color: #9CD6F5;
+}
+
+.content {
+	display: none;
+}
+
+.jianju {
+	margin-top: 20px;
+	border: 1px solid #9B9B9B;
+	padding-bottom: 5px;
+}

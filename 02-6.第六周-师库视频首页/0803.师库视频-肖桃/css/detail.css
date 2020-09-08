@@ -1,0 +1,367 @@
+/* 设置顶部的容器 */
+.header-wrapper{ 
+    height: 31px;
+    background: url(../images/headerbg2.png);
+}
+/* .nav-top li a:hover{
+    font-weight: bold;
+} */
+/* 设置logo的容器 */
+.logo-wrapper{
+    width: 106px;
+    height: 24px;
+    background: url(../images/sprite.png) -21px -50px;
+}
+.line::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    background: url(../images/header-line.png);
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* 设置顶部的搜索框 */
+.top-search{
+    height: 19px;
+    border: #c7c7c7 1px solid;
+}
+.top-search-ul{
+    height: 19px;
+    overflow: hidden;
+    position: relative;
+    z-index: 99999999;
+}
+.top-reg{
+    right: 250px;
+}
+.top-search li{
+    line-height: 19px;
+    background: #fff;
+}
+.top-search li:not(:first-child){
+    border-left: #d6d6d6 solid 1px;
+    border-right: #d6d6d6 solid 1px;
+}
+.top-search li:last-child{
+    border-bottom: #d6d6d6 solid 1px;
+}
+.top-search-ul li:not(:first-child) a{
+    display: inline-block;
+    width: 100%;
+}
+.top-search-down{
+    width: 11px;
+    height: 11px;
+    background: url(../images/sprite.png) 0 -57px;
+}
+.top-search-down::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 18px;
+    background-color: #d6d6d6;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    left: 15px;
+    right: 0;
+}
+/* 设置输入框 */
+.top-search-input{
+    border: none;
+    height: 100%;
+    outline-color: orange;
+    width: 110px;
+}
+/* 设置搜索按钮 */
+.top-search-button{
+    width: 52px;
+    height: 100%;
+    background-color: #fecd44;
+    border: none;
+    outline: none;
+}
+#first{
+    width: 74px;
+}
+/* 设置主体的容器 */
+.main-wrapper{
+    background: url(../images/198.png) repeat-x;
+}
+.main-top h1{
+    font-family: "微软雅黑";
+}
+/* 设置风云榜的图标 */
+.fengyun-icon{
+    width: 14px;
+    height: 11px;
+    background: url(../images/sprite.png) 0 -99px;
+}
+/* 设置我看过的图标 */
+.look-icon{
+    width: 12px;
+    height: 12px;
+    background: url(../images/sprite.png) 0 -112px;
+}
+/* 设置我看过的下拉按钮 */
+.look{
+    cursor: pointer;
+    border: transparent solid 1px;
+    border-bottom: none;
+}
+.look:hover{
+    border: #c6c6c6 solid 1px;
+    border-bottom: none;
+    background-color: #fff;
+}
+.look:hover .look-father{
+    display: block;
+}
+.look:hover .look-down{
+    background: url(../images/sprite.png) -9px -125px;
+}
+.look-down{
+    width: 11px;
+    height: 7px;
+    background: url(../images/sprite.png) 0 -125px;
+}
+/* 设置我看过的二级菜单 */
+.look-menu{
+    width: 233px;
+    position: absolute;
+    border: #c6c6c6 solid 1px;
+    right: -1px;
+    top: 12px;
+}
+.bo{
+    position: absolute;
+    width: 86px;
+    height: 1px;
+    background-color: #fff;
+    left:0px;
+    top: 12px;
+    z-index: 9;
+}
+.look-menu-ol1,.look-menu-ol2{
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.look-menu-b{
+    width: 220px;
+    margin: 0 auto;
+    border-top: 1px #ebebeb dashed;
+}
+.li-close{
+    width: 8px;
+    height: 9px;
+    background: url(../images/sprite2.png) -556px -1px;
+}
+/* 设置暂无播放历史 */
+.newdiv{
+    width: 90%;
+    line-height: 100px;
+    margin:20px auto;
+    border: #ccc solid 1px;
+    text-align: center;
+    color: #888;
+}
+/* 设置全部分类的图biao */
+.all{
+    background: url(../images/sprite.png) -29px -81px;
+}
+.all-wrapper:hover .all{
+    background: url(../images/sprite.png) -30px -101px;
+}
+.all-wrapper:hover .all-down{
+    background: url(../images/sprite.png) -9px -125px;
+}
+
+/* 设置主体内容的左边 */
+.main-content-left{
+    width: 735px;
+}
+/* 设置播放的大页面 */
+.main-content-left-top{
+    height: 486px;
+    border: solid 1px #d1d1d1;
+}
+/* 设置分享 */
+.share{
+    border: #eaeaea 4px solid;
+}
+.star{
+    width: 15px;
+    height: 15px;
+    background-image: url(../images/sprite.png);
+    background-position:  -26px -139px;
+}
+.fen{
+    width: 40px;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/sprite.png);
+}
+.icon1{
+    background-position:-45px -120px;
+}
+.icon2{
+    background-position:-68px -120px;
+}
+.icon3{
+    background-position:-91px -120px;
+}
+.icon4{
+    background-position:-113px -120px;
+}
+.icon5{
+    background-position:-135px -120px;
+}
+.icon6{
+    background-position:-157px -120px;
+}
+.down{
+    width: 97px;
+    height: 27px;
+    background: url(../images/sprite.png) -51px -78px;
+}
+/* 设置简介 */
+.short{
+    border: #e3e3e3 solid 1px;
+    padding-top: 1px;
+}
+/* 设置用户评论 */
+.textarea{
+    width: 100%;
+    height: 130px;
+    resize: none;
+}
+.c-submit{
+    width: 64px;
+    height: 29px;
+    background: url(../images/sprite.png) -50px -144px;
+    border: none;
+    outline: none;
+}
+.coms .com:not(:last-child){
+    border-bottom: #888 dashed 1px;
+}
+.pt{
+    width: 713px;
+}
+/* 设置主体内容的右边 */
+.main-content-right{
+    width: 235px;
+}
+.video-message-wrapper h2{
+    margin:0 0 1px;
+}
+.video-message-wrapper{
+    border: solid 1px #e2e2e2;
+    padding: 1px;
+}
+.video-message{
+    border-top: 1px solid #f1f1f1;
+}
+.message-top img{
+    background-color: #ededed;
+    padding: 2px;
+    border: #d8d8d8 solid 1px;
+}
+.llft{
+    width: 95px;
+}
+.guanzhu{
+    border-top: 1px dashed #f1f1f1;
+}
+.guanzhu button{
+    width: 62px;
+    height: 22px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+}
+.button1{
+    background: url(../images/weibo.png);
+}
+.button2{
+    background: url(../images/tengxun.png);
+}
+/* 设置右边的最新促销 */
+.zx{
+    border: #e2e2e2 1px solid;
+}
+.zxh2{
+    margin: 1px;
+    background-image: linear-gradient(#fff,#c4dfee);
+    line-height: 27px;
+}
+.zxul{
+    border-top: 1px solid #a9d9f3;
+
+}
+.zxul li{
+    list-style-image: url(../images/list.png);
+    list-style-position: inside;
+    border-bottom: 1px dotted #c7c7c7;
+    width: 220px;
+    margin: 0 auto;
+}
+/* 设置切换页 */
+.zxul2{
+    border-top: none;
+}
+.xiang{
+    border-bottom: #e2e2e2 solid 1px;
+    width: 77px;
+    background-image: linear-gradient(#fff,#efefef);
+}
+.xiang1{
+    border-right: #e2e2e2 solid 1px;
+    border-left: #e2e2e2 solid 1px;
+}
+.xiang0::after,.xiang:hover::after{
+    content: "";
+    display: inline-block;
+    width: 81px;
+    height: 5px;
+    background: url(../images/blueblue.png);
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+.xiang0,.xiang:hover{
+    background: #fff;
+    border-bottom: none;
+}
+/* 第三部分——设置底部 */
+/* 底部 */
+.footer-wrapper{
+    border-top: 1px solid #ccc;
+}
+/* 第四部分——设置悬浮按钮 */
+/* 设置固定定位的悬浮按钮 */
+.xuan{
+    position: fixed;
+    top: 205px;
+    left:50%;
+    margin-left:498px;
+}
+.xuan span{
+    display: inline-block;
+    width: 18px;
+    height: 55px;
+}
+.kefu:hover span,.diaocha:hover span{
+    background-color: #fff;
+}
+.kefu,.diaocha{
+    width: 26px;
+    height: 87px;
+    background-color: #f9f9f9;
+    border: #e3e3e3 solid 1px;
+}

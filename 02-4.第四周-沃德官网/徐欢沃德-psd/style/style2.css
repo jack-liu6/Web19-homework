@@ -1,0 +1,423 @@
+/* 公共样式 */
+
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+.wt1200 {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.posit {
+    position: relative;
+}
+
+
+/* 头部style */
+
+.header {
+    width: 1922px;
+    height: 110px;
+    margin: 0px auto;
+    background-color: #082939;
+}
+
+.zhongjian {
+    height: 110px;
+    line-height: 110px;
+}
+
+.logo {
+    width: 250px;
+    height: 60px;
+    margin-top: 35px;
+    margin-left: 20px;
+    background: url(../images/矢量智能对象.png) no-repeat;
+}
+
+.jian {
+    width: 880px;
+}
+
+.jian li {
+    list-style: none;
+    margin: 0px 40px 0px 20px;
+}
+
+.jian a {
+    color: #fff;
+}
+
+.jian a:hover {
+    color: #D6820D;
+}
+
+
+/*中间文字部分 */
+
+.body {
+    width: 1922px;
+    height: 1260px;
+    margin: 0 auto;
+    background-color: #Fff;
+}
+
+.bodyer {
+    width: 1200px;
+    height: 1220px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.wenzi {
+    width: 815px;
+    height: 1215px;
+}
+
+.shangmian {
+    height: 214px;
+    width: 815px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.sheng {
+    width: 795px;
+    height: 35px;
+    padding-left: 20px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    background-color: #F3F3F3;
+}
+
+.sheng a {
+    color: #717170;
+    font-size: 14px;
+}
+
+.aud {
+    font-size: 16px;
+    color: #606060;
+    margin-bottom: 15px;
+}
+
+.p1,
+.p1s {
+    width: 815px;
+    height: 65px;
+    color: #9B9B9B;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.p1 a {
+    margin-left: 15px;
+    color: #4B81B0;
+}
+
+.p2 span {
+    color: #C1B0B0;
+    font-size: 12px;
+}
+
+.p2 .fabu {
+    margin-right: 25px;
+}
+
+.p2 a {
+    font-size: 14px;
+    color: #3EB2EA;
+    margin-right: 10px;
+}
+
+.shangmian2 {
+    height: 160px;
+    width: 815px;
+    border-bottom: 1px dashed #E5E5E5;
+    padding-top: 20px;
+}
+
+.p1s a {
+    margin-left: 15px;
+    color: #828282;
+}
+
+.butt {
+    width: 815px;
+    height: 60px;
+    text-align: center;
+    /* padding-top: 20px; */
+    line-height: 60px;
+}
+
+.butt button {
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #2970A6;
+}
+
+.butt button:hover {
+    background-color: #215167;
+}
+
+.b1 {
+    width: 25px;
+    height: 25px;
+}
+
+.pag {
+    width: 95px;
+    height: 25px;
+}
+
+.xia {
+    width: 75px;
+    height: 25px;
+}
+
+
+/* 文字部分的右边图片 */
+
+.tutu {
+    width: 320px;
+    height: 700px;
+}
+
+.chun {
+    display: inline-block;
+    width: 320px;
+    height: 220px;
+    margin-bottom: 10px;
+    background: url(../images/图层-2_03.jpg) no-repeat;
+}
+
+.kao {
+    display: inline-block;
+    width: 320px;
+    height: 220px;
+    margin-bottom: 10px;
+    background: url(../images/图层-2_06.jpg) no-repeat;
+}
+
+.zixun {
+    width: 298px;
+    height: 218px;
+    padding: 0px 10px;
+    /* text-align: center; */
+    border: 1px solid #DDDDDD;
+}
+
+.zuixin {
+    height: 38px;
+    line-height: 38px;
+    color: #666666;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.zuixin a {
+    color: #666666;
+    font-size: 16px;
+}
+
+.biao {
+    height: 163px;
+    padding-top: 10px;
+}
+
+.p4 {
+    color: #BCBCBC;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.p3 {
+    margin-bottom: 5px;
+}
+
+.p3 a {
+    color: #595959;
+    font-size: 14px;
+}
+
+
+/* 底部 */
+
+.foot {
+    width: 1922px;
+    height: 287px;
+    margin: 0 auto;
+    background-color: #264252;
+}
+
+.weibu {
+    margin: 0 auto;
+    width: 1090px;
+    height: 267px;
+    padding-top: 20px;
+    padding-left: 110px;
+}
+
+
+/* 第一个ul标签 */
+
+.ul li {
+    list-style: none;
+}
+
+.ul .ye {
+    color: #fff;
+}
+
+.ul a {
+    color: #C0C7CE;
+}
+
+.ul {
+    margin-right: 15px;
+}
+
+.ul .diyi {
+    font-size: 14px;
+}
+
+.ul .lili1 {
+    margin-bottom: 10px;
+}
+
+.ul .lili2 {
+    margin-bottom: 10px;
+}
+
+.ul .dier {
+    font-size: 13px;
+}
+
+.shou2 {
+    width: 30px;
+}
+
+.guan2 {
+    width: 60px;
+}
+
+.guan3 {
+    width: 85px;
+}
+
+.guan4 {
+    width: 60px;
+}
+
+.guan5 {
+    width: 80px;
+}
+
+
+/* 右边的二维码 */
+
+.dizhi {
+    width: 320px;
+    height: 245px;
+    margin-right: 100px;
+}
+
+.dz {
+    width: 320px;
+}
+
+.gsdz {
+    font-size: 15px;
+    color: #C0C7CE;
+}
+
+.pp {
+    width: 240px;
+    font-size: 15px;
+    color: #C0C7CE;
+}
+
+.dz2 {
+    width: 320px;
+    margin-top: 20px;
+}
+
+.erweima {
+    width: 157px;
+    height: 170px;
+    background-color: #fff;
+}
+
+.toutou {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 3px;
+    text-align: center;
+    border-bottom: 1px solid #ADADAD;
+}
+
+.toutou a {
+    font-size: 14px;
+    color: #595959;
+}
+
+.erwi {
+    margin: 10px 20px 5px 30px;
+    width: 95px;
+    height: 95px;
+}
+
+.erweima p {
+    width: 157px;
+    text-align: center;
+    color: #616161;
+    font-size: 14px;
+}
+
+
+/* 下部的黑色部分 */
+
+.xiabu {
+    width: 1922px;
+    height: 45px;
+    margin: 0 auto;
+    line-height: 45px;
+    background-color: #171717;
+}
+
+.xiabu p {
+    text-align: center;
+    color: #919090;
+}
+
+.xiabu span {
+    font-size: 12px;
+    margin-right: 20px;
+}

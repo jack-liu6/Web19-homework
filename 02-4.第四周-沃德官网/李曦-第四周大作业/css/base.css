@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+/*导航栏字体*/
+.font-nav {
+	font-size: 18px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.font-banner {
+	font-size: 38px;
+	font-weight: 700;
+	color: #fff;
+}
+/*小标题字体*/
+.font-title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #474747;
+}
+/*英文小标题字体*/
+.font-subtitle {
+	font-size: 24px;
+	font-weight: normal;
+	color: #a7acb0;
+}
+/*info-content字体*/
+

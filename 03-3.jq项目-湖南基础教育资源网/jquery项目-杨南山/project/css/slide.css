@@ -1,0 +1,60 @@
+/* 轮播图 */
+.box{
+    position: relative;
+    width: 500px;
+    height: 235px;
+    overflow: hidden;
+}
+.box ul{
+    position: absolute;
+    width: 1135px;
+    z-index: 1000;
+}
+.box ul li{
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 235px;
+}
+.box ul li img{
+    width: 500px;
+    height: 235px;
+}
+.box ul li:nth-child(1){
+    background: red;
+}
+.box ul li:nth-child(2){
+    background: blue;
+}
+.box ul li:nth-child(3){
+    background: pink;
+}
+.box ul li:nth-child(4){
+    background: green;
+}
+.box ul li:nth-child(5){
+    background: black;
+}
+.box .do{
+    position: absolute;
+    bottom: 5px;
+    right: 6px;
+    z-index: 10001;
+}
+.box .do a{
+    display: block;
+    float: left;
+    /* width: 15px;
+    height: 15px; */
+    padding:3px 10px;
+    margin: 0 5px;
+    background: #ccc;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+}
+.box .do a.active{
+    background: #fff;
+}

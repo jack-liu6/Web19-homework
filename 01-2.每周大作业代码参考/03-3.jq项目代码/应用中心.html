@@ -1,0 +1,851 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>应用中心_湖南省基础教育资源网</title>
+<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+<link type="text/css" rel="stylesheet" href="css/global.css"/> 
+<link rel="shortcut icon" type="image/x-icon" href="img/fav.ico" />
+<link rel="bookmark" type="image/x-icon" href="img/fav.ico" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/styleswitch.js"></script><!--根据cookie换肤 blue默认，orange为橙色-->
+<link type="text/css" rel="stylesheet" href="css/skin_blue.css" title="s1" /> 
+<link type="text/css" rel="stylesheet" href="css/skin_orange.css" title="s2" /> 
+<script type="text/javascript" src="js/function.js"></script>
+<script type="text/javascript" src="js/plugins/changeArea.js"></script>
+<script type="text/javascript" src="js/plugins/drop.nav.js"></script>
+<script type="text/javascript" src="js/plugins/jcarousel.min.js"></script>
+<script type="text/javascript" src="js/plugins/tooltips.min.js"></script>
+</head>
+
+<body>
+<div class="topNav">
+	<div class="topNavInner brown">
+        <div class="fl">
+            欢迎您，<b>杨益军</b>&nbsp;(<a href="#" class="message">2</a>)&nbsp;|&nbsp;
+            <a href="#">个人中心</a>&nbsp;|&nbsp;
+            <a href="#">我的空间</a>&nbsp;|&nbsp;
+            <a href="#">我的购物车</a>&nbsp;|&nbsp;
+            <a href="#">后台管理</a>&nbsp;|&nbsp;
+            <a href="#">注销</a>            
+        </div>
+        <div class="fr">
+            <a href="javascript:bookmarkit()" >收藏首页</a>&nbsp;|&nbsp;
+            <a href="#">帮助中心</a>&nbsp;|&nbsp;
+            <span>换肤</span>&nbsp;&nbsp;
+            <a href="#" class="styleswitch skin_blue" rel="s1">&nbsp;</a>
+            <a href="#" class="styleswitch skin_orange" rel="s2">&nbsp;</a>               
+        </div>     
+    </div>   
+</div>
+
+<div class="header clearfix">
+	<div class="logo fl"><a href="/" title="首页"><img src="img/logo.png" width="363" height="80" alt="湖南省基础教育资源网" /></a></div>
+    <div class="area fl">
+    	<h4>省中心</h4>
+        <div class="changeArea">
+        	<a href="javascript:" rel="area" id="area_a" title="点击切换地区">切换市县</a>
+        </div>
+        <!--切换区域-->
+        <div class="acss" id="area">
+            <div class="arealist">
+            	<div class="ca">
+                    <a href="#" class="st on">省中心</a> 
+                    <a href="#" class="st">长沙</a> 
+                    <a href="#" class="st">株洲</a>
+                    <a href="#" class="st">湘潭</a> 
+                    <a href="#" class="st">衡阳</a> 
+                    <a href="#" class="st">邵阳</a> 
+                    <a href="#" class="st">岳阳</a>    
+                    <a href="#" class="st">常德</a> 
+                    <a href="#" class="st">张家界</a> 
+                    <a href="#" class="st">益阳</a>
+                    <a href="#" class="st">郴州</a> 
+                    <a href="#" class="st">永州</a> 
+                    <a href="#" class="st">怀化</a> 
+                    <a href="#" class="st">娄底</a>    
+                    <a href="#" class="st">湘西</a>                                                                               
+                </div>
+                <dl>
+                	<dt>对应区县</dt>
+                    <dd class="cTab">
+                    	<div class="showThis">
+                        	无
+                        </div>                    
+                    	<div class="showThis">
+                            <a href="#">岳麓区</a> 
+                            <a href="#">芙蓉区</a> 
+                            <a href="#">天心区</a> 
+                            <a href="#">雨花区</a> 
+                            <a href="#">开福区</a>
+                            <a href="#">望城区</a> 
+                            <a href="#">宁乡县</a> 
+                            <a href="#">长沙县</a> 
+                            <a href="#">浏阳市</a> 
+                            <a href="#">全部</a> 
+                        </div>  
+                    	<div class="showThis">
+                            <a href="#">雨湖区</a> 
+                            <a href="#">天元区</a> 
+                            <a href="#">攸县</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">雨湖区</a> 
+                            <a href="#">湘潭</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">蒸湘区</a> 
+                            <a href="#">南山</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">邵阳县</a> 
+                            <a href="#">邵阳</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">岳阳楼区</a> 
+                            <a href="#">岳阳市</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">常德市</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">张家界</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">益阳</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">苏仙区</a> 
+                            <a href="#">北湖区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">永州</a> 
+                            <a href="#">道县</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">怀化市</a> 
+                            <a href="#">天元区</a> 
+                        </div>                        
+                    	<div class="showThis">
+                            <a href="#">娄底</a> 
+                            <a href="#">天元区</a> 
+                        </div>
+                    	<div class="showThis">
+                            <a href="#">湘西</a> 
+                            <a href="#">凤凰</a> 
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="search fr">
+        <form action="" name="form" class="fl">
+            <div class="searchBox">
+                <div id="divselect">
+                  <cite>国家资源网</cite>
+                  <ul>
+                     <li><a href="javascript:" selectid="1">国家资源网</a></li>
+                     <li><a href="javascript:" selectid="2">站内资源</a></li>
+                  </ul>
+                </div>
+                <input name="" type="hidden" value="" id="inputselect" />                                    
+                <input name="keyword" type="text" class="txt" id="keyword" value="请输入搜索关键字" size="32" />  
+                <input type="submit" name="schBtn" class="schBtn" value="" />
+            </div>            
+        </form>  
+        <div class="searchTip fr"><a href="#">高级搜索</a></div>
+    </div>
+</div>
+
+<div class="nav clearfix">
+    <ul class="navInner">
+        <li class="fm"><a href="index.html">首  页</a></li>
+        <li class="fm"><a href="资源中心.html">资源中心</a>
+            <ul class="subNav">
+                <li><a href="#">公共资源</a></li>
+                <li><a href="#">市场资源</a></li>
+                <li><a href="#">同盟资源</a></li>
+                <li><a href="#">本地资源</a></li>
+            </ul>
+        </li>
+        <li class="fm"><a href="教师空间.html">教师空间</a></li>
+        <li class="fm"><a href="在线备课.html">在线备课</a></li>
+        <li class="fm"><a href="名师工作室.html">名师工作室</a></li>
+        <li class="fm current last"><a href="应用中心.html">应用中心</a></li>
+    </ul>       
+</div>
+
+<div class="wrapper mt10 clearfix">
+	 <div class="appLeft fl">
+     	<ul class="appMenu tabTt">
+        	<li class="tabOn allApp"><a href="javascript:">全部应用</a></li>
+            <li class="recApp"><a href="javascript:">推荐应用</a></li>
+            <li class="freeApp"><a href="javascript:">免费应用</a></li>
+            <li class="feeApp"><a href="javascript:">收费应用</a></li>
+        </ul>
+     </div>
+     <div class="appRight tabBd fr">
+     	<!--全部应用，请注意差别-->
+     	<div class="showThis" style="display:block">
+        	<!--全部应用中的推荐应用-->
+        	<div class="mod">
+            	<div class="tt mb10"><h4>推荐应用</h4></div>
+                <div class="bd">
+                    <ul class="ul_it appBoxjcarousel">
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律" /></a>
+                                <p><strong><a href="#">公式定律</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律" /></a>
+                                <p><strong><a href="#">公式定律</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                   
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典" /></a>
+                                <p><strong><a href="#">图解词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                   
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典" /></a>
+                                <p><strong><a href="#">汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                               
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /></a>
+                                <p><strong><a href="#">公式词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>      
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典" /></a>
+                                <p><strong><a href="#">汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典" /></a>
+                                <p><strong><a href="#">汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                            
+                        </li>                                                
+                    </ul>                	
+                </div>
+            </div>
+            <!--全部应用中的免费应用-->
+            <div class="mod">
+            	<div class="tt mb10"><h4>免费应用</h4></div>
+                <div class="bd">
+                    <ul class="ul_it appBoxjcarousel">
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律" /></a>
+                                <p><strong><a href="#">公式定律</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律" /></a>
+                                <p><strong><a href="#">公式定律</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                   
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典" /></a>
+                                <p><strong><a href="#">图解词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                   
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典" /></a>
+                                <p><strong><a href="#">汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                               
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /></a>
+                                <p><strong><a href="#">公式词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>      
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                    </ul>                	
+                </div>
+            </div>   
+            <!--全部应用中的收费应用-->
+            <div class="mod">
+            	<div class="tt mb10"><h4>收费应用</h4></div>
+                <div class="bd">
+                    <ul class="ul_it appBoxjcarousel">
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典" /></a>
+                                <p><strong><a href="#">图解词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                   
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_02.png" width="70" height="70" alt="汉语词典" /></a>
+                                <p><strong><a href="#">汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                               
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /></a>
+                                <p><strong><a href="#">公式词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>      
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                    </ul>                	
+                </div>
+            </div>                     
+        </div>
+        <!--推荐应用，多了recAppBox,少了appBoxjcarousel，并且一个li中只有一个imgTxt-->
+        <div class="showThis">
+            <div class="mod recAppBox">
+            	<div class="tt mb10"><h4>推荐应用</h4></div>
+                <div class="bd">
+                    <ul class="ul_it">
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律" /></a>
+                                <p><strong><a href="#">公式定律</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典" /></a>
+                                <p><strong><a href="#">图解词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /></a>
+                                <p><strong><a href="#">公式词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                        </li>   
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>                                                                     
+                    </ul>                	
+                </div>
+            </div>                    	
+        </div>
+        <!--免费应用，多了freeAppBox,少了appBoxjcarousel，并且一个li中只有一个imgTxt-->
+        <div class="showThis">
+            <div class="mod freeAppBox">
+            	<div class="tt mb10"><h4>免费应用</h4></div>
+                <div class="bd">
+                    <ul class="ul_it">
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>                                                                                         
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_07.png" width="70" height="70" alt="公式定律" /></a>
+                                <p><strong><a href="#">公式定律</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典" /></a>
+                                <p><strong><a href="#">图解词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /></a>
+                                <p><strong><a href="#">公式词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                        </li>   
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>                                                                     
+                    </ul>                	
+                </div>
+            </div>        	
+        </div>
+        <!--收费应用，多了feeAppBox,少了appBoxjcarousel，并且一个li中只有一个imgTxt-->        
+        <div class="showThis">
+            <div class="mod feeAppBox">
+            	<div class="tt mb10"><h4>收费应用</h4></div>
+                <div class="bd">
+                    <ul class="ul_it">
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>                                                                                         
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_06.png" width="70" height="70" alt="图解词典" /></a>
+                                <p><strong><a href="#">图解词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_05.png" width="70" height="70" alt="新华词典" /></a>
+                                <p><strong><a href="#">新华词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div> 
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_04.png" width="70" height="70" alt="公式词典" /></a>
+                                <p><strong><a href="#">公式词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-half"></b><b class="ic ic-star-s-off"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>    
+                        </li>   
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_03.png" width="70" height="70" alt="古汉语词典" /></a>
+                                <p><strong><a href="#">古汉语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                              
+                        </li>
+                        <li>
+                            <div class="imgTxt">
+                                <a class="toolTips" href="javascript:" rel="tipBox"><img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" /></a>
+                                <p><strong><a href="#">成语词典</a></strong></p>
+                                <div class="mark_list">
+                                    <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                                </div>
+                                <p><em class="red">32323</em>&nbsp;人使用</p>                            
+                            </div>                                                                    
+                        </li>                                                                     
+                    </ul>                	
+                </div>
+            </div>        	
+        </div>
+		<script type="text/javascript">
+			//调用jcarousel
+            $(".appBoxjcarousel").jcarousel();
+			//调用tipBox(toolTips)
+			$(".toolTips").powerFloat({showDelay:100,hideDelay:100, position: "4-1",edgeAdjust:false});
+        </script>                  	                                 	        
+     </div>
+</div>  
+<!--鼠标经过应用弹出层--> 
+<div id="tipBox" style="display:none">
+	<div class="tipInnerBox">
+        <div class="imgTxt">
+            <img src="img/pic/app_01.png" width="70" height="70" alt="成语词典" />
+            <p><strong><a href="#">成语词典</a></strong></p>
+            <div class="mark_list">
+                <span title="4分，11人评"><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b><b class="ic ic-star-s-on"></b></span>
+                <span>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<em class="red">32323</em>&nbsp;人使用</span>
+            </div>
+            <p><a href="#"><img src="img/add_space_btn.png" width="85" height="26" alt="添加到空间" /></a>
+               <!--只有收费资源才显示立即购买--><a href="#"><img src="img/buy_now_btn.png" width="78" height="26" alt="立即购买" /></a>
+            </p>                            
+        </div> 
+        <div class="appDescription gray">学单词，用海词，海词词典是最好用的学习词典，释义更准确更清晰，独家拥有详尽的用法和讲解，比其它词典更快掌握每个词。软件共收录2000万词汇，除具有“查词、翻译、背单词、每日学习”等功能外，个性设置为...</div>
+    </div>
+</div>
+
+<div class="footer">
+    	<p>湖南省基础教育资源平台版权所有&nbsp;&nbsp;站内资源仅限于教育系统内部使用</p>
+		<p>电话：0731-82220187&nbsp;&nbsp;企业QQ号:800009196&nbsp;&nbsp;邮箱：hnszyzx@126.com</p> 
+        <p>地址:湖南省长沙市文运街23号&nbsp;&nbsp;邮编410005</p> 
+        <p>湘教QS1-200505-00101</p>
+</div>
+
+</body>
+</html>

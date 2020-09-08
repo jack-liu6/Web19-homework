@@ -1,0 +1,341 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.nav{
+	width: 100%;
+	height: 80px;
+	background-color: #082939;
+}
+.logo{
+	display: inline-block;
+	width: 200px;
+	height: 45px;
+	text-decoration: none;
+	float: left;
+	margin: 17.5px 0 17.5px 210px;
+}
+.logo img{
+	width: 200px;
+	height: 45px;
+	line-height: 45px;
+}
+.top{
+	float: left;
+	width: 700px;
+	height: 50px;
+	margin: 15px 0 15px 70px;
+}
+.top li{
+	width: 70px;
+	height: 50px;
+	float: left;
+	margin: 0 15px;
+	line-height: 50px;
+	list-style-type: none;
+}
+.top li a{
+	display: inline-block;
+	width: 70px;
+	height: 50px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.top li a:hover {
+	color: #E4880A;
+}/*手指摸上去变颜色*/
+.top .top_one{
+	width: 40px;
+	height: 50px;
+}
+.top .top_one a{
+	width: 40px;
+	height: 50px;
+	text-align: center;
+}
+.main1{
+	width: 650px;
+	overflow: auto;
+	margin-left: 150px;
+}
+/*.main1:after{
+        	height:0;
+        	content:" ";
+        	display:block;
+        	clear:both;
+}
+/*IE6的兼容写法*/
+/*.main1{
+	*zoom:1;
+}*/
+.div1{
+	width: 650px;
+	height: 30px;
+	background-color: #F3F3F3;
+	margin-top: 40px;
+}
+.span1{
+	display: inline-block;
+	width: 10px;
+	height: 30px;
+	background-color: #E9E9E9;
+	float: left;
+}
+.span2{
+	display: inline-block;
+	font-size: 14px;
+	color: #666666;
+	float: left;
+	margin-left: 10px;
+	margin-top: 5.5px;
+}
+.big{
+	font-size: 20px;
+	text-align: center;
+	margin: 20px 0;
+}
+.div2{
+	width: 650px;
+	height: 58px;
+	border-top: 1px dashed #999999;
+	border-bottom: 1px dashed #999999;
+	margin-bottom: 30px;
+}
+.one{
+	text-align: center;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.one1{
+	color:#999999; 
+}
+.div3 p{
+	margin-bottom: 30px;
+}
+.div3 img{
+	width: 650px;
+	height: 250px;
+	margin-top: 50px;
+}
+.div3 .lvse{
+	color: #6BBA8B;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.div4 .two{
+	margin-bottom: 30px;
+}
+.div5{
+	margin: 50px 0;
+}
+.div5 img{
+	display: inline-block;
+}
+.div5 .lianjie{
+	display: inline-block;
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+.div5 p a{
+	color: black;
+}
+.div5 .huise{
+	color: #666666;
+	margin-bottom: 20px;
+}
+.div5 .small{
+	font-size: 14px;
+	margin-bottom: 7px;
+}
+.div5 .small1{
+	font-size: 14px;
+	margin-top: 30px;
+	margin-bottom: 7px;
+}
+.main2{
+	width: 339px;
+	overflow: auto;
+	position: absolute;
+	right: 150px;
+    top: 80px;
+}
+/*.main2:after{
+        	height:0;
+        	content:" ";
+        	display:block;
+        	clear:both;
+}*/
+/*IE6的兼容写法
+.main2{
+	*zoom:1;
+}*/
+.main2 img{
+	width: 339px;
+	height: 232px;
+}
+.main2 .img1{
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.main2 .divv{
+	width: 337px;
+	height:275px;
+	border: 1px solid #DDDDDD;
+	margin-top: 10px;
+	position: relative;
+}
+.divv .zx{
+	display: inline-block;
+	color: #666666;
+	margin: 15px 10px;
+}
+.divv .mo{
+	display: inline-block;
+	font-size: 13px;
+	position:absolute;
+	right: 10px;
+	top: 15px; 
+}
+.divv .hx{
+	width: 320px;
+	border-top: 1px solid #DDDDDD;
+	margin-left: 9.5px;
+	margin-top: 0;
+}
+.divv p{
+	font-size: 13px;
+	margin-left: 9.5px;
+	margin-top: 15px;
+}
+.main7{
+	width: 100%;
+	height: 300px;
+	background-color: #264252;
+	position: relative;
+}
+.main7 a{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.sy{
+	position: absolute;
+	left: 100px;
+	top: 40px;
+}
+.gy{
+	position: absolute;
+	left: 150px;
+	top: 40px;
+}
+.gy>li:hover .gy1{
+	display: block;
+}/*鼠标摸上去显示二级菜单*/
+.gy1{
+	margin-top: 10px;
+	/*display: none;*/
+	font-size: 14px;
+}
+.gy1 li{
+	margin-bottom: 10px;
+}
+.wfde{
+	position: absolute;
+	left: 233px;
+	top: 40px;
+}
+.wfde>li:hover .gy1{
+	display: block;
+}
+.zn{
+	position: absolute;
+	left: 350px;
+	top: 40px;
+}
+.zn>li:hover .gy1{
+	display: block;
+}
+.js{
+	position: absolute;
+	left: 435px;
+	top: 40px;
+}
+.js>li:hover .gy1{
+	display: block;
+}
+.zs{
+	position: absolute;
+	left: 520px;
+	top: 40px;
+}
+.zs>li:hover .gy1{
+	display: block;
+}
+.xw{
+	position: absolute;
+	left: 605px;
+	top: 40px;
+}
+.xw>li:hover .gy1{
+	display: block;
+}
+.sw{
+	position: absolute;
+	left: 690px;
+	top: 40px;
+}
+.sw>li:hover .gy1{
+	display: block;
+}
+.sd{
+	position: absolute;
+	right: 100px;
+	top: 40px;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.sd1{
+	position: absolute;
+	right: 270px;
+	top: 70px;
+	color: #FFFFFF;
+	font-size: 15px;
+}
+.ewm{
+	position: absolute;
+	right: 140px;
+	bottom: 20px;
+}
+.main8{
+	width: 100%;
+	height: 50px;
+	position: relative;
+	background-color: #171717;
+}
+.main8 p{
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.bq{
+	position: absolute;
+	left: 350px;
+	top: 15px;
+}
+.ba{
+	position: absolute;
+	left: 600px;
+	top: 15px;
+}
+.zc{
+	position: absolute;
+	right: 350px;
+	top: 15px;
+}

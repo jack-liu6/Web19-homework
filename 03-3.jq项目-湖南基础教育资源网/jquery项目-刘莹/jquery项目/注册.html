@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/zhuce.css">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/Date/laydate.js"></script>
+    <script src="js/zhuce.js"></script>
+</head>
+
+<body>
+    <div class="zhuce">
+        <div class="wt980">
+            <!-- logo图 -->
+            <div class="tou tc clearfix">
+                <a href="#" class="tc logoa">
+                </a>
+                <span class="font20 logospan ml20 img">
+                    基础管理平台
+                </span>
+            </div>
+            <!-- 中间的主体部分 -->
+            <div class="zhuti wt980 mt10 posir">
+                <!-- 上面的导航栏 -->
+                <div class="daohang">
+                    <span class="label tc fb zhucespan zhucelan">
+                        学生注册
+                    </span>
+                    <span class="label tc fb zhucespan ml5">
+                        教师注册
+                    </span>
+                </div>
+                <div class="clearfix zcyanzheng posir">
+                    <!-- 学生注册的弹出框 -->
+                    <div class="clearfix chu xuesheng ">
+                        <div class="fl zuce">
+                            <form action="#" name="xue" id="mtmy">
+                                <div class="yonghuming ">
+                                    <span class="mr5 fl img yanspan tr">
+                                        用户名:
+                                    </span>
+                                    <input type="text" class="fl ming" name="ming">
+                                    <label for="ming" class="lab tl"><span class="xin ml5 img fb mr5">*</span>只允许为字母、下划线和数字</label>
+                                </div>
+                                <div class="yonghuming mt10">
+                                    <span class="mr5 img yanspan fl tr">
+                                        密码:
+                                    </span>
+                                    <input type="password" class="fl" id="passd" name="mima">
+                                    <label for="mima" class="lab tl"><span class="xin ml5 img fb mr5">*</span>密码长度必须在6-12个字符之间</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan fl tr">
+                                        确定密码:
+                                    </span>
+                                    <input type="password" class="fl" name="qdmima">
+                                    <label for="qdmima" class="lab tl"><span class="xin ml5 img fb mr5">*</span>请再输一次密码</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan tr fl">
+                                        真实姓名:
+                                    </span>
+                                    <input type="text" class="fl" name="xingming">
+                                    <label for="xingming" class="lab tl"><span class="xin ml5 img fb mr5">*</span>非真实姓名学校管理员将停用账号</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan tr fl">
+                                        身份证号码:
+                                    </span>
+                                    <input type="text" class="fl" name="haoma">
+                                    <label for="haoma" class="lab tl  ml10">请填写真实身份证号码</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan fl  tr">
+                                        性别:
+                                    </span>
+                                    <label for="" class="fl mt5 mr10">
+                                        <input type="radio" class="fl img xingbie" name="gender">男性
+                                    </label>
+                                    <label for="" class="fl mt5">
+                                        <input type="radio" class="fl img xingbie" name="gender">女性
+                                    </label>
+                                    <span class="xin ml5 img fb fl mt5 mr5">*</span>
+                                    <label for="gender" class="lab tl mt5  red ml10"></label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan tr fl">
+                                        取回密码时的问题:
+                                    </span>
+                                    <input type="text" class="fl" name="wenti">
+                                    <label for="wenti" class="lab tl "><span class="xin ml5 img fb mr5">*</span>忘记密码时，可通过该问题取回您的密码</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan tr fl">
+                                        取回密码时的答案:
+                                    </span>
+                                    <input type="text" class="fl" name="daan">
+                                    <label for="daan" class="lab tl "><span class="xin ml5 img fb mr5">*</span>取回密码时问题的答案</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan tr fl">
+                                        生日:
+                                    </span>
+                                    <input type="text" id="riqi" class="fl" name="sheng">
+                                    <label for="sheng" class="lab tl ml10">请选择你的生日</label>
+                                </div>
+                                <div class="yonghuming mt10 ">
+                                    <span class="mr5 img yanspan tr fl">
+                                        邮箱:
+                                    </span>
+                                    <input type="text" class="fl" name="mail">
+                                    <label for="mail" class="lab tl ml10">请输入有效的电子邮箱地址</label>
+                                </div>
+                                <div class="tijiao  mt20">
+                                    <input type="submit" class="fb font14" value="立即注册">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="fr zhanghao">
+                            <div class="mt20 pl20">
+                                <p class="zhanghaop tc">
+                                    <span class="gray">已有资源网账号,</span>
+                                    <a href="#" class="liji font14">立即登录></a>
+                                </p>
+                                <div class="mt20 ml10 bo">
+                                    <div class="xinban  posir">
+                                        <p class="bubian mt20 tc ">
+                                            账号不变、资源扩张、功能升级
+                                        </p>
+                                        <ul class=" xinbanul">
+                                            <li class="clearfix">
+                                                <span class="shu tc fl img mr5">01</span>
+                                                <span>全面的学科和专题资源</span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span class="shu tc fl img mr5">02</span>
+                                                <span>同步更新的海量名校优质资源</span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span class="shu tc fl img mr5">03</span>
+                                                <span>个性化个人空间，多套模板各种风格任你换</span>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span class="shu tc fl img mr5">04</span>
+                                                <span>收费低，让人人都能享有名校优质教育资源</span>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="guwei tc fb font16">
+                                            新版资源网
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 教师注册的弹出框啊 -->
+                    <div class="jiashi chu none mt10">
+                        <div class="kua">
+                            <p class="ppp">
+                                <span class="fb zc font14">快速注册</span>
+                                <span class="ml20 img mr5">切换至</span>
+                                <a href="#" class="zuc img">邮箱注册</a>
+                                <span class="ml10 mr5 img">或 </span>
+                                <a href="#" class="zuc img">手机注册</a>
+                            </p>
+
+                        </div>
+                        <div class="jsdl clearfix">
+                            <div class="fl jiaoform">
+                                <form action="#" id="jiaosf" name="jiaosf">
+                                    <div class="jshm clearfix">
+                                        <span class="fl img font16 mr10 m">
+                                                用户名:
+                                            </span>
+                                        <input type="text" class="fl" name="name">
+                                        <label for="name" class="lav lf">
+                                                4-16个字符，1个汉字为2个字符
+                                            </label>
+                                    </div>
+                                    <div class="jshm mma mt20 clearfix">
+                                        <span class="fl img font16 mr10 m">
+                                                设置密码:
+                                            </span>
+                                        <input type="password" id="que" class="fl" name="pass">
+                                        <label for="pass" class="lav ml20">
+                                                
+                                            </label>
+                                    </div>
+                                    <div class="jshm mma mt20 clearfix">
+                                        <span class="fl img font16 mr10 m">
+                                                确定密码:
+                                            </span>
+                                        <input type="password" class="fl" name="passque">
+                                        <label for="passque" class="lav ml20">
+                                                
+                                            </label>
+                                    </div>
+                                    <div class="jshm mma mt20 clearfix">
+                                        <span class="fl img font16 mr10 m">
+                                                邮箱地址:
+                                            </span>
+                                        <input type="text" class="fl " name="dizhi">
+                                        <label for="dizhi" class="lav ml20 ">
+                                                
+                                            </label>
+                                    </div>
+                                    <div class="mt20 jieshou ml20 ">
+                                        <input type="checkbox" class="ml20 checkbox" id="agree" name="agree">
+                                        <label for="agree">我接受<a href="#">《猪八戒网服务协议（运行）》</a></label>
+                                    </div>
+                                    <div class="chenggong mt20">
+                                        <input type="submit" value="注册" class="font16">
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="fl zhubaj">
+                                <p class="fb yy font16 ml10">已有猪八戒网账号</p>
+                                <a href="登录.html" target="get" class="tc fb mt10 font14 ll ml10">立即登录</a>
+                                <p class="mt20 font14 color yy ml10">
+                                    猪八戒网是全球领先的创意服务交易平台，在这里您可以：
+                                </p>
+                                <p class="mt10 ping font14 ml10">凭自己的一技之长，赚取真金白银</p>
+                                <p class="gray mt5 ml5">
+                                    已有<span class="zi">412390</span> 人在猪八戒网上获得收入，共领走
+                                    <span class="zi">1322064997</span> 元赏金。
+                                    <a href="#" class="qian">我要赚钱</a>
+                                </p>
+                                <p class="mt10 ping font14 ml10">发布需求，获得七百万威客帮助</p>
+                                <p class="gray mt5 ml5">
+                                    已有<span class="zi">412390</span> 人在猪八戒网上获得收入，共领走
+                                    <span class="zi">1322064997</span> 元赏金。
+                                    <a href="#" class="qian">立即发布需求</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- 立即登录时的弹出框 -->
+                <div class="wei posir none ">
+                    <div class="juedui none ">
+                        <div class="denglu posir ">
+                            <span class="cha label ">×</span>
+                            <form action="# " name="denglu">
+                                <div class="yon mt20 ">
+                                    <span class="mr10 img ">用户名:</span>
+                                    <input type="text " name="yonghuming ">
+                                </div>
+                                <div class="yon mt10 ">
+                                    <span class="mr10 img ">密&nbsp;&nbsp;&nbsp;码:</span>
+                                    <input type="password " name="mi ">
+                                </div>
+                                <div class="yon mt10 ml20 ">
+                                    <span class="mr10 img mr10 ">&nbsp;</span>
+                                    <input type="submit " name="den " class="ml20 dengsub tc label" value="登录 ">
+                                </div>
+                            </form>
+                            <div class="mt20 buliao clearfix ">
+                                <a href="# " class="fl ">忘记密码</a>
+                                <span class="fl ml10 mr10 img ">|</span>
+                                <a href="# " class="fl ">登录不了怎么办?</a>
+                            </div>
+                            <div class="mt20 ruguo ">
+                                <ul class="ml20 ">
+                                    <li>如果您还不是会员请按此<br></br>
+                                        <a href="#" class="mt10">注册成为我们的会员</a>
+                                    </li>
+                                    <li class="keg ">客户服务专线：<br></br>
+                                        <a href="# " class="mt10 ">1444</a>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="mt10 ml20 clearfix lainx ">
+                                <a href="# " class="mr5 fl ">联系我们</a>
+                                <span class="dou fl ">、</span>
+                                <a href="# " class="fl ">意见反馈</a>
+                            </div>
+                            <div class="huiyuan ">
+                                <span class="tc fb ">个人会员登录</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 尾部 -->
+                <div class="foot wt980 ">
+                    <p class="weibu tc ">
+                        <span class="mr20 ">主办:浙江省教育厅</span>
+                        <span class="mr20 ">承办:浙江省教育技术中心</span>
+                        <span>本站资源仅限于教育系统内部使用</span>
+                    </p>
+                    <p class="weibu tc ">
+                        <span class="mr20 ">浙ICP备05000083号</span>
+                        <span class="mr20 ">最佳分辨率：1024×736</span>
+                        <span>建议使用火狐、谷歌浏览器</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

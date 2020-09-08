@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到师库视频详情页！</title>
+    <!-- 这里引入公共样式表 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 这里引入详情页样式表 -->
+    <link rel="stylesheet" href="css/detail.css">
+    <!-- 这里实现JS代码 -->
+    <script src="js/detail.js" defer="defer"></script>
+</head>
+
+<body>
+    <!-- 设置顶部的容器 -->
+    <div class="header-wrapper">
+        <!-- 设置顶部 -->
+        <div class="header wt980 clearfix pore">
+            <!-- 设置logo的容器 -->
+            <div class="logo-wrapper fl ml5 mr15 mt5"></div>
+            <!-- 设置顶部导航菜单 -->
+            <ul class="nav-top clearfix fl font12 lh30">
+                <li class="fl line">
+                    <a href="index.html">
+                        首页
+                    </a>
+                </li>
+                <li class="fl line">
+                    <a href="#">
+                        师库课件
+                    </a>
+                </li>
+                <li class="fl line">
+                    <a href="#">
+                        师库教案
+                    </a>
+                </li>
+                <li class="fl line">
+                    <a href="#">
+                        师库试卷
+                    </a>
+                </li>
+                <li class="fl line">
+                    <a href="#">
+                        教学视频
+                    </a>
+                </li>
+                <li class="fl">
+                    <a href="#">
+                        教学匠
+                    </a>
+                </li>
+            </ul>
+            <!-- 设置顶部的搜索框 -->
+            <div class="top-search font12 clearfix fr bgwhite  centery2">
+                <!-- 设置下拉列表 -->
+                <ul class="fl top-search-ul">
+                    <li class="clearfix pore" id="first">
+                        <a class="red2 fl pl5 " href="#">
+                            教学视频
+                        </a>
+                        <div class="top-search-down fr mr5 pore centery3"></div>
+                    </li>
+                    <li class="lh19">
+                        <a class="pl5" href="index.html">
+                            首页
+                        </a>
+                    </li>
+                    <li class="lh19">
+                        <a class="pl5" href="#">
+                            师库课件
+                        </a>
+                    </li>
+                    <li class="lh19">
+                        <a class="pl5" href="#">
+                            师库教案
+                        </a>
+                    </li>
+                    <li class="lh19">
+                        <a class="pl5" href="#">
+                            教学视频
+                        </a>
+                    </li>
+                    <li class="lh19">
+                        <a class="pl5" href="#">
+                            教书匠
+                        </a>
+                    </li>
+                    <li class="lh19">
+                        <a class="pl5" href="#">
+                            师说论坛
+                        </a>
+                    </li>
+                </ul>
+                <!-- 设置输入框 -->
+                <input class="top-search-input fl" type="text">
+                <!-- 设置搜索按钮 -->
+                <button class="top-search-button fr pointer font12">搜&nbsp;索</button>
+            </div>
+            <!-- 设置登录和注册的超链接 -->
+            <ul class="top-reg font12 fr centery2 lh30">
+                <li class="fl mr10">
+                    <a href="#">
+                        登录
+                    </a>
+                </li>
+                <li class="fl mr10">
+                    <a href="#">
+                        注册
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 设置主体的容器 -->
+    <div class="main-wrapper">
+        <!-- 设置主体 -->
+        <div class="main wt980">
+            <!-- 设置主体顶部 -->
+            <div class="main-top mb20">
+                <h1 class="pt20 pb10 font16"> 视频：凹凸镜的成像作用凹凸镜的成像作用</h1>
+                <div class="main-menu clearfix">
+                    <div class="main-menu-left fl font12">
+                        <a href="index.html">
+                            首页
+                        </a>
+                        >
+                        <a href="#">
+                            小学
+                        </a>
+                        >
+                        <a href="#">
+                            数学
+                        </a>
+                        >
+                        <a href="#">
+                            教学实录
+                        </a>
+                    </div>
+                    <div class="main-menu-right fr clearfix">
+                        <!-- 设置风云榜和我看过的 -->
+                        <a class="fengyun clearfix fl centery" href="#">
+                            <div class="fengyun-icon fl mr5"></div>
+                            <div class="fengyun-text fl orange2 font12 mr20">
+                                风云榜
+                            </div>
+                        </a>
+                        <!-- 设置我看过的 -->
+                        <span class="look clearfix fl centery pl5 pr5 pore">
+                            <div class="look-icon fl mr5"></div>
+                            <div class="look-text fl orange2 font12">
+                                我看过的
+                            </div>
+                            <div class="look-down fl"></div>
+                            <div class="look-father bgwhite none">
+                                <div class="bo"></div>
+                                <div class="look-menu font12 bgwhite">
+                                    <!-- 设置播放历史 -->
+                                    <ol class="look-menu-ol1">
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <span class="">
+                                                视频历史一
+                                            </span>
+                                            <span class="fr">
+                                                <span class=" gray15 vam">
+                                                    重播
+                                                </span>
+                                                <div class="li-close vam inline ml5 mr5">
+
+                                                </div>
+                                            </span>
+                                        </li>
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <span class="">
+                                                视频历史二
+                                            </span>
+                                            <span class="fr">
+                                                <span class=" gray15 vam">
+                                                    重播
+                                                </span>
+                                                <div class="li-close vam inline ml5 mr5">
+                                                </div>
+                                            </span>
+                                        </li>
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <span class="">
+                                                视频历史三
+                                            </span>
+                                            <span class="fr">
+                                                <span class=" gray15 vam">
+                                                    重播
+                                                </span>
+                                                <div class="li-close vam inline ml5 mr5">
+
+                                                </div>
+                                            </span>
+
+                                        </li>
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <span class="">
+                                                视频历史四
+                                            </span>
+                                            <span class="fr">
+                                                <span class=" gray15 vam">
+                                                    重播
+                                                </span>
+                                                <div class="li-close vam inline ml5 mr5">
+
+                                                </div>
+                                            </span>
+
+                                        </li>
+                                    </ol>
+                                    <p class="look-clearall tr font12 blue5 mt15 mb10">
+                                        清空播放历史
+                                    </p>
+                                    <div class="look-menu-b">
+                                        <h3 class="font12 blue6 lh18 mt5">
+                                            推荐视频
+                                        </h3>
+                                        <ol class="look-menu-ol2 font12 lh18">
+                                            <li class="clearfix font12 gray14 ml5 lh18">
+                                                <a href="#">
+                                                    推荐视频一
+                                                </a>
+                                            </li>
+                                            <li class="clearfix font12 gray14 ml5 lh18">
+                                                <a href="#">
+                                                    推荐视频二
+                                                </a>
+                                            </li>
+                                        </ol>
+                                        <div class="bgblue1 lh35 font12 mt5 mb5">
+                                            建议
+                                            <a href="#">
+                                                登录
+                                            </a>
+                                            后在不同电脑上同步观看历史
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <!-- 设置全部分类 -->
+                        <span class="clearfix pointer all-wrapper centery">
+                            <div class="look-icon fl mr5 ml15 all"></div>
+                            <div class="look-text fl orange2 font12">
+                                我看过的
+                            </div>
+                            <div class="look-down fl all-down"></div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置主体部分的内容 -->
+            <div class="main-content clearfix">
+                <!-- 设置主体内容的左边 -->
+                <div class="main-content-left fl clearfix">
+                    <!-- 设置播放视频的大图 -->
+                    <div class="main-content-left-top center">
+                        <img src="images/bofang.png" alt="">
+                    </div>
+                    <!-- 设置分享部分 -->
+                    <div class="share mt10 lh30 font12 pl10">
+                        评价：
+                        <div class="star inline vam pointer"></div>
+                        <div class="star inline vam pointer"></div>
+                        <div class="star inline vam pointer"></div>
+                        <div class="star inline vam pointer"></div>
+                        <div class="star inline vam pointer"></div>
+                        <span class="red fen mr30 inline" id="comment"></span>
+                        分享：
+                        <div class="icon inline vam icon1"></div>
+                        <div class="icon inline vam icon2"></div>
+                        <div class="icon inline vam icon3"></div>
+                        <div class="icon inline vam icon4"></div>
+                        <div class="icon inline vam icon5"></div>
+                        <div class="icon inline vam icon6"></div>
+                        <a class="down inline fr ml15 mr5 vam" href="#"></a>
+                        <a class="fr" href="#">
+                            错误举报
+                        </a>
+                    </div>
+                    <!-- 设置简介 -->
+                    <div class="short mt10">
+                        <h2 class="bgcolor12 fb font12 lh29 pl10">视频简介</h2>
+                        <div class="pl10 pr10 lh18 pt5 pb5 font12 gray21">
+                            语文出版社，语文 ，初中，七年级（上册），《空城计》课件（2），师库网精品多媒体课件，新课标新课程课时全配套，情境创设、
+                            新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标、突破教学重难点；多媒体资源素材（动画、视频、图片
+                            等）丰富，PowerPoint集成，方便教师二次开发。多媒体教室、电子白板全适用。
+                        </div>
+                    </div>
+                    <!-- 播放和下载说明 -->
+                    <div class="short mt10">
+                        <h2 class="bgcolor12 fb font12 lh29 pl10">播放和下载说明</h2>
+                        <div class="pl10 pr10 lh20 pt5 pb5 font12 gray21">
+                            <p>
+                                *如果您发现资源不能下载，请『
+                                <a class="blue9" href="#">
+                                    联系客服
+                                </a>
+                                』，谢谢！
+                            </p>
+                            <p>
+                                *未经本站明确许可，任何网站不得非法盗链及抄袭本站资源；如引用页面，请注明来自本站，谢谢您的支持！
+                            <p>
+                        </div>
+                    </div>
+                    <!-- 用户评论 -->
+                    <div class="short mt10">
+                        <h2 class="bgcolor12 font12 lh29 pl10"><span class="fb ">用户评论</span> <span class="fr">有 63235
+                                人参与 <a class="blue9" href="#">（点击参与）</a></span></h2>
+                        <div class="pl10 pr10 lh20 pt5 pb5 font12 gray21 clearfix">
+                            <textarea class="textarea"></textarea>
+                            <p class="clearfix"><span class="red" id="num">0</span>/200 字 （评论内容只代表网友观点，与本站立场无关！） <button class="fr c-submit pointer vam" type="submit"></button></p>
+                            <div class="coms">
+                                <!-- <div class="com lh16 mt20 pb15"><p class="clearfix mb10"><span class="blue10 mr5">标题：值得购买</span> 愤怒的小猪<span class="gray22">发表于2012-04-05 09:00</span><span class="fr">支持<span class="red">（0）</span><span class="gray22 ml5 mr5">|</span> 反对（0）</span></p><div>已经买了，非常精美，值得购买！</div></div> -->
+                                <!-- <div class="com lh16 mt20">
+                                    <p class="clearfix mb10">
+                                        <span class="blue10 mr5">标题：值得购买</span> 愤怒的小猪<span class="gray22">发表于2012-04-05 09:00</span>
+                                        <span class="fr">支持<span class="red">（0）</span><span class="gray22 ml5 mr5">|</span> 反对（0）</span>
+                                    </p>
+                                    <div>已经买了，非常精美，值得购买！</div>
+                                </div> -->
+                            </div>
+                            <p class="fr mt5 mb5">
+                                <a href="#">
+                                    查看更多评论》
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- 设置主体内容的右边 -->
+                <div class="main-content-right fr">
+                    <!-- 设置视频信息 -->
+                    <div class="video-message-wrapper">
+                        <h2 class="font12 fb bgcolor6 lh25 pl5">视频信息</h2>
+                        <div class="video-message pt10">
+                            <div class="message-top clearfix centery">
+                                <img class="fl ml5 mr10" src="images/smallpic.png" alt="">
+                                <div class="message-top-left fl">
+                                    <h3 class="font12 lh16 fb">
+                                        凹凸镜的成像作用凹凸...
+                                    </h3>
+                                    <p class="font12 lh16">
+                                        发布时间：2012-04-06
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="message-text ml5 font12 lh20 mt5">
+                            <p>分类：<a class="blue8" href="#">教学实录</a></p>
+                            <div class="clearfix">
+                                <div class="fl llft">
+                                    <p>播放数：2563 次</p>
+                                    <p>收藏数：213 次</p>
+                                    <p>大小：<span class="red4">123 </span>k</p>
+                                </div>
+                                <div class="fr llft">
+                                    <p>影评数：351 次</p>
+                                    <p>价格：<span class="red4">免费</span></p>
+                                    <p>时长：25 分钟</p>
+                                </div>
+                            </div>
+                            <p>标签：成像 凹凸镜</p>
+                            <div class="guanzhu lh35 mt5 font12 centery">
+                                关注官方微博：
+                                <button class="pointer font12 button1"></button>
+                                <button class="pointer font12 button2 ml5"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 设置相关视频——第一个列表-->
+                    <div class="zx mt10">
+                        <h2 class="zxh2 font12 fb">
+                            <span class="ml5">相关视频</span>
+                        </h2>
+                        <ul class="zxul pb5">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- 特供视频第二个列表 -->
+                    <div class="zx mt10">
+                        <h2 class="zxh2 font12 fb">
+                            <span class="ml5">特供视频</span>
+                        </h2>
+                        <ul class="zxul pb5">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- tab切换页 -->
+                    <div class="zx mt10">
+                        <h2 class="font12 fb clearfix lh29 pointer">
+                            <div class="fl xiang xiang0 tc pore">
+                                相关课件
+                            </div>
+                            <div class="fl xiang xiang1 tc pore">
+                                相关教案
+                            </div>
+                            <div class="fl xiang xiang2 tc pore">
+                                相关试卷
+                            </div>
+                        </h2>
+                        <ul class="zxul pb5 zxul2">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <ul class="zxul pb5 zxul2 none">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        你是猪你只猪你是一只小猪猪
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <ul class="zxul pb5 zxul2 none">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        嘿嘿~
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 设置底部的容器 -->
+    <div class="footer-wrapper mt20 bgcolor4">
+        <div class="footer wt980 tc font12 gray13">
+            <p class="pt15 lh22">
+                <a href="#">
+                    关于我们
+                </a>
+                <span>|</span> 
+                <a href="#">
+                    商务合作
+                </a>
+                |
+                <a href="#">
+                    客服中心
+                </a>
+                |
+                <a href="#">
+                    网站地图
+                </a>
+                |
+                <a href="#">
+                    用户留言
+                </a>
+                |
+                <a href="#">
+                    帮助中心
+                </a>
+            </p>
+            <p class="lh22">
+                跨地区ICP证：B2—20040040《网络文化经营许可证》编号：文网文[2003]0066号
+            </p>
+            <p class="lh22">
+                Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved
+            </p>
+            <p class="lh22 pb20">
+                北京国之源软件技术有限公司提供技术支持 客服电话：0731-84531868
+                <img class="vam mr20" src="images/footer.png" alt="">
+                跟踪访问速度
+            </p>
+        </div>
+    </div>
+    <!-- 设置固定定位的悬浮按钮 -->
+    <div class="xuan font12 gray13">
+        <a href="#">
+            <div class="kefu tc ">
+                <img class="mt5 mb5" src="images/kefu.png" alt="">
+                <span>在线客服</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="diaocha tc mt5">
+                <img class="mt5 mb5" src="images/diaocha.png" alt="">
+                <span>在线调查</span>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+/* a */
+a:hover{
+    color:#e06c1f
+}
+.province{
+    color:#ff6500
+}
+/* 搜索框 */
+.search-box{
+    border:1px solid #ffbc8f
+}
+.search-box button{
+    width:30px;
+    height:25px;
+    border:none;
+    position: absolute;
+    right: 0;
+    background-image: url(../images/search_03.png);
+}
+
+/* 导航 */
+.navigation{
+    background-image: url(../images/导航栏背景_03.png);
+}
+.li_on{
+    background-color: #f0f0f0;
+    border:1px solid #dbdbdb;
+    border-bottom:none;
+    margin:0px!important;
+}
+.li_on a{
+    color:#353535!important
+}
+.nav_slider{
+    display: inline-block;
+    width:2px;
+    height:21px;
+    background-image: url(../images/导航栏分割线_03.png);
+}
+.nav_menu{
+    background-color: #fdfff6;
+    border:1px solid #fec397;
+    color:#e06c1f;
+    border-top:none
+}
+.nav_a:hover i{
+    color:#e06c1f;
+    font-size:17px
+}
+.nav_a:hover{
+    background-color: #fdfff6;
+    border:1px solid #fec397;
+}
+.nav_menu li:hover{
+    background-color: #f77a0f;
+    color:#fff
+}
+.notice{
+    background-color: #fefae9;
+    border:1px solid #f7e8b5
+}
+.user_login{
+    background-color: #fff2e5;
+}
+.user_box{
+    border:1px solid #fec397;
+    background-color: #fefbe4;
+}
+.user_box_head{
+    border-bottom:1px solid #fec397;
+    background:-webkit-linear-gradient(top,#fdfaef,#fef7de,#fff3ca)
+}
+.user_box_head i{
+    background-image: url(../images/用户登录icon_03.png);
+}
+.cont_right{
+    background-color: #fff2e5;
+}
+.cont_right_box{
+    border:1px solid #fec397
+}
+.shi{
+    color:#fff!important;
+    background:url(../images/orange_skin/tab_sm.png)
+}
+.tab_ci span{
+    color:#ff781e
+}
+.xiangxipm ul li>a{
+    color:#f56d12
+}
+.recommend_left_box{
+    border:1px solid #fec397
+}
+.recommend_right{
+    background-color: #fff2e5;
+}
+.recommend_right_box{
+    border:1px solid #fec397
+}
+.app{
+    border-bottom:1px solid #fec397;
+    background:-webkit-linear-gradient(top,#fdfaef,#fef7de,#fff3ca);
+}
+.app_on{
+    border-top:2px solid #fe9f06;
+    background-color: #fff;
+    border-top:2px solid #fe9f06!important;
+    color:#ff6a07!important
+}
+.app li{
+    font-weight: 700;
+    border-top:2px solid rgba(0, 0, 0, 0);
+    border-right:1px solid #fec397;
+    color:#7b7b7b
+}
+/* 名师工作室 */
+.content-two-jiaoshi{
+    background-color: #fff2e5;
+}
+.content-two-jiaoshikj{
+    border:1px solid #fec397
+}
+
+
+/* js专用 */
+.bgbs{
+    border-top: #fe9f06 solid 2px !important;
+    background-color: #fff !important;
+   border-bottom: none !important;
+}
+.bgff{
+     border-top:  solid 2px rgba(0, 0, 0, 0) !important;
+ 
+   background-color: #fff4d1 !important;
+   border: #fec397 solid 1px!important;
+   
+}
+.bgbaise{
+   border-top: #fe9f06 solid 2px !important;
+   position: relative;
+   z-index: 1001;
+   background-color: #fff !important;
+   height: 33px !important;
+}
+.bghuangse{
+    border-top:  solid 2px rgba(0, 0, 0, 0) !important;
+    height: 31px !important;
+     background: -webkit-linear-gradient(top,#fff,#fff4d1,#fff4d1) !important;
+}
+/* 大型志愿填报 */
+.wbk{
+    border: #fff2e5 solid 2px;
+}
+.nbk{
+     border: #fec397 solid 1px;
+}
+.content-two-paiming-2{
+     border: #fff2e5 solid 2px;
+}
+.gongxian{
+   color: #ff6a07;
+    border-top: #fe9f06 solid 2px ;
+   /* border: #fec397 solid 1px; */
+}
+.xiazai{
+    border-top:  solid 2px rgba(0, 0, 0, 0);
+   background: #fef7de;
+   border-left: #fec397 solid 1px;
+    border-bottom: #fec397 solid 1px;
+   
+}
+.tongji .ff6a07{
+    color: #ff6a07;
+}
+
+/* 优秀教师 */
+.fenlei-1 ul{
+   background: -webkit-linear-gradient(top,#fff,#fff4d1,#fff4d1);
+}
+.youxiujiaoshi{
+    background:-webkit-linear-gradient(top,#fff,#fff4d1,#fff4d1)
+}
+.ff6a07{
+    color: #ff6a07;
+}
+/* 按学科分类 */
+.li-1 {
+     border-top: 2px solid #fe9f06;
+       border-right: #fec397 solid 1px;
+    color: #ff6a07;
+}
+.li-2 {
+ border-right: #fec397 solid 1px;
+}
+.fenlei-2{
+   border-top: #fec397 solid 1px;
+}
+/* 三类课堂 */
+.xuebi-h{
+   background: url(../images/orange_skin/tab_big.png)no-repeat;
+}
+.kt-content{
+    border-top: #fec397 solid 1px;
+}
+.tishi a{
+   border-right: #ff6a07 solid 2px;
+}
+
+/* 应用中心 */
+.apps{
+    border:1px solid #e9e7b4;
+    background:-webkit-linear-gradient(left,#fef9e6,#fdf7dd,#fff4d4)
+}
+.app_ons{
+    color:#f16527;
+    background-color: #ffdbaf;
+    font-weight: 700;
+}
+.app_mouse{
+    color:#de6c23
+}
+.sli{
+    background-position: -5px -46px;
+}
+
+
+
+/* a */
+a:hover{
+    color:#e06c1f
+}
+.province{
+    color:#ff6500
+}
+/* 搜索框 */
+.search-box{
+    border:1px solid #ffbc8f
+}
+.search-box button{
+    width:30px;
+    height:25px;
+    border:none;
+    position: absolute;
+    right: 0;
+    background-image: url(../images/search_03.png);
+}
+
+/* 导航 */
+.navigation{
+    background-image: url(../images/导航栏背景_03.png);
+}
+.li_on{
+    background-color: #f0f0f0;
+    border:1px solid #dbdbdb;
+    border-bottom:none;
+    margin:0px!important;
+}
+.li_on a{
+    color:#353535!important
+}
+.nav_slider{
+    display: inline-block;
+    width:2px;
+    height:21px;
+    background-image: url(../images/导航栏分割线_03.png);
+}
+.nav_menu{
+    background-color: #fdfff6;
+    border:1px solid #fec397;
+    color:#e06c1f;
+    border-top:none
+}
+.nav_a:hover i{
+    color:#e06c1f;
+    font-size:17px
+}
+.nav_a:hover{
+    background-color: #fdfff6;
+    border:1px solid #fec397;
+}
+.nav_menu li:hover{
+    background-color: #f77a0f;
+    color:#fff
+}
+.notice{
+    background-color: #fefae9;
+    border:1px solid #f7e8b5
+}
+
+/* 应用中心 */
+.app{
+    border:1px solid #e9e7b4;
+    background:-webkit-linear-gradient(left,#fef9e6,#fdf7dd,#fff4d4)
+}
+.app_on{
+    color:#f16527;
+    background-color: #fff;
+    font-weight: 700;
+}
+.app_mouse{
+    color:#de6c23
+}
+.sli{
+    background-position: -5px -46px;
+}
+.scripte-AA{
+    background: url(../images/orange_skin/app_menu_bg.png)no-repeat;
+}
+.ol a span{
+    color:#ff661c;
+}
+.cor09367a{
+    color: #d6712d
+}
+.cor01346d{
+    color: #ec5900;
+}
+.scripte-x{
+      background: url(../images/orange_skin/all_app_hover.png)no-repeat;
+}
+.scripte-c{
+    background: url(../images/orange_skin/rec_app_hover.png)no-repeat;
+}
+.scripte-v{
+   background: url(../images/orange_skin/free_app_hover.png)no-repeat;
+}
+.scripte-b{
+   background: url(../images/orange_skin/fee_app_hover.png)no-repeat;
+}
+

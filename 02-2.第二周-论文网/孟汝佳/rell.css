@@ -1,0 +1,105 @@
+.logo{width: 240px; height: 70px;
+ background: url(image/zonesprite.png) no-repeat;}  /*论文网*/
+
+.wt1000{height: 100px;}
+
+.ml6{margin-left: 6px;}
+
+.ml20{margin-left: 20px;}
+.ml10{margin-left: 10px;}
+.fw{font-weight: bold;}
+.fwd{font-weight: bold;}
+.huise{color: #6B6B6B;}
+
+.logo1{width: 80px; height: 40px;				/*注册	*/
+		 margin:20px 0px 0px 416px;}
+.logo1 button{width: 80px; height: 30px; background: #F17348;
+border: #F17348; color: #ffff;}
+	/*搜索框*/
+.kuan input{height: 26px; margin: 20px 0px 0px 20px; width: 200px;}    
+.kuan button{width: 40px; height: 30px;  display: block;
+ border: none; 											/*搜索按钮*/
+background: url(image/zonesprite.png) -200px -100px no-repeat;}
+/*导航栏*/
+.nav{height: 50px; background: #F17348;}
+.nav1{height: 50px;}
+.nav ul li{float: left; font-weight: bold; 
+	 line-height: 50px; list-style:none;
+	  text-align: center;
+	width: 100px; height: 50px;}
+.nav ul li:hover{opacity: 0.5;}
+.nav ul li a{color: #fff;}
+/*论文*/
+.lunwen{width: 1000px; height:1220px; 
+ 	margin: 20px auto; }
+
+ .lunwen1{width: 346px; height: 1218px;}
+ .lunwen2{width: 346px; height: 1218px; margin-left: 14px;}
+ .lunwen3{width: 252px; height:1218px; margin-left: 40px;}
+/* 内容*/
+.neirong{width: 344px; height: 384px; border: 2px #F17348 solid;
+	border-radius: 10px;
+ background: #FFFFF5;}
+.more{width: 344px; height: 36px; background: #f1f1f1;
+border-top-right-radius:10px;
+border-top-left-radius:10px;}
+.tubiao{width: 330px; height: 96px; border-bottom: 1px #DADAD2 dashed; margin: 10px 0px 10px 6px;}
+.fenbu{width: 14px; height:14px; margin:10px 0px 0px 6px;
+background: url(image/zonesprite.png) 0px -74px no-repeat;}
+.fenbu1{width: 174px; height: 18px; 
+margin: 4px 0px 0px 2px; font-weight: bold; color: #CC144B;}
+.more1{width: 32px; height: 8px; font-size: 8px; 
+background: url(image/more.gif) no-repeat; margin-top:14px;}
+.tubiao1{width: 100px; height: 84px; border: 1px #f1f1f1 solid;
+background: url(image/litpic.gif) no-repeat;}
+.aa{width:216px; height:100px; margin-left: 8px;}
+.aa span{font-size: 12px;}
+.zhengwen{width:338px; height:208px;
+margin:-10px 0px 0px 20px;}
+.tubiao2{width: 100px; height: 84px; border: 1px #f1f1f1 solid;
+background: url(image/freelw2.gif) no-repeat;}
+.tubiao3{width: 104px; height: 84px; border: 1px #f1f1f1 solid;
+background: url(image/teachlw.gif) no-repeat;}
+/*最新*/
+.zuixin{width: 250px; height: 260px;  border: 2px #F17348 solid; 
+background: #FFFAF6;
+border-radius: 10px;}
+.zuixina{width: 250px; height: 282px;  border: 2px #F17348 solid; 
+background: #FFFAF6;
+border-radius: 10px;}
+.zuixinb{width: 250px; height: 222px;  border: 2px #F17348 solid; 
+background: #FFFAF6;
+border-radius: 10px;}
+.zuixinc{width: 250; height: 100px;border: 2px #F17348 solid; 
+background: #FFFAF6;
+border-radius: 10px;}
+
+.zuixin1{width: 238px; height: 32px; 
+	font-weight: bold; color: #A98481; line-height: 32px;
+	border-bottom: 1px #DADAD2 dashed; margin-left: 6px;}
+.zuixin2{width: 248px; height: 210px;}
+.zuixin2 ul{list-style: none; font-size: 12px;}
+.jiahao{width: 12px; height: 12px; 
+display: block; margin-top: 6px;
+background: url(image/01.png) 2px 2px no-repeat; margin-left: 6px;}
+
+.zuixin3{width:248px; height: 48px; }
+.tupian{width: 48px; height: 48px;}
+.tupian1{background: url(image/customservice-phone.png);}
+.tupian2{background: url(image/QQ.png);}
+.tupian3{background: url(image/chengnuoicon.png);}
+/* 底部 */
+.dibu{height: 198px; background: #2A2A2A;}
+.dibu1{height: 184px; background: #222222;}
+.dibu2{width: 740px;}
+.dibu3 ul{width: 135px; height: 150px;
+	 border-right: 1px #1B1714 solid;}
+.dibu3 ul li{list-style: none; color:#9C897C;}
+.dibu3 ul li a{color: #6B6B6B; margin-left: 10px;}
+.dibu4{width: 240px;}
+.kongjian{width: 200px; height: 40px;
+	 background: url(image/zonesprite.png) 0px -246px no-repeat;}
+.kongjian1{width: 200px; height: 18px;}
+.kongjian1 ul{ list-style: none; }
+.kongjian1 ul li{float: left; margin-left: 6px;}
+.kongjian2{width: 240px; height: 60px;}

@@ -1,0 +1,490 @@
+/*----------------------------------------
+Des: 公共页面的CSS样式
+Date Created:2013-10-25
+Last Updated:2013-10-25
+Copyright: 北京国之源
+----------------------------------------*/
+
+/*reset 样式表*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	font-size:100%;
+	text-align: left;
+	vertical-align: baseline;
+}
+a img {border:none;}
+table {border-collapse: collapse; border-spacing: 0;}
+q:before, q:after, blockquote:before, blockquote:after {content: "";}
+
+/* 元素
+----------------------------------------*/
+body
+{
+	background-color:#E9F0F8;
+	padding:80px 0 0 0;
+}
+
+body, p, td, th, li
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	color:#000000;
+}
+/* 整个页面上的布局 */
+#wapper
+{
+	width:800px;
+	text-align:left;
+	background-color:#fff;
+	/* 局中 */
+	margin:0 auto;
+	/* CSS3 圆角 */
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+p
+{
+	margin: 0 0 1em 0;
+}
+
+/*--- 链接样式 ---*/
+a:link, a:visited
+{
+	text-decoration:none;
+}
+
+a:hover, a:active
+{
+	text-decoration:none;
+}
+
+h1
+{
+	margin:.825em 0 .5em 0;
+	font-size:2.125em;
+}
+
+h2
+{
+	margin:.825em 0 .5em 0;
+	font-size:1.75em;
+}
+
+h3
+{
+	margin:.825em 0 .5em 0;
+	font-size:1.5em;
+}
+
+h4
+{
+	margin:.825em 0 .5em 0;
+	font-size:1.25em;
+}
+
+h5
+{
+	margin:.825em 0 .5em 0;
+	font-size:1.125em;
+}
+
+h6
+{
+	margin:.825em 0 .5em 0;
+	font-size:1em;
+}
+
+ul
+{
+	margin-left:25px;
+	list-style-type:none;
+}
+
+ol
+{
+	margin-left:25px;
+	
+}
+
+blockquote	{margin: 0 0 18px 18px; font-style: italic;}
+strong		{font-weight:bold;}
+em		{font-style:italic;}
+
+/* 常用基础样式
+----------------------------------------*/
+.left 		{float:left;}
+.right 		{float:right;}
+.clearThis 	{clear:both;}
+.small		{font-size:.625em;}
+.large		{font-size:1em;}
+.soft		{color:#D3D3D3;}
+.hide		{display:none;}
+.alignc     {text-align:center;}
+p.last		{margin-bottom:0px;}
+
+/* 圆角框，考虑还是使用图片来实现 */
+.box{
+	margin:0 0 26px 0;
+}
+.hd{
+	color:#999;
+	height:30px;
+	line-height:30px;
+	font-size:12px;
+}
+.hd h3{
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:#000;
+	margin:0 10px 0 0;
+	padding:0 10px;
+}
+.hd ul{
+	margin:0;
+	padding:0;
+	float:left;
+}
+.hd ul li{
+	float:left;
+	margin:0 5px;
+	height:30px;
+	line-height:30px;
+}
+.hd li a{
+	color:#9a9a9a;
+	padding:0 0 0 10px;
+	border-left:1px solid #9a9a9a;
+	font-size:12px;
+}
+.hd li:first-child a{
+	border:none;
+}
+.md{
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border:1px solid #d0d0d0;
+	padding:5px;
+	min-height:20px;
+	background-color:#efefef;
+}
+.md div{
+	background-color:#fff;
+	padding:15px;
+}
+/* 按钮 */
+.button{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding:5px 10px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .3em;
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+/* 黄色代码(有歧义！！！) */
+.orange {
+	color: #fef4e9;
+	border: solid 1px #da7c0c;
+	background: #f78d1d;
+	background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
+	background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#faa51a', endColorstr='#f47a20');
+}
+.orange:hover {
+	background: #f47c20;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
+	background: -moz-linear-gradient(top,  #f88e11,  #f06015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f88e11', endColorstr='#f06015');
+}
+.orange:active {
+	color: #fcd3a5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f47a20), to(#faa51a));
+	background: -moz-linear-gradient(top,  #f47a20,  #faa51a);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f47a20', endColorstr='#faa51a');
+}
+/* 作业条目 */
+.item-work th:first-child{
+	margin:0;
+	padding:0;
+}
+/* 学科 */
+.subject{
+	width:40px;
+	height:31px;
+	line-height:31px;
+	margin:0 0 0 20px;
+	display:block;
+	text-align:center;
+	background-color:#fff;
+	color:#676767;
+	font-weight:bold;
+	border:1px solid #ccc;
+}
+.item-work th{
+	height:33px;
+	line-height:33px;
+	color:#fff;
+	background-color:#6d9dce;
+}
+/* 已完成作业和待做作业的圆角框 */
+.item-work th:first-child,.item-finishwork th:first-child{
+	-webkit-border-top-left-radius: .3em;
+	-webkit-border-bottom-left-radius: .3em;
+	-moz-border-radius-topleft: .3em;
+	-moz-border-radius-bottomleft: .3em;
+}
+.item-work th:last-child,.item-finishwork th:last-child{
+	-webkit-border-top-right-radius: .3em;
+	-webkit-border-bottom-right-radius: .3em;
+	-moz-border-radius-topright: .3em;
+	-moz-border-radius-bottomright: .3em;
+}
+
+
+.item-work td{
+	padding:5px 0 0 0;
+	color:#999;
+}
+
+
+/* 已完成作业 */
+.item-finishwork th{
+	height:33px;
+	line-height:33px;
+	color:#666;
+	background-color:#dfdfdf
+}
+.item-finishwork td{
+	padding:5px 0 0 0;
+	color:#999999;
+}
+
+/* 习题 */
+.test-item{
+	margin:10px 0;
+	border:1px solid #ccc;
+}
+/* 数字编号 */
+.numbermark div{
+	width:31px;
+	height:35px;
+	margin:0;
+	padding:0;
+	position:relative;
+	left:-6px;
+	top:-8px;
+	padding:4px 6px;
+	color:#fff;
+	background:url(../images/icos.gif) left -41px no-repeat;
+}
+.test-item td,.test-item th{
+	padding:5px;
+}
+/* 习题解析 */
+.answer{
+	background-color:#eef8ed;
+	padding:3px 10px;
+	margin:5px;
+	text-align:right;
+}
+/* 回答错误的题目 */
+.error{
+	border:1px solid #ff0000;
+}
+.error .numbermark div{
+	background:url(../images/icos.gif) -90px 0 no-repeat!important;
+}
+.error .answer{
+	background-color:#fff6e5;
+	color:#fe0000;
+}
+
+
+/* 链接按钮
+----------------------------------------*/
+a[href^="http:"] {background: url(../images/elementsImages/externalLink.gif) no-repeat right top; padding-right:10px;}
+a[href^="http://www.xxx.com"], a[href^="http://xxx.com"] {background-image:none !important; padding-right:0px;}
+.exempt {background-image:none !important; padding:0px;}
+.external {background: url(../images/elementsImages/externalLink.gif) no-repeat right top; padding-right:10px;}
+a[href^="mailto:"] {background: url(../images/elementsImages/email_link.png) no-repeat right top; padding-right:22px; padding-bottom:5px;}
+a[href^="aim:"] {background: url(../images/elementsImages/group.png) no-repeat right top; padding-right:22px; padding-bottom:5px;}
+a[href$=".pdf"] {background: url(../images/elementsImages/page_pdf.png) no-repeat right top; padding-right:22px; padding-bottom:5px;}
+a[href$=".doc"] {background: url(../images/elementsImages/page_word.png) no-repeat right top; padding-right:22px; padding-bottom:5px;}
+a[href$=".rss"], a[href$=".rdf"] {background: url(../images/elementsImages/feed.png) no-repeat right top; padding-right:22px; padding-bottom:5px;}
+/* 查看 */
+.ico-find{
+	background:url(../images/icos.gif) 0 -16px no-repeat;
+	padding:0 0 0 21px;
+	color:#ff9902;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+#topbar{
+	background:url(../images/top-bg.gif) left top repeat-x;
+	width:100%;
+	height:70px;
+	left:0;
+	top:0;
+	position:absolute;
+}
+#topbar div{
+	width:800px;
+	height:70px;
+	margin:0 auto;
+}
+#topbar ul{
+	float:right;
+	margin:45px 0 0 0;
+	*margin:-28px 0 0 0;
+	padding:0;
+	position:relative;
+}
+#topbar ul li{
+	float:left;
+}
+/* 用户功能导航 */
+.userinfo{
+	border:1px solid #e9f0f8;
+	background-color:#e9f0f8;
+	padding:0 5px;
+	margin:0 10px 0 0;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-align:center;
+}
+.userinfo li{
+	margin:5px 0 0 0;
+}
+.userinfo li a{
+	padding:0 7px;
+	color:#5893cf;
+	border-right:1px solid #5893cf;
+}
+.userinfo li.last a{
+	border:none;
+}
+/* 快速链接功能导航 */
+.quicklink{
+	background:url(../images/top-nav.gif) left center no-repeat;
+	width:177px;
+	height:21px;
+}
+.quicklink a{
+	text-indent:-9999px;
+	display:block;
+	width:28px;
+	height: 24px;
+    margin: 0 6px 0 9px;
+}
+.quicklink a:hover{
+	border-bottom:3px solid #3CF;
+}
+
+/* 头部
+----------------------------------------*/
+#header
+{
+	width:800px;
+	height:100px;
+}
+
+	/* 导航
+	----------------------------------------*/
+	ul#nav
+	{
+		
+	}
+	ul#nav li {float:left; list-style-type:none; margin-left:10px;}
+	/* 导航的图片替换
+	----------------------------------------*/
+	ul#nav li a {
+		/*Set to height of image*/ 
+		height:20px; 
+		display:block; 
+		/*text-indent:-9999px;*/ 
+		outline:none;
+	}
+	/*常常用于导航的图像替换*/
+	li#navHome a{
+		background-image: url(/images/nav/home.png); 
+		width:75px;
+	}
+	li#navWork a{
+		background-image:url(/images/nav/work.png);
+		 width:70px;
+	}
+	li#navServices a{
+		background-image:url(/images/nav/services.png);
+		width:68px;
+	}
+	li#navContact a{
+		background-image: url(/images/nav/contact.png); 
+		width:55px;
+	}
+	/* 常用导航连接鼠标划过的样式 navHom(主页) */
+	li#navHome a:hover,li#navWork a:hover,li#navServices a:hover,li#navContact a:hover{
+		/*如果有图片的话，必须为图片设置高度!必须为负数!(便于SEO的优化，一般我们把图片放在页面上显示，把字符丢到页面外面去。)*/
+		background-position:0 -20px; 
+	}
+
+/* 面包屑导航 */
+#navbread{
+	border:1px solid #dedede;
+	height:2.3em;
+}
+#navbread li{
+	float:left;
+	line-height:2.3em;
+	padding-left:.75em;
+	color:#777;
+}
+#navbread li a{
+	display:block;
+	padding:0 15px 0 0;
+	background:url(/images/crumbs.gif) no-repeat right center;
+}
+
+/* 主框架
+----------------------------------------*/
+#mainContent{
+	width:780px;
+	padding:20px 10px;
+}
+
+/* 底部
+----------------------------------------*/
+#footer
+{
+	border-top:1px dashed #999999;
+	width:780px;
+	margin:10px auto 0 auto;
+}
+.copyright{
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:right;
+	color:#999999;
+	padding:3px 20px;
+}

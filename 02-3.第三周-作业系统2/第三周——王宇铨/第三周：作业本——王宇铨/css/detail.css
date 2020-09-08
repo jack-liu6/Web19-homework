@@ -1,0 +1,404 @@
+/*头部*/
+body{
+	background-color: #e9f0f8;
+}
+
+.head{
+	background-color: #f5f8fc;
+}
+
+.head .headset{
+	background-color: #e9f0f8;
+	border-radius: 5px;
+	color: #5893ce;
+	height: 32px;
+	line-height: 32px;
+	/*vertical-align: bottom;*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.head .headset a{
+	/*display: inline-block;*/
+	font-size: 12px;
+	color: #5893ce;
+	padding: 0 15px;
+	vertical-align: middle;
+}
+.head .headset a:hover{
+	color: #f7ac63;
+}
+.head .headset .br{
+	border-right: 1px solid #5893ce;
+}
+
+.head .headico{
+	position: absolute;
+	right: 270px;
+	bottom: 0;
+	height: 27px;
+}
+.head .headico .sprite1{
+	display: inline-block;
+	width: 43px;    
+	height: 27px;   
+	/*margin: 3px 22px 3px 0;*/
+	background: url(../images/top-nav.png) no-repeat;
+}
+.head .headico .hico1{
+	background-position: -1px 3px;
+}
+.head .headico .hico2{
+	background-position: -44px 3px;
+}
+.head .headico .hico3{
+	background-position: -87px 3px;
+}
+.head .headico .hico4{
+	background-position: -130px 3px;
+}
+
+
+
+/*主体*/
+.detail{
+	border-radius: 5px;
+	padding: 0 20px;
+	margin-top: 10px;
+	width: 960px;
+}
+.detail h2{
+	padding: 25px 0;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.detail>h3{
+	height: 34px;
+	line-height: 32px;
+	padding: 0 10px;
+	border-radius: 3px;
+	background-color: #6c9dce;
+}
+.detail>h3 span{
+	display: inline-block;
+}
+.detail>h3 .p1{
+	width: 37px;
+	/*height: 31px;
+	line-height: 31px;*/
+	border: 1px solid #e4e4e4;
+	text-align: center;
+	background-color: #fff;
+	font-weight: bold;
+}
+.detail>h3 .p2{
+	/*font: 14px bold #fff;*/
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 10px;
+}
+.detail>h3 .p3{
+	color: #fff;
+}
+
+.detail>h3 a{
+	/*line-height: 32px;*/
+	font:12px;
+	color:#fff;
+}
+
+.detail>h3 a:hover{
+	color: #f7ac63;
+}
+
+.detail  .sprite2{
+	/*display: inline-block;
+	width: 18px;
+	height: 13px;
+	vertical-align: middle;*/
+	background: url(../images/icos.gif) no-repeat;
+}
+
+
+/*简略信息*/
+.detail table{
+	margin: 5px 0;
+}
+.detail table td{
+	/*margin: 0;*/
+	border: 1px solid #ccc;
+	color: #999999;
+	width: 239px;
+	padding: 10px;
+}
+
+.detail table .cell{
+	width: 478px;
+}
+
+/*简略信息底*/
+.detail .qingkuang{
+	color: #999;
+	margin: 10px 0;
+
+}
+.detail .qingkuang span{
+	margin-left: 10px;
+
+}
+.detail .qingkuang a{
+	color: #ff9900;
+	margin: 0 10px;
+}
+.detail .qingkuang a:hover{
+	color: #d74d0a;
+}
+
+/*单选题*/
+.detail form {
+	padding: 0 10px 10px 0;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+	
+.detail form .listico1{
+	display: inline-block;
+	width: 39px;
+	height: 37px;
+	background-position: 0 -43px;
+	font-size: 8px;
+	font-weight: bold;
+	color: #fff;
+	padding-left: 6px;
+
+}
+.detail .wrong .listico1{
+	background-position: -90px 0;
+}
+.detail form p{
+	font-weight: bold;
+	height: 36px;
+	line-height: 36px;	
+}
+.detail form p .tiankong{
+	border: none;
+    border-bottom: 1px solid;
+}
+.detail form li{
+	margin-left: 33px;
+	font-size: 12px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+.detail form li input{
+	opacity: 0;
+	position: absolute;
+	width: 50px;
+	
+}
+.detail form li label{
+	display: inline-block;
+	height: 25px;
+	line-height: 18px;
+	padding: 0 15px;
+}
+.detail form li label span{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	padding: 3px;
+	border-radius: 50%;
+	border: 1px solid #999;
+	margin-right:10px;
+	vertical-align: top;
+}
+
+.detail form li label:hover{
+	color: #5eae59;
+}
+
+.detail form li input:checked+label span{
+	box-sizing: border-box;
+	width: 18px;
+	height: 18px;
+	padding: 3px;
+	margin-right:10px;
+	background-color: #01b523;
+	background-clip: content-box;
+
+}
+.detail form li input:checked+label{
+	color: #01b523;
+}
+
+/*.detail form li label{
+	box-sizing: border-box;
+    position: relative;
+}
+.detail form li label::before{
+    display: inline-block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgb(219, 219, 219);
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.detail form li input:checked+label::before{
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+
+.detail form li input:checked+label::after{
+    display: inline-block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border: 1px solid #01b523;
+    background-color: #01b523;
+}*/
+
+
+.detail .sprite3{
+	background-image: url(../images/sprite_03.png);
+}
+/*回答正确*/
+.detail form .anwserRt{
+	background-color: #eef8ec;
+	color: #01b523;
+	font-weight: bold;
+	margin:5px 0 0 45px;
+	height: 30px;
+	line-height: 30px;
+}
+.detail form .anwserRt a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	color: #666;
+	font-weight: normal;
+}
+.detail form .anwserRt .icoRt{
+	display: inline-block;
+	height: 22px;
+	width: 21px;
+	vertical-align: middle;
+	margin: 0 10px;
+
+}
+/*回答错误*/
+.detail .wrong {
+	
+	border: 1px solid #ffc2c2;
+}
+
+.detail .wrong .anwserWr{
+	background-color: #fff7e5;
+	color: #ff0000;
+	font-weight: bold;
+	margin:5px 0 0 45px;
+	line-height: 30px;
+	padding: 10px 0;
+	height: 120px;
+}
+.detail .wrong .anwserWr .daan{
+	font-weight: normal;
+	font-size: 10px;
+	margin-left: 10px;
+}
+.detail .wrong .anwserWr a{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 15px;
+	color: #666;
+	font-weight: normal;
+}
+.detail .wrong .anwserWr .icoWr{
+	display: inline-block;
+	height: 22px;
+	width: 21px;
+	vertical-align: middle;
+	margin: 0 10px;
+	background-position: -28px 0;
+
+}
+
+.detail .wrong .anwserWr p{
+	padding: 0 15px 0 40px;
+	font-weight: normal;
+	color: #666;
+	line-height: 24px;
+	margin-top: 20px;
+	height: 60px;
+
+}
+.detail .wrong .anwserWr p span{
+	font-weight: bold;
+}
+
+
+.detail .backIndex{
+	padding: 25px;
+	text-align: center;
+}
+.detail .backIndex a{
+	display: inline-block;
+	width: 89px;
+	height: 27px;
+	background-image: url(../images/作业系统-作业本-作业报告-1_11.png);
+}
+.detail .wrong li input:checked+label span{
+	box-sizing: border-box;
+	width: 18px;
+	height: 18px;
+	padding: 3px;
+	margin-right:10px;
+	background-color: #ff0000;
+	background-clip: content-box;
+
+}
+.detail .wrong li input:checked+label{
+	color: #ff0000;
+}
+
+
+
+
+
+
+
+.foot{
+	padding: 12px 20px;
+	color: #999;
+	background-color: #fbfbfb;
+	border-top: 5px solid #f4f4f4;
+	text-align: center;
+}
+
+
+
+
+
+/*通用*/
+
+a:hover{
+	color: #e68323;
+}
+
+.detail form a:hover{
+	color: #ff9900;
+}

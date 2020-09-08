@@ -1,0 +1,490 @@
+body{
+    background-color:  #b1e0fa;
+}
+.bg{
+    width:1400px;
+    height:700px;
+    margin: 0px auto;
+    background-image: url(../images/注册页/app_bg.png);
+}
+input{
+    outline: none;
+}
+.logo{
+    height:108px;
+    line-height:108px;
+    text-align: center;
+}
+.logo span{
+    font-size: 24px;
+    color:#115286;
+}
+.logo_img{
+    bottom: -25px;
+    right: 18px;
+}
+.slider{
+    top:13px;
+    right:9px
+}
+
+/*  */
+.register_box{
+    height:600px;
+    border-top:1px solid #23aeb9;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+.tree{
+    position: absolute;
+    top: -48px;
+    right:0px
+}
+.box_head{
+    height:33px;
+    padding:16px 0px 0px 27px
+}
+.box_head a:hover{
+    color:#fff
+}
+.cont{
+    width:980px;
+    height:500px;
+    border-top:1px solid #ddd;
+    box-shadow: #ddd 2px -2px 2px -2px;
+}
+.register_a{
+    display: inline-block;
+    height:33px;
+    text-align: center;
+    line-height: 33px;
+    width:89px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 6px;
+    background-color: #ddd;
+    color:#747474
+}
+.in{
+    background:-webkit-linear-gradient(top,#34cfff,#1ca5d9,#0275af);
+    color:#fff
+}
+.jintou{
+    position: absolute;
+}
+.jian{
+    position: absolute;
+    bottom: -6px;
+    display: none;
+}
+.jian1{
+    left: 16.5%;
+}
+.jian2{
+    left: 6.5%;
+}
+.left{
+    width: 677px;
+    height:500px;
+    padding:32px 0px 0px 30px;
+}
+.left input{
+    width:278px;
+    height:24px;
+    margin-bottom:9px;
+    border-top:1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+    border-right:1px solid #ededed;
+    border-bottom:1px solid #ededed
+}
+.left span{
+    color:#b1b1b0
+}
+#sex{
+    width:12px;
+    height:12px;
+    top:2px
+}
+#sex2{
+    width:12px;
+    height:12px;
+    top:2px
+}
+.user_name{
+    left:60px
+}
+.password{
+    left:72px
+}
+.password_{
+    left:48px
+}
+.real_name{
+    left:48px
+}
+.id_number{
+    left: 36px;
+}
+.sex{
+    display: inline-block;
+    left:72px;
+    margin:2px 0px 10px 0px;
+    color:#000!important
+}
+.birthday{
+    left: 72px;
+}
+.email{
+    left:48px
+}
+#submit{
+    display: inline-block;
+    width:179px;
+    height:44px;
+    background:-webkit-linear-gradient(top,#ffc864,#ffc864,#ff9235);
+    border:1px solid #e7af80;
+    border-radius: 3px;
+    font-size:25px;
+    color:#fff;
+    position: relative;
+    left:200px;
+    margin-top:37px
+}
+.color1a{
+    color:#1a1a1a
+}
+.right{
+    width:270px;
+    height:405px;
+    border-left:1px dashed #c4c4c4;
+    margin-top:32px
+}
+.yiyou{
+    color:#797979;
+    width:225px;
+    height:65px;
+    text-align: center;
+    border-bottom:1px dashed #c4c4c4;
+    line-height:65px;
+    margin-left: 25px;
+}
+.yiyou a{
+    color:#012fc4
+}
+.right_cont{
+    width:177px;
+    height:177px;
+    background-color: #fafafa;
+    border:1px solid #d1d5d8;
+    border-radius: 3px;
+    margin-left: 33px;
+    margin-top:51px;
+    padding:29px 11px 18px 9px
+}
+.cont_head{
+    position: absolute;
+    top: -18px;
+    right: 35px;
+    text-align: center;
+    line-height: 32px;
+    color:#2083a2;
+    width:121px;
+    height:32px;
+    background-color: #c2e9f5;
+    border:1px solid #add1ed;
+    border-radius:40px;
+}
+.right_cont p{
+    color:#2083a2
+}
+.quan li{
+    width:176px;
+    line-height:27px;
+    color:#959595;
+    border-bottom:1px dashed #c6c6c6
+}
+.quan li span{
+    display: inline-block;
+    width:155px;
+    line-height:20px
+}
+.no_3{
+    bottom:19px
+}
+.isOk{
+    width:195px;
+    height:47px;
+    background-color:#258bdf;
+    color:#fff;
+    font-size:23px;
+    border:none;
+    border-radius: 3px;
+    left:240px;
+    display: none;
+}
+.isOk img{
+    left: 5px;
+}
+
+/* 版权 */
+.banquan{
+    text-align: center;
+    height:93px;
+    color:#818080;
+    padding-top:37px
+}
+.banquan span{
+    margin-right:25px
+}
+
+/* 立即登录 */
+.deng{
+    width:180px;
+    height:271px;
+    position: absolute;
+    top: 166px;
+    right: 255px;
+    background-color: #fff;
+    z-index: 5;
+    border-radius: 5px;
+    border:2px solid #f97e07;
+    padding:33px 15px 17px 19px;
+    display: none;
+}
+.deng_head{
+    position: absolute;
+    top: -18px;
+    right: 42px;
+    width:120px;
+    height:31px;
+    border-radius:40px;
+    border:1px solid #cdced2;
+    text-align:center;
+    line-height:31px;
+    background:-webkit-linear-gradient(top,#fff,#fdf8f4,#ffe9d1)
+}
+.deng input{
+    width:124px;
+    height:17px;
+    border:1px solid #ccc;
+}
+.close{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    cursor: pointer;
+    top: 6px;
+    right: 7px;
+    background-image: url(../images/注册页/newRegister.png);
+    background-position: -32px 0;
+}
+.close:hover{
+    background-position: -58px 0;
+}
+.pass{
+    left:12px
+}
+.deng_b{
+    width:98px;
+    height:23px;
+    border:1px solid #b5b5b5;
+    color:#353535;
+    font-size:11px;
+    left:42.5px;
+    top: 3px;
+    background:-webkit-linear-gradient(top,#fff,#f7f7f7,#f7f7f7);
+}
+.deng_b span{
+    color:#929292;
+    font-size:5px;
+    margin-left: 9px;
+}
+.forget{
+    color:#ff5f00;
+    font-size:11px
+}
+.forget a{
+    color:#ff5f00;
+    font-size:11px;
+    text-decoration: underline;
+}
+.if{
+    list-style:square;
+}
+.if li{
+    line-height: 24px;
+    width:160px;
+    height:57px
+}
+.bb{
+    border-bottom: 1px solid #efefef;
+}
+.if li a{
+    text-decoration: underline;
+}
+
+/* 快速注册 */
+.fast{
+    width:958px;
+    height:370px;
+    display: none;
+    margin-left: 10px;
+    border:1px solid #e5e5e5;
+    background-color: #fff;
+    border-bottom:2px solid #e5e5e5;
+}
+.fast_left input{
+    border:1px solid #c7c7c7;
+    box-shadow: #f0f0f0 1px 1px 1px 1px inset;
+}
+.fast_head{
+    width:938px;
+    height:46px;
+    line-height: 46px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.fast_head span{
+    color:#3e3e3e;
+    margin-right:22px
+}
+.fast_head i{
+    color:#999
+}
+.fast_head i a{
+    color:#006dd2
+}
+.fast_left{
+    padding-left:62px;
+    padding-top:28px
+}
+.set-password{
+    left:23px
+}
+.user-name{
+    left:10px
+}
+.nametips {
+    list-style: square;
+    position: absolute;
+    width:250px;
+    height:49px;
+    left:225px;
+    top:3px;
+    color:#333;
+    padding-left: 10px;
+    padding-top:3px;
+    display: none;
+    list-style-position: inside;
+    background-color: #daf1ff;
+}
+.passlen{
+    width:250px;
+    background-color: #daf1ff;
+    color:#333;
+    position: absolute;
+    left:212px;
+    top:0;
+    display: none;
+}
+.no_tips{
+    width:260px;
+    height:31px;
+    background-color: #fff5f5;
+    line-height: 31px;
+    position: absolute;
+    top: -3px;
+    display: none;
+}
+.no_tips_name{
+    left:225px;
+}
+.no_tips_password{
+    left: 213px;
+}
+.no_tips_password{
+    left: 213px;
+}
+.no_tips_password2{
+    left: 236px;
+}
+.no_tips_email{
+    left: 236px;
+}
+.no_tips img{
+    margin-left: 5px;
+    margin-top:6px;
+}
+#agree{
+    top:3px;
+    margin-right: 6px;
+}
+.fast_submit{
+    width:87px;
+    height:32px;
+    border:none!important;
+    border-radius:25px;
+    color:#fff;
+    margin-top:25px;
+    background:-webkit-linear-gradient(top,#ffa705,#ff7d00)
+}
+.fast_right{
+    padding-left: 30px;
+    width:260px;
+    height:271px;
+    margin-top:23px;
+    border-left:1px dashed #ddd
+}
+.fast_right p{
+    color:#333;
+    font-weight: 600;
+}
+.ljdeng:hover{
+    columns: #666666;
+}
+.ljdeng{
+    display: inline-block;
+    text-align: center;
+    width:116px;
+    height:30px;
+    line-height: 30px;
+    font-size:13px;
+    color:#666;
+    margin-top:8px;
+    font-weight: 600;
+    border:1px solid #ededed;
+    border-radius: 5px;
+    background:-webkit-linear-gradient(top,#fcfcfc,#f4f4f4,#ededed)
+}
+.fast_right div{
+    width:250px;
+    color:#333;
+    margin-top:20px
+}
+.fast_right span{
+    color:#008000;
+    display: inline-block;
+    font-weight: 600;
+}
+.fast_right i{
+    color:#999;
+    width: 251px;
+    display: inline-block;
+}
+.fast_right i a{
+    color:#006dd2;
+    text-decoration: underline;
+}
+.error{
+    color:red;
+}
+.no_tips span{
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+.no_tips_agree{
+    top: 297px;
+    left: 342px;
+}

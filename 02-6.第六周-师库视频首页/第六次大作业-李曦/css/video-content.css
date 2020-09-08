@@ -1,0 +1,293 @@
+.contentlogo {
+    width: 980px;
+    height: 28px;
+    background: url(../images/11_02.png) no-repeat;
+}
+
+.bg-hd {
+    width: 980px;
+    height: 80px;
+    background: url(../images/22_06.png) no-repeat;
+}
+
+.myborderl {
+    width: 736px;
+    height: 1200px;
+    /* border: 1px solid deeppink; */
+}
+
+.myborderr {
+    width: 234px;
+    height: 230px;
+    /* border: 1px solid skyblue; */
+}
+
+.cf {
+    clear: both;
+}
+
+
+/* 标题字体 */
+
+.style-hd {
+    color: dimgray;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/* 视频 */
+
+.shipin {
+    width: 736px;
+    height: 488px;
+    line-height: 488px;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+}
+
+
+/* 评分 */
+
+.score {
+    padding-left: 8px;
+    margin-top: 8px;
+    width: 724px;
+    line-height: 30px;
+    height: 30px;
+    border: 2px solid #ccc;
+}
+
+.score a {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/star.png);
+    vertical-align: middle;
+}
+
+.score a.active {
+    background-position: 0 -27px;
+}
+
+.weibo {
+    margin-left: 36px;
+}
+
+.cw {
+    margin-left: 158px;
+    color: #0a01af;
+}
+
+.download {
+    width: 94px;
+    height: 24px;
+    border: 1px solid #bf7141;
+    border-radius: 4px;
+    background: linear-gradient(#fc960b, #f88c0f, #f88c0f);
+    color: #fff;
+}
+
+
+/* 视频简介 */
+
+.intro {
+    width: 734px;
+    height: 95px;
+    border: 1px solid #ccc;
+    margin-top: 12px;
+}
+
+.intro-1 {
+    padding-left: 14px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.intro-2 {
+    padding-left: 14px;
+    height: 66px;
+    line-height: 16px;
+    color: #6e6e6e;
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.comment {
+    height: 382px;
+    border: 1px solid #ccc;
+    margin-top: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.comment-hd {
+    padding-left: 14px;
+    line-height: 30px;
+    height: 30px;
+    background-color: #eee;
+}
+
+.people {
+    font-size: 10px;
+    color: #a2a2a2;
+}
+
+.comm-contt {
+    width: 708px;
+    height: 126px;
+    border: 1px solid #ccc;
+    margin: 12px;
+    outline: none;
+}
+
+.statements {
+    height: 28px;
+    width: 708px;
+    text-indent: 12px;
+}
+
+.comm-btn {
+    width: 62px;
+    height: 28px;
+    background-color: #0178bc;
+    border: 1px solid #00559f;
+    color: #fff;
+}
+
+.com_1 {
+    text-indent: 12px;
+    width: 715px;
+    height: 62px;
+    border-bottom: 1px dashed #ccc;
+}
+
+.com_1 p {
+    margin-bottom: 6px;
+}
+
+.zc {
+    margin-left: 200px;
+}
+
+.del {
+    color: olivedrab;
+}
+
+.more-com {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.contt-footer {
+    height: 127px;
+    background-color: #f3f3f3;
+}
+
+.blog {
+    width: 235px;
+    height: 234px;
+    border: 1px solid #ccc;
+}
+
+.blog-1 {
+    width: 235px;
+    height: 195px;
+    border-bottom: 1px dashed #ccc;
+    background: url(../images/weibo_03.png);
+}
+
+.blog button {
+    margin-right: 6px;
+    margin-top: 6px;
+    width: 62px;
+    height: 20px;
+    border: 1px solid #a9a9a9;
+    background-color: #fff;
+    color: #3f7493;
+}
+
+.blog button:hover {
+    color: orange;
+}
+
+.zhong {
+    margin-top: 12px;
+    width: 235px;
+    height: 256px;
+    border: 1px solid #ccc;
+    background: url(../images/99_09.png);
+}
+
+.tab {
+    margin-top: 12px;
+    width: 235px;
+    height: 256px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.tab .tab-hd {
+    height: 29px;
+    background-color: #f7f7f7;
+    color: #404040;
+}
+
+.tab .tab-hd ul {
+    padding-top: 9px;
+}
+
+.tab .tab-hd li {
+    float: left;
+    width: 76px;
+    height: 28px;
+    line-height: 18px;
+    border-right: 1px solid #eee;
+    margin-top: -9px;
+}
+
+.tab .tab-hd li a {
+    display: block;
+    /* padding: 0 14px; */
+}
+
+.notitabce .tab-hd li a:hover {
+    color: #f60;
+    text-decoration: underline;
+}
+
+.tab .tab-hd li.on {
+    border: 1px solid #d5d5d5;
+    border-bottom: none;
+    background-color: #fff;
+    font-weight: bold;
+    position: relative;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.tab .tab-bd {
+    border-top: 1px solid #e8e8e8;
+    padding: 5px;
+}
+
+.tab .tab-pal {
+    display: none;
+}
+
+.tab .tab-bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.tab .tab-bd li {
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px 0 5px;
+    overflow: hidden;
+    width: 125px;
+    float: left;
+}

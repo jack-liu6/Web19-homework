@@ -1,0 +1,111 @@
+/* 设置头部的容器 */
+.header-wrapper{
+    height: 80px;
+}
+/* 设置logo */
+.img{
+    width: 229px;
+    height: 52px;
+    background-image: url(../images/沃夫德尔首页.png);
+    margin-left: 35px;
+    margin-right: 27px;
+}
+/* 设置导航条的超链接 */
+.nav li a{
+    padding: 0 27px;
+    line-height: 52px;
+}
+/* 设置主体左边 */
+.main-left{
+    width: 820px;
+    padding-bottom: 40px;
+}
+.main-right{
+    width: 320px;
+}
+.indexbar{
+    height: 35px;
+}
+.indexbar-left{
+    width: 10px;
+    height: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.taozi{
+    display: inline-block;
+}
+/* 设置作者的信息 */
+.author-wrapper{
+    border-bottom: #999 1px dashed;
+    border-top: #999 1px dashed;
+}
+.author-wrapper p{
+    line-height: 25px;
+}
+/* 设置文章的内容 */
+.main-text-top,.main-text-bottom{
+    line-height: 25px;
+}
+.main-text-bottom{
+    margin-bottom: 50px;
+}
+/* 设置链接的图片 */
+.link img{
+    vertical-align: middle;
+}
+/* 设置相关文章推荐 */
+.recommend p,.else p{
+    line-height: 25px;
+}
+/* 设置主体的右边 */
+.main-right{
+    width: 315px;
+}
+/* 设置右边的图片 */
+.main-right img{
+    width: 315px;
+}
+/* 设置最新资讯 */
+.news{
+    border: #999 1px solid;
+}
+.news-title{
+    line-height: 40px;
+    width: 295px;
+    border-bottom: #999 1px solid;
+}
+.inner-text,.newsul{
+    line-height: 25px;
+}
+/* 设置网页的尾部 */
+.bindex{
+    margin-left: 110px;
+}
+.addr{
+    margin-right: 80px;
+    line-height: 25px;
+}
+.addr span{
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+}
+/* 设置二维码 */
+.code-wrapper{
+    width: 160px;
+    height: 170px;
+    margin-left: 140px;
+}
+.code-wrapper p{
+    line-height: 30px;
+}
+.code-wrapper p:first-child{
+    width: 150px;
+    border-bottom: #999 solid 1px;
+    margin-left: 5px;
+}
+/* 设置版权信息 */
+.footer-wrapper2 p{
+    line-height: 50px;
+}

@@ -1,0 +1,399 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E9F0F8
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #FBFCFE;
+    margin-bottom: 10px
+}
+
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.wt1000 {
+    width: 1000px;
+    margin: 0 auto
+}
+
+.toubu {
+    width: 1000px;
+}
+
+.zuoyeben {
+    width: 135px;
+    padding-left: 10px
+}
+
+.youbian {
+    width: 440px;
+}
+
+.xuebitu {
+    background: url(../images/top-nav.gif) no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.tu1 {
+    background-position: -4px 0px;
+}
+
+.tu2 {
+    background-position: -47px 0px;
+}
+
+.tu3 {
+    background-position: -92px 0px;
+}
+
+.tu4 {
+    background-position: -140px 0px;
+}
+
+.geren {
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background-color: #E9F0F8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.geren span,
+a {
+    color: #93BAE0;
+    text-decoration: none;
+}
+
+.bodyer {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 980px;
+    margin: 0 auto
+}
+
+.zuoye {
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.yuwen {
+    width: 908px;
+    height: 50px;
+    background-color: #6C9DCE;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0px 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.yuwen span {
+    color: #fff;
+}
+
+.yuwen .wenzi {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: 10px
+}
+
+.yuwen .shici {
+    font-weight: bold;
+}
+
+.yuwen .ti {
+    font-size: 10px
+}
+
+.biaoge {
+    height: 68px
+}
+
+.biaoge table {
+    border-collapse: collapse;
+    width: 948px;
+    height: 68px;
+    margin-left: 10px;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+
+.biaoge .riqi {
+    width: 150px;
+    text-align: center;
+    color: #B4B4B4;
+    font-size: 14px;
+}
+
+.biaoge .chucuo {
+    padding-left: 100px;
+    color: #B4B4B4;
+    font-size: 14px;
+}
+
+.zhishi p {
+    margin-left: 10px;
+    color: #B4B4B4;
+    font-size: 14px;
+}
+
+.zhishi {
+    margin: 10px 0px
+}
+
+.zhishi a {
+    color: #FEA620;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.beijin {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 90px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border: 1px solid #B4B4B4;
+}
+
+.feng {
+    margin-left: 40px;
+}
+
+.feng .huida {
+    width: 895px;
+    height: 30px;
+    background-color: #EEF8EC;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.feng .zuobian {
+    color: #02B523;
+    font-weight: bold;
+}
+
+.feng input {
+    margin-top: 10px;
+}
+
+.feng .input {
+    color: #999;
+    font-size: 14px;
+}
+
+.input span {
+    margin-right: 20px;
+}
+
+.feng .huida .gou {
+    display: inline-block;
+    background-color: #02B523;
+    color: #fff;
+    width: 17px;
+    height: 20px;
+    padding-left: 3px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.feng .xiti {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #999;
+    font-size: 14px;
+}
+
+.feng a {
+    color: #757673;
+}
+
+.xiao {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.beijin2 {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 290px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border: 1px solid #B4B4B4;
+    background: url(../images/作业系统-作业本-作业报告-1_12.jpg) 0 0 no-repeat;
+}
+
+.xiao2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input p {
+    margin-bottom: 5px;
+}
+
+.tutu1 {
+    background: url(../images/作业系统-作业本-作业报告-1_03.jpg) 0 0 no-repeat;
+}
+
+.tutu2 {
+    background: url(../images/作业系统-作业本-作业报告-1_06.jpg) 0 0 no-repeat;
+}
+
+.tutu3 {
+    background: url(../images/作业系统-作业本-作业报告-1_10.jpg) 0 0 no-repeat;
+}
+
+.tutu4 {
+    background: url(../images/作业系统-作业本-作业报告-1_15.jpg) 0 0 no-repeat;
+}
+
+.beijin3 {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 290px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border: 1px solid #B4B4B4;
+    background: url(../images/作业系统-作业本-作业报告-1_17.jpg) 0 0 no-repeat;
+}
+
+.beijin4 {
+    position: relative;
+    background-color: #fff;
+    width: 942px;
+    height: 375px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border-radius: 5px;
+    border: 3px solid #ffc2c2;
+    background: url(../images/作业系统-作业本-作业报告-1_20.jpg) 0 0 no-repeat;
+}
+
+.huida2 {
+    width: 895px;
+    height: 110px;
+    background-color: #FFF6E5;
+    margin-top: 5px;
+}
+
+.xiabian {
+    color: #FE2F2D;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.xiabian .gou2 {
+    display: inline-block;
+    margin-left: 25px;
+    vertical-align: bottom;
+    background: url(../images/03.jpg) no-repeat;
+    width: 17px;
+    height: 20px;
+    padding-left: 3px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.xiabian .zheng {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.pp {
+    width: 800px;
+    font-size: 14px;
+    color: #70716D;
+    margin-left: 55px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.pp span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+}
+
+.fanhui {
+    display: inline-block;
+    width: 88px;
+    height: 27px;
+    background: url(../images/pppp.jpg) no-repeat;
+}
+
+.hsy {
+    margin: 40px 0px 10px 400px;
+}
+
+.foot {
+    width: 1000px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    border-top: 5px solid #F4F4F4;
+}
+
+.ban {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 400px;
+    color: #9C9C9C;
+}
+
+.ban .xin {
+    position: relative;
+    top: 5px;
+}

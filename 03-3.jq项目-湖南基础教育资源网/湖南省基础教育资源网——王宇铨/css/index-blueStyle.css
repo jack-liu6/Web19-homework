@@ -1,0 +1,135 @@
+.pubBorder{
+	border-color: #b8e1f3;
+
+}
+.pubBorderOutside{
+	border-color: #eaf6ff;
+	border-width: 2px;
+}
+.pubBorderInside{
+	border-color: #bdd7f2;
+
+}
+.pubBG{
+	background-color: #f6fbff;
+}
+.pubColor{
+	color: #1e8ac8;
+}
+
+/*首页*/
+/*搜索栏*/
+.head .address .addressOption .city span{
+	color: #1a1ad1;
+}
+.head .address .addressOption .city .cityChecked{
+	background-color: #ff6500;
+	color: #fff;
+}
+.head .search form button{
+	background-position: -48px 0;
+}
+/*导航菜单*/
+.menu{
+	background:url(../image/blue_skin/nav_bg.png);
+}
+.menu .menuLink .linkChecked{
+	background:url(../image/blue_skin/nav_hover.png);
+}
+
+.menu .lv2Li .lv2MenuBtnChecked{
+	color: #316eaf;
+	/*font-weight: bold;*/
+	background-color: #f6fbff;
+	border:1px solid #8abbe4;
+	border-radius: 5px;
+	
+}
+.menu .lv2MenuBtn ul li a:hover{
+	color: #fff;
+	background-color: #1e8ac8;
+	font-weight: bold;
+}
+.pubTittle {
+	background-image: linear-gradient(#fff,#eefbfe)
+}
+.pubTittle  i{
+	display: inline-block;
+	width: 22px;
+	height: 31px;
+	background:url(../image/blue_skin/tt_ico.png) no-repeat;
+	background-position: 7px 10px;
+	vertical-align: top;
+}
+/*榜单切换按钮——通用*/
+.PHbang>h4 .tabsBtn span{
+	color: #306eb0;
+}
+.PHbang>h4 .tabsBtn .tabsbtnChecked{
+	
+	color: #fff;
+	font-weight: bold;
+	background:url(../image/blue_skin/tab_sm.png);
+}
+.PHbang ul li .number{
+	margin-right: 12px;
+	color: #457ebc;
+}
+.teacherRoom>h4 span{
+	color: #316eaf;
+}
+.teacherRoom .teacherList a:hover{
+	background-color: #eaf6ff;
+}
+.sanleiClass>h4 span{
+	color: #316eaf;
+}
+.sanleiClass>h4 .tabsBtn .tabsbtnChecked{
+	
+	color: #fff;
+	font-weight: bold;
+	background:url(../image/blue_skin/tab_big.png) no-repeat;
+	/*background-position:0 1px ;*/
+}
+.sanleiClass ul a:hover{
+	background-color: #eaf6ff;
+}
+
+/*应用切换页*/
+ .pubTabs h4 .appTabsChecked{
+	top: -1px;
+	height: 31px;
+	background-color: #fff;
+	border:none;
+	border-top: 2px solid #53a1d1;
+	color: #316eaf;
+}
+/*友情链接*/
+.friendLink h4 span{
+	color: #316eaf;
+	border-right: 3px solid #316eaf;
+}
+
+
+
+
+/*应用中心*/
+/*列表按钮样式*/
+.app .appBtn{
+	background: url(../image/blue_skin/app_menu_bg.png) no-repeat;
+}
+.app .appBtn li{
+	color: #09388a;
+}
+.app .appBtn .allapp.appBtnChecked{
+	background:url(../image/blue_skin/all_app_hover.png);
+}
+.app .appBtn .recapp.appBtnChecked{
+	background:url(../image/blue_skin/rec_app_hover.png);
+}
+.app .appBtn .freeapp.appBtnChecked{
+	background:url(../image/blue_skin/free_app_hover.png);
+}
+.app .appBtn .feeapp.appBtnChecked{
+	background:url(../image/blue_skin/fee_app_hover.png);
+}

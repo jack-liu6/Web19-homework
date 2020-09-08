@@ -1,0 +1,150 @@
+
+/* 第二页的样式 */
+
+.rongqi{
+	width: 1186px;
+	margin-top: 5px;
+	padding: 0 20px 40px;
+	background: #fff;
+}
+.rongqi .title{
+	height: 62px;
+	line-height: 62px;
+
+}
+.rongqi .d1{
+	background: #6c9dce;
+}
+.rongqi .d1 .sp1{
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	background-color: #fff;
+	border: 2px solid gray;
+	margin-left: 10px;
+}
+.tb>table{
+	width: 100%;
+}
+	
+.excting .lian1{
+	position: relative;
+	height: 78px;
+	border: 1px solid gray;
+	font-size: 12px;
+}
+.lian1 {
+	padding: 12px 10px 20px 38px;
+}
+.lian1 .sp1{
+	position: absolute;
+	background: url(../images/icos.gif) no-repeat 0 -43px;
+	width: 39px;
+	height: 37px;
+	padding-left: 6px;
+	top: -1px;
+	left: -1px;
+}
+.lian1 .sp1:after{
+	content: "1";
+	color: #fff;
+}
+.lian2 .lian1 .sp1:after{
+	content: "2";
+	color: #fff;
+}
+.lian3 .lian1 .sp1:after{
+	content: "3";
+	color: #fff;
+}
+.lian4 .lian1 .sp1:after{
+	content: "4";
+	color: #fff;
+}
+.lian5 .lian1 .sp1:after{
+	content: "5";
+	color: #fff;
+}
+.lian6 .lian1 .sp1:after{
+	content: "6";
+	color: #fff;
+}
+.lian7 .lian1 .sp1:after{
+	content: "7";
+	color: #fff;
+}
+.lian4 .lian1{
+	height: 220px;
+}
+.lian6 .lian1{
+	height: 380px;
+}
+.lian7 .lina1{
+	height: 380px;
+}
+.isTrue .tsp{
+	width: 17px;
+	height: 17px;
+	background-color: #01b523;
+	border-radius: 100%;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 5px; 
+}
+.isFalse .tsp{
+	width: 17px;
+	height: 17px;
+	background-color: #ff0000;
+	border-radius: 100%;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 5px; 
+}
+/*显示错误*/
+.isFalse{
+	height: 30px;
+	width: 100%;
+	background: #fff7e5;
+	display: none;
+}
+/*显示正确*/
+.isTrue{
+	height: 30px;
+	width: 100%;
+	background: #eef8ec;
+	display: none;
+
+}
+.tb{
+	margin-top: 6px;
+}
+#option6 .isFalse{
+	height: 180px;
+	width: 100%;
+	background: #fff7e5;
+	display: none;
+}
+
+#btn{
+	display: inline-block;
+	width: 89px;
+	height: 28px;
+	text-align: center;
+	background-image: url(../images/anniu.png);
+	border-radius: 5px;
+	border:0;
+	cursor: pointer;
+	padding: 0 20px 0;
+	margin-left: 530px;
+	margin-top: 28px
+
+}
+#btn:focus{
+	outline: none;
+}
+#btn:active{
+	background-image: url(../images/anniu2.png);
+
+}

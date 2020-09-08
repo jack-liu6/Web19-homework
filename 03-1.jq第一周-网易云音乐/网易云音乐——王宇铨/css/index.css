@@ -1,0 +1,1000 @@
+/*通用*/
+body{
+	background-color: #f5f5f5;
+}
+.wt1100{
+	width: 1100px;
+	margin: 0 auto;
+}
+.wt982{
+	width: 982px;
+	margin: 0 auto;
+}
+.sprite1{
+	background:url(../image/topbar.png) no-repeat;
+}
+.sprite2{
+	background:url(../image/toplist.png) no-repeat;
+}
+.sprite3{
+	background:url(../image/index.png) no-repeat;
+}
+.sprite4{
+	background:url(../image/iconall.png) no-repeat;
+}
+.sprite5{
+	background:url(../image/coverall.png) no-repeat;
+}
+.sprite6{
+	background:url(../image/icon.png) no-repeat;
+}
+
+.sprite7{
+	background:url(../image/icon2.png) no-repeat;
+}
+
+.sprite8{
+	background:url(../image/foot_enter_new.png) no-repeat;
+}
+.sprite9{
+	background:url(../image/foot_enter_tt.png) no-repeat;
+}
+.sprite10{
+	background:url(../image/sprite.png) no-repeat;
+}
+
+
+/*顶部菜单*/
+.topbarBG{
+	background-color: #242424;
+}
+.topbar .logo{
+	width: 177px;
+	height: 69px;
+}
+.topbar a{
+	display: inline-block;
+	height: 70px;
+	line-height: 70px;
+	padding:0 20px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+.topbar a:hover{
+	background-color: #000;
+}
+.topbar a .hotico{
+	display: inline-block;
+	width: 26px;
+	height: 13px;
+	background-position: -192px 0;
+	position: absolute;
+	top: 21px;
+	left: 100px;
+	
+}
+/*.topbar a .checkbgimg{
+	display: inline-block;
+	width: 12px;
+	height: 6px;
+	background-position: -226px 0;
+	position: absolute;
+	bottom: 0;
+	left: 45%;
+	display: none;
+}*/
+.topbar #topChecked{
+	background-color: #000;
+	background:url(../image/topachecked_02.png) no-repeat;
+	background-position: 50% 64px;
+}
+.topbar #topChecked  .checkbgimg{
+	display: block;
+}
+.topbar form{
+	width: 158px;
+	height: 32px;
+	margin-top: 19px;
+}
+.topbar input[type='text']{
+	border:none;
+	outline: none;
+	width: 130px;
+	height: 32px;
+	border-radius:0 16px 16px 0;
+	background-color: #fff;
+	float: left;
+	font-size: 12px;
+	/*padding-left:28px;*/
+}
+.topbar input[type='submit']{
+	border:none;
+	outline: none;
+	width: 28px;
+	height: 32px;
+	border-radius: 16px 0 0 16px;
+	background-position: -3px -99px;
+	background-color: #fff;
+	float: left;
+}
+.topbar .create{
+	display: inline-block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border:1px solid #fff;
+	border-radius: 15px;
+	color: #fff;
+	margin:0 19px;
+	padding: 0;
+}
+.topbar .user{
+	padding: 0;
+}
+.topbar .user img{
+	width: 30px;
+	height:30px;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+.topbar .user sup{
+	display: inline-block;
+	color: #fff;
+	background-color: #C20C0C;
+	width: 24px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 8px;
+	text-align: center;
+	position: absolute;
+	top: 17px;
+	right: -15px;
+}
+.topbar .user:hover{
+	background-color: #242424;
+}
+.topbar .user:hover sup{
+	display: none;
+}
+.topbar .user:hover + ul{
+	display: block;
+}
+.topbar .userlv2{
+	position: absolute;
+	top: 55px;
+	right: -65px;
+	background-color: #2b2b2b;
+	width: 158px;
+	border:1px solid #202020;
+	box-shadow: 0 8px 24px 0 #535353;
+	display: none;
+	z-index: 30;
+}
+.topbar .userlv2:hover{
+	display: block;
+}
+.topbar .userlv2 .bgico{
+	display: inline-block;
+	width: 14px;
+	height: 8px;
+	position: absolute;
+	top: -8px;
+	left: 72px;
+	background-position: -20px 0;
+}
+.topbar .userlv2 a{
+	display: inline-block;
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	padding: 0;
+	text-align: left;
+	text-indent: 20px;
+}
+.topbar .userlv2 a span{
+	color: #ccc;
+}
+.topbar .userlv2 sup{
+	display: inline-block;
+	color: #fff;
+	background-color: #C20C0C;
+	width: 24px;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 8px;
+	text-align: center;
+	position: absolute;
+	top: 6px;
+	right: 30px;
+	text-indent: 0;
+}
+.topbar .userlv2 a .sprite2{
+	display: inline-block;
+	width: 18px;
+	height:18px;
+	vertical-align: top;
+	margin-top: 8px;
+}
+.topbar .userlv2 a .ico1{
+	background-position: 0 -80px;
+}
+.topbar .userlv2 a .ico2{
+	background-position: -20px -121px;
+}
+
+.topbar .userlv2 a .ico3{
+	background-position: 0 -101px;
+}
+
+.topbar .userlv2 a .ico4{
+	background-position: 0 -220px;
+}
+
+.topbar .userlv2 a .ico5{
+	background-position: 0 -140px;
+}
+
+.topbar .userlv2 a .ico6{
+	background-position: -19px -142px;
+}
+
+.topbar .userlv2 a .ico7{
+	background-position: 0 -200px;
+}
+.topbar .userlv2  .borbotm{
+	border-bottom: 1px solid #232323;
+}
+.topbar .userlv2 a:hover span{
+	color: #fff;
+
+}
+.topbar .userlv2 a:hover{
+	background-color: #4c4c4c;
+}
+
+
+/*发现音乐页面*/
+.discoverBtnBG{
+	background-color: #C20C0C;
+	border-bottom: 1px solid #a40011;
+
+}
+.discoverBtn{
+	margin-left: 180px;
+}
+.discoverBtn a{
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	padding:0 17px;
+	float: left;
+}
+.discoverBtn a span{
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 13px;
+	color: #fff;
+	font-size: 12px;
+}
+.discoverBtn a #discoverChecked{
+	background-color: #9B0909;
+	border-radius: 20px;
+}
+
+
+/*轮播图及下载*/
+/*轮播图*/
+.bannerBG{
+	background:url(../image/109951165241883687_bg.jpg);
+	background-size: 6000px; 	
+	background-position: center;
+}
+.banner{
+	width: 982px;
+
+
+	margin:0 auto;
+}
+.banner ul {
+	width: 730px;
+	height: 283px;
+}
+.banner ul li{
+	display: none;
+}
+.banner ul li img{
+	width: 730px;
+}
+.banner ul .bannerBtn{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.banner ul .bannerBtn span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	cursor: pointer;
+}
+.banner ul .bannerBtn span i{
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #fafafa;
+	border-radius: 50%;
+}
+.banner ul .bannerBtn span .bannerBtnChecked{
+	background-color: #c40c0c;
+}
+.banner .download{
+	width: 252px;
+    height: 285px;
+    background:url(../image/download.png) no-repeat;
+}
+.banner .download a{
+	display: block;
+    width: 215px;
+    height: 56px;
+    margin: 185px auto 0;
+}
+.banner .download p{
+	font-size: 12px;
+	margin: 10px 0;
+    text-align: center;
+    color: #8d8d8d;
+}
+.banner .download a:hover{
+	background:url(../image/download.png) no-repeat;
+	background-position: 0 -289px;
+}
+.banner .bannerTurnBtn{
+	width: 37px;
+    height: 63px;
+    background:url(../image/banner.png) no-repeat;
+    position: absolute;
+    top: 111px;
+    cursor: pointer;
+}
+.banner .bannerPrevious{
+	left:-68px;
+	background-position: 0 -361px;
+}
+.banner .bannerNext{
+	right:-68px;
+	background-position: 0 -508px;
+}
+.banner .bannerPrevious:hover{
+
+	background-position: 0 -430px;
+}
+.banner .bannerNext:hover{
+
+	background-position: 0 -578px;
+}
+
+/*推荐榜单等*/
+.detail{
+	background-color: #fff;
+	
+}
+/*左边部分*/
+.detail .leftPart{
+	width: 689px;
+	padding: 20px 20px 40px;
+}
+.detail .leftPart .tuijian{
+	margin-bottom: 35px;
+}
+.detail .leftPart h4{
+	width: 679px;
+	height: 35px;
+	padding-right: 10px;
+	color: #333;
+	border-bottom: 2px solid #C10D0C;
+}
+.detail .leftPart h4 i{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-position: -225px -154px;
+}
+.detail .leftPart h4 span{
+	font-size: 20px;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	vertical-align: top;
+}
+.detail .leftPart h4 a{
+	font-size: 12px;
+	padding: 0 10px;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: top;
+	margin-top: 10px;
+}
+.detail .leftPart h4 .bordR{
+	border-right: 1px solid #ccc;
+}
+.detail .leftPart h4 em{
+	display: inline-block;
+	width: 12px;
+	height: 14px;
+	background-position: 0 -239px;
+	vertical-align: top;
+
+}
+.detail .leftPart ul{
+	padding:20px 0;
+
+}
+.detail .leftPart ul a{
+	display: inline-block;
+	height: 234px;
+	vertical-align: top;
+}
+.detail .leftPart ul .mr{
+	margin-right: 38px;
+}
+.detail .leftPart ul a>div{
+	width: 140px;
+	height: 140px;
+}
+.detail .leftPart ul a .warp{
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.detail .leftPart ul a .aLinkBotm{
+	height: 27px;
+	line-height: 27px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-position: 0 -537px;
+    color: #ccc;
+    z-index: 20;
+    font-size: 12px;
+    padding:0 5px;
+}
+
+.detail .leftPart ul a .aLinkBotm .sprite4{
+	display: inline-block;
+	height: 27px;
+	width: 16px;
+	vertical-align: top;
+	margin: 0 5px;
+}
+.detail .leftPart ul a .aLinkBotm .ico1{
+	background-position: 0 -16px;
+}
+.detail .leftPart ul a .aLinkBotm .ico2{
+	background-position: 0 6px;
+}
+.detail .leftPart ul a>p{
+	width: 140px;
+	font-size: 14px;
+}
+.detail .leftPart ul a>p span{
+	display: inline-block;
+	width: 35px;
+	height: 15px;
+	background-position: -31px -658px;
+	vertical-align: top;
+	margin-top: 5px;
+}
+
+/*新碟上架*/
+.detail .leftPart .newdisc ul{
+	background: #f5f5f5;
+	border: 1px solid #d3d3d3;
+	margin-top: 20px;
+	padding-left: 28px;
+}
+.detail .leftPart .newdisc ul a{
+	width: 118px;
+	height: 150px;
+	margin:0 3px;
+	background-position:  -260px 100px;
+}
+
+.detail .leftPart .newdisc a>div{
+
+	width: 118px;
+    height: 100px;
+    background-position: 0 -570px;
+}
+.detail .leftPart .newdisc a>div img{
+	width: 100px;
+}
+.detail .leftPart .newdisc a>div .warp{
+	width: 100px;
+	height: 100px;
+	background-position: -240px -70px;
+}
+.detail .leftPart .newdisc a>div .aLinkBotm{
+	width: 100px;
+	display: none;
+}
+.detail .leftPart .newdisc ul a:hover .aLinkBotm{
+	display: block;
+}
+.detail .leftPart .newdisc a>div .aLinkBotm .ico2{
+	height: 22px;
+	width: 22px;
+	background-position: 0 -85px;
+	margin-right: 10px;
+}
+.detail .leftPart .newdisc a p{
+	font-size: 12px;
+	width: 105px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.detail .leftPart .newdisc ul>.sprite3{
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top:65px;
+	cursor:pointer;
+}
+.detail .leftPart .newdisc ul .pre{
+	background-position: -261px -75px;
+	left: 5px;
+}
+.detail .leftPart .newdisc ul .next{
+	background-position: -300px -75px;
+	right: 5px;
+}
+.detail .leftPart .newdisc ul .pre:hover{
+	background-position: -281px -75px;
+	
+}
+.detail .leftPart .newdisc ul .next:hover{
+	background-position: -320px -75px;
+	
+}
+.detail .leftPart .newdisc ul li{
+	display: none;
+}
+
+/*榜单*/
+.detail .leftPart .bangdan .BDlist{
+	border: 1px solid #c3c3c3;
+	border-right:none;
+	margin-top:20px;
+}
+.detail .leftPart .bangdan .BDlist ol{
+	background-color: #f4f4f4;
+	border-right: 1px solid #c3c3c3;
+
+}
+.detail .leftPart .bangdan .BDlist .topTittle{
+	width: 210px;
+	height: 80px;
+	padding:20px;
+	padding-right: 0;
+	
+}
+.detail .leftPart .bangdan .BDlist .topTittle img{
+	width: 80px;
+	height: 80px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle h5{
+	font-size: 14px;
+	font-weight: bold;
+	padding:5px 0 10px 10px ;
+}
+.detail .leftPart .bangdan .BDlist .topTittle p{
+	padding-left: 10px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle p a{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: 10px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle p .ico1{
+	background-position: -267px -205px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle p .ico2{
+	background-position: -299px -205px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle p .ico1:hover{
+	background-position: -267px -235px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle p .ico2:hover{
+	background-position: -299px -235px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle .warp{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-position:-145px -57px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.detail .leftPart .bangdan .BDlist .topTittle .shadow{
+	background-position:  -260px -1px;
+	width: 80px;
+	height: 20px;
+	position: absolute;
+	top: 100px;
+	left: 20px;
+}
+.detail .leftPart .bangdan .BDlist ol{
+	width: 228px;
+}
+.detail .leftPart .bangdan .BDlist ol li{
+	position: relative;
+	padding-left: 15px;
+}
+.detail .leftPart .bangdan .BDlist ol li .icos{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.detail .leftPart .bangdan .BDlist ol li:hover>a{
+	width: 80px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.detail .leftPart .bangdan .BDlist ol li:hover .icos{
+	display: block;
+}
+.detail .leftPart .bangdan .BDlist ol li span{
+	display: inline-block;
+	width: 35px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 16px;
+	color: #666;
+}
+.detail .leftPart .bangdan .BDlist ol li a{
+	font-size: 12px;
+	display: inline-block;
+	width: 170px;
+	height: 32px;
+	line-height: 32px;
+	vertical-align: top;
+}
+.detail .leftPart .bangdan .BDlist ol li .sprite3{
+	width: 17px;
+	height: 17px;
+	margin-right:10px;
+	margin-top: 7px;
+}
+.detail .leftPart .bangdan .BDlist ol li .Sico1{
+	background-position: -267px -268px;
+}
+.detail .leftPart .bangdan .BDlist ol li .Sico2{
+	background-position: -329px -269px;
+}
+.detail .leftPart .bangdan .BDlist ol li .Sico3{
+	background-position: -296px -268px;
+}
+.detail .leftPart .bangdan .BDlist ol li .Sico1:hover{
+	background-position: -267px -288px;
+}
+.detail .leftPart .bangdan .BDlist ol li .Sico2:hover{
+	background-position: -351px -269px;
+}
+.detail .leftPart .bangdan .BDlist ol li .Sico3:hover{
+	background-position: -296px -288px;
+}
+.detail .leftPart .bangdan .BDlist ol li .qian3{
+	color: #c10d0c;
+	    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+.detail .leftPart .bangdan .BDlist ol li .more{
+	width: 75px;
+	padding:0 15px;
+}
+.detail .leftPart .bangdan .BDlist ol .evenLi{
+	background-color: #fff;
+}
+
+/*主页右侧部分*/
+/*用户栏*/
+.detail .rightPart{
+	border:1px solid #c3c3c3;
+	height: 1455px;
+}
+.detail .rightPart .userPart{
+	width: 250px;
+	height: 165px;
+	padding-top: 20px;
+	border-bottom:1px solid #c3c3c3;
+	background-position: 0 -270px;
+}
+.detail .rightPart .userPart .border{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	padding:2px;
+	margin-left: 20px;
+	background: #fff;
+    border: 1px solid #dadada;
+}
+}
+.detail .rightPart .userPart img{
+	width: 80px;
+	height: 80px;
+}
+.detail .rightPart .userPart .imform{
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	margin-left: 18px;
+}
+.detail .rightPart .userPart .imform .lv{
+	display: block;
+	height: 17px;
+	width: 36px;
+	line-height: 17px;
+	padding:0 3px;
+	color: #999;
+	font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    background-position: -130px -64px;
+    border:1px solid #999;
+    border-radius: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+.detail .rightPart .userPart .imform .lv:hover{
+	color: #666;
+	border-color: #666;
+}
+.detail .rightPart .userPart .imform .sign{
+	display: inline-block;
+	width: 100px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	background-position: -274px -133px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+.detail .rightPart .userPart .imform .sign:hover{
+	background-position: -274px -100px;
+}
+.detail .rightPart .userPart .floor2{
+	margin-left: 15px;
+}
+.detail .rightPart .userPart .floor2 a{
+	display: inline-block;
+	/*width: 26px;*/
+	color:#666;
+	height: 40px;
+	padding:0 15px;
+	margin-top: 22px;
+	font-size: 12px;
+	/*float: left;*/
+}
+
+.detail .rightPart .userPart .floor2 a .num{
+	font-size: 20px;
+}
+.detail .rightPart .userPart .floor2 .bord{
+	border-right: 1px solid #e4e4e4;
+}
+.detail .rightPart .userPart .floor2 a:hover p{
+	color: #5ba1e2;
+}
+
+.detail .rightPart h4{
+	height: 23px;
+    margin: 15px 20px 0;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 12px;
+}
+.detail .rightPart h4 span{
+	font-weight: bold;	
+}
+.detail .rightPart h4 a{
+	color: #666;
+
+}
+
+.detail .rightPart .singerPart li a{
+	display: inline-block;
+    width: 210px;
+    height: 62px;
+    background: #fafafa;
+    border:1px solid #e9e9e9;
+    margin:15px 19px 0;
+}
+.detail .rightPart .singerPart li a h6{
+	font-size: 14px;
+	color: #333;
+	padding-left: 15px;
+	font-weight: bold;
+	height: 22px;
+	line-height: 22px;
+	margin-top: 8px;
+}
+.detail .rightPart .singerPart li a p{
+	font-size: 12px;
+	color: #666;
+	padding-left: 15px;
+}
+.detail .rightPart .singerPart li a:hover{
+	background-color: #f0f0f0;
+}
+.detail .rightPart .singerPart .shenqing a{
+	display: inline-block;
+	width: 210px;
+	height: 31px;
+	line-height: 31px;
+	text-align: center;
+	font-weight:bold;
+    border-radius: 4px; 
+    background-image: linear-gradient(#fff ,#f1f1f1);
+    border:1px solid #c4c4c4;
+    margin:15px 0 15px 20px;
+}
+.detail .rightPart .upPart ul{
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.detail .rightPart .upPart ul a{
+	display: inline-block;
+	width: 210px;
+	height: 50px;
+}
+.detail .rightPart .upPart ul a h6{
+	font-size: 12px;
+	padding-left: 15px;
+	color: #000;
+	height: 22px;
+	line-height: 22px;
+}
+.detail .rightPart .upPart ul a h6 i{
+	display: inline-block;
+	width: 11px;
+	height: 13px;
+	vertical-align: middle;
+}
+.detail .rightPart .upPart ul a p{
+	height: 21px;
+	line-height: 21px;
+	font-size: 12px;
+	padding-left: 15px;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*底部*/
+.footBG{
+	border-top: 1px solid #d3d3d3;
+	height: 172px;
+	padding-top: 20px;
+}
+.foot h4 a{
+	color: #999;
+	font-size: 12px;
+	padding:0 10px;
+	border-right: 1px solid #c2c2c2; 
+}
+.foot p {
+	padding-left: 10px;
+}
+.foot p span{
+	font-size: 12px;
+	color: #666;
+	margin-right: 15px;
+}
+.foot .others a{
+	float: left;
+	margin-top: 30px;
+}
+.foot .others a .sprite8{
+	width: 50px;
+	height: 45px;
+	background-size: 110px 552px;
+}
+.foot .others a .sprite9{
+	width: 72px;
+	height: 14px;
+	background-size: 180px 139px;
+	margin-top: 5px;
+}
+.foot .others a .ico1{
+	background-position: -63px -456.5px;
+	margin-left: 10px;
+}
+.foot .others a .ico2{
+	background-position:-63px -101px;
+}
+.foot .others a .ico4{
+	background-position: -60px -50px;
+}
+.foot .others a .ico5{
+	background-position: 0 -101px;
+}
+.foot .others a .txtico1{
+	background-position:0 -108px;
+}
+.foot .others a .txtico2{
+	background-position:-1px -91px;
+}
+.foot .others a .txtico4{
+	background-position: 0 -54px;
+}
+.foot .others a .txtico5{
+	background-position: -1px -72px;
+}
+
+
+/*导航浮标*/
+.backTop{
+	position: fixed;
+	right: 20%;
+	bottom: 160px;
+    width: 49px;
+    height: 44px;
+    background-position: -265px -47px;
+    cursor:pointer;
+    display: none;
+}
+
+
+/*动画*/
+.banner ul li{
+	animation: opaci 1s;
+	-moz-animation: opaci  1s;
+	-webkit-animation: opaci  1s; 
+	-o-animation: opaci  1s;
+}
+
+@keyframes opaci{
+	0%{  opacity: 0 }
+	100%{ opacity: 1}
+}
+.newdisc ul{
+	overflow: hidden;
+}
+.newdisc ul li{
+	animation: in 2s;
+	-moz-animation: in 2s;
+	-webkit-animation: in 2s; 
+	-o-animation: in 2s;
+	/*animation: out 2s;
+	-moz-animation: out 2s;
+	-webkit-animation: out 2s; 
+	-o-animation: out 2s;*/
+}
+
+@keyframes in{
+	0%{  transform: translate(660px, 0) }
+	100%{ transform: translate(0, 0) }
+}
+/*@keyframes out{
+	100%{  transform: translate(0, 0) }
+	0%{ transform: translate(-660px, 0) }
+}*/

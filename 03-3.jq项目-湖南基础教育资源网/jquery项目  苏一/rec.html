@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>注册页</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/rec.css" />
+		<link rel="stylesheet" type="text/css" href="js/laydate/theme/default/laydate.css"/>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="rectop clearfix">
+			<div class="fl">
+				<a href="index.html"><img src="img/reclogo.png"></a>
+			</div>
+			<div class="fl recline"></div>
+			<div class="fl rectext">
+				<img src="img/text.png">
+			</div>
+		</div>
+		<div class="recbox posir">
+			<div class="leaf">
+				<img src="img/leaf.png">
+			</div>
+			<div class="boxtop posir">
+				<span class="topsp1 bluebg">学生注册</span>
+				<span class="topsp1 graybg" style="margin-left: 10px;">教师注册</span>
+				<span class="bluejiao"></span>
+				<span class="bluejiao1"></span>
+			</div>
+			<div class="recbd clearfix">
+				<div class="bdzuo fl">
+					<!-- 学生注册 -->
+					<div class="box1">
+						<form action="login.html" name="recform" id="recform">
+							<p class="clearfix">
+
+								<span class="span1">用户名：</span>
+
+								<input type="text" name="username" id="username" value="" />
+
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">只允许为字母、数字和下划线</span>
+
+							</p>
+
+							<p class="clearfix">
+
+								<span class="span1">密 &nbsp;&nbsp;码：</span>
+
+								<input type="password" name="password" id="password" value="" />
+
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">密码长度必须为6-12个字符之间</span>
+
+							</p>
+
+							<p class="clearfix">
+
+								<span class="span1">确认密码：</span>
+                                <input type="password" name="confirm_psd" id="confirm_psd" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请再输入一次密码</span>
+                            </p>
+							
+							<p>
+								<span class="span1">真实姓名：</span>
+								<input type="text" name="realname" id="realname" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">非真实姓名学校管理员将停用账号</span>
+							</p>
+							<p>
+								<span class="span1">身份证号码：</span>
+								<input type="text" name="concredit" id="concredit" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请填写真实身份证号码</span>
+							</p>
+							
+							<p>
+								<span class="span1">性别：</span>
+								<input type="radio" name="sex" id="sex" value=""/>男
+								<input type="radio" name="sex" id="sex" value="" class="ml20"/>女
+								<span class="red">&nbsp;*&nbsp;</span>
+							</p>
+							
+							<p class="mt10">
+								<span class="span1">取回密码时的问题：</span>
+								<input type="text" name="question" id="question" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">忘记密码时，可通过该问题取回您的密码</span>
+							</p>
+							
+							<p>
+								<span class="span1">取回密码时的答案：</span>
+								<input type="text" name="answer" id="answer" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">取回密码时问题的答案</span>
+							</p>
+							
+							<p class="posir">
+								<span class="span1">生日：</span>
+								<input type="text" name="birthday" id="birthday" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请选择您的生日</span>
+								<span class="birthdaysp"></span>
+							</p>
+							
+							<p>
+								<span class="span1">电子邮箱：</span>
+								<input type="text" name="email" id="email" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请输入有效的电子邮箱地址</span>
+							</p>
+							<div class="zhuce">
+								<button type="submit"></button>
+							</div>
+						</form>
+
+					</div>
+			        <!-- 教师注册 -->
+					<div class="box1" style="display: none;">
+						<form action="" name="recform" id="recform1">
+							<p class="clearfix">
+					
+								<span class="span1">老师姓名：</span>
+					
+								<input type="text" name="username1" id="username" value="" />
+					
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">只允许为字母、数字和下划线</span>
+					
+							</p>
+					
+							<p class="clearfix">
+					
+								<span class="span1">密 &nbsp;&nbsp;码：</span>
+					
+								<input type="password" name="password1" id="password" value="" />
+					
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">密码长度必须为6-12个字符之间</span>
+					
+							</p>
+					
+							<p class="clearfix">
+					
+								<span class="span1">确认密码：</span>
+					            <input type="password" name="confirm_psd1" id="confirm_psd" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请再输入一次密码</span>
+					        </p>
+							
+							<p>
+								<span class="span1">真实姓名：</span>
+								<input type="text" name="realname1" id="realname" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">非真实姓名学校管理员将停用账号</span>
+							</p>
+							<p>
+								<span class="span1">身份证号码：</span>
+								<input type="text" name="concredit1" id="concredit" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请填写真实身份证号码</span>
+							</p>
+							
+							<p>
+								<span class="span1">性别：</span>
+								<input type="radio" name="sex1" id="sex" value=""/>男
+								<input type="radio" name="sex1" id="sex" value="" class="ml20"/>女
+								<span class="red">&nbsp;*&nbsp;</span>
+							</p>
+							
+							<p class="mt10">
+								<span class="span1">取回密码时的问题：</span>
+								<input type="text" name="question1" id="question" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">忘记密码时，可通过该问题取回您的密码</span>
+							</p>
+							
+							<p>
+								<span class="span1">取回密码时的答案：</span>
+								<input type="text" name="answer1" id="answer" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">取回密码时问题的答案</span>
+							</p>
+							
+							<p class="posir">
+								<span class="span1">生日：</span>
+								<input type="text" name="birthday1" id="birthday1" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请选择您的生日</span>
+								<span class="birthdaysp"></span>
+							</p>
+							
+							<p>
+								<span class="span1">电子邮箱：</span>
+								<input type="text" name="email1" id="email" value="" />
+								<span class="red">&nbsp;*&nbsp;</span>
+								<span class="gray">请输入有效的电子邮箱地址</span>
+							</p>
+							
+							<div class="zhuce">
+								<button type="submit"></button>
+							</div>
+						</form>
+					
+					</div>
+					<!-- END -->
+				</div>
+				<div class="bdyou fl">
+					<div class="bdyoutop">
+						<span class="brown">已有资源网账号，</span>
+						<a href="login.html" class="blue">立即登录>></a>
+					</div>
+					<div class="youbox posir">
+						<div class="tt">
+							新版资源网
+						</div>
+						<div class="youbd">
+							<div class="mt10">
+								<a href="">账号不变、资源扩容、功能升级</a>
+							</div>
+							<p>
+								<span class="num1"></span>
+								<span class="gray">
+									全面的学科和专题资源
+								</span>
+							</p>
+							<p>
+								<span class="num2"></span>
+								<span class="gray">
+									同步更新的海量名校优质资源
+								</span>
+							</p>
+							<p>
+								<span class="num3"></span>
+								<span class="gray">
+									个性化个人空间，多套模版各种风格任你换
+								</span>
+							</p>
+							<p>
+								<span class="num4"></span>
+								<span class="gray">
+									收费低，让人人都能享有名校优质教育资源
+								</span>
+							</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="bq">
+			<p>
+				<span>主办：浙江省教育厅</span>
+				<span>承办：浙江省教育技术中心</span>
+				<span>本站资源仅限于教育系统内部使用</span>
+			</p>
+			<p>
+				<span>浙ICP备05000083号 </span>
+				<span>最佳分辨率：1024×736 </span>
+				<span>建议使用火狐、谷歌浏览器</span>
+			</p>
+		</div>
+         
+		<script src="js/rec.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

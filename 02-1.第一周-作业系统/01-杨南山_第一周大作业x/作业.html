@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>作业本</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul{
+			list-style-type: none;
+		}
+		em,i{
+			font-size: normal;
+		}
+		a{	
+			text-decoration: none;
+		}
+		/*.{
+			float: left;
+		}*/
+		.fr{
+			float: right;
+		}
+		.clearfix:after{
+			content: "/20";
+			height: 0;
+			display: block;
+			visibility: hidden;
+			clear: both;
+		}
+		.container{
+			width: 1226px;
+			margin: 0 auto;
+		}
+		.header{
+			height: 70px;
+			background-color: #f8fafd;
+		}
+		.logo{
+			width: 177px;
+			height: 70px;
+			background: url(images/logo.gif) no-repeat;
+		}
+		.text{
+			border-top-left-radius:6px;
+			border-top-right-radius:6px;
+			margin-top: 32px;
+			padding: 12px 20px 5px 20px;
+			background-color: #e9f0f8;
+		}
+		.tab_pic{
+			margin-top: 42px;
+			float: right;
+			margin-right: 30px;
+		}
+		.tab_pic>a{
+			display: inline-block;
+			width: 23px;
+			height: 22px;
+			margin-right: 20px;
+		}
+		.tab_pic .items{
+			display: inline-block;
+			width: 23px;
+			height: 22px;
+			background: url(images/top-nav.gif) no-repeat;	
+		}
+		.tab_pic .items:nth-child(1){
+			background-position: -11px 0;
+		}
+		.tab_pic .items:nth-child(2){
+			background-position: -55px 0;
+		}
+		.tab_pic .items:nth-child(3){
+			background-position: -98px 0;
+		}
+		.tab_pic .items:nth-child(4){
+			background-position: -140px 0;
+		}
+		.box{
+			background-color: #fff;
+			padding-top: 20px;
+			padding-left: 10px;
+			margin-top: 6px;
+			padding-bottom: 40px;
+			padding-right: 10px;
+		}
+		.title-wait{
+			margin-left: 10px;
+		}
+		.wait-content{
+			padding:15px;
+			border: 4px solid #d0d0d0;
+			outline: 2px solid #efefef;
+			outline-radius:5px;
+			border-radius: 5px;
+			margin-top: 12px;
+		}
+		.pencil{
+			border-radius: 3px;
+			background-color: #6c9dce;
+			padding-left: 10px;
+			padding-right: 24px;
+		}
+		.txt-l>span:first-child{
+			display: inline-block;
+			padding:9px;
+			background-color: #fff;
+			border: 1px solid #ddd;
+		}
+		.txt-r{
+			margin-top: 10px;
+		}
+		.txt-r>i{
+			display: inline-block;
+			width: 18px;
+			height: 14px;
+			background:url(images/icos.gif);
+			background-position: 0 0;
+			vertical-align: middle;
+		}
+		.wenzi>p{
+			width: 468px;
+		}
+		.pencil-txt{
+			padding:15px 17px 20px 12px;
+		}
+		.pencil-txt .ak47{
+			width: 120px;
+			height: 33px;
+			border-radius: 5px;
+			line-height: 33px;
+			background-image:  linear-gradient(#fee839,#fac42f);
+		}
+		.dv{
+		
+		}
+		.opions>span{
+			margin: 0 13px;
+		}
+		.ssp{
+			float: right;
+		}
+		.ssp span{
+			display: inline-block;
+			width: 22px;
+			height: 22px;
+			border: 1px solid gray;
+			text-align: center;
+			margin-top: 12px;
+			cursor: pointer; 
+		}
+		.ssp span:hover{
+			border-color: skyblue;
+			background-color: skyblue;
+		}
+		.footer{
+			text-align: center;
+			padding:12px 10px;
+			background-color: #fbfbfb;
+			margin-top: 5px;
+		}
+		.text>a{
+			color: #5893ce;
+		}
+		.text>span{
+			color: #5893ce;
+		}
+	</style>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="icomoon/style.css">
+</head>
+<body style="background-color: #e9f0f8">
+	<!-- 顶部 -->
+		<div class="header">
+			<div class="content container clearfix">
+				<div class="logo fl"></div>
+				<div class="site-r fr">
+					<div class="text fr">
+						<span>欢迎你,杨同学!</span>
+						<span style="margin: 0 14px">|</span>
+						<a href="">个人设置</a>
+						<span style="margin: 0 14px">|</span>
+						<a href="">退出</a>
+					</div>
+					<div class="tab_pic">
+						<a href="" class="items"></a>
+						<a href="" class="items"></a>
+						<a href="" class="items"></a>
+						<a href="" class="items"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主题内容 -->
+		<div class="bd">
+			<div class="box container">
+				<!-- 待做作业标题 -->
+				<div class="title-wait">
+					<span class="font18">待做作业</span>
+					<span class="font12 ml18">共3项</span>
+				</div>
+				<!-- 待做作业 -->
+				<div class="wait-content">
+					 <div class="pencil clearfix">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div>
+					 </div>
+					 <div class="pencil-txt clearfix">
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class="ak47 fr tc" href="#">
+					 		<i class="icon-pencil"></i>
+					 		<span>做作业</span>
+					 	</a>
+					 </div>
+
+
+					 <div class="pencil clearfix">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div>
+					 </div>
+					 <div class="pencil-txt clearfix">
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class="ak47 fr tc" href="#">
+					 		<i class="icon-pencil"></i>
+					 		<span>做作业</span>
+					 	</a>
+					 </div>
+				</div>
+				<div class="title-wait mt28">
+					<span class="font18">已完成作业</span>
+					<div class="opions inline-block ml10">
+						<a href="">全部</a>
+						<span>|</span>
+						<a href="">语文</a>
+						<span>|</span>
+						<a href="">数学</a>
+						<span>|</span>
+						<a href="">外语</a>
+						<span>|</span>
+						<a href="">物理</a>
+						<span>|</span>
+						<a href="">生物</a>
+						<span>|</span>
+						<a href="">化学</a>
+						<span>|</span>
+						<a href="">地理</a>
+						<span>|</span>
+						<a href="">历史</a>
+						<span>|</span>
+						<a href="">政治</a>
+					</div>
+				</div>
+				<div class="wait-content ">
+					 <div class="pencil clearfix" style="background-color: #dfdfdf">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<!-- <div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div> -->
+					 </div>
+					 <div class="pencil-txt clearfix" >
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class=" fr tc" href="#">
+					 		<i class="icon-zoom-in inline-block" ></i>
+					 		<span class="f_weight_b">查看作业报告</span>
+					 	</a>
+					 </div>
+
+
+					 <div class="pencil clearfix" style="background-color: #dfdfdf">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<!-- <div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div> -->
+					 </div>
+					 <div class="pencil-txt clearfix">
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class=" fr tc" href="#">
+					 		<i class="icon-zoom-in inline-block" ></i>
+					 		<span class="f_weight_b">查看作业报告</span>
+					 	</a>
+					 </div>
+					 <div class="pencil clearfix" style="background-color: #dfdfdf">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<!-- <div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div> -->
+					 </div>
+					 <div class="pencil-txt clearfix">
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class="fr tc" href="#">
+					 		<i class="icon-zoom-in inline-block" ></i>
+					 		<span class="f_weight_b">查看作业报告</span>
+					 	</a>
+					 </div>
+					 <div class="pencil clearfix" style="background-color: #dfdfdf">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<!-- <div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div> -->
+					 </div>
+					 <div class="pencil-txt clearfix">
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class="fr tc" href="#">
+					 		<i class="icon-zoom-in inline-block" ></i>
+					 		<span class="f_weight_b">查看作业报告</span>
+					 	</a>
+					 </div>
+					 <div class="pencil clearfix" style="background-color: #dfdfdf">
+					 	<div class="txt-l fl">
+					 		<span>语文</span>
+					 		<span class="ml10 white">诗词解析</span>
+					 		<span class="ml12 white font12">(共24题)</span>
+					 	</div>
+					 	<!-- <div class="txt-r fr">
+					 		<i></i>
+					 		<span class="white">课时复习资料</span>
+					 	</div> -->
+					 </div>
+					 <div class="pencil-txt clearfix">
+					 	<div class="wenzi">
+					 		<p class="clearfix">
+					 			<span class="fl">截止时间：2011-01-28 8:00</span>
+					 			<span class="fr">老师：王中山</span>
+					 		</p>
+					 		<div class="dv fl">
+					 			<div class="inline-block fl">作业要求：</div>
+					 			<div class="inline-block fl" style="width: 930px">作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求作业要求</div>
+					 		</div>
+					 	</div>
+					 	<a class="fr tc" href="#">
+					 		<i class="icon-zoom-in inline-block" ></i>
+					 		<span class="f_weight_b">查看作业报告</span>
+					 	</a>
+					 </div>
+					 <div style="border: 1px dashed gray"></div>
+					<div class="father clearfix">
+						<div class="ssp skyblue">
+					 	<span class="sp">1</span>
+					 	<span class="sp">2</span>
+					 	<span class="sp">3</span>
+					 	<span class="sp">4</span>
+					 	<span class="sp">5</span>
+					 	<span class="sp">6</span>
+					 </div>
+					</div>
+				</div>
+
+			</div>
+			<div class="container footer">
+				<span>版权信息************</span>
+			</div>
+		</div>
+	
+</body>
+</html>

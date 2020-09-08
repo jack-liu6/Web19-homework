@@ -1,0 +1,153 @@
+.wt1000{ width:800px; margin:0 auto}
+.xuebi{background: url(images/001.gif)no-repeat;
+	display: inline-block;
+	width: 22px;	
+	height: 22px;
+	margin-right: 20px;
+
+		}
+.xuebi1{background-position:-11px 0;
+	margin-left:385px;
+		
+	}
+.xuebi2{background-position:-55px 0;
+		
+	}
+.xuebi3{background-position:-98px 0;
+		
+	}
+.xuebi4{background-position:-141px 0;
+		
+	}
+.bgse1{background-color: #e9f0f8;
+	border-radius:2px;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+/*内容主体*/
+.zhutik{
+	background-color: #e9f0f8;
+	padding: 10px 0px;
+}
+.zhuti2{padding-top: 3px;
+	background-color: #fff;
+}
+.zuoye{margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wenzi1{font-size: 16px;
+	}
+.zhuti2{padding-left: 10px;
+	
+	margin-bottom: 15px;
+
+	}
+.neirong1{background-color: #6d9dce;
+	border-radius:5px ;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-right: 20px;
+	}
+.yuwen1{background-color: #fff;
+	margin-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 9px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.youcelogo{
+	margin-right: 15px;
+}
+.logo1{background: url(images/icos.gif)no-repeat;
+	display: inline-block;
+	width: 19px;
+	height: 14px;
+	background-position: 
+	1px 1px;
+
+}
+.yuwen2{color: #fff;
+	}
+.yuwennr1,.yuwennr2{margin-left: 20px;
+	color: #999999;
+}
+.yuwennr3{margin-left: 95px;
+	color: #999999;
+}
+
+.neir2{
+	padding-bottom: 10px;
+	border: 1px solid #e2e2e2;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+.xuebitu{
+	background: url(images/icos.gif)no-repeat;
+	display: inline-block;
+	width: 39px;
+	height: 39px;
+}
+.xuebitu-1{
+	background-position: 0 -43px;
+}
+.shuzi{
+	color: #fff;
+	font-size: 16px;
+	position: absolute;
+	left: 6px;
+	top: 1px;
+}
+.nrwz{position: absolute;
+	left: 45px;
+	top:8px;
+}
+.shuruk{background:none;
+	border:none;
+	border-bottom: 2px solid ;
+}
+
+.nrwz2{
+	
+}
+.danxuan1{
+	
+	margin-right: 50px;
+	margin-left: 40px;
+}
+.danxuan{
+
+	margin-right:50px;
+}
+.a9{
+	
+	margin-left: 5px;
+
+}
+.nr2-1{
+	margin-left: 44px;
+	margin-bottom: 15px;
+}
+.nr2-2{
+	margin-bottom: 10px;
+}
+.dibu{
+	height: 110px;
+}
+.tijiao{background: url(images/作业系统_03.png)no-repeat;
+width:88px;
+height: 28px;
+border:none;
+margin-left: 400px;
+margin-top: 10px；
+}
+.weibu{background-color: #fafafa;
+	width: 1010px;
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}

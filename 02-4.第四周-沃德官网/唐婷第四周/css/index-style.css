@@ -1,0 +1,465 @@
+.yellow{
+	color:#ff9600
+}
+/*导航栏样式*/
+
+.heads{
+	width: 1922px;
+	height:110px;
+	background-color:#082939;
+}
+.Navbar{
+	height: 110px;
+	line-height: 110px;
+}
+.Logo{
+    top: 20px;
+    margin-right: 30px
+}
+.Navbar li{
+	margin-left: 55px
+}
+.Navbar li a{
+	font-size: 18px;
+	font-weight: 700
+}
+
+/*Banner样式*/
+
+.Banner{
+	width: 1922px;
+	height: 600px;
+	background: url(../image/沃夫德尔首页_06.png)no-repeat;
+	margin-bottom: 70px
+}
+.banner{
+	height: 600px;
+}
+.car{
+    color: #fff;
+	display: inline-block;
+	line-height: 60px;
+	font-size: 38.96px;
+    font-weight: 700;
+    left:800px;
+    top: 50%
+}
+
+/*咨询结构样式*/
+
+.consult{
+	font-size: 32px;
+	color: #474747;
+}
+.counsel{
+	line-height: 40px
+}
+.INF{
+	font-size: 30px;
+	color: #a7acb0;
+	margin-bottom: 60px
+}
+.video{
+	width: 435px;
+	height: 355px;
+	border: 1px solid #b9b9b9
+}
+.experience{
+	height: 74px;
+	line-height: 35px;
+	background-color: #1975a5;
+	padding-top: 20px
+}
+.more{
+	bottom:40px;
+	margin-right: 25px
+}
+.news{
+	width: 700px;
+	height: 309px;
+	border: 1px solid #c1c1c1;
+	padding: 23px
+}
+.news a:hover{
+	
+	 color: #1975a5
+}
+.news1{
+	width: 126px;
+	height: 30px;
+	/*margin:25px 0px 25px 33px;*/
+	color: #565555;
+	border: 1px solid #1975a5;
+	background-color: #fff;
+	border-radius: 7px
+}
+.news1:active{
+	font-size: 19px;
+   background-color: #1975a5;
+   color: #fff
+}
+.moree{
+	color: #565555;
+}
+
+.newsLi li a{
+	color: #434343;
+	font-size: 15px
+}
+
+/*产品系列样式*/
+
+.series{
+	width: 1922px;
+	height: 600px;
+	margin-top: 100px;
+	background-color: #eff1f4;
+    line-height: 40px;
+    padding-top: 70px
+}
+.livall{
+	left:110px;
+}
+.Helmet{
+	width: 420px;
+	height: 80px;
+	line-height: 80px;
+	border: 1px solid #9a9b9c;
+	margin-bottom: 40px;
+	border-radius: 7px;
+	background-color: #eff1f4
+}
+.QQ{
+	right:80px;
+	top:10px;
+}
+.zhineng{
+	font-size: 30.9px;
+	color: #363636;
+}
+.Helmet2{
+	width: 421px;
+	height: 81px;
+	border: none;
+	line-height: 80px;
+	margin-bottom: 40px;
+	border-radius: 7px;
+	background-color: #1975a5
+}
+.Helmet2 span{
+	color: #fff
+}
+.produce{
+	height: 600px
+}
+.Vehicle{
+	right: 0px;
+
+}
+.mart{
+	width: 680px;
+}
+.drive{
+	width: 520px
+}
+.Smart{
+	font-size: 22px;
+	color: #3d3c3c;
+    left: 80px
+}
+.liva{
+	font-size: 22px;
+	color: #3d3c3c;
+    left: 470px;
+    bottom:115px
+}
+.introduce{
+	display: inline-block;
+	width: 275px;
+	height: 85px;
+	font-size: 18.26px;
+	color: #646464;
+    right: 55px
+}
+.introduces{
+	display: inline-block;
+	width: 275px;
+	height: 85px;
+	font-size: 18.26px;
+	color: #646464;
+    left: 30px
+}
+
+/*沃夫德尔样式*/
+.Wolfdale{
+    width: 1922px;
+    height: 580px;
+    background: url(../image/banner_02.png);
+}
+.SWT{
+	width: 690px;
+	color: #fefefe;
+	font-size: 13px;
+	left:600px;
+	top: 40%
+}
+.concept{
+	left:680px;
+	top:70%
+}
+.concept a{
+	text-align: center;
+	display: inline-block;
+	width: 130px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20.65px;
+	margin-right: 45px;
+	border-radius: 15px;
+	margin-bottom: 8px
+}
+.concept a:hover{
+	background-color: #ff7300;
+	color: #fff
+}
+.dot span{
+	border-radius:50%;
+	text-align: center;
+	line-height: 25px;
+	font-size: 16.55px;
+	color: #fff;
+	background-color:#045f9f;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 149px;
+}
+.dot{
+	left: 38%;
+	top:72%;
+}
+.line{
+	display: inline-block;
+	width: 160px;
+	border: 1px solid #fff
+}
+.piont{
+	border-radius:50%;
+	background-color:#ff7300;
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+
+}
+.dividing{
+	top:10px;
+	left: 570px
+}
+/*招商加盟*/
+.join{
+	width: 1922px;
+	height: 799px;
+	background-color: #eff1f4;
+	text-align: center;
+	padding-top: 113px
+}
+.wire{
+	top:310px;
+}
+.attract{
+	color: #424242;
+	font-size: 32px;
+}
+.hotline{
+	color: #ff9000;
+	font-size: 28.76px
+}
+.phone{
+	margin-top: 15px;
+	margin-right: 20px;
+	top:5px;
+}
+.telephone{
+	right: 30px
+}
+.brief span{
+	font-size: 18.33px;
+	color: #646464;
+	margin-right: 63px
+}
+.brief{
+	width: 960px;
+	padding: 0px 45px 30px 50px;
+	text-align: center;
+	border-bottom: 1px solid #a0a0a0;
+	margin-top: 20px
+}
+.problem{
+	height: 74px;
+	border-bottom: 1px solid #a0a0a0;
+	padding:110px 20px 0px 0px;
+}
+.problem a{
+	color: #646364;
+	font-size: 14px
+}
+.than{
+	bottom: 10px
+}
+.answer{
+	width:600px;
+	height:350px;
+	margin-top: 35px
+}
+.answer ul{
+	text-align: left;
+	line-height: 30px
+}
+.answer li{
+	margin-bottom: 10px
+}
+.marker{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background:url(../image/沃夫德尔首页_32.png);
+	top:7px;
+	margin-right: 10px
+}
+.question{
+	display: inline-block;
+	width:550px;
+	font-size: 15px;
+	color: #383838;
+
+}
+.marker1{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background:url(../image/沃夫德尔首页_35.png);
+	top:7px;
+	margin-right: 10px;
+
+}
+.marker2{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background:url(../image/沃夫德尔首页_35.png);
+	bottom:20px;
+	margin-right: 10px;
+}
+.separate{
+	display: inline-block;
+	height: 255px;
+	border-right: 1px dashed #c4c5c6;
+	top:25px;
+	left: 10px
+}
+.list{
+	width: 1200px;
+	height: 370px;
+	border-bottom: 1px solid #c4c5c6 
+}
+/*联系我们*/
+.contact{
+	width: 1922px;
+	height: 468px;
+	line-height: 60px;
+	background: url(../image/沃夫德尔首页_37.png);
+	text-align: center;
+	padding-top: 95px
+}
+.us{
+	font-size: 43.13px;
+	font-weight: 700;
+	color: #fff;
+}
+.a7a{
+	color: #a7acb0
+}
+.contact div span{
+	font-size: 20.04px;
+	color: #787878;
+}
+.Contact{
+	top:220px;
+	right:22px
+}
+.mr107{
+	margin-right: 107px
+}
+.mr85{
+	margin-right: 85px
+}
+.mr140{
+	margin-right: 140px
+}
+/*尾部*/
+.foot{
+	width: 1922px;
+	height: 290px;
+	background-color: #264252
+}
+.foot-a{
+	width: 985px;
+	padding:33px 105px 15px 110px;
+}
+.foot-a a{
+	font-size: 14px;
+	margin-bottom: 17px
+}
+.foot-a ul p{
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 20px
+}
+.address{
+	font-size: 15px;
+	color: #eeecec
+}
+.code{
+    width: 151px;
+    height: 169px;
+    background-color: #fff;
+    top:20px;
+    padding: 0px 3px
+}
+.app{
+	height: 30px;
+	line-height: 30px;
+	padding: 0px 7px;
+	border-bottom:1px solid #8b8b8b;
+}
+.app a{
+	color: #2f2f2f;
+	font-size: 14px;
+}
+.a1{
+	margin-right: 7px
+}
+.qr{
+	padding: 11px 18px 8px 26px;
+	text-align: center;
+}
+.qr p{
+	font-size: 13px;
+	color: #2f2f2f;
+}
+.qr-code{
+	right: 5px
+}
+/*版权信息*/
+.copyright{
+	width: 1922px;
+    height: 52px;
+    line-height: 52px;
+    background-color: #171717;
+    text-align: center;
+}
+.copyright span{
+	font-size: 12px;
+	color: #eeecec;
+	margin-right: 32px
+}

@@ -1,0 +1,386 @@
+/* 论文网首页CSS */
+/* 公共样式部分 */
+body{background:#fff6e5;margin:0;padding:0;line-height:24px; font-size:14px;font-family:"Microsoft YaHei","微软雅黑",Tahoma,Arial}
+div,p,ul,ol,li,dd,h1,h2,h3,h4,h5,h6,dt,dl,form,input,textarea,blockquote,th,td,body{padding:0;margin:0}
+ul,ol{list-style:none}
+a{ color:#333;text-decoration:none;}
+/*清除浮动公共样式*/
+.clearfix:after{content:"\20";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+/*页面布局*/
+.wt990{ width:990px; margin:0 auto}
+/*浮动公共样式*/
+.fl{float:left}
+.fr{float:right}
+a:hover{color: #0ba1ed;/* text-decoration:none; */}
+
+
+/* 雪碧图 */
+.sprite{
+    background-image:url(../image/zonesprite.png)
+}
+/* logo部分 */
+.logoBox{
+    height:60px;
+    margin-top:28px;
+    margin-bottom:18px;
+}
+.ml8 img{
+    margin-left:8px;
+}
+.bg1{
+    width:84px;
+    height:28px;
+    background-color:#f76c41;
+    border:none;
+    color:white;
+    cursor: pointer;
+    margin-right:27px;
+}
+.search_box input{
+   width:176px;
+   height:24px;
+   margin-right:7px;
+   text-indent: 1em;
+}
+/* 导航栏 */
+.nav{
+    height:44px;
+    width:auto;
+    border-top:1px solid #fa4101;
+    background-image:linear-gradient(to top,#ff6600 0px,#ff8c39 100%)
+}
+.nav_title{
+    line-height: 44px;
+}
+.nav_title li{
+    padding-right:22px;
+}
+.nav_title li a{
+    color:white;
+}
+.nav_title li a:hover{
+    color:#0ba1ed;
+}
+.pr37 a{
+    border-right:2px solid #883f0a;
+    padding-right:37px;
+}
+#pl36{
+    padding-left:14px;
+    padding-right:40px;
+}
+/* 内容 */
+.content_box{
+    height:1141px;
+}
+.contentBox{
+    margin-top: 16px;
+    height:1115px;
+    width:701px;
+    position: relative;
+}
+.contentBox2{
+    margin-top: 16px;
+    width: 232px;
+    height:1119px;
+}
+/* 内容第一排盒子公共样式 */
+.bigBox,.bigBox2,.bigBox3,.bigBox4,.bigBox5,.bigBox6{
+    height:360px;
+    width:338px;
+    border:2px solid #ff9865;
+    border-radius:6px;
+    position: relative;
+    background-color:#fffaf6;
+}
+.bigBox3,.bigBox4,.bigBox5,.bigBox6{
+    margin-top:10px;
+    background-color:#fffaf6;
+}
+/* 内容 */
+.bg2{
+    /* width:338px; */
+    height:34px;
+    background-image: linear-gradient(to top,#ebebeb 0px,#fcfcfc 80%,#fff 100%);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.jxbox{
+    width:117px;
+    height:21px;
+    border-top:1px solid #fafade;
+    position: absolute;
+    top:4px;
+    margin-left:7px;
+}
+.icont{
+    display: inline-block;
+    width:12px;
+    height:13px;
+    background-repeat: no-repeat;
+    background-position: 0 -74px;
+    margin: 6px 6px 0 0px;
+}
+.ft14{
+    font-size:14px;
+    color:#be1500;
+    text-shadow: #cd5593;
+}
+.mr20{
+    margin-right: 20px;
+    position: absolute;
+    top:5px;
+    left:285px;
+}
+/* 字体部分 */
+.font_box{
+    width:314px;
+    height:307px;
+    margin:8px 0 0 9px;
+}
+.kong_box{
+    height:79px;
+    width:314px;
+    border-bottom:1px dashed #ccccca;
+}
+.imgbox{
+    width: 99px;
+    height:71px;
+    border:1px solid #ccccca;
+    background-image: url(../image/teachlw.jpg);
+    background-repeat: no-repeat;
+}
+.catalog{
+    width:205px;
+    height:73px;
+    margin-left:6px;
+    font-size:12px;
+    line-height:19px;
+}
+.fon_Box{
+    margin-top:10px;
+}
+.font12,.font13{
+    list-style: square;
+    font-size: 12px;
+}
+.font12 li{
+    line-height: 22px;
+    margin-left:15px;
+}
+#fon_col,#fon_col2{
+    color:green;
+}
+/* 右边浮动的框 */
+.bigBox7,.bigBox11{
+    width:227px;
+    height:246px;
+    border:2px solid #ff9865;
+    border-radius:6px;
+    background-color:#fffaf6;
+}
+.bigBox8,.bigBox9,.bigBox10,.bigBox11{
+    margin-top:10px;
+    border-radius:6px;
+    border:2px solid #ff9865;
+    background-color:#fffaf6;
+}
+.bigBox8{
+    height:266px;
+}
+.bigBox9{
+    width:227px;
+    height:225px;
+}
+.bigBox10{
+    width:227px;
+    height:82px;
+}
+/* 里面内容样式 */
+.title_box{
+    width:204px;
+    margin:14px 0 0 10px;
+}
+.font14{
+    font-size: 14px;
+    border-bottom:1px dashed #ccccca;
+    padding-bottom: 2px;
+}
+.font_s{
+    font-size: 12px;
+    line-height: 22px;
+}
+.font_s li{
+    list-style-image: url(../image/icont.jpg);
+    list-style-position: inside;
+}
+.phone_box{
+    width:45px;
+    height:45px;
+    margin:10px 10px 0 0;
+}
+.fon_box{
+    width:143px;
+    height:45px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+.fon_12{
+    font-size:12px;
+}
+.fon_12col{
+    color:#97ba52;
+}
+.QQ_box{
+    width:45px;
+    height:48px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.numbox{
+    height:50px;
+}
+.mt17 .num{
+    margin-top: 70px;
+}
+.gnuoicon{
+    margin:10px 0 0 0;
+    height:48px;
+    width:204px;
+}
+.fon_14{
+    font-size: 14px;
+}
+.mr9{
+    margin-right: 9px;
+}
+.font13{
+    margin-left:12px;
+    line-height: 18px;
+}
+/* 底部导航栏部分 */
+.foot_nav{
+    height:44px;
+    width:auto;
+    background-image:linear-gradient(to top, #ff6d0d 0px,#fd9a59 50px,#ffc49e 100%);
+    margin-top:70px;
+}
+#mr28 li{
+    margin-right: 6px;
+}
+#ml20{
+    margin-left: 20px;
+}
+/* 底部 */
+.foot_box{
+    height:194px;
+    width:auto;
+    background-image:linear-gradient(to bottom,#232323 0px,#292929 50px,#383838 100%);
+}
+.bg3{
+    /* margin-top:5px; */
+    height:179px;
+    background-color:#222;
+}
+.ulbox{
+    width:722px;
+    height:129px;
+    padding:28px 0 0 20px;;
+}
+.font_col li{
+    color:#a09174;
+    margin-right: 50px;
+}
+.font_col2 li{
+    margin-right: 50px;
+    line-height:21px;
+}
+.font_col2 li a{
+    font-size: 12px;
+    color:#787878;
+}
+.font_col2 li a:hover{
+    color:#0ba1ed;
+}
+.ml45 li{
+    margin-left: 45px;
+}
+.ml30 li{
+    margin-left: 30px;
+}
+/* 雪碧图 */
+.icont_box{
+    margin-top: 17px;
+    position: relative;
+}
+.icont_1,.icont_2,.icont_3,.icont_4{
+    width:23px;
+    height:23px;
+    background-repeat: no-repeat;
+}
+.icont_1{
+    background-position: -77px -207px;
+}
+.icont_2{
+    background-position: -38px -207px;
+    position: absolute;
+    left: 44px;
+    top:0px;
+}
+/* 第二张雪碧图 */
+.sprite2{
+    background-image:url(../image/img.png)
+}
+.icont_3{
+    background-position: 0px 0px;
+    position: absolute;
+    top:44px;
+}
+.icont_4{
+    width:24px;
+    background-position:-117px -207px;
+    position: absolute;
+    left: 44px;
+    top:44px;
+}
+/* 右边盒子 */
+.right_box{
+    width:178px;
+    height:140px;
+    padding:28px 0 0 0;
+}
+.icont_5{
+    display: inline-block;
+    height:35px;
+    width:177px;
+    background-position: 0px  -249px;
+}
+.font_box2  li{
+    font-size: 12px;
+}
+.pr11{
+    padding-right: 11px;
+}
+.fon_color{
+    color:#474747;
+}
+.font_color2{
+    color:#787878;
+}
+.icont_6,.icont_7{
+    width:21px;
+    height:26px;
+    padding-right:12px;
+}
+.icont_6{
+    background-position: 0 -44px;
+}
+.icont_7{
+    background-position: 0 -90px;
+}
+.icont_8{
+    width:38px;
+    height:26px;
+    background-position: 0 -143px;
+}

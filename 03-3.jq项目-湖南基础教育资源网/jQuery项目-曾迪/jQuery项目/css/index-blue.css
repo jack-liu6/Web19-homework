@@ -1,0 +1,319 @@
+a:hover{
+    color:#1a5da4
+}
+.search-box{
+    border:2px solid #c7d7e1;
+    width: 317px;
+    height: 24px;
+    display: inline-block;
+}
+.search-tb{
+    width: 32px;
+    height: 23px;
+    background-color: #E8F4FB;
+    border-left: 1px solid #c7d7e1;
+    display: inline-block;
+    /* float: right; */
+} 
+/* 导航 */
+.navigation{
+    background-image: url(../images/blue_skin/nav_bg.png);
+}
+.nav_slider{
+    display: inline-block;
+    width:2px;
+    height:21px;
+    background-image: url(../images/blue_skin/nav_line.png);
+}
+  .li_on{
+    background:-webkit-linear-gradient(top,#87ccfe,#3d9fe8,#126fbc);
+    border:1px solid #7fb4e5;
+    border-bottom:none;
+    margin:0px!important;
+  }
+  .li_on a{
+    color:#fff!important
+  }
+  
+  .nav_menu{
+    background-color: #f6fbff;
+    border:1px solid #bfd8f3;
+    color:#1a5da4;
+    border-top:none
+  }
+  .nav_a:hover i{
+    color:#1a5da4;
+    font-size:17px
+  }
+  .nav_a:hover{
+    background-color: #f6fbff;
+    border:1px solid #bfd8f3;
+  }
+  .nav_menu li:hover{
+    background-color: #1e8ac8;
+    color:#fff
+  }
+
+.affiche{
+   border: 1px solid #BFD8F3;
+   background-color: #F9FDFF;
+}
+.Login-box{
+    background-color: #EAF6FF;
+}
+.Login{
+    border: 1px solid #BFD8F3;
+}
+.bgcolor-fef6dd{
+    background-color: #F5FDFF;
+    border-bottom: 1px solid #BFD8F3;
+}
+.bg-zj{
+    background: url(../images/blue_skin/tt_ico.png)no-repeat;
+    width: 8px;
+    height: 10px;
+    display: inline-block;
+}
+.dl-ipt{
+    border: 1px solid #bdd7f2;
+}
+.yzm-ipt{
+    border: 1px solid #bdd7f2;
+} 
+/* 活跃度 */
+.hyd{
+    border: 1px solid #BFD8F3;
+}
+.hyd-box{
+    background-color: #EAF6FF;
+}
+.bg-shi{
+    background:url(../images/blue_skin/tab_sm.png)no-repeat;
+}
+.xian{
+    color: #3084CC;
+}
+.tbxh{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -220px;
+    margin-left:5px;
+    margin-right:25px;
+}
+.tbxh1{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -248px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px ;
+}
+.tbxh2{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -276px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px ;
+}
+.tbxh3{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -305px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px;
+}
+.tbxh4{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -332px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px ;
+}
+.tbxh5{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -360px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px ;
+}
+.tbxh6{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -387px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px ;
+}
+.tbxh7{
+    width:19px;
+    height:15px;
+    display: inline-block; 
+    background: url(../images/ico_sprite.png)no-repeat;
+    background-position: 0px -416px;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:25px ;
+}
+.cs>a{
+    color: #4592D4;
+}
+/* 二层 */
+.kj{
+    border: 1px solid #BFD8F3;
+}
+.kj-box{
+    background-color: #EAF6FF;
+}
+.xz{
+    background-color: #fef6d8;
+    border-bottom: 1px solid #fec397;
+    border-left: 1px solid #fec397;
+}
+.gx{
+    color: #ff6a07;
+}
+/* 滚动 */
+.recommend_left_box{
+    border:1px solid #bfd8f3
+  }
+  .recommend_right{
+    background-color: #eaf6ff;
+  }
+  .recommend_right_box{
+    border:1px solid #bfd8f3
+  }
+  .app{
+    border-bottom:1px solid #bfd8f3;
+    background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe);
+  }
+  .app_on{
+    background-color: #fff;
+    border-top:2px solid #53a1d1!important;
+    color:#316eaf!important
+  }
+  .app li{
+    font-weight: 700;
+    border-top:2px solid rgba(0, 0, 0, 0);
+    border-right:1px solid #bfd8f3;
+    color:#7b7b7b
+  }
+
+/* 名师工作室 */
+.minshi-box{
+    border: 2px solid #EAF6FF;
+}
+.minshi-box1{
+    border: 1px solid #BFD8F3;
+}
+.bg-fef6db{
+    background-color: #F6FDFF;
+}
+.color-ff6a07{
+    color: #316EAF;
+}
+.color-62{
+    color:#626262 ;
+}
+/*学科 */
+.li-1 {
+    border-top: 2px solid #53a1d1;
+      border-right: #bfd8f3 solid 1px;
+   color: #316eaf;
+ }
+ .li-2 {
+ border-right: #bfd8f3 solid 1px;
+ }
+ .fenlei-2{
+  border-top: #bfd8f3 solid 1px;
+ }
+ .wbk{
+    border: #eaf6ff solid 2px;
+  }
+  .nbk{
+     border: #bfd8f3 solid 1px;
+  }
+  .fenlei-1 ul{
+    background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe)
+  }
+  .bgbs{
+    border-top: #53a1d1 solid 2px !important;
+    background-color: #fff !important;
+   border-bottom: none !important;
+  }
+  .bgff{
+   border-top:  solid 2px rgba(0, 0, 0, 0) !important;
+   background-color: #f6fdff !important;
+   border: #bfd8f3 solid 1px!important;
+   
+  }
+  .bgbaise{
+   border-top: #53a1d1 solid 2px !important;
+   position: relative;
+   z-index: 1001;
+   background-color: #fff !important;
+   height: 33px !important;
+  }
+  .bghuangse{
+    border-top:  solid 2px rgba(0, 0, 0, 0) !important;
+    height: 31px !important;
+    background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe)
+  }
+/* 资源 */
+.resource-box{
+    
+    border: 2px solid #EAF6FF;
+   
+}
+.resource{
+    border: 1px solid #BFD8F3;  
+}
+.color-f56d12{
+    color: #3185CB;
+}
+/* 课堂 */
+.classroom-box{
+    
+    border: 2px solid #EAF6FF;
+}
+.classroom{
+    border: 1px solid #BFD8F3;
+   
+}
+.system{
+    background:url(../images/blue_skin/tab_big.png)no-repeat;
+}
+/* 底部 */
+.friendly-link{
+    
+    border: 2px solid #EAF6FF;
+    
+}
+.link-box{
+    border: 1px solid #BFD8F3;
+    background-color: #fff;
+}
+.nav-line{
+    background: url(../images/blue_skin/nav_line.png)no-repeat;
+}
+.friendly{
+    color: #316EAF;
+    font-weight: bold;
+}

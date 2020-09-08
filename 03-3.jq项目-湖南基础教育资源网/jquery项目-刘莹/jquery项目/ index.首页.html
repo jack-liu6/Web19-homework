@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>湖南省基础教育资源网</title>
+		<!--引入公共样式 -->
+		<link rel="stylesheet" href="css/公共01.css">
+		<!-- 引入当前首页样式表-->
+		<link rel="stylesheet" href="css/index.css">
+		<!-- 引入blue样式 -->
+		<link rel="stylesheet" id="blue" href="css/blue_skin.css">
+		<!-- 引入orange样式 -->
+		<!-- <link rel="stylesheet" href="css/orange_skin.css"> -->
+		<!-- 引入jQuery工具库 -->
+		<script src="js/jquery-3.5.1.min.js"></script>
+		<!-- 引入JS样式 -->
+		<script src="js/index首页.js"></script>
+	</head>
+	<body>
+		<!-- 顶部容器 -->
+		<div class="header ">
+			<!-- 顶部容器980div -->
+			<div class="header-div">
+				<!-- 左边 -->
+				<div class="header-ul clearfix">
+					<ul>
+						<!-- 左边 -->
+						<li class="fl">
+							<span>您好,张文莉</span>
+							<span>(</span>
+							<a class="header-sprite" href="#"></a>
+							<a class="header-a" href="#">2</a>
+							<span>)</span>
+							<span>|</span>
+							<a href="#">个人中心</a>
+							<span>|</span>
+							<a href="#">我的空间</a>
+							<span>|</span>
+							<a href="#">我的购物车</a>
+							<span>|</span>
+							<a href="#">后台管理</a>
+							<span>|</span>
+							<a href="#">注销</a>
+						</li>
+						<!-- 右边 -->
+						<li class="fr">
+							<a href="#">收藏夹首页</a>
+							<span>|</span>
+							<a href="#">帮助中心</a>
+							<span>|</span>
+							<a href="#">换肤</a>
+							<!-- 切换皮肤 -->
+							<span>
+								<button id="bul"></button>
+								<button id="ora"></button>
+							</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- LOGO部分 -->
+		<div class="wt980 logo clearfix ">
+			<div class="logo-tu fl"></div>
+			<span class="logo-tuu2 "></span>
+			<!-- 省中心 -->
+			<div class="ss fl">
+				<span class="sheng posir">省中心</span>
+				<!-- 切换城市 -->
+				<div class="posir chengshi">
+					<span class="cs">
+						<a href="#">切换县市</a>
+					</span>
+					<!--  -->
+					<div class="cs-2 none">
+						<!-- 市级上部分 -->
+						<div class="sj ">
+							<span>
+								<a href="#">省中心</a>
+								<a href="#">长沙</a>
+								<a href="#">株洲</a>
+								<a href="#">湘潭</a>
+								<a href="#">衡阳</a>
+								<a href="#">邵阳</a>
+								<a href="#">岳阳</a>
+								<a href="#">常德</a>
+							</span>
+							<span>
+								<a href="#">张家界</a>
+								<a href="#">益阳</a>
+								<a href="#">郴州</a>
+								<a href="#">永州</a>
+								<a href="#">怀化</a>
+								<a href="#">娄底</a>
+								<a href="#">湘西</a>
+							</span>
+						</div>
+						<!-- 县级下部分 -->
+						<div class="sj-2">
+							<span class="xjs">
+								<p class="dy" href="#">对应区县</p>
+								<a href="#">岳麓区</a>
+								<a href="#">开福区</a>
+								<a href="#">天心区</a>
+								<a href="#">雨花区</a>
+								<a href="#">芙蓉区</a>
+							</span>
+							<span class="xjs-2">
+								<a href="#">浏阳市</a>
+								<a href="#">长沙县</a>
+								<a href="#">望城县</a>
+								<a href="#">宁乡县</a>
+								<a href="#">全部</a>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 搜索部分 -->
+			<div class="clearfix fr">
+				<div class="sou fl">
+					<form action="" class="fl">
+						<select name="cat" class="postform">
+							<option>国家资源网</option>
+							<option>请选择</option>
+						</select>
+						<span class="foo "></span>
+						<input type="" value="请输入您要查询的关键字" class="input">
+						<a class="foo2" href="#"></a>
+					</form>
+				</div>
+				<a href="#" class="gaoji fr"><u>高级搜索</u></a>
+			</div>
+		</div>
+		<!-- 首页导航 -->
+		<div class="dh">
+			<div class="dh-1">
+				<ul class="clearfix">
+					<li class="fl shouye"><a href="#">首页</a></li>
+					<li class="fl"><span class="shouye-1">|</span></li>
+					<li class="fl ziyuan posir">
+						<a class="ziyuan-1" href="#">资源中心</a>
+						<ul class="ziyuan-2 none">
+							<li><a href="#">公共资源</a></li>
+							<li><a href="#">市场资源</a></li>
+							<li><a href="#">本地资源</a></li>
+							<li><a href="#">同盟资源</a></li>
+						</ul>
+					</li>
+					<li class="fl"><span class="shouye-1">|</span></li>
+					<li class="fl"><a class="jiao" href="#">教室空间</a></li>
+					<li class="fl"><span class="shouye-1 shouye-3">|</span></li>
+					<li class="fl"><a class="jiao" href="#">在线备课</a></li>
+					<li class="fl"><span class="shouye-1 shouye-3">|</span></li>
+					<li class="fl"><a class="jiao" href="#">名师工作室</a></li>
+					<li class="fl"><span class="shouye-1 shouye-3">|</span></li>
+					<li class="fl"><a class="jiao" href="#">应用中心</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 中间通知公告、用户登录、轮播图、 -->
+		<div class="bodyer wt980 clearfix">
+			<!-- 公告、登录、轮播图 -->
+			<div class="wt750 fl">
+				<div class="gong">
+					<span class="gong-1"></span>
+					<span class="gong-2"><a href="#">通知公告:</a></span>
+					<span class="gong-3"><a href="#">关于召开湖南省2013年中小学部分学科教学资源开发研讨会的通知</a></span>
+					<span class="gong-4"><img src="img/ico_new.png"></span>
+					<span class="gong-5">04/10</span>
+					<span class="gong-6 fr">更多>></span>
+				</div>
+				<!-- 登录左浮动、轮播图右浮动-->
+				<div class="wt750 clearfix">
+					<!-- 左边登录 -->
+					<div class="denglu fl">
+						<div class="denglu-1">
+							<span class="dlt"></span>
+							<span class="dlt-1">用户登录</span>
+						</div>
+						<div class="denglu-2">
+							<span class="yh">用户名:</span>
+							<input type="password" id="yh-2" name="" />
+						</div>
+						<div class="denglu-2">
+							<span class="yh">密&nbsp;码:</span>
+							<input type="password" id="yh-2" name="" />
+						</div>
+						<div class="denglu-3">
+							<span class="yh">验证码:</span>
+							<input type="password" id="yh-3" name="" />
+							<span class="yh-4"><img src="img/code_img.png"></span>
+						</div>
+						<div class="denglu-4 posir">
+							<span><a class="yzm" href="#"></a></span>
+							<span><a class="yzm2" href="#"></a></span>
+						</div>
+						<div class="denglu-5 fr">
+							<a href="#">忘记密码?请<u>点这里</u></a>
+						</div>
+					</div>
+					<!-- 右边轮播图 -->
+					<div class="outer fr">
+						<div class="lunbo">
+							<ul>
+								<li><img src="img/pic/slide_01.jpg"></li>
+								<li><img src="img/pic/adv3.png"></li>
+								<li><img src="img/pic/slide_01.jpg"></li>
+								<li><img src="img/pic/adv3.png"></li>
+								<li><img src="img/pic/slide_01.jpg"></li>
+							</ul>
+						</div>
+						<!-- 按钮 -->
+						<div class="nav ">
+							<a class="on" href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 活跃排行版 -->
+			<div class="paiban fr">
+				<div class="paihan-1">
+					<span class="dlt"></span>
+					<span class="paihan-2">各地活跃度排名</span>
+					<span class="paihan-3 "><a href="#">市</a></span>
+					<span class="paihan-4 "><a href="#">县</a></span>
+				</div>
+				<div class="mc">
+					<span class="mc-1">名称</span>
+					<span class="mc-1">活跃度</span>
+				</div>
+				<div class="hyd">
+					<p class="hyd-1">
+						<span class="sz"></span>
+						<span class="sz-1"><a href="#">长沙市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+					<p class="hyd-1">
+						<span class="sz-3"></span>
+						<span class="sz-1"><a href="#">衡阳市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+					<p class="hyd-1">
+						<span class="sz-4"></span>
+						<span class="sz-1"><a href="#">株洲市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+					<p class="hyd-1">
+						<span class="sz-5"></span>
+						<span class="sz-1"><a href="#">益阳市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+					<p class="hyd-1">
+						<span class="sz-6"></span>
+						<span class="sz-1"><a href="#">常德市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+					<p class="hyd-1">
+						<span class="sz-7"></span>
+						<span class="sz-1"><a href="#">郴州市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+					<p class="hyd-1">
+						<span class="sz-8"></span>
+						<span class="sz-1"><a href="#">湘潭市</a></span>
+						<span class="sz-2">9865231</span>
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- 主体内容部分分为左右 -->
+		<div class="zhenti wt980 clearfix">
+			<!-- 左边部分 220PX-->
+			<div class="zuoce fl">
+				<!-- 图片2张 -->
+				<div class="pi-1">
+					<p><img src="img/pic/ad_01.png"></p>
+					<p><img src="img/pic/ad_02.png"></p>
+				</div>
+				<!-- 访问空间量 -->
+				<div class="fw">
+					<div class="fw-1">
+						<span class="dlt"></span>
+						<span class="paihan-2">访问空间量</span>
+					</div>
+					<div class="fw-3">
+						<span class="mc-1">名称</span>
+						<span class="mc-1">活跃度</span>
+					</div>
+					<div class="">
+						<p class="fw-4">
+							<span class="sz"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周末</a></span>
+							<span class="sz-2 fw-7">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-3"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周进</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-4"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周一</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-5"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周二</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-6"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周三</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-7"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周四</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-8"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周五</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+						<p class="fw-4">
+							<span class="sz-8"></span>
+							<span class="fw-5"></span>
+							<span class="fw-6"><a href="#">周六</a></span>
+							<span class="sz-2">9865231</span>
+						</p>
+					</div>
+				</div>
+				<!-- 图片2张 -->
+				<div class="pi-1">
+					<p><img src="img/pic/ad_03.png"></p>
+					<p><img src="img/pic/ad_04.png"></p>
+				</div>
+				<!-- 用户贡献排名 -->
+				<div class="gx posir">
+					<div class="gx-1">
+						<span class="yonghu"><a href="#">用户贡献排行版</a></span>
+						<span class="yonghu3"></span>
+						<span class="yonghu2"><a href="#">用户下载排行版</a></span>
+					</div>
+					<div class="zongban">
+						<div class="fw-3">
+							<span class="mc-1">名称</span>
+							<span class="mc-1">贡献值</span>
+						</div>
+						<div>
+							<p class="fw-4">
+								<span class="sz"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周末</a></span>
+								<span class="sz-2 fw-7">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-3"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周进</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-4"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周一</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-5"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周二</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-6"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周三</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-7"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周四</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-8"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周五</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+							<p class="fw-4">
+								<span class="sz-8"></span>
+								<span class="fw-5"></span>
+								<span class="fw-6"><a href="#">周六</a></span>
+								<span class="sz-2">9865231</span>
+							</p>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<!-- 右边部分 750PX -->
+			<div class="youce fr">
+				<!-- 推荐应用 -->
+				<div class="you">
+					<div class="you-2">
+						<ul class="nav-menu clearfix ">
+							<!-- 推荐应用 -->
+							<li class="menu-item fl"><a href="#">推荐应用</a>
+								<ul class="sub-menu clearfix">
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_01.png">
+											<br><a class="cd-1" href="#">成语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_02.png">
+											<br><a class="cd-1" href="#">汉语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_03.png">
+											<br><a class="cd-1" href="#">古语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_04.png">
+											<br><a class="cd-1" href="#">公语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_05.png">
+											<br><a class="cd-1" href="#">新语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_06.png">
+											<br><a class="cd-1" href="#">古语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_07.png">
+											<br><a class="cd-1" href="#">新语词典</a>
+										</p>
+									</li>
+								</ul>
+							</li>
+							<!-- 免费应用 -->
+							<li class="menu-item "><a href="#">免费应用</a>
+								<ul class="sub-menu clearfix mianfei" style="display: none;">
+									<li class="menu-item tt">
+										<p class="cd"><img src="img/pic/app_01.png">
+											<br><a class="cd-1" href="#">成语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_02.png">
+											<br><a class="cd-1" href="#">汉语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_03.png">
+											<br><a class="cd-1" href="#">古语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_04.png">
+											<br><a class="cd-1" href="#">公语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_05.png">
+											<br><a class="cd-1" href="#">新语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_06.png">
+											<br><a class="cd-1" href="#">古语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_07.png">
+											<br><a class="cd-1" href="#">新语词典</a>
+										</p>
+									</li>
+								</ul>
+							</li>
+							<!-- 推荐应用 -->
+							<li class="menu-item "><a href="#">收费应用</a>
+								<ul class="sub-menu clearfix tuijian" style="display: none;">
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_01.png">
+											<br><a class="cd-1" href="#">成语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_02.png">
+											<br><a class="cd-1" href="#">汉语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_03.png">
+											<br><a class="cd-1" href="#">古语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_04.png">
+											<br><a class="cd-1" href="#">公语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_05.png">
+											<br><a class="cd-1" href="#">新语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_06.png">
+											<br><a class="cd-1" href="#">古语词典</a>
+										</p>
+									</li>
+									<li class="menu-item tt fl">
+										<p class="cd"><img src="img/pic/app_07.png">
+											<br><a class="cd-1" href="#">新语词典</a>
+										</p>
+									</li>
+								</ul>
+							</li>
+							<!-- 更多 -->
+							<li class="menu-item"><a href="#">更多>></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 名师工作 -->
+				<div class="ming">
+					<div class="gzs">
+						<span class="dlt"></span>
+						<span class="mingshi">名师工作室</span>
+						<span class="mingshi fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="gzs-1 clearfix">
+						<ul class="clearfix fl wxs">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs-2">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs-2 fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs-2 fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 优秀教师空间 -->
+				<div class="youxiu">
+					<div class="gzs">
+						<span class="dlt"></span>
+						<span class="mingshi">优秀教师空间</span>
+						<span class="mingshi fr"><a href="#">更多&gt;&gt;</a></span>
+					</div>
+					<div class="youxiu-1">
+						<ul class="clearfix wxs-3 fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs-3 fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+						<ul class="clearfix wxs-3 fl">
+							<li class="wxs-1 fl"><img src="img/pic/people_75.png"></li>
+							<li class="fr gzs-2"><a href="#">王晓松工作室</a>
+								<p>学科:初中英语</p>
+								<p>文章数:245639个</p>
+								<p>浏览数:245639次</p>
+							</li>
+						</ul>
+					</div>
+					<div class="youxiu-2 clearfix">
+						<ul class="fl ">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+						<ul class="fl cdd-2">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+						<ul class="fl cdd-2">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+						<ul class="fl cdd-2">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+						<ul class="fl cdd-2">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+						<ul class="fl cdd-2">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+						<ul class="fl cdd-2">
+							<li class="youxiu-3"><img src="img/pic/people_50.png">
+								<br>
+								<a class="cdd" href="#">成语词典</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- 学科 -->
+				<div class="xueke">
+					<div class="xueke-2">
+								<dl>
+									<dt class="xueke-3">
+										
+											<span class="xueke-4 "><a href="#">按学科</a></span>
+											<span class="xueke-4 "><a href="#">按版本</a></span>
+											<span class="xueke-4 "><a href="#">按专题</a></span>
+									</dt>
+								</dl>
+							<dl>
+								<dd class="xueke-5">
+									<span class="xk"></span><a href="#">语文</a>
+									<span class="xk"></span><a href="#">数学</a>
+									<span class="xk"></span><a href="#">英语</a>
+									<span class="xk"></span><a href="#">思想政治</a>
+									<span class="xk"></span><a href="#">物理</a>
+									<span class="xk"></span><a href="#">生物</a>
+								</dd>
+							</dl>
+								<dl>
+									<dd class="xueke-5">
+										<span class="xk"></span><a href="#">语文</a>
+										<span class="xk"></span><a href="#">数学</a>
+										<span class="xk"></span><a href="#">英语</a>
+										<span class="xk"></span><a href="#">思想政治</a>
+										<span class="xk"></span><a href="#">物理</a>
+										<span class="xk"></span><a href="#">生物</a>
+									</dd>
+								</dl>
+							
+								<dl>
+									<dd class="xueke-5">
+										<span class="xk"></span><a href="#">语文</a>
+										<span class="xk"></span><a href="#">数学</a>
+										<span class="xk"></span><a href="#">英语</a>
+										<span class="xk"></span><a href="#">思想政治</a>
+										<span class="xk"></span><a href="#">物理</a>
+										<span class="xk"></span><a href="#">生物</a>
+									</dd>
+								</dl>
+							
+								<dl>
+									<dd class="xueke-5">
+										<span class="xk"></span><a href="#">语文</a>
+										<span class="xk"></span><a href="#">数学</a>
+										<span class="xk"></span><a href="#">英语</a>
+										<span class="xk"></span><a href="#">思想政治</a>
+										<span class="xk"></span><a href="#">物理</a>
+										<span class="xk"></span><a href="#">生物</a>
+									</dd>
+								</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 下部分图片 -->
+		<div class="wt980 yl">
+			<img src="img/pic/ad_05.jpg">
+		</div>
+		<!-- 下部分内容 -->
+		<div class="wt980 clearfix">
+			<!-- 左边 220PX-->
+			<div class="fl neir">
+				<div class="tongji">
+					<span class="dlt"></span>
+					<span class="paihan-2">资源统计</span>
+				</div>
+				<div>
+					<ul>
+						<li class="ziyuan-3">
+							<a href="#">资源总数量</a>
+							<span class="ge-2">75618325</span>
+							<span class="ge">个</span>
+						</li>
+						<li class="ziyuan-3">
+							<a href="#">资源总数量</a>
+							<span class="ge-2">75618325</span>
+							<span class="ge">个</span>
+						</li>
+						<li class="ziyuan-3">
+							<a href="#">资源总数量</a>
+							<span class="ge-2">75618325</span>
+							<span class="ge">个</span>
+						</li>
+						<li class="ziyuan-3">
+							<a href="#">资源总数量</a>
+							<span class="ge-2">75618325</span>
+							<span class="ge">个</span>
+						</li>
+						<li class="ziyuan-3">
+							<a href="#">资源总数量</a>
+							<span class="ge-2">75618325</span>
+							<span class="ge">个</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 右边 -->
+			<div class="fr">
+				<div class="wt750 sanlei">
+							<dl>
+								<dt class="sanlei-2">
+									<dl>
+										<span class="dlt"></span>
+										<span class=" sanlei-3"><a href="#">三类课堂</a></span>
+										<span class=" sanlei-4"><a href="#">网络课堂</a></span>
+										<span class=" sanlei-4 "><a href="#">名师讲课</a></span>
+										<span class=" sanlei-4 "><a href="#">专递课堂</a></span>
+									</dl>
+								</dt>
+								<dd class="sanlei-5 clearfix">
+									<span class="shui fl"><a href="#"><img src="img/pic/video_03.png">
+											<p>水彩画初级练习</p>
+										</a>
+									</span>
+									<span class="shui fl"><a href="#"><img src="img/pic/video_02.png">
+											<p>水彩画初级练习</p>
+										</a>
+									</span>
+									<span class="shui fl"><a href="#"><img src="img/pic/video_03.png">
+											<p>水彩画初级练习</p>
+										</a>
+									</span>
+									<span class="shui fl"><a href="#"><img src="img/pic/video_02.png">
+											<p>水彩画初级练习</p>
+										</a>
+									</span>
+									<span class="shui fl"><a href="#"><img src="img/pic/video_03.png">
+											<p>水彩画初级练习</p>
+										</a>
+									</span>
+								</dd>
+							</dl>
+				</div>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<div class="wt980">
+			<div class="wb clearfix">
+				<p class="yq fl">友情连接<span class="yq-2">|</span></p>
+				<p class="yq-3">
+					<span>湖南省教育政务网</span>
+					<span>湖南教育网</span>
+					<span>湖南省电化教育馆</span>
+					<span> 湖南省教育考试院</span>
+					<span> 基教在线</span>
+					<span>中华人民共和国教育部</span>
+					<span>中央电化教育馆</span>
+					<span>湖南省教育政务网</span>
+					<span>湖南教育网湖南省 </span>
+					<span>电化教育馆</span>
+				</p>
+			</div>
+			<div class="wb-2">
+				<p class="wb-3">湖南省基础教育资源平台版权所有 站内资源仅限于教育系统内部使用</p>
+				<p>电话：0731-82220187 企业QQ号:800009196 邮箱：hnszyzx@126.com</p>
+				<p>地址:湖南省长沙市文运街23号；邮编410005 </p>
+				<p>湘教QS1-200505-00101</p>
+			</div>
+		</div>
+	</body>
+</html>
+

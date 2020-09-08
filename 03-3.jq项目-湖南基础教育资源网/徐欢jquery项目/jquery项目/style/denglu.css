@@ -1,0 +1,101 @@
+.mao {
+    width: 1440px;
+    height: 720px;
+    background: url(../img/登录.png) no-repeat;
+    margin: 0 auto;
+}
+
+.header {
+    height: 564px;
+}
+
+.logo {
+    position: absolute;
+    top: 110px;
+    left: 120px;
+}
+
+.denglu {
+    position: absolute;
+    right: 120px;
+    top: 100px;
+    width: 271px;
+    height: 319px;
+    padding: 1px;
+    border: 1px solid #E1E1E1;
+    background-color: #fff;
+}
+
+.den {
+    height: 289px;
+    width: 221px;
+    padding: 15px 25px;
+    background-color: #F9F9F9;
+}
+
+.den .p1 {
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.mianfei {
+    color: #2171B4;
+}
+
+
+/* 用户名 */
+
+.huming {
+    width: 218px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid #C8C8C8;
+}
+
+.ren {
+    display: inline-block;
+    background: url('../img/login_sprite.png') no-repeat 0 0;
+    width: 11px;
+    height: 11px;
+}
+
+.huming input {
+    width: 190px;
+    height: 28px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #F9F9F9;
+}
+
+.huming .suo {
+    background-position: 0 -37px;
+}
+
+.yan {
+    border: none;
+}
+
+.huming .yanzheng {
+    width: 149px;
+    border: 1px solid #C8C8C8;
+}
+
+.yan .ma {
+    display: inline-block;
+    width: 54px;
+    height: 21px;
+    background: url(../img/code_img.png) no-repeat;
+}
+
+.red {
+    color: red;
+}
+
+.tijiao {
+    width: 218px;
+    height: 28px;
+    border-radius: 5px;
+    border: 1px solid #EC6B00;
+    background-color: #FE8419;
+    color: #fff;
+}

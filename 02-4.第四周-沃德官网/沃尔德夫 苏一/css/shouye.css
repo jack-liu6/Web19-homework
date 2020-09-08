@@ -1,0 +1,534 @@
+.top{
+	background-color: #082939;
+	width: 1920px;
+
+}
+
+.top1{
+	width: 1200px;
+	margin: 0 auto;
+	height: 110px;
+	overflow: hidden;
+}
+
+.topa{
+	display: inline-block;
+}
+
+.toplogo{
+
+	vertical-align: middle;
+	line-height: 110px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+
+.topa>a{
+    margin: 20px;
+	color: white;
+	vertical-align: middle;
+	line-height: 110px;
+}
+
+.topa>a:hover{
+	color: #D27F12;
+}
+
+.haibao{
+	width: 1920px;
+	height: 600px;
+	margin: 0 auto
+}
+.haibao>img{
+	width: 1920px;
+	height: 600px;
+}
+
+.zixun{
+	text-align: center;
+	margin: 65px 0;
+}
+
+.news{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+
+
+.newszuo{
+	width: 436px;
+	height: 360px;
+    
+   
+}
+
+.zuotop{
+	width: 436px;
+	height: 100px;
+	background-color: #1975A5;
+}
+
+.topzuo p>a:hover{
+	color: red;
+}
+
+.topyou>a:hover{
+	color: black;
+}
+
+.topzuo{
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+
+.newsyou{
+	width: 756px;
+	height: 356px;
+    border: 1px solid #ddd;
+}
+
+.newsyoutop{
+	height: 82px;
+
+}
+
+
+
+
+
+.but1,.but2{
+	display: inline-block;
+	width: 125px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid  #1975A5;
+	text-align: center;
+	color: #656464;
+	margin-right: 20px;
+	margin-left: 30px;
+	margin-top: 35px;
+}
+
+.but1,.but2:hover{
+	background-color:#1975A5;
+
+}
+
+.but1>a:hover{
+	color: white;
+	transition: all 1s;
+}
+.but2>a:hover{
+	color: white;
+	transition: all 1s;
+}
+
+.butyou{
+	margin-right: 20px;
+	margin-top: 35px;
+}
+
+.butyou>a:hover{
+	color: red;
+}
+
+.newslist>div{
+	border-bottom: dashed 1px #ddd;
+  
+}
+.newslist div span>a:hover{
+	color: white;
+	background-color: black;
+	transition: all 0.6s;
+}
+
+.sy span>a:hover{
+	color: white;
+	background-color: black;
+	transition: all 0.6s;
+}
+
+.product{
+	width: 1920px;
+	height: 630px;
+	background-color: #eff1f4;
+    margin-top: 100px;
+}
+
+.productop{
+	width: 1200px;
+	margin: 0 auto;
+	border:1px solid #eff1f4;
+	padding-right: 380px;
+    margin-left: 255px;
+}
+
+.xilie{
+	margin-top: 65px;
+}
+
+.productu{
+	width: 1920px;
+	margin-left: 300px;
+	margin-top: 35px;
+
+}
+
+.tuzuo,.tuzhong{
+	width: 333px;
+	height: 393px;
+	margin-right: 60px;
+}
+
+.sprite1 {
+	background: url("../image/sprite.png") no-repeat -112px -500px;
+	display: inline-block
+	width: 249px;
+	height: 206px;
+	margin-left: 40px;
+
+}
+
+.sprite2 {
+	background: url("../image/sprite.png") no-repeat -516px -492px;
+	display: inline-block
+	width: 249px;
+	height: 206px;
+	margin-left: 40px;
+
+}
+
+.tuyou1{
+	width: 320px;
+	height: 70px;
+	line-height: 70px;
+	background-color: #eff1f4;
+	border: 1px solid #C7C9CC;
+	border-radius: 20px;
+	font-size: 30px;
+	margin-bottom: 35px;
+	transition: all 1s;
+}
+
+.tuyou1 span>a{
+	color: #363636;
+}
+
+.sprite3 {
+	background: url("../image/sprite.png") no-repeat -508px -54px;
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 40px;
+
+
+}
+
+.tuyou1:hover{
+	background-color: #1975A5;
+}
+
+
+.sprite4 {
+	background: url("../image/sprite.png") no-repeat -350px -174px;
+	display: inline-block;
+	width: 44px;
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 40px;
+
+
+}
+
+.sprite5 {
+	background: url("../image/sprite.png") no-repeat -614px -54px;
+	display: inline-block;
+	width: 76px;
+	height: 55px;
+	vertical-align: middle;
+	margin-right: 50px;
+
+
+}
+
+
+.bg{
+	width: 1920px;
+	height: 580px;
+	background: url(../image/图层50.jpg);
+}
+
+.more{
+	position: relative;
+	left: 1270px;
+	top:280px;
+}
+
+
+.bgbut{
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	position: relative;
+	left: 730px;
+	top:400px;
+	line-height: 30px;
+	font-size: 22px;
+
+
+}
+
+.bgbut:hover{
+	background-color: #FE6C0C;
+}
+
+
+.bgbut1{
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	position: relative;
+	left: 900px;
+	top:370px;
+	line-height: 30px;
+	font-size: 22px;
+
+
+}
+
+.bgbut1:hover{
+	background-color: #FE6C0C;
+}
+
+.bgbut2:hover{
+	background-color: #FE6C0C;
+}
+
+
+.bgbut2{
+	width: 120px;
+	height: 30px;
+	border-radius: 20px;
+	position: relative;
+	left: 1060px;
+	top:340px;
+	line-height: 30px;
+	font-size: 22px;
+
+
+}
+
+.zhaoshang{
+	width: 1200px;
+	height: 280px;
+	margin: 0 auto;
+	margin-top: 70px;
+}
+
+.jiameng{
+	width: 930px;
+	height: 160px;
+	border-bottom: 1px solid #ddd;
+	margin-left: 130px;
+}
+
+.p1{
+	font-size: 22px;
+	
+	font-stretch: normal;
+}
+
+.phone{
+	color: #FE6C0C;
+	font-size: 29px;
+	vertical-align: middle;
+}
+
+.sprite6 {
+	background: url("../image/sprite.png") no-repeat -240px -184px;
+	display: inline-block;
+	width: 46px;
+	height: 44px;
+	
+	vertical-align: middle;
+
+
+}
+
+.wenti{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.wentilist{
+	width: 1210px;
+	height: 350px;
+	margin: 0 auto;
+	border:1px solid #ddd;
+	margin-top: 20px;
+}
+
+.listzuo{
+	width: 590px;
+	height: 310px;
+	border-right: 1px dashed #ddd;
+}
+
+.hong{
+	background: url("../image/sprite.png") no-repeat -484px -198px;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    vertical-align: middle;
+}
+
+.lan{
+	background: url("../image/sprite.png") no-repeat -578px -198px;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+    vertical-align: middle;
+}
+
+
+.listyou{
+	width: 590px;
+	height: 310px;
+	
+}
+
+.bgblack{
+	background: url(../image/图层30.jpg);
+	width: 1920px;
+	height: 500px;
+	margin-top: 100px;
+	margin: 0 auto;
+}
+
+.contact{
+	margin: 0 auto;
+	width: 1200px;
+	overflow: hidden;
+    margin-left: 248px;
+}
+
+.quantu1{
+	background: url("../image/sprite.png") no-repeat -688px -292px;
+	display: inline-block;
+	width: 158px;
+	height: 158px;
+	transition: all 1s;
+}
+
+.quantu2{
+	background: url("../image/sprite.png") no-repeat -44px -292px;
+	display: inline-block;
+	width: 158px;
+	height: 158px;
+	transition: all 1s;
+}
+
+
+.quantu3{
+	background: url("../image/sprite.png") no-repeat -246px -292px;
+	display: inline-block;
+	width: 158px;
+	height: 158px;
+	transition: all 1s;
+}
+
+
+.quantu4{
+	background: url("../image/sprite.png") no-repeat -460px -292px;
+	display: inline-block;
+	width: 158px;
+	height: 158px;
+	transition: all 1s;
+
+}
+
+.quan{
+	position: relative;
+	left: 420px;
+	top: 100px;
+}
+
+.quan1{
+	margin-right: 60px;
+}
+
+.end{
+	background-color: #264252;
+	height: 300px;
+	width: 1920px;
+	overflow: hidden;
+}
+
+ ul li>a{
+	color: white;
+}
+
+.erweima{
+	background: url("../image/sprite.png") no-repeat -460px -292px;
+	display: inline-block;
+	width: 158px;
+	height: 158px;
+}
+
+.er{
+	width: 157px;
+	height: 169px;
+	background-color: white;
+	margin-left: 120px;
+}
+
+.ertop{
+	width: 146px;
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+	margin-left: 5px;
+}
+
+.endlist{
+	margin-left: 400px;
+	margin-top: 40px;
+
+}
+
+.banquan{
+	width: 1920px;
+	height: 52px;
+	background-color: black;
+}
+
+.banquanzi{
+	margin-right: 200px;
+	line-height: 52px;
+}
+
+
+.quantu1:hover{
+	background-color:#264252 ;
+	border-radius: 80px;
+}
+
+.quantu2:hover{
+	background-color:#264252 ;
+	border-radius: 80px;
+}
+
+.quantu3:hover{
+	background-color:#264252 ;
+	border-radius: 80px;
+}
+
+.quantu4:hover{
+	background-color:#264252 ;
+	border-radius: 80px;
+   
+   
+}

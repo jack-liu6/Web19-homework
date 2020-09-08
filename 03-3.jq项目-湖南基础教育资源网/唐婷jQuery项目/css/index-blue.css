@@ -1,0 +1,238 @@
+/* a */
+a:hover{
+  color:#1a5da4
+}
+.province{
+  color:#ff6500
+}
+/* 搜索框 */
+.search-box{
+  border:1px solid #c7d7e1
+}
+.search-box button{
+  width:30px;
+  height:25px;
+  border:none;
+  position: absolute;
+  right: 0;
+  background-image: url(../images/blue_skin/images/搜索按钮_03.png);
+}
+
+/* 导航 */
+.navigation{
+  background-image: url(../images/blue_skin/images/导航栏背景_03.png);
+}
+.li_on{
+  background:-webkit-linear-gradient(top,#87ccfe,#3d9fe8,#126fbc);
+  border:1px solid #7fb4e5;
+  border-bottom:none;
+  margin:0px!important;
+}
+.li_on a{
+  color:#fff!important
+}
+.nav_slider{
+  display: inline-block;
+  width:2px;
+  height:21px;
+  background-image: url(../images/blue_skin/images/导航栏分割线_03.png);
+}
+.nav_menu{
+  background-color: #f6fbff;
+  border:1px solid #bfd8f3;
+  color:#1a5da4;
+  border-top:none
+}
+.nav_a:hover i{
+  color:#1a5da4;
+  font-size:17px
+}
+.nav_a:hover{
+  background-color: #f6fbff;
+  border:1px solid #bfd8f3;
+}
+.nav_menu li:hover{
+  background-color: #1e8ac8;
+  color:#fff
+}
+.notice{
+  background-color: #f9fdff;
+  border:1px solid #cbe7f9
+}
+.user_login{
+  background-color: #eaf6ff;
+}
+.user_box{
+  border:1px solid #bfd8f3;
+  background-color: #f9feff;
+}
+.user_box_head{
+  border-bottom:1px solid #bfd8f3;
+  background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe)
+}
+.user_box_head i{
+  background-image: url(../images/用户登录icon_03.png);
+}
+.cont_right{
+  background-color: #eaf6ff;
+}
+.cont_right_box{
+  border:1px solid #bfd8f3
+}
+.shi{
+  color:#fff!important;
+  background:url(../images/blue_skin/tab_sm.png)
+}
+.tab_ci span{
+  color:#306eb0
+}
+.xiangxipm ul li>a{
+  color:#457ebc
+}
+.recommend_left_box{
+  border:1px solid #bfd8f3
+}
+.recommend_right{
+  background-color: #eaf6ff;
+}
+.recommend_right_box{
+  border:1px solid #bfd8f3
+}
+.app{
+  border-bottom:1px solid #bfd8f3;
+  background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe);
+}
+.app_on{
+  background-color: #fff;
+  border-top:2px solid #53a1d1!important;
+  color:#316eaf!important
+}
+.app li{
+  font-weight: 700;
+  border-top:2px solid rgba(0, 0, 0, 0);
+  border-right:1px solid #bfd8f3;
+  color:#7b7b7b
+}
+/* 名师工作室 */
+.content-two-jiaoshi{
+  background-color: #eaf6ff;
+}
+.content-two-jiaoshikj{
+  border:1px solid #bfd8f3
+}
+
+
+/* js专用 */
+.bgbs{
+  border-top: #53a1d1 solid 2px !important;
+  background-color: #fff !important;
+ border-bottom: none !important;
+}
+.bgff{
+ border-top:  solid 2px rgba(0, 0, 0, 0) !important;
+ background-color: #f6fdff !important;
+ border: #bfd8f3 solid 1px!important;
+ 
+}
+.bgbaise{
+ border-top: #53a1d1 solid 2px !important;
+ position: relative;
+ z-index: 1001;
+ background-color: #fff !important;
+ height: 33px !important;
+}
+.bghuangse{
+  border-top:  solid 2px rgba(0, 0, 0, 0) !important;
+  height: 31px !important;
+  background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe)
+}
+/* 大型志愿填报 */
+.wbk{
+  border: #eaf6ff solid 2px;
+}
+.nbk{
+   border: #bfd8f3 solid 1px;
+}
+.content-two-paiming-2{
+   border: #eaf6ff solid 2px;
+}
+.gongxian{
+ color: #316eaf;
+  border-top: #53a1d1 solid 2px ;
+ /* border: #bfd8f3 solid 1px; */
+}
+.xiazai{
+  border-top:  solid 2px rgba(0, 0, 0, 0);
+ background: #f6fdff;
+ border-left: #bfd8f3 solid 1px;
+  border-bottom: #bfd8f3 solid 1px;
+ 
+}
+.ff6a07{
+  color: #316eaf;
+}
+.corff6{
+  color: #316eaf;
+}
+.tongji .ff6a07{
+  color: #316eaf;;
+}
+
+/* 优秀教师 */
+.fenlei-1 ul{
+  background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe)
+}
+.youxiujiaoshi{
+  background:-webkit-linear-gradient(top,#fcffff,#f6fdff,#eefbfe)
+}
+/* .316eaf{
+  color: #316eaf;
+} */
+
+/* 按学科分类 */
+.li-1 {
+   border-top: 2px solid #53a1d1;
+     border-right: #bfd8f3 solid 1px;
+  color: #316eaf;
+}
+.li-2 {
+border-right: #bfd8f3 solid 1px;
+}
+.fenlei-2{
+ border-top: #bfd8f3 solid 1px;
+}
+/* 三类课堂 */
+.xuebi-h{
+ background: url(../images/blue_skin/tab_big.png)no-repeat;
+}
+.kt-content{
+  border-top: #bfd8f3 solid 1px;
+}
+.tishi a{
+ border-right: #316eaf solid 2px;
+}
+
+
+
+.scripte-AA{
+  background: url(../images/blue_skin/app_menu_bg.png)no-repeat;
+}
+
+.cor09367a{
+  color: #09367a;
+}
+.cor01346d{
+  color: #01346d;
+}
+.scripte-x{
+    background: url(../images/blue_skin/all_app_hover.png)no-repeat;
+}
+.scripte-c{
+  background: url(../images/blue_skin/rec_app_hover.png)no-repeat;
+}
+.scripte-v{
+ background: url(../images/blue_skin/free_app_hover.png)no-repeat;
+}
+.scripte-b{
+ background: url(../images/blue_skin/fee_app_hover.png)no-repeat;
+}

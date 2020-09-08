@@ -1,0 +1,111 @@
+/* 设置搜索框的背景颜色 */
+.search-div{
+    background: url(../images/orange_skin/search_bg.png);
+}
+/* 设置头部底部的菜单 */
+.top-menu-wrapper{
+    background: url(../images/orange_skin/nav_bg.png) no-repeat 0 2px;
+}
+.menu-line{
+    background: url(../images/orange_skin/nav_line.png) no-repeat;
+}
+.top-menu-wrapper>ul .hover{
+    background: url(../images/orange_skin/nav_hover.png) no-repeat;
+    color: black;
+}
+.top-menu-ul .mouse{
+    border: #fec397 1px solid;
+}
+.top-menu-ul .mouse a{
+    color: #e06c1f;
+}
+.top-menu-ul .mouse .hover-ul li a:hover{
+    background-color: #f77a0f;
+}
+/* 设置有阴影的边框 */
+.border{
+    border: #fec397 solid 1px;
+    box-shadow: 0 0 5px #fec397;
+}
+/* 设置没有阴影的边框 */
+.border1{
+  border: #f7e8b5 1px solid;  
+  background-color: #fefae9;
+}
+/* 设置没有阴影的边框2 */
+.login .border2 ,.app-head,.famous-room h2{
+    /* border-bottom: #bdd7f2 solid 1px; */
+    background: url(../images/orange_skin/inner_tt.png) repeat-x ;
+}
+/* 设置用户登录 */
+.login-icon{
+    background: url(../images/orange_skin/tt_ico.png) no-repeat 0 0;
+}
+.login form{
+    background-color: #fefbe4;
+}
+/* 设置活跃度排行 */
+.shixian .skin,.sx-ul li .skin{
+    color: #f56d12;
+}
+.shixian .light{
+    background: url(../images/orange_skin/tab_sm.png);
+    color: white;
+    font-weight: bold;
+}
+/* 设置推荐应用 */
+.bor-r,.user-g .skin{
+    border-right: solid #fec397 1px;
+}
+/* .app-head{
+    border-bottom: solid #fec397 1px;
+} */
+.app-head .on{
+    border-top: #fe9f06 2px solid;
+    color: #ff6a07;
+}
+/* 设置用户贡献排行 */
+.user-g .on{
+    border-top: #fe9f06 2px solid;
+    color: #ff6a07;
+}
+/* 设置资源统计 */
+.total-ul .skin{
+    color: #f56d12;
+}
+/* 设置三类课堂 */
+.three-class .skin{
+    color: #ff6a07;
+}
+.three-class .class-all .on{
+    background: url(../images/orange_skin/tab_big.png) no-repeat 0 0;
+}
+.three-class .class-all span{
+    color: #f56d12;
+}
+/* 设置友情链接 */
+.fri-link .skin{
+    color: #ff6a07;
+}
+/* 设置应用中心左边的导航 */
+.center-main-left{
+    background: url(../images/orange_skin/app_menu_bg.png) no-repeat 0 0;
+}
+.center-left-ul li{
+    color: #ff5c20;
+}
+.center-left-ul .on0{
+    background: url(../images/orange_skin/all_app_hover.png) no-repeat 0 0;
+}
+.center-left-ul .on1{
+    background: url(../images/orange_skin/rec_app_hover.png) no-repeat 0 0;
+}
+.center-left-ul .on2{
+    background: url(../images/orange_skin/free_app_hover.png) no-repeat 0 0;
+}
+.center-left-ul .on3{
+    background: url(../images/orange_skin/fee_app_hover.png) no-repeat 0 0;
+}
+.loginbg{
+    background-color: #fefbe4;
+}

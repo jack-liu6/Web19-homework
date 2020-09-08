@@ -1,0 +1,117 @@
+
+.dg1{
+    display: inline-block;
+    background: url("../images/ico_sprite.png") -18px -49px no-repeat;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    z-index: 2;
+}
+.dt3{
+    position: absolute;
+    left: 4px;
+    top: 52px;
+    width: 384px;
+    height: 110px;
+    padding: 9px 5px 15px 10px;
+    border: 2px #FE9718 solid;
+    z-index: 15;
+    background: #fff;
+}
+.ss{
+    width: 384px;
+    height: 38px;
+    padding-bottom: 13px;
+    border-bottom: 1px #FE9718 solid;
+}
+.ssk1{
+    width: 320px;
+    height: 28px;
+    background: url("../images/orange_skin/search_bg.png") no-repeat;
+    position: relative;
+}
+.nav{
+    height: 42px;
+    background: url("../images/5_03.png") no-repeat;
+    padding-bottom: 8px;
+    position: relative;
+}
+.nav2-bg{
+    color: #000!important;
+    background: url("../images/orange_skin/nav_hover.png") center center no-repeat;
+}
+.mm2{
+    border: 2px #FA790F solid;
+    border-radius: 5px;
+    background: #FDFEF6;
+}
+.zxz1{
+    color: #D87827;
+}
+.mm1 div a:hover{
+    background: #F88412;
+    color: #fff;
+}
+.bb{
+    border: 1px #F4EBBE solid;
+    background: #FFFAEA;
+}
+.hf2{
+    border: 2px #FFE1CB solid;
+    border-radius: 3px;
+}
+.ph1{
+    background: url("../images/orange_skin/inner_tt.png");
+    border-bottom: 1px #FFE1CB solid;
+}
+.xz1{
+    color: #F07B2F;
+}
+.bg2{
+    background: url("../images/orange_skin/tab_sm.png") no-repeat;
+    color: #fff;
+}
+.cel{
+    color: #FF6E0E;
+}
+.gx{
+    border-right: 1px #FFE1CB solid;
+}
+.gx1{
+    height: 31px;
+    background: #fff;
+    border-top: 2px #FCA006 solid;
+    color: #F5650B;
+}
+.sj{
+    width: 8px;
+    height: 10px;
+    margin: 10px 10px;
+    background: url("../images/orange_skin/tt_ico.png") no-repeat;
+}
+.gx3{
+    border-left: 2px #FFE1CB solid;
+}
+.bg3{
+    background: url("../images/orange_skin/tab_big.png") no-repeat;
+    color: #fff!important;
+    font-weight: 520;
+}
+.bg4{
+    background: #FFFDF8;
+}
+.br1{
+    border-right: 2px #FCA006 solid;
+}
+.bg5{
+    background: url("../images/15_03.png");
+    border: 1px #FBDA73 solid;
+}
+.bb2{
+    border-bottom: 1px #ECDA88 solid;
+}
+.bg6{
+    background: #FFD8AC url("../images/19_07.png") 138px 10px no-repeat;
+    color: #FF5F2E;
+    z-index: 10;
+}

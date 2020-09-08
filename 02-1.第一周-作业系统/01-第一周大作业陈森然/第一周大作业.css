@@ -1,0 +1,145 @@
+.xuebi{background: url(images/001.gif)no-repeat;
+	display: inline-block;
+	width: 22px;	
+	height: 22px;
+	margin-right: 20px;
+
+		}
+.xuebi1{background-position:-11px 0;
+	margin-left:385px;
+		
+	}
+.xuebi2{background-position:-55px 0;
+		
+	}
+.xuebi3{background-position:-98px 0;
+		
+	}
+.xuebi4{background-position:-141px 0;
+		
+	}
+.bgse1{background-color: #e9f0f8;
+	border-radius:2px;
+	padding: 10px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+{/*内容部分*/}
+.neirongzhuti{background-color: #e9f0f8;
+		padding-top: 10px;
+
+}
+.zhuti{background-color: #fff;
+   	 padding:10px;
+
+   	 width: 980px;	
+   	 margin: 0 auto;
+   	}
+.zhuti1{background-color: #fff;
+	border: 4px solid #efefef;
+	margin: 10px;
+}
+.biaoti1{
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+		}
+.wenzi1{font-size: 16px;
+	}
+.zhuti2{padding-left: 20px;
+	
+	margin-bottom: 15px;
+
+	}
+.neirong1{background-color: #6d9dce;
+	border-radius:5px ;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-right: 20px;
+	}
+.yuwen1{background-color: #fff;
+	margin-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 9px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.youcelogo{
+	margin-right: 15px;
+}
+.logo1{background: url(images/icos.gif)no-repeat;
+	display: inline-block;
+	width: 19px;
+	height: 14px;
+	background-position: 
+	1px 1px;
+
+}
+.yuwen2{color: #fff;
+	}
+.yuwennr1,.yuwennr2{margin-left: 20px;
+}
+.yuwennr3{margin-left: 95px;
+}
+.anniu{
+	padding: 5px 10px;
+	background-color: #f8c129;
+	border-radius: 10px;
+	margin-right: 40px;
+}
+.zhuti10{background-color: #fff;
+	padding-top: 15px;
+	border: 4px solid #efefef;
+	margin: 10px;
+}
+.zhuti9{padding-left: 20px;
+}
+.logo9{background: url(images/icos.gif)no-repeat;
+	display: inline-block;
+	width: 20px;	
+	height: 20px;
+	background-position: 
+	2px -13px;
+	margin-right: 38px;
+	position: absolute;
+	bottom: 3px;
+	right: 80px;
+
+}
+.logowenzi{margin-left: 50px;
+	color: #fe9900;
+}
+.neirong2{background-color: #dfdfdf;
+	border-radius:5px ;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	margin-right: 20px;
+	}
+.xuxian{border-bottom: 2px dashed #dfdfdf;
+		padding-bottom: 15px;
+	}
+.shuzik{/*border: 1px solid red;*/
+		
+		height: 30px;
+		margin-left: 755px;
+		margin-top: 20px;
+	}
+.shuzi2{background-color: blue;
+	border: 1px solid blue;
+	padding: 4px 8px;
+	color: #fff;
+	}
+.shuzi1{border: 1px solid blue;
+	padding: 4px 8px;
+	
+}
+.weibu{background-color: #fafafa;
+	margin-top: 15px;
+	text-align:center;
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+/**{border: 1px solid red}*/
+
+.youcelpgo{margin-right: 30px;}

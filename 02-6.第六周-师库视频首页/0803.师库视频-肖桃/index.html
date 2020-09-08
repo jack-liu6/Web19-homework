@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到师库视频</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 引入当前页面样式 -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <!-- 设置顶部的容器 -->
+    <div class="header-wrapper">
+        <!-- 设置顶部 -->
+        <div class="header wt980 clearfix">
+            <!-- 设置欢迎语句 -->
+            <div class="wel ml15 fl font12">
+                您好，欢迎来到师库网！请<a class="ml5 mr10" href="#">登录</a>新用户？<a class="ml10" href="#">免费注册</a>
+            </div>
+            <!-- 设置我的个人中心 -->
+            <ul class="fr nav-ul font12 center">
+                <li class="pore" id="order">
+                    <a class="center" href="#">
+                        我的订单
+                        <span class="inline down ml5"></span>
+                    </a>
+                    <!-- 设置二级菜单 -->
+                    <div class="menu pore none">
+                        <div class="menu-top center bgwhite">
+                            <a class="center" href="#">
+                                我的订单
+                                <span class="inline down2 ml5"></span>
+                            </a>
+                        </div>
+                        <ul class="menu-ul bgwhite">
+                            <li class="lh18 mt5 ml10">
+                                <a href="#">
+                                    我的订单
+                                </a>
+                            </li>
+                            <li class="lh18 ml10">
+                                <a href="#">
+                                    我的收藏夹
+                                </a>
+                            </li>
+                            <li class="lh18 ml10">
+                                <a href="#">
+                                    我的订单
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="line ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        <span class="inline cart mr5"></span>
+                        购物车
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        我的师库
+                        <span class="inline down  ml5"></span>
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        帮助中心
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        网站导航
+                        <span class="inline down  ml5"></span>
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        加入收藏
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 设置主体的容器 -->
+    <div class="main-wrapper">
+        <!-- 设置网页的主体部分 -->
+        <div class="main wt980">
+            <!-- 设置主体头部的黑色背景条 -->
+            <div class="maintop-bar"></div>
+            <!-- 设置logo的容器 -->
+            <div class="logo-wrapper mt20 clearfix">
+                <!-- 设置左边的logo部分 -->
+                <a href="index.html">
+                    <div class="logo-sec ml10 center fl pore">
+                        <div class="logo"></div>
+                        <div class="logo-line bgcolor1 ml10 mr10"></div>
+                        <div class="logo-title tc bgcolor2 white">师库视频</div>
+                        <p class="logo-text green font12 none">师库网--全国最大的教师资源服务社区</p>
+                    </div>
+                </a>
+                <!-- 设置右边的搜索框部分 -->
+                <div class="search-sec fr clearfix">
+                    <!-- 设置搜索框的左边部分 -->
+                    <div class="search-left fl">
+                        <!-- 设置搜索框框 -->
+                        <div class="search-box clearfix bggray1">
+                            <!-- 设置搜索的下拉框 -->
+                            <ul class="fl search-ul font12 bgwhite pore" id="search_ul">
+                                <li class="bgwhite center1">
+                                    <div class="tc w48 red2">
+                                        <a class="red2" href="index.html">
+                                            首页
+                                        </a>
+                                    </div>
+                                    <div class="search-down1 inline"></div>
+                                    <div class="search-line bggray2"></div>
+                                </li>
+                                <li class="bgwhite none" id="index">
+                                    <a class="ml5" href="index.html">首页</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师库课件</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师库教案</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师库试卷</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="list.html">教学视频</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">教学匠</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师说论坛</a>
+                                </li>
+                            </ul>
+                            <!-- 设置输入关键字 -->
+                            <input class="search-input fl gray5 font12 pl10" id="search_input" type="text"
+                                value="请输入关键字">
+                            <!-- 设置搜索按钮 -->
+                            <button class="search bgorange1 white" type="submit">搜索</button>
+                        </div>
+                        <!-- 设置热门搜索 -->
+                        <div class="hot-search">
+                            <span class="font12 gray1">热门搜索：</span>
+                            <a class="font12 orange1" href="#">教学视频</a>
+                            <a class="font12 blue1" href="#">课堂实录</a>
+                            <a class="font12 gray2" href="#">实习演习</a>
+                            <a class="font12 red1" href="#">教学参考</a>
+                            <a class="font12 gray3" href="#">课堂实录</a>
+                        </div>
+                    </div>
+                    <!-- 设置搜索框的右边部分 -->
+                    <div class="search-right font12 fr ml5 mr5">
+                        <p class="lh16">
+                            <a href="#">
+                                高级搜索
+                            </a>
+                        </p>
+                        <p class="lh16">
+                            <a href="#">
+                                使用帮助
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置主体部分的菜单条-->
+            <div class="main-menu-bar mt25 clearfix mb10">
+                <!-- 设置菜单条的列表 -->
+                <ul class="clearfix fl" id="main_menu_li">
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="index.html">
+                            首页
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师库课件
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师库教案
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师库试卷
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="list.html">
+                            教学视频
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            教学匠
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师说论坛
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                </ul>
+                <!-- 设置风云榜和我看过的 -->
+                <div class="menu-left fr clearfix lh24">
+                    <a class="fengyun clearfix fl centery" href="#">
+                        <div class="fengyun-icon fl mr5"></div>
+                        <div class="fengyun-text fl orange2 font12 mr20">
+                            风云榜
+                        </div>
+                    </a>
+                    <span class="look clearfix fl  centery pl5 pr5 pore">
+                        <div class="look-icon fl mr5"></div>
+                        <div class="look-text fl orange2 font12">
+                            我看过的
+                        </div>
+                        <div class="look-down fl"></div>
+                        <div class="look-father bgwhite none">
+                            <div class="bo"></div>
+                            <div class="look-menu font12 bgwhite">
+                                <!-- 设置播放历史 -->
+                                <ol class="look-menu-ol1">
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史一
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史二
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史三
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+
+                                            </div>
+                                        </span>
+
+                                    </li>
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史四
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+
+                                            </div>
+                                        </span>
+
+                                    </li>
+                                </ol>
+                                <p class="look-clearall tr font12 blue5 mt15 mb10">
+                                    清空播放历史
+                                </p>
+                                <div class="look-menu-b">
+                                    <h3 class="font12 blue6 lh18 mt5">
+                                        推荐视频
+                                    </h3>
+                                    <ol class="look-menu-ol2 font12 lh18">
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <a href="#">
+                                                推荐视频一
+                                            </a>
+                                        </li>
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <a href="#">
+                                                推荐视频二
+                                            </a>
+                                        </li>
+                                    </ol>
+                                    <div class="bgblue1 lh35 font12 mt5 mb5">
+                                        建议
+                                        <a href="#">
+                                            登录
+                                        </a>
+                                        后在不同电脑上同步观看历史
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <!-- 设置主体部分的内容 -->
+            <div class="main-content clearfix">
+                <!-- 设置主体内容的左边 -->
+                <div class="main-content-left fl">
+                    <!-- 设置主体的广告和导航条部分 -->
+                    <div class="nav-ad-wrapper clearfix mb10">
+                        <!-- 设置二级菜单 -->
+                        <ul class="nav-two fl font12">
+                            <li class="lh26 pl10 pore">
+                                <a class="inline" href="">语文</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh24 pl10 pore">
+                                <a class="inline" href="">数学</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh24 pl10 pore">
+                                <a class="inline" href="">英语</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh25 pl10 pore">
+                                <a class="inline" href="">物理</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh24 pl10 pore">
+                                <a class="inline" href="">化学</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh25 pl10 pore">
+                                <a class="inline" href="">历史</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh25 pl10 pore">
+                                <a class="inline" href="">地理</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh25 pl10 pore">
+                                <a class="inline" href="">生物</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh24 pl10 pore">
+                                <a class="inline" href="">思想政治</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh24 pl10 pore">
+                                <a class="inline" href="">历史与社会</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                            <li class="lh26 pl10 pore">
+                                <a class="inline" href="">信息技术</a>
+                                <div class="sanji bgwhite pt10 pb10 pl10 pr10 lh20">
+                                    <h3 class="red3 font12">小学：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">初中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="red3 font12">高中：</h3>
+                                    <a class="gray7" href="#">课堂实录</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">实验演习</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">教学参考</a>
+                                    <h3 class="tg red3 font12 pt5 mt10">类型：</h3>
+                                    <a class="gray7" href="#">特供</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">精品</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">免费</a>
+                                    <span class="gray20 pl5 pr5">|</span>
+                                    <a class="gray7" href="#">促销</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- 设置广告部分的容器 -->
+                        <div class="ad-wrapper fl ml10">
+                            <div class="ad-top pore">
+                                <a href="#">
+                                    <img src="images/big-adpic.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/adbg2.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/adbg3.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/adbg4.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/adbg5.jpg" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/adbg6.jpg" alt="">
+                                </a>
+                                <div class="sequence-wrapper">
+                                    <span class="sequence inline tc bgcolor10">1</span>
+                                    <span class="sequence inline tc bgcolor10">2</span>
+                                    <span class="sequence inline tc bgcolor10">3</span>
+                                    <span class="sequence inline tc bgcolor10">4</span>
+                                    <span class="sequence inline tc bgcolor10">5</span>
+                                    <span class="sequence inline tc bgcolor10">6</span>
+                                </div>
+                            </div>
+                            <div class="ad-bottom mt10">
+                                <a href="#">
+                                    <img id="ad_img" src="images/ad-bottom1.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-video">
+                        <div class="clearfix lh36">
+                            <h3 class="fb fl ml5">最新<span class="blue1">上传视频</span></h3>
+                            <span class="fr mr10"><img class="vam" src="images/more.png" alt=""></span>
+                        </div>
+                        <ul class="clearfix videolist-top mb10">
+                            <li class="fl mt5 pr10 pb15">
+                                <a href="detail.html">
+                                    <img class="bigpic" src="images/1.jpg" alt="">
+                                    <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                    <p>
+                                        <img class="vam" src="images/11.png" alt="">
+                                        <span class="gray9 font12">1005</span>
+                                        <img class="vam" src="images/12.png" alt="">
+                                        <span class="gray9 fon12">17</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="fl mt5 pr10 pb15">
+                                <a href="detail.html">
+                                    <img class="bigpic" src="images/2.jpg" alt="">
+                                    <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                    <p>
+                                        <img class="vam" src="images/11.png" alt="">
+                                        <span class="gray9 font12">1005</span>
+                                        <img class="vam" src="images/12.png" alt="">
+                                        <span class="gray9 fon12">17</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="fl mt5 pr10 pb15">
+                                <a href="detail.html">
+                                    <img class="bigpic" src="images/3.jpg" alt="">
+                                    <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                    <p>
+                                        <img class="vam" src="images/11.png" alt="">
+                                        <span class="gray9 font12">1005</span>
+                                        <img class="vam" src="images/12.png" alt="">
+                                        <span class="gray9 fon12">17</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="fl mt5 pr10 pb15">
+                                <a href="detail.html">
+                                    <img class="bigpic" src="images/4.jpg" alt="">
+                                    <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                    <p>
+                                        <img class="vam" src="images/11.png" alt="">
+                                        <span class="gray9 font12">1005</span>
+                                        <img class="vam" src="images/12.png" alt="">
+                                        <span class="gray9 fon12">17</span>
+                                    </p>
+                                </a>
+                            </li>
+                            <li class="fl mt5 pb15">
+                                <a href="detail.html">
+                                    <img class="bigpic" src="images/5.jpg" alt="">
+                                    <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                    <p>
+                                        <img class="vam" src="images/11.png" alt="">
+                                        <span class="gray9 font12">1005</span>
+                                        <img class="vam" src="images/12.png" alt="">
+                                        <span class="gray9 fon12">17</span>
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 设置主体内容的右边 -->
+                <div class="main-content-right fr">
+                    <!-- 设置登录和注册页面 -->
+                    <form class="login-wrapper bgcolor5 mb5 font12" name="myform">
+                        <div class="login fb font12 mt5 mb20 ml5">
+                            用户登录
+                            <img src="images/logo-top.png" alt="">
+                        </div>
+                        <div class="username mb5 ml10">
+                            用户名：
+                            <input type="text">
+                        </div>
+                        <div class="password mb10 ml10">
+                            密&nbsp;码：
+                            <input type="password" name="" id="">
+                        </div>
+                        <div class="yzm-wrapper clearfix">
+                            <div class="yzm-input mb15 ml10 fl">
+                                验证码：
+                                <input type="text" name="yzminput">
+                            </div>
+                            <div class="yzmimg fl vam ml10 tc lh20 font14 label"></div>
+                        </div>
+                        <div class="login-bottom ml10 mb10 clearfix">
+                            <button class="login-button white tc" type="submit">登<span class="ml10">录</span></button>
+                            <a class="red ml30" href="#">
+                                免费注册
+                            </a>
+                            <a class="forget black fr lh24 mr10" href="#">
+                                ？忘记密码
+                            </a>
+                        </div>
+                    </form>
+                    <!-- 设置登录帮助 -->
+                    <div class="help-wrapper mb10 clearfix">
+                        <a href="#" class="inline fl"></a>
+                        <a href="#" class="inline fr"></a>
+                    </div>
+                    <!-- 设置右边最顶上的图片 -->
+                    <a href="#">
+                        <img id="img" src="images/win_03.png" alt="">
+                    </a>
+                    <!-- 设置快速检索 -->
+                    <div class="examine-wrapper font12 mt10">
+                        <h3 class="examine-title font12 fb bgcolor6 lh25 pl10">
+                            快速检索
+                        </h3>
+                        <div class="subject">
+                            <div class="pen-wrapper clearfix centery lh25 ml10">
+                                <p class="pen fl vam mr5"></p>
+                                <span class="fl">按学科：</span>
+                            </div>
+                            <div class="subject-content ml10 lh25 mb10 mr20">
+                                <a href="#">
+                                    语文
+                                </a>
+                                <a href="#">
+                                    数学
+                                </a>
+                                <a href="#">
+                                    英语
+                                </a>
+                                <a href="#">
+                                    物理
+                                </a>
+                                <a href="#">
+                                    化学
+                                </a>
+                                <a href="#">
+                                    历史
+                                </a>
+                                <a href="#">
+                                    地理
+                                </a>
+                                <a href="#">
+                                    生物
+                                </a>
+                                <a href="#">
+                                    思想政治
+                                </a>
+                                <a class="ml5" href="#">
+                                    历史与社会
+                                </a>
+                                <a href="#">
+                                    信息技术
+                                </a>
+                            </div>
+                        </div>
+                        <div class="grade">
+                            <div class="pen-wrapper clearfix centery lh25 ml10">
+                                <p class="pen fl vam mr5"></p>
+                                <span class="fl">按级别：</span>
+                            </div>
+                            <div class="subject-content ml10 lh25 mb10 mr20">
+                                <a href="#">
+                                    免费
+                                </a>
+                                <a href="#">
+                                    精品
+                                </a>
+                                <a href="#">
+                                    特供
+                                </a>
+                                <a href="#">
+                                    促销
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置教学参考 -->
+            <div class="refer-wrapper mt10 clearfix">
+                <div class="refer-left fl">
+                    <div class="clearfix lh36">
+                        <h3 class="fb fl ml5 blue1">教学参考</h3>
+                        <a href="#" class="fr mr10"><img class="vam" src="images/more.png" alt=""></a>
+                    </div>
+                    <ul class="clearfix videolist-top mb10">
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/1-1.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/1-2.jpg" alt="">
+                                <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/1-3.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/1-4.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/1-5.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hot-wrapper fr">
+                    <h3 class="clearfix bgcolor8 lh30">
+                        <div class="hot fl font12 fb gray17 ml10 tc">
+                            热门
+                        </div>
+                        <span class="fl ml5 mr5">
+                            <img src="images/hot.png" alt="" class="vam">
+                        </span>
+                        <div class="good fl font12 fb gray17 ml10 tc">
+                            好评
+                        </div>
+                    </h3>
+                    <div class="hot-ul">
+                        <ul class="hot-list bgcolor9 pb10 pt10">
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order1 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    对着镜子哭
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order2 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    第六感
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order3 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    别让你的泪打湿我的
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order4 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    风中奇缘
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order5 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    爱河
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order6 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    人类的居住地—聚落
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="goodlist bgcolor9 pb10 pt10 pl15">
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    这个是真的很好看
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    很好看你知道吗
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    实在太好看了
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    宇宙无敌好看
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    绝了
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    太太太太好看了吧！
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置试验演习 -->
+            <div class="test-wrapper mt10 clearfix">
+                <div class="refer-left fl">
+                    <div class="clearfix lh36">
+                        <h3 class="fb fl ml5 blue1">教学参考</h3>
+                        <a href="#" class="fr mr10"><img class="vam" src="images/more.png" alt=""></a>
+                    </div>
+                    <ul class="clearfix videolist-top mb10">
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/2-1.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/2-2.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/2-3.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/2-4.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/2-5.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hot-wrapper fr">
+                    <h3 class="clearfix bgcolor8 lh30">
+                        <div class="hot fl font12 fb gray17 ml10 tc">
+                            热门
+                        </div>
+                        <span class="fl ml5 mr5">
+                            <img src="images/hot.png" alt="" class="vam">
+                        </span>
+                        <div class="good fl font12 fb gray17 ml10 tc">
+                            好评
+                        </div>
+                    </h3>
+                    <div class="hot-ul">
+                        <ul class="hot-list bgcolor9 pb10 pt10">
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order1 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    对着镜子哭
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order2 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    第六感
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order3 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    别让你的泪打湿我的
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order4 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    风中奇缘
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order5 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    爱河
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order6 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    人类的居住地—聚落
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="goodlist bgcolor9 pb10 pt10 pl15">
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    这个是真的很好看
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    很好看你知道吗
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    实在太好看了
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    宇宙无敌好看
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    绝了
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    太太太太好看了吧！
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置课堂实录 -->
+            <div class="classroom-wrapper mt10 clearfix">
+                <div class="refer-left fl">
+                    <div class="clearfix lh36">
+                        <h3 class="fb fl ml5 blue1">教学参考</h3>
+                        <a href="#" class="fr mr10"><img class="vam" src="images/more.png" alt=""></a>
+                    </div>
+                    <ul class="clearfix videolist-top mb10">
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/3-1.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/3-2.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/3-3.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pr10 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/3-4.png" alt="">
+                                <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                        <li class="fl mt5 pb15">
+                            <a href="detail.html">
+                                <img class="bigpic" src="images/3-5.jpg" alt="">
+                                <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                <p>
+                                    <img class="vam" src="images/11.png" alt="">
+                                    <span class="gray9 font12">1005</span>
+                                    <img class="vam" src="images/12.png" alt="">
+                                    <span class="gray9 fon12">17</span>
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hot-wrapper fr">
+                    <h3 class="clearfix bgcolor8 lh30">
+                        <div class="hot fl font12 fb gray17 ml10 tc">
+                            热门
+                        </div>
+                        <span class="fl ml5 mr5">
+                            <img src="images/hot.png" alt="" class="vam">
+                        </span>
+                        <div class="good fl font12 fb gray17 ml10 tc">
+                            好评
+                        </div>
+                    </h3>
+                    <div class="hot-ul">
+                        <ul class="hot-list bgcolor9 pb10 pt10">
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order1 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    对着镜子哭
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order2 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    第六感
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order3 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    别让你的泪打湿我的
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order4 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    风中奇缘
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order5 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    爱河
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <div class="hot-order hot-order6 ml10 mr15">
+                                </div>
+                                <a href="#">
+                                    人类的居住地—聚落
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="goodlist bgcolor9 pb10 pt10 pl15">
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    这个是真的很好看
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    很好看你知道吗
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    实在太好看了
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    宇宙无敌好看
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    绝了
+                                </a>
+                            </li>
+                            <li class="font12 gray18 lh25 centery">
+                                <a href="#">
+                                    太太太太好看了吧！
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置一对一的图片 -->
+            <a href="#">
+                <img class="mt10 mb10" src="images/1to1.jpg" alt="">
+            </a>
+            <!-- 设置底部帮助 -->
+            <div class="bottom-help-wrapper bgcolor5 clearfix">
+                <ul class="font12 pl40 pr40 pt5 pb5 fl">
+                    <li class="fb gray19 lh24">
+                        注册向导
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            注册流程图
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            流程介绍
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom-help-line fl mt5 mr5">
+                </div>
+                <ul class="font12 pl40 pr40 pt5 pb5 fl">
+                    <li class="fb gray19 lh24">
+                        充值向导
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            充值流程图
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何充值
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何兑换学币
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom-help-line fl mt5 mr5">
+                </div>
+                <ul class="font12 pl40 pr40 pt5 pb5 fl">
+                    <li class="fb gray19 lh24">
+                        购物向导
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            购物流程图
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何购买课件
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何下载课件
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom-help-line fl mt5 mr5">
+                </div>
+                <ul class="font12 pl40 pr40 pt5 pb5 fl">
+                    <li class="fb gray19 lh24">
+                        上传向导
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何上传资源
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            上传资源评判规则
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom-help-line fl mt5 mr5">
+                </div>
+                <ul class="font12 pl40 pr40 pt5 pb5 fl">
+                    <li class="fb gray19 lh24">
+                        送货说明
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            网上下载
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            网上发货
+                        </a>
+                    </li>
+                </ul>
+                <div class="bottom-help-line fl mt5 mr5">
+                </div>
+                <ul class="font12 pl40 pr40 pt5 pb5 fl">
+                    <li class="fb gray19 lh24">
+                        积分向导
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何获得积分
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            如何快速积累积分
+                        </a>
+                    </li>
+                    <li class="lh24">
+                        <a href="#">
+                            积分扣除规则
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 设置友情链接的容器 -->
+            <div class="friendly-wrapper mt10">
+                <h3 class="bgcolor4 font12 lh28">
+                    <span class="fb gray19 ml15">友情链接</span>
+                    <span class="attached blue7 ml30">
+                        师库网旗下站点：
+                        <a class="blue7 mr20" href="#">
+                            师库课件
+                        </a>
+                        <a class="blue7 mr20" href="#">
+                            师库教案
+                        </a>
+                        <a class="blue7 mr20" href="#">
+                            师库试卷
+                        </a>
+                        <a class="blue7 mr20" href="#">
+                            教书“匠”
+                        </a>
+                        <a class="blue7 mr20" href="#">
+                            师库论坛
+                        </a>
+                    </span>
+                </h3>
+                <div class="font12 pt10 pb10 pl15 pr15 lh24 gray19">
+                    <a class="gray19" href="#">中国教育部</a>|
+                    <a class="gray19" href="#">中国中学生联盟网</a>|
+                    <a href="#" class="gray19">北京国之源</a>|
+                    <a href="#" class="gray19">喜福网</a>|
+                    <a href="#" class="gray19">学易网校</a>|
+                    <a href="#" class="gray19">DIY留学</a>|
+                    <a href="#" class="gray19">小学语文</a>|
+                    <a href="#" class="gray19">同考网</a>|
+                    <a href="#" class="gray19">学网</a>|
+                    <a href="#" class="gray19">课件</a>|
+                    <a href="#" class="gray19">华夏大地教育网</a>|
+                    <a href="#" class="gray19">英语口语培训</a>|
+                    <a href="#" class="gray19">英语网</a>|
+                    <a href="#" class="gray19">中华考试网</a>|
+                    <a href="#" class="gray19">津桥留学</a>|
+                    <a href="#" class="gray19">课件之家</a>|
+                    <a href="#" class="gray19">代写硕士论文</a>|
+                    <a href="#" class="gray19">达利通留学</a>|
+                    <a href="#" class="gray19">3edu教育网</a>|
+                    <a href="#" class="gray19">英语培训</a>|
+                    <a href="#" class="gray19">MBA环球网</a>|
+                    <a href="#" class="gray19">中国辅导班网</a>|
+                    <a href="#" class="gray19">同考高考网</a>|
+                    <a href="#" class="gray19">中级会计师</a>|
+                    <a href="#" class="gray19">英语论文</a>|
+                    <a href="#" class="gray19">凤凰网出国</a>|
+                    <a href="#" class="gray19">同考高考网</a>|
+                    <a href="#" class="gray19">中级会计师</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 设置底部的容器 -->
+    <div class="footer-wrapper mt20 bgcolor4">
+        <div class="footer wt980 tc font12 gray13">
+            <p class="pt15 lh22">
+                <a href="#">
+                    关于我们
+                </a>
+                |
+                <a href="#">
+                    商务合作
+                </a>
+                |
+                <a href="#">
+                    客服中心
+                </a>
+                |
+                <a href="#">
+                    网站地图
+                </a>
+                |
+                <a href="#">
+                    用户留言
+                </a>
+                |
+                <a href="#">
+                    帮助中心
+                </a>
+            </p>
+            <p class="lh22">
+                跨地区ICP证：B2—20040040《网络文化经营许可证》编号：文网文[2003]0066号
+            </p>
+            <p class="lh22">
+                Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved
+            </p>
+            <p class="lh22 pb20">
+                北京国之源软件技术有限公司提供技术支持 客服电话：0731-84531868
+                <img class="vam mr20" src="images/footer.png" alt="">
+                跟踪访问速度
+            </p>
+        </div>
+    </div>
+    <!-- 设置固定定位的悬浮按钮 -->
+    <div class="xuan font12 gray13">
+        <a href="#">
+            <div class="kefu tc ">
+                <img class="mt5 mb5" src="images/kefu.png" alt="">
+                <span>在线客服</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="diaocha tc mt5">
+                <img class="mt5 mb5" src="images/diaocha.png" alt="">
+                <span>在线调查</span>
+            </div>
+        </a>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

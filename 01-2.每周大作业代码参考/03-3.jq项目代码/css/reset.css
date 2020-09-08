@@ -1,0 +1,57 @@
+@charset "utf-8";
+/******
+*description:重置与基础样式
+*copyright:北京好之源网络科技有限公司
+*create time:2014-04-22 
+*update time:2014-04-22
+*******/
+body{margin:0;padding:0;color:#222;line-height:24px; font-size:12px;font-family:Tahoma,Arial,"宋体"}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0px;margin:0px;}
+label {cursor:pointer}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+address,caption,cite,code,em,b { font-style:normal; font-weight:normal}
+fieldset,img{ border:0;}
+table, th, td {border-collapse: collapse;border-spacing: 0;}
+a{ text-decoration:none;color:#333;}
+a:hover{ text-decoration:underline;}
+/*文字 文字对齐方式*/
+.tc{text-align:center;}
+.tl{text-align:left;} 
+.tr{text-align:right;}
+.fb{font-weight:bold;}
+/*字体 颜色*/
+.blue   { color:#316eaf}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#f60}
+.red    { color:#f00}
+.white	{ color:#fff}
+
+/*--图层居中显示--*/
+.topNavInner,.header,.nav,.layout,.wrapper,.footer,.banner{ width:980px; margin:0 auto}
+
+/*浮动 位置*/
+.fl  {float:left;}
+.fr  {float:right;}
+.cl  {clear:both;}
+.mt5 { margin-top:5px}
+.mt10{ margin-top:10px}
+.mb5 {margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.clearfix:after{content: "";display: table;clear: both;}
+.clearfix{*zoom:1;}/*IE6/7 hack*/
+/*--图标 按钮--*/
+.home-ico{background:url(../img/ico/home-ico.png) 0 9px no-repeat; width:18px}
+.doc{background:url(../img/ico/doc.gif) 0 4px no-repeat;}
+.ppt{background:url(../img/ico/ppt.gif) 0 4px no-repeat}
+.pdf{background:url(../img/ico/pdf.gif) 0 4px no-repeat}
+.rar{background:url(../img/ico/rar.png) 0 4px no-repeat}
+/*--分页--*/
+.nextPage{margin:15px 0; overflow:hidden; width:100%}
+.nextPage dl{ width:100%}
+.nextPage dl a,.nextPage .active{ display:inline-block;border:1px #d6d6d6 solid; margin:0px 4px;padding:0px 6px; text-align:center}
+.nextPage dl a:hover,.nextPage .active{background-color:#ececec}
+.nextPage dl .input{width:25px;border:1px solid #d6d6d6;margin:0px 3px;}
+.nextPage dl .button{cursor:pointer;width:38px;height:20px;}

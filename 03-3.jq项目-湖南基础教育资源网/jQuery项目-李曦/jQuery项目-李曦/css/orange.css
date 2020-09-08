@@ -1,0 +1,21 @@
+/* 边框 */
+
+.borderOrange {
+    border: 1px solid #fec397;
+}
+
+.borderOrangeBottom {
+    border-bottom: 1px solid #fec397;
+}
+
+.borderOrange2 {
+    border: 1px solid #fec397;
+    box-shadow: -1px 0 0 2px #fff2e5;
+}
+
+
+/* 背景渐变 */
+
+.bgOrangeShade {
+    background: linear-gradient(#fdf9ee, #fef7e3, #fff5d2, #fff3ca);
+}

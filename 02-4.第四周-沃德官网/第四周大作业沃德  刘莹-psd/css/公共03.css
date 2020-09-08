@@ -1,0 +1,184 @@
+/* 头部搜索条 */
+.tou{
+	line-height: 108px;
+	background-color: #082939;
+}
+.wen{
+	color: white;
+}
+.wz{
+	margin-left: 50px;
+}
+.tu{
+	margin-left: 380px;
+	margin-top: 25px;
+}
+.wo2,.wen a{
+	color: white;
+	font-size: 18px;
+}
+#tou a:hover{
+	color:#E68323;
+}
+/* 整体框的div */
+.zuo{
+	width: 810px;
+}
+/* 右边内容框 */
+.you{
+	width: 382px;
+}
+/* 左边头部 */
+.sr{
+	line-height: 34px;
+	height: 34px;
+	width: 810px;
+	background-color: #F3F3F3;
+	margin-top: 38px;
+}
+.sr1{
+	width: 8px;
+	height: 34px;
+	background-color: #E9E9E9;
+	display: inline-block;
+}
+.sr2{
+	font-size: 16px;
+	margin-left: 30px;
+}
+/* 左部分中间内容 */
+.zb{
+	height: 180px;
+	margin-top: 22px;
+	border-bottom: #CCCCCC 1px dashed;
+}
+.zb1 a{
+	font-size: 16px;
+	margin-top: 22px;
+	color: #818081;
+}
+.xq:hover{
+	color: #157FF6;
+	font-size: 14px;
+	
+}
+.zb2{
+	margin-top: 22px;
+}
+.ajj{
+	line-height: 24px;
+	text-align: center;
+	margin-top: 18px;
+}
+.aj{
+	border: none;
+	background-color:#2970A6;
+	 width: 92px;
+	 height: 20px;
+}
+.aj1{
+	border: none;
+	width: 24px;
+	height: 20px;
+	background-color:#2970A6;
+	margin-left: 5px;
+	
+}
+/* 右边部分 */
+.tf{
+	margin-left: 58px;
+	margin-top: 38px;
+}
+.tf1{
+	margin-left: 58px;
+}
+.zxz{
+	width: 320px;
+	height: 260px;
+	border: 1px #cccccc solid;
+	margin-left: 58px;
+}
+.zxz1{
+	height: 40px;
+	border-bottom: 1px #cccccc solid;
+}
+.zxz2{
+	line-height: 40px;
+}
+.zxz3{
+	line-height: 40px;
+}
+.zxz4{
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 12px;
+}
+/* 底部 */
+.db{
+	height: 282px;
+	background-color: #264252;
+	margin-top: 40px;
+}
+.dx{
+	padding-top: 24px;
+}
+.sy{
+	margin-left: 80px;
+	font-size: 14px;
+	color: white;
+}
+.zuo{
+	width: 650px;
+}
+.gy{
+	margin-right: 25px;
+	
+}
+#gy li a{
+	color: white;
+	margin-bottom: 10px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.gy li{
+	margin-bottom: 5px;
+}
+.xia{margin-right: 100px;
+	width: 320ppx;
+	height: 240px;
+}
+.dzz{
+	display:inline-block;
+	color: white;
+}
+.dzz2 a{
+	display:inline-block;
+	width: 230px;
+	height: 40px;
+}
+#dz {
+	color: white;
+}
+.ew{
+	margin-top: 40px;
+}
+.bq{text-align: center;
+	height: 48px;
+	background-color: #171717;
+}
+.bq1{
+	color: white;
+	margin-right: 30px;
+	
+}
+.bbq{
+	display:inline-block;
+	line-height: 48px;
+}
+.aj{
+	border: none;
+	background-color:#2970A6;
+	 width: 92px;
+	 height: 20px;
+}
+

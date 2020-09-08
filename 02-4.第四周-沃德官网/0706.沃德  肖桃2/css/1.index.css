@@ -1,0 +1,252 @@
+/* 设置头部的容器 */
+.header-wrapper{
+    height: 80px;
+}
+/* 设置logo */
+.img{
+    width: 229px;
+    height: 52px;
+    background-image: url(../images/沃夫德尔首页.png);
+    margin-left: 35px;
+    margin-right: 27px;
+}
+/* 设置导航条的超链接 */
+.nav li a{
+    padding: 0 27px;
+    line-height: 52px;
+}
+/* 设置主体顶部的图片 */
+.bigpic{
+    width: 1920px;
+    height: 600px;
+    background: url(../images/bigpic.jpg) no-repeat;
+    margin: 0 auto;
+}
+/* 设置主体的资讯 */
+.info{
+    height: 560px;
+    padding-bottom: 100px;
+}
+.info-title{
+    margin-top: 65px;
+}
+.info-eng{
+    margin-bottom: 60px;
+}
+/* 设置资讯的详细内容 */
+.info-content{
+    height: 355px;         
+}
+/* 设置智能体验的内容 */
+.intelligent{
+    height: 100px;
+}
+/* 设置资讯内容的右边 */
+.info-right{
+    border: 1px solid #b9b9b9;
+    width: 660px;
+    height: 358px;
+}
+/* 设置资讯右边的内容 */
+.info-right-title a:first-child,
+.info-right-title a:nth-child(2){
+    width: 125px;
+    line-height: 30px;
+    border: solid 1px #2478a8;
+    border-radius: 7px;  
+}
+.info-right-title a:first-child:hover,
+.info-right-title a:nth-child(2):hover{
+    background-color: #1975a5;
+    color: #fff;
+}
+/* 设置行业新闻 */
+.news a{
+    line-height: 38px;
+}
+.news li:not(:last-child){
+    border-bottom: dotted 1px #999;
+}
+/* 设置产品介绍 */
+.product-wrapper{
+    height: 669px;
+    padding-top: 1px;
+}
+.product-p{
+    line-height: 60px;
+}
+/* 设置品牌的文字介绍 */
+.band-text{
+    width: 249px;
+    line-height: 30px;
+}
+/* 设置智能头盔等图标 */
+.icon-bg,.icon-bg2,.icon-bg3{
+    width: 55px;
+    height: 59px;
+    background: url(../images/icon3.png);
+}
+.icon-bg2{
+    background-position: -59px -123px;
+}
+.icon-bg3{
+    width: 77px;
+    height: 56px;
+    background-position: -84px -246px;
+}
+.icon3 a{
+    display: inline-block;
+    width: 420px;
+    line-height: 85px;
+    border: solid  #999 1px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+    display:flex; 
+    /* justify-content:center; */
+    align-items:center;
+}
+/* 设置图标浮动以后的样式 */
+.icon3 a:hover{
+    background-color: #1975a5;
+    color: #fff;
+}
+.icon3 a:hover .icon-bg{
+    background-position: -64px 0;
+}
+.icon3 a:hover .icon-bg2{
+    background-position: 0 -125px;
+}
+.icon3 a:hover .icon-bg3{
+    background-position: 0 -245px;
+}
+.icon3 li div{
+    margin-left: 75px;
+    /* margin-top: 15px; */
+}
+.icon3 li span{
+    display: inline-block;
+    margin-left: 60px;
+    width: 120px;
+    vertical-align: middle;
+}
+.icon3 li .icon-sapn3{
+    margin-left: 38px;
+}
+/* 设置沃夫德尔的样式 */
+.wode{
+    height: 578px;
+    width: 1920px;
+    background: url(../images/wfde.jpg) no-repeat;
+    margin:0 auto;
+}
+/* 设置沃德科技的文字 */
+.hold-wrapper,.wodelist-wrapper{
+    display:flex; 
+    justify-content:center;
+}
+.holdings{
+    width: 700px;
+    line-height: 26px;
+}
+.kj{
+    display: inline-block;
+    margin-top: 200px;
+}
+.wode .right{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+/* 设置企业理念 */
+.wodelist{
+    margin-top: 120px;
+}
+.wodelist a{
+    display: inline-block;
+    width: 130px;
+    line-height: 30px;
+    border-radius: 15px;
+}
+.wodelist a:hover{
+    background-color: orange;
+    color: white;
+}
+/* 设置招商加盟 */
+.tel{
+    vertical-align: middle;
+}
+.recruit h2{
+    margin-top: 110px;
+}
+/* 设置标语 */
+.slogn-wrapper{
+    display:flex; 
+    justify-content:center;
+    align-items:center;
+}
+.slogan{
+    line-height: 70px;
+    width: 935px;
+    border-bottom: solid #999 1px;
+}
+/* 设置常见问题 */
+.question{
+    margin-top: 110px;
+}
+/* 设置问答的边框 */
+.qa{
+    border-bottom: #999 solid 1px;
+    border-top: #999 solid 1px;
+    margin-bottom: 105px;
+}
+/* 设置问答的文字 */
+.qa span{
+    width: 530px;
+    display: inline-block;
+    line-height: 25px;
+}
+.qa img{
+    vertical-align: top;
+}
+/* 设置联系我们的标题 */
+.contact-wrapper{
+    padding-top: 95px;
+    padding-bottom: 90px;
+}
+.icons{
+    margin-top: 80px;
+}
+.icons>div{
+    margin: 0 60px;
+}
+/* 设置网页的尾部 */
+.bindex{
+    margin-left: 110px;
+}
+.addr{
+    margin-right: 80px;
+    line-height: 25px;
+}
+.addr span{
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+}
+/* 设置二维码 */
+.code-wrapper{
+    width: 160px;
+    height: 170px;
+    margin-left: 140px;
+}
+.code-wrapper p{
+    line-height: 30px;
+}
+.code-wrapper p:first-child{
+    width: 150px;
+    border-bottom: #999 solid 1px;
+    margin-left: 5px;
+}
+/* 设置版权信息 */
+.footer-wrapper2 p{
+    line-height: 50px;
+}

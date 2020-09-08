@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #E9F0F8
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #FBFCFE;
+    margin-bottom: 10px
+}
+
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.wt1000 {
+    width: 1000px;
+    margin: 0 auto
+}
+
+.toubu {
+    width: 1000px;
+}
+
+.zuoyeben {
+    width: 135px;
+    padding-left: 10px
+}
+
+.youbian {
+    width: 440px;
+}
+
+.xuebitu {
+    background: url(../images/top-nav.gif) no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.tu1 {
+    background-position: -4px 0px;
+}
+
+.tu2 {
+    background-position: -47px 0px;
+}
+
+.tu3 {
+    background-position: -92px 0px;
+}
+
+.tu4 {
+    background-position: -140px 0px;
+}
+
+.geren {
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    background-color: #E9F0F8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.geren span,
+a {
+    color: #93BAE0;
+    text-decoration: none;
+}
+
+.bodyer {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    width: 980px;
+    margin: 0 auto
+}
+
+.zuoye {
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    margin-right: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.zhongjian {
+    width: 948px;
+    padding: 15px 13px;
+}
+
+.yuwen {
+    width: 908px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #6C9DCE;
+    line-height: 50px;
+    border-radius: 5px;
+    padding: 0px 20px
+}
+
+.yuwen span {
+    color: #fff;
+}
+
+.yuwen .wenzi {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    padding-left: 15px;
+    margin-right: 10px
+}
+
+.yuwen .shici {
+    font-weight: bold;
+}
+
+.yuwen .ti {
+    font-size: 10px
+}
+
+.jiezhi {
+    width: 948px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+.shijian,
+.laoshi {
+    color: #ABABAB;
+    margin: 0px 40px 5px 10px;
+}
+
+.zuoyeyaoqiu {
+    width: 935px;
+    margin-left: 10px;
+    color: #ABABAB;
+}
+
+.beijin {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 70px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border: 1px solid #B4B4B4;
+}
+
+.feng {
+    margin-left: 40px;
+}
+
+.feng input {
+    margin-top: 15px;
+}
+
+.feng .input2 {
+    margin-top: 10px;
+    color: #999;
+    font-size: 14px;
+}
+
+.feng .input {
+    color: #999;
+    font-size: 14px;
+}
+
+.input span {
+    margin-right: 40px;
+}
+
+.feng a {
+    color: #757673;
+}
+
+.xiao {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.beijin2 {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 265px;
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border: 1px solid #B4B4B4;
+    background: url(../images/作业系统-作业本-作业报告-1_12.jpg) 0 0 no-repeat;
+}
+
+.xiao2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.input p {
+    margin-bottom: 5px;
+}
+
+.tutu1 {
+    background: url(../images/作业系统-作业本-作业报告-1_03.jpg) 0 0 no-repeat;
+}
+
+.tutu2 {
+    background: url(../images/作业系统-作业本-作业报告-1_06.jpg) 0 0 no-repeat;
+}
+
+.tutu3 {
+    background: url(../images/作业系统-作业本-作业报告-1_10.jpg) 0 0 no-repeat;
+}
+
+.tutu4 {
+    background: url(../images/作业系统-作业本-作业报告-1_15.jpg) 0 0 no-repeat;
+}
+
+.tutu5 {
+    background: url(../images/ddd_03.jpg) no-repeat;
+}
+
+.beijin3 {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 265px;
+    padding-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 10PX;
+    border: 1px solid #B4B4B4;
+    background: url(../images/作业系统-作业本-作业报告-1_17.jpg) 0 0 no-repeat;
+}
+
+.beijin4 {
+    position: relative;
+    background-color: #fff;
+    width: 946px;
+    height: 265px;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10PX;
+    border-radius: 5px;
+    border: 1px solid #B4B4B4;
+    background: url(../images/uuu.jpg) 0 0 no-repeat;
+}
+
+.fanhui {
+    display: inline-block;
+    width: 92px;
+    height: 32px;
+    border-radius: 10px;
+    border: none;
+    background: url(../images/ooo_03.jpg) no-repeat;
+}
+
+.hsy {
+    margin: 40px 0px 10px 400px;
+}
+
+.foot {
+    width: 1000px;
+    height: 35px;
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    border-top: 5px solid #F4F4F4;
+}
+
+.ban {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 400px;
+    color: #9C9C9C;
+}
+
+.ban .xin {
+    position: relative;
+    top: 5px;
+}

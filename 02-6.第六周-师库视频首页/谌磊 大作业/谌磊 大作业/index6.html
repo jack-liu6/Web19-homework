@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/css.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/js.js"></script>
+		<link href="css/Six.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="js/Six.js"></script>
+		<title>师库网</title>
+	</head>
+	<body>
+		<!-- <div class="fir"> -->
+		<div style="width: 100%;background: #E0E0E0;">
+			<div class="font box">
+				<div id="head">
+					您好，欢迎来到师库网！请
+					<a href="#">登录</a>
+					新用户？
+					<a href="#">免费注册</a>
+				</div>
+				<div class="fie">
+					<div class="Es3">
+						<div class="adc" onclick="ig()">我的订单<img src="image/index1.png" class="fie_Img" /></div>
+						<ul class="fore">
+							<li>订单1</li>
+							<li>订单2</li>
+						</ul>
+					</div>
+					<div><img src="image/index2.png">购物车</div>
+					<div class="Es3">
+						<div class="adc" onclick="ig()">我的师库<img src="image/index1.png" class="fie_Img" /></div>
+						<ul class="fore">
+							<li>订单1</li>
+							<li>订单2</li>
+						</ul>
+					</div>
+
+					<div>帮助中心</div>
+					<div class="Es3">
+						<div class="adc" onclick="ig()">网站导航<img src="image/index1.png" class="fie_Img" /></div>
+						<ul class="fore">
+							<li>订单1</li>
+							<li>订单2</li>
+						</ul>
+					</div>
+
+					<div>加入收藏</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div style="width: 100%;background-image: linear-gradient(#DEEFF7, #FFFFFF);">
+			<div id="as">
+				<img src="image/index02.png" />
+			</div>
+			<!-- 师库视频 -->
+			<div class="thi">
+				<img src="image/index3.png" />
+				<div class="thiw">师库视频</div>
+				<div class="kis">
+					<div style="display: flex;">
+						<div id="hist" class="font">
+							<div class="hist">教学视频</div>
+							<img src="image/index4.png" />
+							<input type="text" id="" placeholder="请输入关键字" />
+							<button type="button">搜索</button>
+						</div>
+						<div class="font hist1">
+							<div>高级搜索</div>
+							<div>使用帮助</div>
+						</div>
+					</div>
+					<div class="head">
+						<div style="color: #8F8E8E;">热门搜索：</div>
+						<a href="#" style="color: #F08E30;" onclick="cs()">教学视频</a>
+						<a href="#" style="color: #006DC8;" onclick="cs()">课堂实录</a>
+						<a href="#" style="color: #727272;" onclick="cs()">实习演习</a>
+						<a href="#" style="color: #A81010;" onclick="cs()">教学参考</a>
+						<a href="#" style="color: #5A5A5A;" onclick="cs()">课堂实录</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 首页 -->
+		<div class="fir">
+			<div class="chan">
+				<div class="sd chand">首页</div>
+				<div class="sd chand">师库课件</div>
+				<div class="sd chand">师库教案</div>
+				<div class="sd chand">师库试卷</div>
+				<div class="sd chaner chand">教学视频</div>
+				<div class="sd chand">教书匠</div>
+				<div class="sd chand">师说论坛</div>
+				<div class="chan_sed chand">
+					<div class="chan_seda"><img src="image/index5.png" />风云榜</div>
+					<div class="erji chan_seda">
+						<div id="kan"><img src="image/index6.png" />我看过的<img src="image/index8.png"></div>
+						<div class="erji-a">
+							<div class="erji-b">
+								<div>1、视频历史1 <a class="erji-c">重播</a><a class="erji-d">X</a></div>
+								<div>2、视频历史2 <a class="erji-c">重播</a><a class="erji-d">X</a></div>
+								<div>3、视频历史3 <a class="erji-c">重播</a><a class="erji-d">X</a></div>
+								<div>4、视频历史4 <a class="erji-c">重播</a><a class="erji-d">X</a></div>
+								<div class="erji-e">清空播放历史</div>
+							</div>
+							<div class="erji-f">推荐视频：</div>
+							<div class="erji-g">1、推荐视频一</div>
+							<div class="erji-g">2、推荐视频二</div>
+							<div class="erji-i">建议<a>登录</a>后在不同电脑上同步观看历史</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script type="text/javascript">
+				var kan = document.getElementById("kan")
+				var f = true;
+				kan.onclick = function() {
+					var erji = document.getElementsByClassName("erji-a")[0];
+					if (f) {
+						erji.style.display = "block"
+					} else {
+						erji.style.display = "none"
+					}
+					f = !f;
+				}
+			</script>
+			<div class="at">
+				<img src="image/index9.png">
+			</div>
+
+			<div class="three">
+				<!-- 三级菜单 -->
+				<div class="three-san font">
+					<ul class="logo-1">
+						<li class="ol"><b></b>语文<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: -1px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>数学<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 25px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>英语<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 50px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>物理<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 75px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>化学<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 100px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>历史<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 125px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>地理<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 150px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>生物<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 175px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>思想政治<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 200px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>历史与社会<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 225px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+						<li class="ol"><b class="sc"></b>信息技术<span>&gt;</span>
+							<div class="yuwen" style="position: absolute;left: 175px;top: 250px;display: none;">
+								<div class="xiaoxue">小学：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">初中：</div>
+								<div class="ketang">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">高中：</div>
+								<div class="ketang" style="border-bottom: 1px dashed #000000;">
+									<div>课堂实录</div>
+									<div>实验演习</div>
+									<div>教学参考</div>
+								</div>
+								<div class="xiaoxue">类型：</div>
+								<div class="ketang">
+									<div>特供</div>
+									<div>精品</div>
+									<div>免费</div>
+									<div>促销</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<div class="slide" style="position: relative;">
+						<!-- 轮播图 -->
+						<div class="three-Img">
+							<li style="opacity: 1;"><img src="image/图层%2020.png" /></li>
+							<li><img src="image/1%20(1).jpg"></li>
+							<li><img src="image/1%20(2).jpg"></li>
+						</div>
+						<div class="dots">
+							<span class="on">1</span>
+							<span>2</span>
+							<span>3</span>
+						</div>
+						<div class="btns">
+							<a href="#" class="prev">&lt;</a>
+							<a href="#" class="next">&gt;</a>
+						</div>
+						
+					</div>
+					<div class="three-bottom">
+						<img src="image/图层%2084.png" />
+					</div>
+				</div>
+
+
+				<div style="z-index: -1;">
+					<div class="three-deng font">
+						<div class="three-deng-fir">用户登录</div>
+						<div class="three-deng-sec">用户名：<input type="text"></div>
+						<div class="three-deng-sec">密&nbsp;&nbsp;&nbsp;码：<input type="password"></div>
+						<div class="three-deng-thi">验证码：<input type="text"><img src="image/图层%2024.png" /></div>
+						<div class="ksl">
+							<button id="button">登录</button>
+							<a href="#" class="first">免费注册</a>
+							<a href="#" class="second">？忘记密码</a>
+						</div>
+					</div>
+					<div class="three-zu">
+						<img src="image/图层%2028.png" />
+						<div class="three-div">注册帮助</div>
+						<div style="margin-top: 12px;">|</div>
+						<img src="image/图层%2029.png" />
+						<div class="three-div">登录说明</div>
+					</div>
+					<div><img src="image/图层%2083.png"></div>
+				</div>
+			</div>
+			<!-- 最新上传视频 -->
+			<div class="zuixin">
+				<div class="ship">
+					<div class="ship-a">
+						<div class="ship-b">最新<span>上传视频</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index20.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index21.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index22.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index23.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index24.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisu">
+					<div class="kuaisu1">快速检索：</div>
+					<div class="xuekeb">
+						<div class="xueke"><img src="image/图层%2046.png">按学科：</div>
+						<div class="xuekea">
+							<a href="">语文</a>
+							<a href="">数学</a>
+							<a href="">英语</a>
+							<a href="">物理</a>
+							<a href="">化学</a>
+							<a href="">历史</a>
+						</div>
+						<div class="xuekea">
+							<a href="">地理</a>
+							<a href="">生物</a>
+							<a href="">思想政治</a>
+							<a href="">历史与社会</a>
+						</div>
+						<div class="xuekea">
+							<a href="">信息技术</a>
+						</div>
+					</div>
+					<div>
+						<div class="xueke"><img src="image/图层%2046.png">按级别：</div>
+						<div class="xuekea">
+							<a href="">免费</a>
+							<a href="">精品</a>
+							<a href="">特供</a>
+							<a href="">促销</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 教学参考 -->
+			<div class="zuixinab">
+				<div class="shipab">
+					<div class="ship-a">
+						<div class="ship-b"><span>实验演习</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index31.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2064.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2065.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2066.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2067.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisuab">
+					<div class="kuaisa" id="tab-nav">
+						<li class="tab-nav">热门</li>
+						<li>好评</li>
+					</div>
+					<div class="xuea" id="tab" style="display: block;">
+						<div class="xueb"><img src="image/图层%2046.png">对着镜子哭</div>
+						<div class="xueb"><img src="image/图层%2046.png">第六感</div>
+						<div class="xueb"><img src="image/图层%2046.png">别让你的泪打湿我的</div>
+						<div class="xueb"><img src="image/图层%2046.png">风中奇缘</div>
+						<div class="xueb"><img src="image/图层%2046.png">爱河</div>
+						<div class="xueb"><img src="image/图层%2046.png">人类的居住地—聚落</div>
+					</div>
+					<div class="xuea" id="tab">
+						<div class="xueb"><img src="image/图层%2046.png">这是第二个</div>
+						<div class="xueb"><img src="image/图层%2046.png">第六感</div>
+						<div class="xueb"><img src="image/图层%2046.png">别让你的泪打湿我的</div>
+						<div class="xueb"><img src="image/图层%2046.png">风中奇缘</div>
+						<div class="xueb"><img src="image/图层%2046.png">爱河</div>
+						<div class="xueb"><img src="image/图层%2046.png">人类的居住地—聚落</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 实验演习 -->
+			<div class="zuixinab">
+				<div class="shipab">
+					<div class="ship-a">
+						<div class="ship-b"><span>实验演习</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="./image/index25.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index26.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index27.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index29.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index30.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisuab">
+					<div class="kuaisa" id="tab-nav1">
+						<li class="tab-nav">热门</li>
+						<li>好评</li>
+					</div>
+					<div class="xuea" id="tab1" style="display: block;">
+						<div class="xueb"><img src="image/图层%2046.png">对着镜子哭</div>
+						<div class="xueb"><img src="image/图层%2046.png">第六感</div>
+						<div class="xueb"><img src="image/图层%2046.png">别让你的泪打湿我的</div>
+						<div class="xueb"><img src="image/图层%2046.png">风中奇缘</div>
+						<div class="xueb"><img src="image/图层%2046.png">爱河</div>
+						<div class="xueb"><img src="image/图层%2046.png">人类的居住地—聚落</div>
+					</div>
+					<div class="xuea" id="tab1">
+						<div class="xueb"><img src="image/图层%2046.png">这是第二个</div>
+						<div class="xueb"><img src="image/图层%2046.png">第六感</div>
+						<div class="xueb"><img src="image/图层%2046.png">别让你的泪打湿我的</div>
+						<div class="xueb"><img src="image/图层%2046.png">风中奇缘</div>
+						<div class="xueb"><img src="image/图层%2046.png">爱河</div>
+						<div class="xueb"><img src="image/图层%2046.png">人类的居住地—聚落</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- 课堂实录 -->
+			<div class="zuixinab">
+				<div class="shipab">
+					<div class="ship-a">
+						<div class="ship-b"><span>课堂实录</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index25.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2075.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2076.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2077.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/图层%2078.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisuab">
+					<div class="kuaisa" id="tab-nav2">
+						<li class="tab-nav">热门</li>
+						<span>
+							<span style="border-right: 2px dashed #000000;margin-right: 5px;"> </span>
+							<span style="border-left: 2px dashed #000000;"> </span>
+						</span>
+						<li>好评</li>
+					</div>
+					<div class="xuea" id="tab2" style="display: block;">
+						<div class="xueb"><img src="image/图层%2046.png">对着镜子哭</div>
+						<div class="xueb"><img src="image/图层%2046.png">第六感</div>
+						<div class="xueb"><img src="image/图层%2046.png">别让你的泪打湿我的</div>
+						<div class="xueb"><img src="image/图层%2046.png">风中奇缘</div>
+						<div class="xueb"><img src="image/图层%2046.png">爱河</div>
+						<div class="xueb"><img src="image/图层%2046.png">人类的居住地—聚落</div>
+					</div>
+					<div class="xuea"id="tab2">
+						<div class="xueb"><img src="image/图层%2046.png">这是第二个</div>
+						<div class="xueb"><img src="image/图层%2046.png">第六感</div>
+						<div class="xueb"><img src="image/图层%2046.png">别让你的泪打湿我的</div>
+						<div class="xueb"><img src="image/图层%2046.png">风中奇缘</div>
+						<div class="xueb"><img src="image/图层%2046.png">爱河</div>
+						<div class="xueb"><img src="image/图层%2046.png">人类的居住地—聚落</div>
+					</div>
+
+				</div>
+			</div>
+			<script type="text/javascript">
+				var li = document.querySelectorAll("#tab-nav li")
+				var tab = document.querySelectorAll("#tab")
+				var li1 = document.querySelectorAll("#tab-nav1 li")
+				var tab1 = document.querySelectorAll("#tab1")
+				var li2 = document.querySelectorAll("#tab-nav2 li")
+				var tab2 = document.querySelectorAll("#tab2")
+				function tabss(e, a, b) {
+					for (var i = 0; i < a.length; i++) {
+						a[i].setAttribute("index", i)
+						// 绑定单击事件
+						a[i][e] = function () {
+							// 设置面板标题样式的切换
+							for (var j = 0; j < a.length; j++) {
+								a[j].className = ""
+							}
+							this.className = "tab-nav";
+							// 设置面板的切换
+							for (var x = 0; x < b.length; x++) {
+								b[x].style.display = "none"
+							}
+							b[this.getAttribute("index")].style.display = "block"
+						}
+					}
+				}
+				tabss("onclick", li, tab)
+				tabss("onclick", li1, tab1)
+				tabss("onclick", li2, tab2)
+			</script>
+
+			<!-- 智能一对一 -->
+			<div class="tetx">
+				<img src="image/图层%2079.png">
+			</div>
+
+			<!-- 注册向导 -->
+			<div class="zhuce">
+				<div class="zhucea">
+					<div class="zhuce1">注册向导</div>
+					<div class="zhuce2">注册流程图</div>
+					<div class="zhuce2">流程介绍</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">充值向导</div>
+					<div class="zhuce2">充值流程图</div>
+					<div class="zhuce2">如何充值</div>
+					<div class="zhuce2">如何兑换学币</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">购物向导</div>
+					<div class="zhuce2">购物流程图</div>
+					<div class="zhuce2">如何购买课件</div>
+					<div class="zhuce2">如何下载课件</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">上传向导</div>
+					<div class="zhuce2">如何上传资源</div>
+					<div class="zhuce2">上传资源判断规则</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">送货说明</div>
+					<div class="zhuce2">网上下载</div>
+					<div class="zhuce2">网上发货</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">积分向导</div>
+					<div class="zhuce2">如何获得积分</div>
+					<div class="zhuce2">如何快速积累积分</div>
+					<div class="zhuce2">积分扣除规则</div>
+				</div>
+			</div>
+
+
+			<!-- 友情链接 -->
+			<div class="youqin font">
+				<div class="youqina">
+					<div class="youqinb">友情链接</div>
+					<div class="youqinc">师库网旗下站点：</div>
+					<a href="">师库课件</a>
+					<a href="">师库教案</a>
+					<a href="">师库试卷</a>
+					<a href="">教学“匠”</a>
+					<a href="">师库论坛</a>
+				</div>
+				<div class="youqind">
+					<a href="">中国教育部</a>|
+					<a href="">中国中学生联盟网</a>|
+					<a href="">北京国之源</a>|
+					<a href="">喜福网</a>|
+					<a href="">学易网校</a>|
+					<a href="">DIV留学</a>|
+					<a href="">小学语文</a>|
+					<a href="">同考网</a>|
+					<a href="">学网</a>|
+					<a href="">课件</a>|
+					<a href="">华夏大地教育网</a>|
+					<a href="">英语口语培训</a>|
+					<a href="">英语网</a>|
+					<a href="">中华考试网</a>|
+					<a href="">津桥留学</a>|
+				</div>
+
+				<div class="youqind">
+					<a href="">课件之家</a>|
+					<a href="">代写硕士论文</a>|
+					<a href="">达利通留学</a>|
+					<a href="">3edu教育网</a>|
+					<a href="">英语培训</a>|
+					<a href="">MBA环球网</a>|
+					<a href="">中国辅导班网</a>|
+					<a href="">同考高考网</a>|
+					<a href="">中级会计师</a>|
+					<a href="">英语论文</a>|
+					<a href="">凤凰网出国</a>|
+					<a href="">同考高考网</a>|
+					<a href="">中级会计师</a>|
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- 底部 -->
+		<div style="width: 100%;background: #DCDCDC;border-top: 1px solid #9B9B9B;margin-top: 30px;">
+			<div class="mac">
+				<div class="mac-1">
+					<div>关于我们</div>
+					<div>|</div>
+					<div>商务合作</div>
+					<div>|</div>
+					<div>客户中心</div>
+					<div>|</div>
+					<div>网站地图</div>
+					<div>|</div>
+					<div>用户留言</div>
+					<div>|</div>
+					<div>帮助中心</div>
+				</div>
+				<div class="mac-2">跨地区ICP证：B2 - 20040040《网络文化经营许可证》编号：文网文[2003] 0066号</div>
+				<div class="mac-3">Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved</div>
+				<div class="mac-4">北京国之源软件有限公司提供技术支持 &nbsp; 客服电话：0731-84531868<img src="image/index37.png" />跟踪访问速度</div>
+			</div>
+		</div>
+		<script type="text/javascript"src="js/Six.js"></script>
+	</body>
+</html>

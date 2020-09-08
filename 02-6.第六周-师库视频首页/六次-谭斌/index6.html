@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/css.css" type="text/css" rel="stylesheet" />
+		<link href="css/Six.css" type="text/css" rel="stylesheet" />
+		<title>师库网</title>
+	</head>
+	<body>
+		<!-- <div class="fir"> -->
+		<div style="width: 100%;background: #E0E0E0;">
+			<div class="font box">
+				<div id="head">
+					您好，欢迎来到师库网！请
+					<a href="#">登录</a>
+					新用户？
+					<a href="#">免费注册</a>
+				</div>
+				<div class="fie" id="all">
+					<div class="Es3">
+						<div class="a">我的订单<img src="image/index1.png" class="fie_Img" /></div>
+						<ul class="fore">
+							<li>订单1</li>
+							<li>订单2</li>
+							<li>订单3</li>
+							<li>订单4</li>
+
+						</ul>
+					</div>
+					<div><img src="image/index2.png">购物车</div>
+					<div class="Es3">
+						<div class="a">我的师库<img src="image/index1.png" class="fie_Img" /></div>
+						<ul class="fore">
+							<li>购物车1</li>
+							<li>购物车2</li>
+							<li>购物车3</li>
+							<li>购物车4</li>
+
+						</ul>
+					</div>
+
+					<div>帮助中心</div>
+					<div class="Es3">
+						<div class="a">网站导航<img src="image/index1.png" class="fie_Img" /></div>
+						<ul class="fore">
+							<li>帮助1</li>
+							<li>帮助2</li>
+							<li>帮助3</li>
+							<li>帮助4</li>
+
+						</ul>
+					</div>
+
+					<div>加入收藏</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var al=document.getElementById("all");
+				var al1=al.getElementsByClassName("a")
+				var dl1=al.getElementsByClassName("fore")
+				var f=true
+				for(var i=0;i<al1.length;i++){
+					for(var a=0;a<dl1.length;a++){
+						al1[i].index=i;
+						al1[i].onmousemove=function(){
+								dl1[this.index].style.display="block"
+						}
+						al1[i].onmouseout=function(){
+							dl1[this.index].style.display="none"
+						}	
+					}
+				}
+		</script>
+
+
+		<div style="width: 100%;background-image: linear-gradient(#DEEFF7, #FFFFFF);">
+			<div id="as">
+				<img src="image/index02.png" />
+			</div>
+
+			<div class="thi">
+				<img src="image/index3.png" />
+				<div class="thiw">师库视频</div>
+				<div class="kis">
+					<div style="display: flex;">
+						<div id="hist" class="font">
+							<div class="hist" id="ww">教学视频</div>
+							<img src="image/index4.png" />
+							<input type="text" id="" placeholder="请输入关键字" />
+							<button type="button">搜索</button>
+						</div>
+						<div class="font hist1">
+							<div>高级搜索</div>
+							<div>使用帮助</div>
+						</div>
+					</div>
+					<div class="head" id="hd">
+						<div style="color: #8F8E8E;">热门搜索：</div>
+						<a href="#" style="color: #F08E30;" onclick="cs()">教学视频</a>
+						<a href="#" style="color: #006DC8;" onclick="cs()">课堂实录</a>
+						<a href="#" style="color: #727272;" onclick="cs()">实习演习</a>
+						<a href="#" style="color: #A81010;" onclick="cs()">教学参考</a>
+						<a href="#" style="color: #5A5A5A;" onclick="cs()">课堂实录</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var ww = document.getElementById("ww")
+			var hd = document.getElementById("hd")
+			var hd1 = hd.getElementsByTagName("a")
+			//console.log(hd1)
+			for (var q = 0; q < hd1.length; q++) {
+				hd1[q].onclick = function() {
+					ww.innerHTML = this.innerHTML;
+				}
+			}
+		</script>
+
+		<div class="fir">
+			<div class="chan" id="gl">
+				<div class="sd">首页</div>
+				<div class="sd">师库课件</div>
+				<div class="sd">师库教案</div>
+				<div class="sd">师库试卷</div>
+				<div class="sd ">教学视频</div>
+				<div class="sd">教书匠</div>
+				<div class="sd">师说论坛</div>
+				<div class="xbk"></div>
+				<div class="chan_sed">
+					<div><img src="image/index5.png" />风云榜</div>
+					<div id="nm"><img src="image/index6.png" />我看过的<img src="image/index8.png">
+						<div class="jkl" id="nm1">
+							<div>
+								<ul>
+									<li><a>1,历史视频</a><span>重播</span><b>×</b></li>
+									<li><a>2,历史视频</a><span>重播</span><b>×</b></li>
+									<li><a>3,历史视频</a><span>重播</span><b>×</b></li>
+									<li><a>4,历史视频</a><span>重播</span><b>×</b></li>
+								</ul>
+							</div>
+							<div id="">
+								<ul>
+									<ol>推荐视频</ol>
+									<li><a>2,推荐视频</a><span>重播</span><b>×</b></li>
+									<li><a>3,推荐视频</a><span>重播</span><b>×</b></li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				//我看过得
+				var nm = document.getElementById("nm");
+				var nm1 = document.getElementById("nm1");
+				var a = true;
+				nm.onclick = function() {
+					if (a) {
+						nm.style.background = "#D5D5D5";
+						nm1.style.display = "block"
+					} else {
+						nm.style.background = "";
+						nm1.style.display = "none"
+					}
+					a = !a;
+				}
+				//首页 师库课件 。。。。
+				var gl = document.getElementById("gl")
+				var cr = gl.querySelectorAll(".sd")
+				console.log(cr)
+				for (var i = 0; i < cr.length; i++) {
+					cr[i].onmousemove = function() {
+						this.style.background = "#006DC8"
+					}
+					cr[i].onmouseout = function() {
+						this.style.background = ""
+					}
+				}
+			</script>
+			<div class="at">
+				<img src="image/index9.png">
+			</div>
+
+			<div class="three">
+				<!-- 三级菜单 -->
+				<div class="three-san font" id="lbb">
+					<ul>
+						<li><a>语文</a><span>&gt;</span>
+							<div class="lb1  lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>数学<span>&gt;</span></a>
+							<div class="lb2 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>英语<span>&gt;</span></a>
+							<div class="lb3 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>物理<span>&gt;</span></a>
+							<div class="lb4 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>化学<span>&gt;</span></a>
+							<div class="lb5 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>历史<span>&gt;</span></a>
+							<div class="lb6 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>地理<span>&gt;</span></a>
+							<div class="lb7 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>生物<span>&gt;</span></a>
+							<div class="lb8 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>思想政治<span>&gt;</span></a>
+							<div class="lb9 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>历史与社会<span>&gt;</span></a>
+							<div class="lb10 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+						<li><a>信息技术<span>&gt;</span></a>
+							<div class="lb11 lb">
+								<ul>
+									<ol>
+										<p>小学：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>初中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>高中：</p>
+									</ol>
+									<ol><a>课堂实录</a><a>实验演习</a><a>教学参考</a></ol>
+									<ol>
+										<p>类型：</p>
+									</ol>
+									<ol><a>特供</a><a>精品</a><a>免费</a><a>促销</a></ol>
+								</ul>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<script>
+					var lbb = document.getElementById("lbb")
+					var lp = lbb.querySelectorAll("li")
+					var dv = lbb.querySelectorAll("div")
+					console.log(dv)
+					for (a = 0; a < lp.length; a++) {
+						for (i = 0; i < dv.length; i++) {
+							lp[a].index = a;
+							lp[a].onmousemove = function() {
+								this.style.background = "#999999"
+								dv[this.index].style.display = "block";
+							}
+							lp[a].onmouseout = function() {
+								this.style.background = ""
+								dv[this.index].style.display = "none";
+							}
+						}
+					}
+				</script>
+				<!-- <div>
+					<div class="three-Img">
+						<img src="image/图层%2020.png" />
+						<img src="image/lun1.png" width="567px" height="212px"/>
+						<img src="image/lun2.png" width="567px" height="212px" />
+						<ul>
+							<li>1</li>
+							<li>2</li>
+							<li>3</li>
+
+						</ul>
+					</div>
+					<script>
+						//轮播
+						
+					</script>
+					<div class="three-bottom">
+						<img src="image/图层%2084.png" />
+					</div>
+				</div> -->
+
+				<div>
+					<div class="slide" style="position: relative;">
+						<!-- 轮播图 -->
+						<div class="three-Img">
+							<li style="opacity: 1;"><img src="image/图层%2020.png" /></li>
+							<li><img src="image/lun1.jpg" width="566px" height="211px"></li>
+							<li><img src="image/lun2.jpg" width="566px" height="211px"></li>
+						</div>
+						<div class="dots">
+							<span class="on">1</span>
+							<span>2</span>
+							<span>3</span>
+						</div>
+						<div class="btns">
+							<a href="#" class="prev">&lt;</a>
+							<a href="#" class="next">&gt;</a>
+						</div>
+
+					</div>
+					<div class="three-bottom">
+						<img src="image/图层%2084.png" />
+					</div>
+				</div>
+
+
+				<script type="text/javascript">
+					function dan() {
+						var slide = document.querySelector(".slide");
+						var li = slide.querySelectorAll(".three-Img li");
+						var btnss = document.querySelector(".btns");
+						var btns = slide.querySelectorAll(".btns a");
+						var dots = slide.querySelectorAll(".dots span");
+						var index = 0;
+
+						function fun() {
+							for (var j = 0; j < dots.length; j++) {
+								dots[j].className = "";
+								dots[index].className = "on";
+
+							}
+						}
+						// 设置左边的按钮
+						btns[0].onclick = function() {
+							for (var j = 0; j < li.length; j++) {
+								li[j].style.opacity = 0
+							}
+							index++
+							if (index > 2) {
+								index = 0
+							}
+							li[index].style.transition = "all 0.5s linear"
+							li[index].style.opacity = 1;
+							fun()
+						}
+						// 设置右边的按钮
+						btns[1].onclick = function() {
+							for (var j = 0; j < li.length; j++) {
+								li[j].style.opacity = 0
+							}
+							index--
+							if (index < 0) {
+								index = 2
+							}
+							li[index].style.transition = "all 0.5s linear"
+							li[index].style.opacity = 1;
+							fun()
+						}
+						// 给小圆点绑定事件
+						for (var i = 0; i < dots.length; i++) {
+							dots[i].setAttribute("index", i);
+							dots[i].onclick = function() {
+								index = this.getAttribute("index");
+								for (var j = 0; j < li.length; j++) {
+									li[j].style.opacity = 0
+								}
+								li[index].style.transition = "all 0.5s linear"
+								li[index].style.opacity = 1;
+								fun()
+							};
+						}
+						// 通过定时器实现自动轮播
+						function go() {
+							btns[0].onclick();
+						}
+						var timer = setInterval(go, 1500);
+						// 鼠标移入到轮播图区域，暂停播放，离开再恢复播放
+						slide.onmouseover = function() {
+							btnss.style.display = "block";
+							clearInterval(timer);
+
+						}
+						// 鼠标离开时恢复播放
+						slide.onmouseout = function() {
+							btnss.style.display = "none";
+							timer = setInterval(go, 1500);
+						}
+					}
+					dan()
+				</script>
+
+				<div>
+					<div>
+						<div class="three-deng font">
+							<div class="three-deng-fir">用户登录</div>
+							<div class="three-deng-sec">用户名：<input type="text"></div>
+							<div class="three-deng-sec">密&nbsp;&nbsp;&nbsp;码：<input type="password"></div>
+							<div class="three-deng-thi">验证码：<input type="text"><img src="image/图层%2024.png" /></div>
+							<div class="ksl">
+								<button id="button">登录</button>
+								<a href="#" class="first">免费注册</a>
+								<a href="#" class="second">？忘记密码</a>
+							</div>
+						</div>
+						<div class="three-zu">
+							<img src="image/图层%2028.png" />
+							<div class="three-div">注册帮助</div>
+							<div style="margin-top: 12px;">|</div>
+							<img src="image/图层%2029.png" />
+							<div class="three-div">登录说明</div>
+						</div>
+						<div><img src="image/图层%2083.png"></div>
+					</div>
+				</div>
+			</div>
+			<!-- 最新上传视频 -->
+			<div class="zuixin">
+				<div class="ship">
+					<div class="ship-a">
+						<div class="ship-b">最新<span>上传视频</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index20.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index21.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index22.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index23.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index24.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisu">
+					<div class="kuaisu1">快速检索：</div>
+					<div class="xuekeb">
+						<div class="xueke"><img src="image/图层%2046.png">按学科：</div>
+						<div class="xuekea">
+							<a href="">语文</a>
+							<a href="">数学</a>
+							<a href="">英语</a>
+							<a href="">物理</a>
+							<a href="">化学</a>
+							<a href="">历史</a>
+						</div>
+						<div class="xuekea">
+							<a href="">地理</a>
+							<a href="">生物</a>
+							<a href="">思想政治</a>
+							<a href="">历史与社会</a>
+						</div>
+						<div class="xuekea">
+							<a href="">信息技术</a>
+						</div>
+					</div>
+					<div>
+						<div class="xueke"><img src="image/图层%2046.png">按级别：</div>
+						<div class="xuekea">
+							<a href="">免费</a>
+							<a href="">精品</a>
+							<a href="">特供</a>
+							<a href="">促销</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- 教学参考 -->
+			<div class="zuixinab">
+				<div class="shipab">
+					<div class="ship-a">
+						<div class="ship-b"><span>实验演习</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index31.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index26.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index27.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index29.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index30.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisuab">
+					<div class="kuaisa"><a>热门</a>||<a>好评</a></div>
+					<div class="xuea">
+						<div class="xueb"><img src="image/index5.png">对着镜子哭</div>
+						<div class="xueb"><img src="image/index5.png">第六感</div>
+						<div class="xueb"><img src="image/index5.png">别让你的眼泪打湿我</div>
+						<div class="xueb"><img src="image/index5.png">风中奇缘</div>
+						<div class="xueb"><img src="image/index5.png">金刚狼</div>
+						<div class="xueb"><img src="image/index5.png">爱河</div>
+					</div>
+
+				</div>
+			</div>
+
+			<!-- 课堂实录 -->
+			<div class="zuixinab">
+				<div class="shipab">
+					<div class="ship-a">
+						<div class="ship-b"><span>实验演习</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index31.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index26.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index27.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index21.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index30.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisuab">
+					<div class="kuaisa"><a>热门</a>||<a>好评</a></div>
+					<div class="xuea">
+						<div class="xueb"><img src="image/index5.png">对着镜子哭</div>
+						<div class="xueb"><img src="image/index5.png">第六感</div>
+						<div class="xueb"><img src="image/index5.png">别让你的眼泪打湿我</div>
+						<div class="xueb"><img src="image/index5.png">风中奇缘</div>
+						<div class="xueb"><img src="image/index5.png">金刚狼</div>
+						<div class="xueb"><img src="image/index5.png">爱河</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="zuixinab">
+				<div class="shipab">
+					<div class="ship-a">
+						<div class="ship-b"><span>实验演习</span></div>
+						<div><img src="image/图层%2034.png"></div>
+					</div>
+					<div class="handwo">
+						<div class="handeen">
+							<img src="image/index31.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index26.png" class="handeen-a" />
+							<div>《只有一个细胞的生命》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index27.png" class="handeen-a" />
+							<div>《人类的聚居地—聚落》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index29.png" class="handeen-a" />
+							<div>《计算机硬件》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+						<div class="handeen">
+							<img src="image/index30.png" class="handeen-a" />
+							<div>《开花和结果》</div>
+							<div><img src="image/index15.png" /></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="kuaisuab">
+					<div class="kuaisa"><a>热门</a>||<a>好评</a></div>
+					<div class="xuea">
+						<div class="xueb"><img src="image/index5.png">对着镜子哭</div>
+						<div class="xueb"><img src="image/index5.png">第六感</div>
+						<div class="xueb"><img src="image/index5.png">别让你的眼泪打湿我</div>
+						<div class="xueb"><img src="image/index5.png">风中奇缘</div>
+						<div class="xueb"><img src="image/index5.png">金刚狼</div>
+						<div class="xueb"><img src="image/index5.png">爱河</div>
+					</div>
+
+				</div>
+			</div>
+			<!-- 智能一对一 -->
+			<div class="tetx">
+				<img src="image/图层%2079.png">
+			</div>
+
+			<!-- 注册向导 -->
+			<div class="zhuce">
+				<div class="zhucea">
+					<div class="zhuce1">注册向导</div>
+					<div class="zhuce2">注册流程图</div>
+					<div class="zhuce2">流程介绍</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">充值向导</div>
+					<div class="zhuce2">充值流程图</div>
+					<div class="zhuce2">如何充值</div>
+					<div class="zhuce2">如何兑换学币</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">购物向导</div>
+					<div class="zhuce2">购物流程图</div>
+					<div class="zhuce2">如何购买课件</div>
+					<div class="zhuce2">如何下载课件</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">上传向导</div>
+					<div class="zhuce2">如何上传资源</div>
+					<div class="zhuce2">上传资源判断规则</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">送货说明</div>
+					<div class="zhuce2">网上下载</div>
+					<div class="zhuce2">网上发货</div>
+				</div>
+				<div class="zhucea">
+					<div class="zhuce1">积分向导</div>
+					<div class="zhuce2">如何获得积分</div>
+					<div class="zhuce2">如何快速积累积分</div>
+					<div class="zhuce2">积分扣除规则</div>
+				</div>
+			</div>
+
+
+		</div>
+
+
+		<!-- 底部 -->
+		<div style="width: 100%;background: #DCDCDC;border-top: 1px solid #9B9B9B;margin-top: 30px;">
+			<div class="mac">
+				<div class="mac-1">
+					<div>关于我们</div>
+					<div>|</div>
+					<div>商务合作</div>
+					<div>|</div>
+					<div>客户中心</div>
+					<div>|</div>
+					<div>网站地图</div>
+					<div>|</div>
+					<div>用户留言</div>
+					<div>|</div>
+					<div>帮助中心</div>
+				</div>
+				<div class="mac-2">跨地区ICP证：B2 - 20040040《网络文化经营许可证》编号：文网文[2003] 0066号</div>
+				<div class="mac-3">Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved</div>
+				<div class="mac-4">北京国之源软件有限公司提供技术支持 &nbsp; 客服电话：0731-84531868<img src="image/index37.png" />跟踪访问速度</div>
+			</div>
+		</div>
+	</body>
+</html>

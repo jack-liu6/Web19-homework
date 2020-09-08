@@ -1,0 +1,586 @@
+/* 设置网页的头部的上半部分 */
+.header-top-wrapper{
+    height: 70px;
+}
+/* 设置logo */
+.logo-wrapper{
+    height: 70px;
+    width: 157px;
+    background: url(../images/topbar.png) no-repeat 0 0;
+}
+/* 设置顶部的导航条 */
+.header-nav{
+    height: 70px;
+    line-height: 70px;
+}
+.header-nav>li>a:hover{
+    background-color: black;
+    color: #fff;
+}
+/* 设置hot小图标 */
+.header-hot-icon{
+    position: absolute;
+    width: 26px;
+    height: 13px;
+    background: url(../images/topbar.png) no-repeat -192px 0;
+    top: 20px;
+    right: -20px;
+}
+/* 设置顶部的搜索框 */
+.header-input{
+    margin-top: 19px;
+    background-position: 0 -99px;
+    border-radius: 32px;
+    width: 158px;
+    height: 32px;
+    background: url(../images/topbar.png) no-repeat 0px -98px #fff;
+}
+.header-input>input{
+    height: 32px;
+    border: none;
+    outline: none;
+    width: 128px;
+    border-radius: 32px;
+}
+/* 设置顶部的登录超链接 */
+.login-wrapper>a{
+    height: 70px;
+    line-height: 70px;
+}
+.login-wrapper>a:hover{
+    text-decoration: underline;
+}
+/* 设置创作者中心 */
+.creative-core>a{
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 20px;
+    border: #787878 solid 1px;
+    margin-top: 18px;
+}
+.creative-core>a:hover{
+    color: #ccc;
+    border-color: #ccc;
+}
+/* 设置头部的上半部分 */
+.header-bottom{
+    height: 35px;
+    line-height: 35px;
+}
+/* 设置红色的导航条 */
+.header-nav-red{
+    padding-left: 180px;
+}
+/* 设置红色导航条的列表 */
+.header-bottom{
+    border-top: 1px solid #000;
+}
+.nav-red-ul li a{
+    height: 20px;
+    padding: 0 13px;
+    margin: 7px 17px 0;
+    border-radius: 20px;
+    line-height: 21px;
+}
+.nav-red-ul li a:hover,.nav-red-ul li:first-child a{
+    color: #fff;
+    border-radius: 20px;
+    background-color: #9B0909;
+}
+/* 设置上拉三角 */
+.red-up-arrow::before{
+    content: "";
+    width: 1px;
+    height: 6px;
+    border: 5px solid transparent;
+    border-bottom: 5px solid #c20c0c;
+    position: absolute;
+    top:-24px;
+    left: 16px;
+}
+/* 设置歌单右上角的商标 */
+.song-list::after{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url(../images/white-r-icon@3x.png) no-repeat 0 0;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    background-size: 8px;
+}
+/* 设置主体顶部的图片轮播 */
+.main-slide{
+    width: 730px;
+    height: 285px;
+}
+.main-slide>a>img{
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+}
+.main-slide>a:first-child>img{
+    opacity: 1;
+}
+/* 设置轮播图的左右按钮 */
+.main-slide>.btn-l,.main-slide>.btn-r{
+    position: absolute;
+    width: 37px;
+    height: 63px;
+    top: 115px;
+}
+.main-slide>.btn-l{
+    left: -75px;
+    background: url(../images/banner.png) no-repeat 0 -361px ;
+}
+.main-slide>.btn-l:hover{
+    background: url(../images/banner.png) no-repeat 0 -431px;
+}
+.main-slide>.btn-r{
+    right: -327px;
+    background: url(../images/banner.png) no-repeat 0 -509px ;
+}
+.main-slide>.btn-r:hover{
+    background: url(../images/banner.png) no-repeat 0 -579px;
+}
+.dots{
+    position: absolute;
+    bottom: 5px;
+    left: 36%;
+}
+.dots>span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-indent: -89em;
+    cursor: pointer;
+    background: url(../images/banner.png) no-repeat 0px -344px;
+}
+.dots>span:hover,.dots>.on{
+    background: url(../images/banner.png) no-repeat -20px -344px;
+}
+/* 设置下载客户端 */
+.main-download{
+    width: 252px;
+    height: 283.8px;
+    background: url(../images/download.png) no-repeat;
+    overflow: hidden;
+}
+.main-download>a{
+    width: 215px;
+    height: 56px;
+    margin-top: 186px;
+    margin-left: 19px;
+}
+.main-download>a:hover{
+    background: url(../images/download.png) no-repeat 0 -290px;
+}
+/* 设置主体顶部的图片轮播的大容器 */
+.main-top-wrapper{
+    background-size: 6000px;
+    background-position: center center;
+    background-image: url(../images/pic1.jpg);
+}
+/* 设置主体内容的左边 */
+.main-content-left{
+    width: 689px;
+    border-left: 1px solid #d3d3d3;
+}
+/* 设置热门推荐的头部 */
+.hot-rem-head{
+    height: 33px;
+    line-height: 33px;
+    padding: 0 10px 0 34px;
+    background-position: -225px -156px;
+    border-bottom: 2px solid #C10D0C;
+    background: url(../images/index.png) -227px -156px no-repeat;
+}
+.hot-rem-head a:first-child:hover,.hot-rem-head a:last-child:hover{
+    color: #333;
+}
+.hot-rem-head a:not(first-child):hover{
+    text-decoration: underline;
+}
+/* 设置更多 */
+.more{
+    width: 36px;
+    background: url(../images/index.png) 29px -230px no-repeat;
+}
+/* 设置热门推荐的内容 */
+.hot-rem-content li:not(:nth-child(4n)){
+    margin-right: 42px;
+}
+/* 设置热门推荐的图片列表 */
+.img-bottom{
+    width: 140px;
+    height: 27px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.pic-a{
+    width: 140px;
+    height: 140px;
+}
+.listen{
+    width: 14px;
+    height: 11px;
+    background: url(../images/iconall.png) no-repeat 0 -24px;
+}
+.bofang{
+    width: 17px;
+    height: 17px;
+    background: url(../images/iconall.png) no-repeat 0 0px;
+}
+.pic-text{
+    width: 140px;
+    
+}
+.pic-text:hover{
+    color: #000;
+    text-decoration: underline;
+}
+/* 设置新碟上架 */
+.new-muc-content{
+    height: 186px;
+    border: 1px solid #d3d3d3;
+}
+/* 设置新碟上架的按钮 */
+.btn2{
+    width: 8px;
+    height: 14px;
+    position: absolute;
+    top: 60px;
+}
+.btn-pre{
+    background: url(../images/index.png) no-repeat -266px -77px;
+    left: 10px;
+}
+.btn-pre{
+    background: url(../images/index.png) no-repeat -266px -77px;
+    left: 10px;
+}
+.btn-next{
+    background: url(../images/index.png) no-repeat -306px -77px;
+    right: 10px;
+}
+.btn-pre:hover{
+    background: url(../images/index.png) no-repeat -286px -77px;
+}
+.btn-next:hover{
+    background: url(../images/index.png) no-repeat -326px -77px;
+}
+/* 设置里面的图片列表的大容器 */
+.new-inner{
+    width: 640px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.inner-inner{
+    width: 2560px;
+    position: absolute;
+    left: -640px;
+    top: 0;
+}
+/* 设置里面的图片列表 */
+.cover{
+    width: 118px;
+    height: 100px;
+    background: url(../images/coverall.png) no-repeat 0px -570px;
+}
+.text-top a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+.text-bottom a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+.new-inner ul li{
+    width: 118px;
+    height: 150px;
+}
+.inner-inner ul li{
+    margin-left: 10px;
+    margin-top: 28px;
+}
+/* 设置播放按钮 */
+.bo-icon{
+    width: 20px;
+    height: 20px;
+    background: url(../images/iconall.png) no-repeat -1px -111px;
+    position: absolute;
+    bottom: 56px;
+    right: 26px;
+}
+.new-inner ul li:hover .bo-icon{
+    display: block;
+}
+/* 设置榜单 */
+.top-list-content>div{
+    width: 228px;
+    border: 1px solid #d3d3d3;
+}
+.top-list-content>.toplist-middle{
+    border-left: none;
+    border-right: none;
+}
+.toplist-top-top{
+    height: 100px;
+}
+/* 设置榜单的图片 */
+.toplist-top-top-head{
+    width: 80px;
+    height: 80px;
+    background: url(../images/18696095720518497.jpg);
+    background-size: 80px 80px;
+}
+.toplist-top-top-head span{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/coverall.png) no-repeat -145px -57px;
+}
+.t-middle{
+    background: url(../images/18713687906568048.jpg);
+    background-size: 80px 80px;
+}
+.t-bottom{
+    background: url(../images/18740076185638788.jpg);
+    background-size: 80px 80px;
+}
+/* 设置播放 */
+.b-f{
+    width: 23px;
+    height: 23px;
+    background: url(../images/index.png) no-repeat -267px -205px;
+}
+.b-f:hover{
+    background: url(../images/index.png) no-repeat -267px -235px;
+}
+.add{
+    width: 23px;
+    height: 23px;
+    background: url(../images/index.png) no-repeat -299px -206px;
+}
+.add:hover{
+    background: url(../images/index.png) no-repeat -299px -236px;
+}
+/* 设置榜单的列表 */
+.toplist-ul li{
+    height: 32px;
+    line-height: 32px;
+}
+.toplist-ul li:nth-child(n){
+    background-color: #E8E8E8;
+}
+.toplist-ul li:nth-child(2n){
+    background-color: #F4F4F4;
+}
+.toplist-ul>li>span{
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.toplist-ul li a{
+    display: inline-block;
+    font-size: 12px;
+    color: #000;
+    height: 32px;
+    line-height: 32px;
+}
+.toplist-ul li a:not(:last-child){
+    width: 170px;
+}
+.toplist-ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+.toplist-ul li:hover .small-icon3{
+    display: block;
+}
+.toplist-ul li:not(:last-child):hover a{
+    width: 96px;
+}
+/* 设置小图标 */
+.small-bo{
+    width: 20px;
+    height: 20px;
+    background: url(../images/index.png) no-repeat -266px -268px;
+}
+.small-cun{
+    width: 20px;
+    height: 20px;
+    background: url(../images/index.png) no-repeat -294px -268px;
+}
+.small-add{
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon.png) no-repeat  3px -698px;
+}
+.small-add:hover{
+    background: url(../images/icon.png) no-repeat  -19px -698px;
+}
+.small-icon3{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+/* 设置主体内容的右边 */
+.main-content-right{
+    width: 250px;
+    border: 1px solid #d3d3d3;
+    border-bottom:0;
+    height: 1386px;
+}
+.mr-top{
+    height: 126px;
+}
+.mr-top .note{
+    width: 205px;
+    margin: 0 auto;
+    padding: 16px 0;
+    line-height: 22px;
+}
+.mr-top .login{
+    width: 100px;
+    height: 31px;
+    line-height: 31px;
+    text-shadow: 0 1px 0 #8a060b;
+    margin: 0 auto;
+    background: url(../images/index.png) no-repeat 0 -195px;
+}
+.mr-top .login:hover{
+    background: url(../images/index.png) no-repeat -110px -195px;
+    color: #fff;
+}
+/* 设置入驻歌手 */
+.singer-h3{
+    height: 24px;
+    border-bottom: 1px solid #d3d3d3;
+}
+.singer-h3 a:hover{
+    text-decoration: underline;
+    color: #666;
+}
+.singer-right{
+    border: 1px solid #d3d3d3;
+    border-left: 0;
+    width: 132px;
+    height: 60px;
+}
+.singer .singer-ul li,.singer .singer-ul{
+    overflow: hidden;
+}
+.singer .singer-ul li:hover{
+    background: #E8E8E8;
+}
+/* 设置申请成为歌手按钮 */
+.to-s a{
+    width: 208px;
+    height: 31px;
+    color: #333;
+    background-position: right -100px;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+}
+.to-s a:hover{
+    background-color: #e8e8e8;
+}
+/* 设置热门主播的图标 */
+.v-icon{
+    width: 12px;
+    height: 12px;
+    background: url(../images/icon\ \(1\).png) no-repeat 0 0;
+}
+.info p a:hover{
+    color: #333;
+    text-decoration: underline;
+}
+/* 设置尾部 */
+.footer-wrapper{
+    border-top: 1px solid #d3d3d3;
+}
+.footer-left a:hover{
+    text-decoration: underline;
+    color: #333;
+}
+.footer-left .first a:hover{
+    color: #999;
+}
+/* 设置警察图标 */
+.police-logo{
+    width: 15px;
+    height: 15px;
+    background: url(../images/police.png) no-repeat 0 0;
+    background-size: 15px 15px;
+}
+/* 设置右边的图标 */
+.footer-right ul li a{
+    width:50px;
+    height: 45px;
+    background: url(../images/foot_enter_new.png) no-repeat 0 0;
+    background-size: 110px 552px;
+}
+.footer-right ul li .a1{
+    background-position: -63px -456.5px;
+}
+.footer-right ul li .a2{
+    background-position: -63px -101px;
+}
+.footer-right ul li .a4{
+    background-position: -60px -50px;
+}
+.footer-right ul li .a5{
+    background-position: 0 -101px;
+}
+/* 设置图标下面的文字 */
+.icon-text{
+    background: url(../images/foot_enter_tt.png) no-repeat;
+    background-size: 180px 139px;
+    margin: 5px 5px -2px 0;
+    width: 52px;
+    height: 14px;
+}
+.icon-text1{
+    background-position: 0 -108px;
+    width: 72px;
+    margin-left: -6px;
+}
+.icon-text2{
+    background-position: -1px -91px;
+}
+.icon-text3{
+    background-position: 0 0;
+}
+.icon-text4{
+    background-position: 0 -54px;
+}
+.icon-text5{
+    background-position: -1px -72px;
+}
+/* 设置回到顶部的按钮 */
+.back-to-top{
+    display: block;
+    position: fixed;
+    text-indent: -9999px;
+    left: 50%;
+    margin-left: 500px;
+    border-radius: 3px;
+    bottom: 160px;
+    width: 48px;
+    height: 44px;
+    overflow: hidden;
+    background: url(../images/sprite.png) no-repeat 0 9999px;
+    background-position: -265px -47px;
+    outline: none;
+    display: none;
+}

@@ -1,0 +1,123 @@
+/* 底部 */
+.bq{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: -50px;
+	/* border-top: 1px solid ; */
+}
+
+.bq>p{
+	line-height: 20px;
+}
+
+.loginline{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.logo{
+	position: absolute;
+	left: 304px;
+	top: 132px;
+}
+
+.loginbox{
+	position: absolute;
+	left: 818px;
+	top: 123px;
+	width: 231px;
+	/* height: 286px; */
+	min-height: 286px;
+	background-color: #F9F9F9;
+	border: 1px solid #EAEAEA;
+	border-radius: 3px;
+	padding: 20px;
+	z-index: 1000;
+}
+
+.logintop>span{
+	font-size: 20px;
+	font-weight: 700;
+	color: #858585;
+}
+
+.logintop{
+	border-bottom: 1px solid #EDEDED;
+	padding-bottom: 5px;
+}
+
+div span{
+	color: #7B7B7B;
+	font-weight: 700;
+}
+
+.usertop{
+	margin-top: 10px;
+	width: 226px;
+}
+
+#username,#password{
+	width: 198px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #DFDFDF;
+	outline: none;
+	padding-left: 22px;
+}
+
+.usersp{
+	display: inline-block;
+	background: url(../img/login_sprite.png)no-repeat 0 0;
+	width: 11px;
+	height: 11px;
+	position: absolute;
+	left: 7px;
+	top: 10px;
+	vertical-align: middle;
+}
+
+/* #loginform p{
+	height: 60px;
+} */
+
+.psdsp{
+	display: inline-block;
+	background: url(../img/login_sprite.png)no-repeat 0 -37px;
+	width: 10px;
+	height: 13px;
+	position: absolute;
+	left: 7px;
+	top: 10px;
+	vertical-align: middle;
+}
+
+#yzm{
+	width: 141px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #DFDFDF;
+	outline: none;
+	padding-left: 10px;
+}
+
+.loginbox img{
+	margin-right: 12px;
+	margin-top: 5px;
+	cursor: pointer;s
+}
+
+button{
+	width: 220px;
+	height: 30px;
+	border: none;
+	outline: none;
+	background: url(../img/login_btn.png)no-repeat;
+	cursor: pointer;
+}
+
+label{
+	display: block;
+	color: red;
+}

@@ -1,0 +1,108 @@
+.banner{
+    width: 1440px;
+    /* height: 720px; */
+    background: url(../images/pic/denlu.png) no-repeat;
+    margin:  0 auto;
+}
+.mian .logo{
+    width: 415px;
+    height: 133px;
+    background: url(../images/pic/logo3.png) no-repeat;
+    margin-top: 147px;
+    float: left;
+    margin-left: 120px;
+}
+.denglubox{
+    width: 274px;
+    height: 320px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-left: 100px;
+    margin-top: 120px;
+    background: #fff;
+}
+.denglubox .deng-hd{
+    height: 32px;
+    width: 220px;
+    border-bottom: 1px solid #d7d7d7;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 26px;
+    color: #717171;
+}
+.deng-bd{
+    width: 222px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 26px;
+
+}
+.user{
+    margin-bottom: 14px;
+}
+.user p{
+    line-height: 14px;
+}
+.user p span{
+    color: #757575;
+}
+.user p span a{
+    color: #2171b4;
+    margin-left: 118px;
+}
+.shuru{
+    position: relative;
+
+}
+.user .shuru .icon{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 7px;
+    top: 12px;
+    background: url(../images/pic/Shape-14.png) no-repeat;
+    
+}
+.pwd .shuru .icon{
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 7px;
+    top: 12px;
+    background: url(../images/pic/Shape-15.png) no-repeat;
+    
+}
+.shuru input[type="text"]{
+    width: 192px;
+    height: 28px;
+    border: 1px solid #c8c8c8;
+    margin-top: 4px;
+    padding-left:20px;
+}
+.yzm .shuru input{
+    width: 149px;
+    height: 28px;
+    padding: 0;
+}
+.yzm .ran{
+    width: 61px;
+    height: 22px;
+    background: url(../images/pic/yzm.png) no-repeat;
+    margin-top:6px;
+}
+form .btn{
+    width: 218px;
+    border: 1px solid #ec6b00;
+    background: #ff7807;
+    font-size: 16px;
+    padding: 5px 0;
+    cursor: pointer;
+    color: #fff;
+}
+.dot{
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(#fefefe,#eaeaea,#ededed,#f8f8f8);
+    margin-top: 120px;
+}

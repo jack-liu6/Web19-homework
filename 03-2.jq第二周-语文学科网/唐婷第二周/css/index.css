@@ -1,0 +1,941 @@
+/* 头部 */
+.on{
+    background-color: red;
+}
+.sprite{
+    background:url(../images/sprite.png)
+}
+.head{
+    height:28px;
+    width:100%;
+    line-height: 28px;
+    background-color: #009900;
+    border-bottom: 1px solid #006633;
+    color:#fff
+}
+.head a:hover{
+    color:#fff
+}
+.head a{
+    color:#ccc;
+    margin-right: 10px;
+}
+.head input{
+    display: inline-block;
+    width:91px;
+    height:17px;
+    border-top:1px solid #ccc;
+    border-left:2px solid #ccc
+}
+.head button{
+    display: inline-block;
+    width:49px;
+    height:20px;
+    border:1px solid #006633;
+    border-radius: 3px;
+    font-size:12px ;
+    color:#000;
+    line-height: 18px;
+}
+/* logo */
+.logo{
+    width:100%;
+    height:233px;
+    background:-webkit-linear-gradient(top,#afdfaf,#fff,#fff)
+}
+.bg_logo{
+    background:url(../images/bg_02.png);
+    position: absolute;
+    width:1280px;
+    height:233px;
+    left: -165px;
+    margin:0px auto
+}
+.logo-bg{
+    height: 233px;
+    z-index: 5;
+    background:url(../images/bg_03.png);
+}
+.logo-bg p span{
+    display: inline-block;
+    width:26px;
+    height:27px;
+    background-position: -50px -52px;
+    top:7px
+}
+.logo-bg p{
+    color:#2f9c39;
+    position: relative;
+    z-index:2;
+   padding-top:17px
+}
+.logo-bg h1{
+    font-size: 37px;
+    color:#006600;
+    position: relative;
+    z-index:2;
+    margin-top:40px
+}
+.nav li{
+    float: left;
+    margin-right: 9px;
+}
+.nav{
+    top:86px;
+    padding-left: 44px;
+}
+.nav li a{
+    color:#fff
+}
+#index{
+    color:#006633;
+    font-weight: 600;
+    margin-right: 32px;
+}
+.logo-bg button{
+    width:19px;
+    height: 17px;
+    top: 68px;
+    right: 7px;
+    border:none;
+    background:rgba(0, 0, 0, 0);
+    
+}
+
+/* 搜索栏 */
+.search_box{
+    width:940px;
+    margin:0px auto;
+    height:27px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-top:none;
+    padding:12px 7px 9px 11px
+}
+#quick{
+    display: inline-block;
+    width:59px;
+    height:22px;
+    color:#fff;
+    line-height: 22px;
+    padding-left: 5px;
+    background-position: 0px -26px;
+}
+.link a{
+    font-size: 12px ;
+    color:#0066cc;
+    margin-right: 12px;
+    text-decoration-line: underline;
+}
+.search{
+    background-color: #6fbe44;
+    width:458px;
+    height:25px;
+    border-radius: 5px;
+    bottom:6px;
+    padding:6px 13px 5px 6px
+}
+.ipt{
+    width:231px;
+    height:22px;
+    border:none;
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc
+}
+.xiala{
+    width: 91px;
+    height:22px;
+    border:none;
+    color:#333;
+    padding-left:10px;
+    border-top:1px solid #ccc;
+    border-left:1px solid #ccc
+}
+.search_box button{
+    display: inline-block;
+    width:15px;
+    height:18px;
+    border:none;
+    right: 20px;
+    top: 2.5px;
+    background-position: -23px -74px;
+}
+#sea_a{
+    display: inline-block;
+    text-align: center;
+    width:65px;
+    height:24px;
+    color:#333;
+    font-weight: 600;
+    left:-18px;
+    text-decoration: none;
+    background:-webkit-linear-gradient(top,#fff,#e8e8e8,#ccc)
+}
+.gaoji{
+   bottom: 24px;
+   color:#666;
+   text-decoration-line: underline;
+}
+
+
+/* 页面主体 */
+.xuebi{
+    background: url(../images/未标题-1.gif)no-repeat;
+}
+.xuebi-1{
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    background-position: 0 -44px;
+        position: absolute;
+    left: 69px;
+    top: 2px;
+}
+.mian{
+   
+    height: 889px;
+}
+.main-left{
+    width: 248px;
+    height: 889px;
+}
+.main-left-tongji{
+    padding: 10px;
+    width: 228px;
+    height: 263px;
+    border: 1px solid #ddd;
+    background: #e4ffca;
+}
+.tongji-img{
+    margin-right: 10px;
+    display: inline-block;
+    padding: 5px 5px 0px 5px;
+    border: 2px solid #ddd;
+    background: #fff;
+}
+.cor006{
+    color: #006600;
+}
+.cor6c6{
+    color: #6c6c6c;
+}
+.tongji-jieshao a{
+    text-decoration: underline;
+}
+.cor157{
+    color:#157ff6
+}
+.xuebi-2{
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    background-position: 0 -112px;
+    position: relative;
+    top: 4px;
+}
+.main-xinxi{
+    background: #FFF;
+    width: 223px;
+    height: 25px;
+}
+.cor666{
+    color: #666;
+}
+.xinxi-renshu {
+    line-height: 1;
+}
+/* 成果展示 */
+.main-left-zhanshi{
+    padding: 1px;
+    /* width: 246px; */
+    /* height: 160px; */
+      border: 1px solid #ddd;
+}
+.Aa{
+    height: 160px;
+}
+.aul li{
+    width: 216px;
+    margin-left: 10px;
+}
+.zhanshi-biaoti{
+    widows: 100%;
+    height: 30px;
+     background: linear-gradient(#e8ffe8,#e8ffe8,#fff);
+}
+.xuebi-3{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background-position: 0 -137px;
+}
+.xuebi1{
+    background: url(../images/学科首页-sprite1.gif);
+}
+.xuebi-4{
+    display: inline-block;
+    width: 41px;
+    height: 19px;
+    background-position: 0 -156px;
+}
+.xuebi-4 a,.remen a{
+   position: relative;
+    top: -4px;
+    left: 8px;
+}
+.remen{
+    display: inline-block;
+    width: 39px;
+    height: 16px;
+    background: #d5d5d5;
+}
+.dw-1{
+  position: relative;
+    top: 3px;
+    left: -7px;
+}
+.cor999{
+    color: #999999;
+}
+.zhanshi-wenben ul{
+    list-style: square;
+    line-height: 1;
+}
+
+/* 最新成员 */
+.main-left-zuixin{
+      padding: 1px;
+    width: 246px;
+    height: 228px;
+      border: 1px solid #ddd;
+}
+.zuixin-top{
+    
+   padding: 0 10px;
+    height: 26px;
+     background: linear-gradient(#e8ffe8,#e8ffe8,#fff);
+}
+.xuebi-5{
+    display: inline-block;
+    width: 6px;
+    height: 9px;
+    background-position: -4px -104px;
+}
+.Top{
+border-bottom: #006600 solid 1px;
+}
+.bgfff{
+    display: inline-block;
+    width: 57px;
+    height: 54px;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #999999;
+}
+.cor4c7{
+    color: #4c7d08;
+}
+.chengyuan-1{
+    text-align-last: center;
+}
+/* 特效工作室 */
+.zuixin-button{
+    padding: 1px;
+    width: 246px;
+    height: 184px;
+      border: 1px solid #ddd;
+}
+.button-content{
+    padding: 0 10px;
+    height: 26px;
+    background: linear-gradient(#e8ffe8,#e8ffe8,#fff);
+}
+.bgfff-2{
+    width: 50px;
+    height: 50px;
+     padding: 3px;
+    background: #fff;
+    border: 1px solid #999999;
+}
+.xg1{
+        line-height: 1;
+}
+/* 主体中间 */
+.main-center{
+    width: 698px;
+}
+.gonggao{
+    padding: 1px;
+    width: 697px;
+    height: 25px;
+    border: 1px solid #d7f9db;
+    background:#fafff7;
+}
+.xuebi-6{
+    display: inline-block;
+    width: 75px;
+    height: 24px;
+    background-position: 0 -34px;
+}
+/* 左边 */
+.main-center-left{
+    width: 458px;
+}
+.toutiao-tupian{
+    overflow: hidden;
+     width: 227px;
+    height: 163px;
+}
+.toutiao-tupian ul{
+    position: absolute;
+    width: 1135px;
+}
+.toutiao-tupian ul li a img{
+    width: 227px;
+    height: 163px;
+}
+.zhishiqi{
+    position: absolute;
+    top: 137px;
+    z-index: 1001;
+    width: 227px;
+    height: 26px;
+    background: rgba(92,70,6,0.2);
+}
+.zhishiqi-1{
+    display: inline-block;
+    background: #636363;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 4px;
+}
+.zhishiqi-1 strong{
+    position: absolute;
+    left: 4px;
+    top: -4px;
+    color: #a4a4a2;
+}
+.qc{
+    list-style: square;
+}
+.center-xueke{
+    width: 438px;
+    height: 157px;
+    padding:0px 10px ;
+    background: #f6f6f6;
+
+}
+.xuebi-7{
+     display: inline-block;
+    width: 6px;
+    height: 9px;
+    background-position: -4px -104px;
+}
+.xueke-fenlei{
+     padding:0px 10px ;
+    height: 35px;
+    background: #dbe3f7;
+    
+}
+.bggr{
+    display: inline-block;
+    text-align-last: center;
+    width: 73px;
+    height: 24px;
+    background: linear-gradient(#86f25f,#24b13f,#00c94b);
+}
+.xueke-fenlei>div{
+    position: relative;
+    top: 7px;
+}
+.xueke-nianji{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.xueke-kbfenlei{
+    background: #fff;
+    height: 28px;
+    padding:2px 10px 0px 10px;
+}
+/* 教研活动 */
+.center-jiaoyan{
+    width: 458px;
+  border: 1px solid #ddd;
+    
+}
+.cd{
+    width: 448px;
+}
+.wid li{
+    width: 424px;
+     height: 19px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.border-bottun{
+    border-bottom: 1px dashed #e1e1e1;
+   
+}
+.hei131{
+    height: 138px;
+}
+/* 学生天地 */
+.main-left-xuesheng{
+    width: 455px;
+    height: 214px;
+     /* border: 1px solid #ddd; */
+}
+.anniu-2{
+    text-align-last: center;
+    display: inline-block;
+    width: 64px;
+    height: 25px;
+    color: black;
+    border:1px solid rgba(255, 255, 255, 0);
+    
+}
+.anniu_on{
+    background:#fff;
+    border: 1px solid #ddd!important;
+     border-bottom: none!important;
+}
+.anniu-3{
+    text-align-last: center;
+    display: inline-block;
+    width: 64px;
+   height: 25px;
+    color: black;
+    border:1px solid rgba(255, 255, 255, 0);
+}
+.yd{
+    position: relative;
+    top: 1px;
+}
+
+/* 学生天地tab切换 */
+.tab_nav{
+    padding-top:13px
+}
+.tab_nav .nav_li{
+    text-align:center;
+    display: inline-block;
+    width:67px;
+    height:26px;
+    color:#333;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+.inline{
+    border:1px solid #e1e1e1!important;
+    border-right:none!important;
+    background-color: #f2f9ff!important;
+}
+.nav_li{
+    border:1px solid rgba(255, 255, 255, 0);
+    border-right:none!important;
+}
+.tab_nav li ul{
+    width:359px;
+    height:132px;
+    line-height: 24px;
+    border:1px solid #e1e1e1;
+    border-right:none;
+    background-color: #f2f9ff;
+    padding:25px 14px 19px 11px;
+    right:1px;
+    top: 10px;
+    position: absolute;
+    display: none;
+}
+.tab_nav li ul a{
+    color:#666;
+}
+.tab_nav li ul a:hover{
+    color:#e27000
+}
+.tabs ul{
+    display: none;
+}
+/* 左边内容 */
+.content_box{
+    height:900px;
+}
+.left{
+    width:250px;
+    height:100%;
+    margin: 10px 10px 0px 0px;
+    /* border:0.1px solid red */
+}
+.right{
+    width:700px;
+    height:100%;
+}
+/* 学科统计 */
+.subject{
+    width:219px;
+    height:250px;
+    border:1px solid #ddd;
+    background-color: #e4ffca;
+    padding:9px 15px 24px 14px;
+}
+.subject_head{
+    line-height:21px
+}
+.subject_head h5{
+    font-size: 14px;
+    color:#006600;
+    font-weight: 600;
+    margin-bottom:15px;
+}
+.subject_head p{
+    color:#343434
+}
+.subject_head p span{
+    color:#6c6c6c
+}
+.subject_head a{
+    color:#0066cc;
+    text-decoration-line: underline;
+}
+
+/* 右边 */
+
+/* 右边头部 */
+.right_h{
+    width:697px;
+    height:26px;
+    border:1px solid #d7f9db;
+    background-color: #fafff7;
+    margin-top:10px
+}
+.news{
+    display: inline-block;
+    width:70px;
+    height:24px;
+    color:#006633;
+    padding-left: 5px;
+    bottom: -1px;
+    right: -1px;
+    background-position: -1px -1px;
+}
+
+/* 右边的内容 */
+.right_r{
+    width:230px;
+}
+.dongtai{
+    width:228px;
+    height:166px;
+   border:1px solid #e1e1e1;
+   margin-top:7px
+}
+.dongtai_h{
+    width:226px;
+    height:28px;
+    line-height:28px;
+    background: -webkit-linear-gradient(top,#e4ffe4,#edffed,#fefffe);
+}
+.dongtai_h_icon{
+    display: inline-block;
+    width:5px;
+    height:9px;
+    left:10px;
+    top: 1px;
+    background-position: -72px -24px;
+    margin-right: 10px;
+}
+.dongtai_b{
+    width:211px;
+    height:130px;
+    line-height:24px;
+    border-top: 1px solid #6fbe44;
+}
+.dongtai_b ul{
+    list-style:square;
+    margin-top:12px;
+    list-style-position: inside;
+}
+.dongtai_b ul span{
+    display: inline-block;
+    margin-right:7px;
+    color:#999
+}
+.dongtai_b ul a{
+    color:#0066cc
+}
+.dongtai_b ul i{
+    color:#333
+}
+
+/* 教学设计 */
+.sheji_h{
+    width:226px;
+    height:28px;
+    background: -webkit-linear-gradient(top,#e4ffe4,#edffed,#fefffe);
+}
+.sheji_h_icon{
+    display: inline-block;
+    width:9px;
+    height:9px;
+    background-position: -76px -83px;
+    left:10px;
+    top: 1px;
+    margin-right: 10px;
+}
+.zuixin{
+    display: inline-block;
+    width:41px;
+    height:19px;
+    line-height:15px;
+    text-align: center;
+    margin-right: 3px;
+    color:#fff;
+    background-color:#d5d5d5
+}
+.in{
+    background-color:#6fbe44!important;
+   
+}
+.on2{
+     bottom: -4px;
+    right: 18px;
+}
+.zuixin a{
+    color:#fff;
+}
+.remen2{
+    display: inline-block;
+    width:41px;
+    height:19px;
+    line-height:13px;
+    text-align: center;
+    background-color: #d5d5d5
+}
+.remen2 a{
+    color:#fff;
+
+}
+.onn{
+    display: none;
+    width:6px;
+    height:4px;
+    position: absolute;
+    background-position: -6px -73px;
+   
+}
+.kai{
+    padding-top:2px
+}
+.on1{
+    bottom: -3px;
+    right:65px
+}
+   
+.sheji_h a:hover{
+    color:#fff
+}
+
+/* 用户贡献排名 */
+.gongxian{
+    width:228px;
+    height:147px;
+    margin-top:8px;
+    border:1px solid #e1e1e1
+}
+.gongxian_h{
+    width:226px;
+    height:30px;
+    background-color: #dffff4;
+    margin:1px
+}
+.gongxian_b span{
+    display: inline-block;
+    width:13px;
+    height:11px;
+    margin-right: 22px;
+}
+.no_1{
+    background-position:-83px -1px
+}
+.no_2{
+    background-position:-83px -14px
+}
+.no_3{
+    background-position:-80px -54px
+}
+.no_4{
+    background-position:-80px -67px
+}
+.gongxian_b ul{
+    width:200px;
+    height:105px;
+    margin-left: 15px;
+    margin-top:6px;
+    color:#666
+}
+.gongxian_b ul li{
+    height:25px;
+    padding-right:25px;
+    line-height:25px;
+    border-bottom:1px dashed #e6e6e6
+}
+#no_4{
+    border-bottom:none
+}
+
+/* 论坛 */
+.luntan_h{
+    width:226px;
+    height:30px;
+    background-color: #ffffd9;
+    margin:1px
+}
+.lun a{
+    color:#999;
+    display: inline-block;
+    width:30px;
+    text-align: center;
+    margin-right: 20px;
+    font-size:12px
+}
+.onnnn{
+    color:#333!important;
+    border-bottom:4px solid #ff6600!important
+}
+.luntan_b{
+    width:211px;
+    height:130px;
+    line-height:24px;
+}
+.luntan_b ul{
+    list-style:square;
+    margin-top:12px;
+    list-style-position: inside;
+}
+.luntan_b ul span{
+    display: inline-block;
+    margin-right:7px;
+    color:#999
+}
+.luntan_b ul a{
+    color:#0066cc
+}
+.luntan_b ul i{
+    color:#333
+}
+
+/* 名师讲堂 */
+.jiangtang{
+    width:228px;
+    height:196px;
+    border:1px solid #e1e1e1;
+    margin-top:9px
+}
+.radio{
+    width:96px;
+    height:169px;
+    text-align:center;
+    margin-right: 9px;
+}
+.radio h2{
+    font-size:12px;
+    color:#333
+}
+.radio p{
+    color:#999
+}
+.jiangtang_b{
+    padding-left:15px;
+    padding-top:15px
+}
+.right ul{
+    list-style:none
+}
+.main-left ul{
+    list-style: none;
+}
+.qc li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #999;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+.wid li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #999;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+.main-left ul li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #999;
+    vertical-align: middle;
+    margin-right: 14px;
+    }
+.tab_nav li ul li:before{
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #999;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+.right_r ul li:before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    background: #999;
+    vertical-align: middle;
+    margin-right: 14px;
+    }
+/* 友情链接 */
+.youqing{
+    height:39px;
+    width:960px;
+    margin:auto;
+    background-color: #eff7ff;
+    border:1px solid #beddff;
+    margin-top:12px
+}
+.links{
+    display: inline-block;
+    width: 91px;
+    height:37px;
+    line-height:37px;
+    padding-left:9px;
+    margin-top:2px;
+    font-size:14px;
+    color:#336699;
+    margin-right:19px;
+    background-image: url(../images/浙江学科主页定稿_21.png);
+}
+.youqing a{
+    color:#666;
+    margin-right:19px;
+}
+.kai{
+    cursor: pointer;
+}
+/* 尾部 */
+.foot{
+    text-align: center;
+    height:115px;
+    padding-top:35px;
+    color:#999;
+    border-top:1px solid #dcdcdc;
+    background:-webkit-linear-gradient(top,#deffef,#ebfff5,#fff);
+}

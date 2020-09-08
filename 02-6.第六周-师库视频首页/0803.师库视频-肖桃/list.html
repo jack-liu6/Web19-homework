@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎来到师库视频</title>
+    <!-- 引入重置样式 -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 引入当前页面样式 -->
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+    <!-- 设置顶部的容器 -->
+    <div class="header-wrapper">
+        <!-- 设置顶部 -->
+        <div class="header wt980 clearfix">
+            <!-- 设置欢迎语句 -->
+            <div class="wel ml15 fl font12">
+                您好，欢迎来到师库网！请<a class="ml5 mr10" href="#">登录</a>新用户？<a class="ml10" href="#">免费注册</a>
+            </div>
+            <!-- 设置我的个人中心 -->
+            <ul class="fr nav-ul font12 center">
+                <li class="pore" id="order">
+                    <a class="center" href="#">
+                        我的订单
+                        <span class="inline down ml5"></span>
+                    </a>
+                    <!-- 设置二级菜单 -->
+                    <div class="menu pore none">
+                        <div class="menu-top center bgwhite">
+                            <a class="center" href="#">
+                                我的订单
+                                <span class="inline down2 ml5"></span>
+                            </a>
+                        </div>
+                        <ul class="menu-ul bgwhite">
+                            <li class="lh18 mt5 ml10">
+                                <a href="#">
+                                    我的订单
+                                </a>
+                            </li>
+                            <li class="lh18 ml10">
+                                <a href="#">
+                                    我的收藏夹
+                                </a>
+                            </li>
+                            <li class="lh18 ml10">
+                                <a href="#">
+                                    我的订单
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="line ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        <span class="inline cart mr5"></span>
+                        购物车
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        我的师库
+                        <span class="inline down  ml5"></span>
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        帮助中心
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        网站导航
+                        <span class="inline down  ml5"></span>
+                    </a>
+                </li>
+                <li class="line  ml10 mr10"></li>
+                <li>
+                    <a class="center" href="#">
+                        加入收藏
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 设置主体的容器 -->
+    <div class="main-wrapper">
+        <!-- 设置网页的主体部分 -->
+        <div class="main wt980">
+            <!-- 设置主体头部的黑色背景条 -->
+            <div class="maintop-bar"></div>
+            <!-- 设置logo的容器 -->
+            <div class="logo-wrapper mt20 clearfix">
+                <!-- 设置左边的logo部分 -->
+                <a href="index.html">
+                    <div class="logo-sec ml10 center fl pore">
+                        <div class="logo"></div>
+                        <div class="logo-line bgcolor1 ml10 mr10"></div>
+                        <div class="logo-title tc bgcolor2 white">师库视频</div>
+                        <p class="logo-text green font12 none">师库网--全国最大的教师资源服务社区</p>
+                    </div>
+                </a>
+                <!-- 设置右边的搜索框部分 -->
+                <div class="search-sec fr clearfix">
+                    <!-- 设置搜索框的左边部分 -->
+                    <div class="search-left fl">
+                        <!-- 设置搜索框框 -->
+                        <div class="search-box clearfix bggray1">
+                            <!-- 设置搜索的下拉框 -->
+                            <ul class="fl search-ul font12 bgwhite pore" id="search_ul">
+                                <li class="bgwhite center1">
+                                    <div class="tc w48 red2">
+                                        首页
+                                    </div>
+                                    <div class="search-down1 inline"></div>
+                                    <div class="search-line bggray2"></div>
+                                </li>
+                                <li class="bgwhite none" id="index">
+                                    <a class="ml5" href="index.html">首页</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师库课件</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师库教案</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师库试卷</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="list.html">教学视频</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">教学匠</a>
+                                </li>
+                                <li class="bgwhite">
+                                    <a class="ml5" href="#">师说论坛</a>
+                                </li>
+                            </ul>
+                            <!-- 设置输入关键字 -->
+                            <input class="search-input fl gray5 font12 pl10" id="search_input" type="text"
+                                value="请输入关键字">
+                            <!-- 设置搜索按钮 -->
+                            <button class="search bgorange1 white" type="submit">搜索</button>
+                        </div>
+                        <!-- 设置热门搜索 -->
+                        <div class="hot-search">
+                            <span class="font12 gray1">热门搜索：</span>
+                            <a class="font12 orange1" href="#">教学视频</a>
+                            <a class="font12 blue1" href="#">课堂实录</a>
+                            <a class="font12 gray2" href="#">实习演习</a>
+                            <a class="font12 red1" href="#">教学参考</a>
+                            <a class="font12 gray3" href="#">课堂实录</a>
+                        </div>
+                    </div>
+                    <!-- 设置搜索框的右边部分 -->
+                    <div class="search-right font12 fr ml5 mr5">
+                        <p class="lh16">
+                            <a href="#">
+                                高级搜索
+                            </a>
+                        </p>
+                        <p class="lh16">
+                            <a href="#">
+                                使用帮助
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- 设置主体部分的菜单条-->
+            <div class="main-menu-bar mt25 clearfix mb10">
+                <!-- 设置菜单条的列表 -->
+                <ul class="clearfix fl" id="main_menu_li">
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="index.html">
+                            首页
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师库课件
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师库教案
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师库试卷
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="list.html">
+                            教学视频
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            教学匠
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                    <li class="fl ml10 mr10 pore">
+                        <a class="layout inline pl10 pr10 tc lh25 gray6 fb" href="#">
+                            师说论坛
+                        </a>
+                        <div class="new none"></div>
+                    </li>
+                </ul>
+                <!-- 设置风云榜和我看过的 -->
+                <div class="menu-left fr clearfix lh24">
+                    <a class="fengyun clearfix fl centery" href="#">
+                        <div class="fengyun-icon fl mr5"></div>
+                        <div class="fengyun-text fl orange2 font12 mr20">
+                            风云榜
+                        </div>
+                    </a>
+                    <span class="look clearfix fl  centery pl5 pr5 pore">
+                        <div class="look-icon fl mr5"></div>
+                        <div class="look-text fl orange2 font12">
+                            我看过的
+                        </div>
+                        <div class="look-down fl"></div>
+                        <div class="look-father bgwhite none">
+                            <div class="bo"></div>
+                            <div class="look-menu font12 bgwhite">
+                                <!-- 设置播放历史 -->
+                                <ol class="look-menu-ol1">
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史一
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史二
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+                                            </div>
+                                        </span>
+                                    </li>
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史三
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+
+                                            </div>
+                                        </span>
+
+                                    </li>
+                                    <li class="clearfix font12 gray14 ml5 lh18">
+                                        <span class="">
+                                            视频历史四
+                                        </span>
+                                        <span class="fr">
+                                            <span class=" gray15 vam">
+                                                重播
+                                            </span>
+                                            <div class="li-close vam inline ml5 mr5">
+
+                                            </div>
+                                        </span>
+
+                                    </li>
+                                </ol>
+                                <p class="look-clearall tr font12 blue5 mt15 mb10">
+                                    清空播放历史
+                                </p>
+                                <div class="look-menu-b">
+                                    <h3 class="font12 blue6 lh18 mt5">
+                                        推荐视频
+                                    </h3>
+                                    <ol class="look-menu-ol2 font12 lh18">
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <a href="#">
+                                                推荐视频一
+                                            </a>
+                                        </li>
+                                        <li class="clearfix font12 gray14 ml5 lh18">
+                                            <a href="#">
+                                                推荐视频二
+                                            </a>
+                                        </li>
+                                    </ol>
+                                    <div class="bgblue1 lh35 font12 mt5 mb5">
+                                        建议
+                                        <a href="#">
+                                            登录
+                                        </a>
+                                        后在不同电脑上同步观看历史
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <!-- 设置主体部分的内容 -->
+            <div class="main-content clearfix">
+                <!-- 设置主体内容的左边 -->
+                <div class="main-content-left mr10 fl">
+                    <!-- 设置选择条件 -->
+                    <ul class="select font12 gray6" id="select">
+                        <!-- 第一行 -->
+                        <li class="clearfix lh40">
+                            <div class="select-title fl ml10 mr10">
+                                按学科：
+                            </div>
+                            <ul class="fl clearfix" id="hang1">
+                                <li class="fl mr20 blue2">
+                                    不限
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    语文
+                                </li>
+                                <li class="fl mr20  blue2">
+                                    数学
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    英语
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    物理
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    化学
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    历史
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    地理
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    生物
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    思想政治
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    历史与社会
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    信息技术
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- 第二行 -->
+                        <li class="clearfix lh40">
+                            <div class="select-title fl ml10 mr10">
+                                按学段：
+                            </div>
+                            <ul class="fl clearfix" id="hang2">
+                                <li class="fl mr20 blue2">
+                                    不限
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    小学
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    初中
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    高中
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- 第三行 -->
+                        <li class="clearfix lh40">
+                            <div class="select-title fl ml10 mr10">
+                                按级别：
+                            </div>
+                            <ul class="fl clearfix" id="hang3">
+                                <li class="fl mr20 blue2">
+                                    不限
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    课堂实录
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    实验演习
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    教学参考
+                                </li>
+
+                            </ul>
+                        </li>
+                        <!-- 第四行 -->
+                        <li class="clearfix lh40">
+                            <div class="select-title fl ml10 mr10">
+                                按类型：
+                            </div>
+                            <ul class="fl clearfix" id="hang4">
+                                <li class="fl mr20 blue2">
+                                    不限
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    免费
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    促销
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    积分
+                                </li>
+                                <li class="fl mr20 blue2">
+                                    学币
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <!-- 设置视频列表部分 -->
+                    <div class="videolist mt10">
+                        <!-- 设置视频列表的标题框框 -->
+                        <div class="videolist-bar clearfix centery">
+                            <div class="videolist-title gray7 fb tc lh34 fl">
+                                视频列表
+                            </div>
+                            <div class="search-condition lh34 fl gray8 font12 ml15">
+                                您搜索的条件：
+                            </div>
+                            <div class="conditions" id="conditions">
+                                <!-- <div class="condition fl centery  mr20 orange3 font12 pl5">
+                                    语文
+                                    <div class="clear inline ml10" id="close">
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="clearall fl centery lh22  blue2 font12" id="clearall">
+                                <div class="clearall-icon inline mr5"></div>
+                                清空条件
+                            </div>
+                        </div>
+                        <!-- 设置视频列表的主要部分 -->
+                        <div class="videolist-sec">
+                            <!-- 设置视频列表的菜单 -->
+                            <div class="videolist-menu font12 gray8 clearfix">
+                                <ul class="clearfix centery fl">
+                                    <li class="fl ml10 upfather">
+                                        最新
+                                        <div class="up inline up1"></div>
+                                    </li>
+                                    <li class="fl ml10 upfather">
+                                        热播
+                                        <div class="up inline"></div>
+                                    </li>
+                                    <li class="fl ml10 upfather">
+                                        好评
+                                        <div class="up inline"></div>
+                                    </li>
+                                    <li class="menu-line bgcolor3 fl ml10 mr10"></li>
+                                    <li class="fl centery sq1father">
+                                        <div>分栏</div>
+                                        <div class="sq sq1 inline ml5"></div>
+                                    </li>
+                                    <li class="fl centery ml10 sq2father">
+                                        <div>顺序</div>
+                                        <div class="sq sq2 inline ml5"></div>
+                                    </li>
+                                    <li class="menu-line bgcolor3 fl ml10 mr10"></li>
+                                </ul>
+                                <!-- 设置视频列表菜单的页码 -->
+                                <ul class="page-ul fr">
+                                    <li class="fl page inline font12 tc blue3">
+                                        1
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        2
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        3
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        4
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        5
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        6
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        7
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        8
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        9
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        10
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        …
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        84
+                                    </li>
+                                    <li class="fl lastpage inline font12 tc blue3">
+                                        下一页
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- 设置视频列表的上面部分 -->
+                            <ul class="videolist-top clearfix">
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/1.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/2.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/3.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/4.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/5.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10 ">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/6.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/7.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/8.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/9.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/10.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/1.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/2.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/3.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pr10 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/4.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/5.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10 ">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/6.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/7.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《只有一个细胞的生物》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/8.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《人类的居住地—聚落》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15 pr10">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/9.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《计算机硬件》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="fl mt15 pb15">
+                                    <a href="detail.html">
+                                        <img class="bigpic" src="images/10.jpg" alt="">
+                                        <p class="gray7 font12 mt10 mb5">《开花和结果》</p>
+                                        <p>
+                                            <img class="vam" src="images/11.png" alt="">
+                                            <span class="gray9 font12">1005</span>
+                                            <img class="vam" src="images/12.png" alt="">
+                                            <span class="gray9 fon12">17</span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- 设置视频列表的下面部分 -->
+                            <ul class="videolist-bottom">
+                                <!-- 第一行 -->
+                                <li class="pt5 pb5 ">
+                                    <!-- 设置浮动的时候的背景效果 -->
+                                    <a href="detail.html">
+                                        <div class="bgy pt5 pb5 clearfix">
+                                            <img class="fl videob-pic" src="images/01.png" alt="">
+                                            <div class="right-text fr mr5 font12">
+                                                <h3 class="font12 fb">《只有一个细胞的生物》</h3>
+                                                <p class="mt5 mb10 lh18 gray10">简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换
+                                                    课件2，师库网免费多媒体课件，新课标新
+                                                    课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+                                                    突破教学重难点；多媒体资源素材...
+                                                </p>
+                                                <p class="clearfix">
+                                                <div class="bofang fl  blue4">
+                                                    <img class="vam" src="images/11.png" alt="">
+                                                    播放数（2368）
+                                                </div>
+                                                <div class="pingfen fl ml25 blue4">
+                                                    <img class="vam" src="images/pingfen.png" alt="">
+                                                    评分：
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img src="images/graystar.png" alt="" class="vam">
+                                                </div>
+                                                <div class="yingping fl ml25 blue4">
+                                                    <img class="vam" src="images/12.png" alt="">
+                                                    影评（256)
+                                                </div>
+                                                <div class="shoucang fl ml25 blue4">
+                                                    <img class="vam" src="images/cang.png" alt="">
+                                                    收藏（5987）
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="pt5 pb5 ">
+                                    <!-- 设置浮动的时候的背景效果 -->
+                                    <a href="#">
+                                        <div class="bgy pt5 pb5 clearfix">
+                                            <img class="fl videob-pic" src="images/01.png" alt="">
+                                            <div class="right-text fr mr5 font12">
+                                                <h3 class="font12 fb">《只有一个细胞的生物》</h3>
+                                                <p class="mt5 mb10 lh18 gray10">简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换
+                                                    课件2，师库网免费多媒体课件，新课标新
+                                                    课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+                                                    突破教学重难点；多媒体资源素材...
+                                                </p>
+                                                <p class="clearfix">
+                                                <div class="bofang fl  blue4">
+                                                    <img class="vam" src="images/11.png" alt="">
+                                                    播放数（2368）
+                                                </div>
+                                                <div class="pingfen fl ml25 blue4">
+                                                    <img class="vam" src="images/pingfen.png" alt="">
+                                                    评分：
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img src="images/graystar.png" alt="" class="vam">
+                                                </div>
+                                                <div class="yingping fl ml25 blue4">
+                                                    <img class="vam" src="images/12.png" alt="">
+                                                    影评（256)
+                                                </div>
+                                                <div class="shoucang fl ml25 blue4">
+                                                    <img class="vam" src="images/cang.png" alt="">
+                                                    收藏（5987）
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="pt5 pb5 ">
+                                    <!-- 设置浮动的时候的背景效果 -->
+                                    <a href="#">
+                                        <div class="bgy pt5 pb5 clearfix">
+                                            <img class="fl videob-pic" src="images/01.png" alt="">
+                                            <div class="right-text fr mr5 font12">
+                                                <h3 class="font12 fb">《只有一个细胞的生物》</h3>
+                                                <p class="mt5 mb10 lh18 gray10">简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换
+                                                    课件2，师库网免费多媒体课件，新课标新
+                                                    课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+                                                    突破教学重难点；多媒体资源素材...
+                                                </p>
+                                                <p class="clearfix">
+                                                <div class="bofang fl  blue4">
+                                                    <img class="vam" src="images/11.png" alt="">
+                                                    播放数（2368）
+                                                </div>
+                                                <div class="pingfen fl ml25 blue4">
+                                                    <img class="vam" src="images/pingfen.png" alt="">
+                                                    评分：
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img src="images/graystar.png" alt="" class="vam">
+                                                </div>
+                                                <div class="yingping fl ml25 blue4">
+                                                    <img class="vam" src="images/12.png" alt="">
+                                                    影评（256)
+                                                </div>
+                                                <div class="shoucang fl ml25 blue4">
+                                                    <img class="vam" src="images/cang.png" alt="">
+                                                    收藏（5987）
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="pt5 pb5 ">
+                                    <!-- 设置浮动的时候的背景效果 -->
+                                    <a href="#">
+                                        <div class="bgy pt5 pb5 clearfix">
+                                            <img class="fl videob-pic" src="images/01.png" alt="">
+                                            <div class="right-text fr mr5 font12">
+                                                <h3 class="font12 fb">《只有一个细胞的生物》</h3>
+                                                <p class="mt5 mb10 lh18 gray10">简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换
+                                                    课件2，师库网免费多媒体课件，新课标新
+                                                    课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+                                                    突破教学重难点；多媒体资源素材...
+                                                </p>
+                                                <p class="clearfix">
+                                                <div class="bofang fl  blue4">
+                                                    <img class="vam" src="images/11.png" alt="">
+                                                    播放数（2368）
+                                                </div>
+                                                <div class="pingfen fl ml25 blue4">
+                                                    <img class="vam" src="images/pingfen.png" alt="">
+                                                    评分：
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img src="images/graystar.png" alt="" class="vam">
+                                                </div>
+                                                <div class="yingping fl ml25 blue4">
+                                                    <img class="vam" src="images/12.png" alt="">
+                                                    影评（256)
+                                                </div>
+                                                <div class="shoucang fl ml25 blue4">
+                                                    <img class="vam" src="images/cang.png" alt="">
+                                                    收藏（5987）
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="pt5 pb5 ">
+                                    <!-- 设置浮动的时候的背景效果 -->
+                                    <a href="#">
+                                        <div class="bgy pt5 pb5 clearfix">
+                                            <img class="fl videob-pic" src="images/01.png" alt="">
+                                            <div class="right-text fr mr5 font12">
+                                                <h3 class="font12 fb">《只有一个细胞的生物》</h3>
+                                                <p class="mt5 mb10 lh18 gray10">简介：人民教育出版社，生物，必修1， 光能在叶绿体中的转换
+                                                    课件2，师库网免费多媒体课件，新课标新
+                                                    课程课时全配套，情境创设、新知学习、知识应用、拓展探究教学过程全支撑，体现新课标三维度教学目标
+                                                    突破教学重难点；多媒体资源素材...
+                                                </p>
+                                                <p class="clearfix">
+                                                <div class="bofang fl  blue4">
+                                                    <img class="vam" src="images/11.png" alt="">
+                                                    播放数（2368）
+                                                </div>
+                                                <div class="pingfen fl ml25 blue4">
+                                                    <img class="vam" src="images/pingfen.png" alt="">
+                                                    评分：
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img class="vam" src="images/redstar.png" alt="">
+                                                    <img src="images/graystar.png" alt="" class="vam">
+                                                </div>
+                                                <div class="yingping fl ml25 blue4">
+                                                    <img class="vam" src="images/12.png" alt="">
+                                                    影评（256)
+                                                </div>
+                                                <div class="shoucang fl ml25 blue4">
+                                                    <img class="vam" src="images/cang.png" alt="">
+                                                    收藏（5987）
+                                                </div>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <!-- 设置视频列表的菜单 -->
+                            <div id="menub" class="videolist-menu font12 gray8 clearfix">
+                                <ul class="clearfix centery fl">
+                                    <li class="fl ml10 upfather ">
+                                        最新
+                                        <div class="up inline up1"></div>
+                                    </li>
+                                    <li class="fl ml10 upfather">
+                                        热播
+                                        <div class="up inline"></div>
+                                    </li>
+                                    <li class="fl ml10 upfather">
+                                        好评
+                                        <div class="up inline"></div>
+                                    </li>
+                                    <li class="menu-line bgcolor3 fl ml10 mr10"></li>
+                                    <li class="fl centery sq1father">
+                                        <div>分栏</div>
+                                        <div class="sq sq1 inline ml5 sq1add"></div>
+                                    </li>
+                                    <li class="fl centery ml10 sq2father">
+                                        <div>顺序</div>
+                                        <div class="sq sq2 inline ml5 sq2add"></div>
+                                    </li>
+                                    <li class="menu-line bgcolor3 fl ml10 mr10"></li>
+                                </ul>
+                                <!-- 设置视频列表菜单的页码 -->
+                                <ul class="page-ul fr">
+                                    <li class="fl page inline font12 tc blue3">
+                                        1
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        2
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        3
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        4
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        5
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        6
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        7
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        8
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        9
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        10
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        …
+                                    </li>
+                                    <li class="fl page inline font12 tc blue3">
+                                        84
+                                    </li>
+                                    <li class="fl lastpage inline font12 tc blue3">
+                                        下一页
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 设置主体内容的右边 -->
+                <div class="main-content-right fr">
+                    <!-- 设置右边最顶上的图片 -->
+                    <!-- <div class="h70"> -->
+                    <a href="#">
+                        <img id="img" src="images/win_03.png" alt="">
+                    </a>
+                    <!-- </div> -->
+                    <!-- 设置右边的最新促销 ——第一个列表-->
+                    <div class="zx mt10">
+                        <h2 class="zxh2 font12 fb">
+                            <span class="ml5">最新促销</span>
+                        </h2>
+                        <ul class="zxul pb5">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- 第二个列表 -->
+                    <div class="zx mt10">
+                        <h2 class="zxh2 font12 fb">
+                            <span class="ml5">最新促销</span>
+                        </h2>
+                        <ul class="zxul pb5">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- 第三个列表 -->
+                    <div class="zx mt10">
+                        <h2 class="zxh2 font12 fb">
+                            <span class="ml5">最新促销</span>
+                        </h2>
+                        <ul class="zxul pb5">
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="font12  lh25 gray11 clearfix" href="#">
+                                    <span class="zxl ">
+                                        英语中考试题1（扫描版）
+                                    </span>
+                                    <span class="zxr fr">
+                                        <span class="gray12">2536</span>次
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 设置底部的容器 -->
+    <div class="footer-wrapper mt40 bgcolor4">
+        <div class="footer wt980 tc font12 gray13">
+            <p class="pt15 lh22">
+                <a href="#">
+                    关于我们
+                </a>
+                |
+                <a href="#">
+                    商务合作
+                </a>
+                |
+                <a href="#">
+                    客服中心
+                </a>
+                |
+                <a href="#">
+                    网站地图
+                </a>
+                |
+                <a href="#">
+                    用户留言
+                </a>
+                |
+                <a href="#">
+                    帮助中心
+                </a>
+            </p>
+            <p class="lh22">
+                跨地区ICP证：B2—20040040《网络文化经营许可证》编号：文网文[2003]0066号
+            </p>
+            <p class="lh22">
+                Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved
+            </p>
+            <p class="lh22 pb20">
+                北京国之源软件技术有限公司提供技术支持 客服电话：0731-84531868
+                <img class="vam mr20" src="images/footer.png" alt="">
+                跟踪访问速度
+            </p>
+        </div>
+    </div>
+    <!-- 设置固定定位的悬浮按钮 -->
+    <div class="xuan font12 gray13">
+        <a href="#">
+            <div class="kefu tc ">
+                <img class="mt5 mb5" src="images/kefu.png" alt="">
+                <span>在线客服</span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="diaocha tc mt5">
+                <img class="mt5 mb5" src="images/diaocha.png" alt="">
+                <span>在线调查</span>
+            </div>
+        </a>
+    </div>
+    <script src="js/list.js"></script>
+</body>
+
+</html>

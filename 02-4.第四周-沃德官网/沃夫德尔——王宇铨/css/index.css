@@ -1,0 +1,586 @@
+/*通用*/
+.wt1200{
+	width: 1200px;
+	margin: 0 auto;
+}
+.sprite{
+	/*background-image: url(../image/sprite.png) no-repeat;*/
+	background: url(../image/sprite.png) no-repeat;
+}
+
+/*头部*/
+.head{
+	
+	background-color: #082939;
+}
+.head .menu{
+	height: 110px;
+	line-height: 110px;
+}
+.head a{
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 25px;
+	vertical-align: middle;
+}
+.head a:hover{
+	color: #de850d;
+}
+.head img{
+	margin: 0 35px;
+	vertical-align: middle;
+ }
+
+ /*轮播图*/
+ .banner{
+ 	display: inline-block;
+ 	width: 100%;
+ 	height: 600px;
+ 	background-image: url(../image/沃夫德尔首页_06.png) ;
+ }
+
+
+ /*资讯*/
+ .information>h3{
+ 	font-size: 32px;
+ 	line-height: 32px;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	margin: 70px 0 15px;
+ }
+ .information>h4{
+ 	font-size: 22px;
+ 	color: #a7acb0;
+ 	text-align: center;
+ 	margin-bottom: 65px;
+ }
+
+  .information .infomPic .informL1{
+  	display: inline-block;
+  	width: 384px;
+  	height: 74px;
+  	padding:13px 26px;
+  	background-color: #1975a5;
+  }
+
+ .information .infomPic .informL1 p{
+ 	
+ 	margin: 13px 0;
+ }
+  .information .infomPic .informL1{
+  	color: #fff;
+  }
+
+ /*.information .infomPic .informL1:hover {
+  	color: #de850d;
+  }*/
+
+.information .infomPic .infomBanner{
+	display: inline-block;
+	width: 436px;
+	height: 257px;
+	background-image: url(../image/沃夫德尔首页_09.png);
+}
+
+.information  .infomList{
+	border: 1px solid #c1c1c1;
+	width: 722px;
+	height: 355px;
+	padding: 0 20px;
+
+}
+.information  .infomList h4{
+	margin: 18px 0;
+}
+.information  .infomList h4>div{
+	margin-right:30px; 
+}
+
+.information  .infomList h4 label{
+	display: inline-block;
+	width: 124px;
+	height: 30px;
+	border: 1px solid #2478a8;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0);
+	font-size: 20px;
+	text-align: center;
+	line-height: 28px;
+	color: #858585;
+	position: relative;
+	cursor: pointer;
+}
+.information  .infomList h4 input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 124px;
+	height: 30px;
+	opacity: 0;
+	cursor: pointer;
+}
+.information  .infomList h4 input:checked+label{
+	color: #fff;
+	background-color: #1975a5;
+}
+.information  .infomList a{
+	
+	color: #858585;
+}
+.information  .infomList a:hover{
+	color: #ff9600;
+}
+.information  .infomList h4 a{
+	display: inline-block;
+	width: 80px;
+	text-align: right;
+}
+
+
+.information  .infomList li{
+	height: 40px;
+	line-height: 35px;
+	border-bottom: 1px dashed #a8a8a8;
+	/*list-style-image: url(../image/沃夫德尔首页_04 .png);*/
+	/*list-style-type: disc;*/
+	/*text-indent: 2em;*/
+
+}
+.information  .infomList li a{
+	display: inline-block;
+	height: 30px;
+	width: 720px;
+	line-height: 30px;
+}
+.information  .infomList .zxico1{
+	display: inline-block;
+	width: 43px;
+	height: 23px;
+	background-position: -898px 0;
+	vertical-align: middle;
+	/*margin-top: 3px;*/
+}
+
+/*产品系列*/
+.productBg{
+	background-color: #eff1f4;
+	padding: 70px 0;
+	margin-top: 105px;
+}
+.product>h3{
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:15px;
+}
+.product>h4{
+	font-size: 22px;
+	color: #a7acb0;
+	text-align: center;
+	margin-bottom: 65px;
+}
+.product .mr{
+	margin-right: 75px;
+}
+.product .pingpai a:hover>p{
+	color: #ff9600;
+}
+
+.product .pingpai .ppico1{
+	/*background-position: 0 0;*/
+	width: 250px;
+	height: 207px;
+	margin: 0 auto;
+}
+
+.product .pingpai .ppico2{
+	background-position: -272px 0;
+	width: 250px;
+	height: 207px;
+	margin: 0 auto;
+}
+.product .pingpai p{
+	width: 275px;
+	font-size: 18px;
+	color: #646464;
+	line-height: 34px;
+}
+
+.product .function a{
+	display: inline-block;
+	width: 419px;
+	height: 61px;
+	line-height: 61px;
+	border-radius: 20px;
+	background-color: #1975a5;
+	border: 1px solid #1975a5;
+	padding: 10px 0;
+	font-size:30px;
+	color: #fff; 	
+	margin: 10px 0 20px;
+	
+}
+/*.product .function .txt{
+	font-size:30px;
+	color: #fff; 
+	vertical-align: middle;
+}*/
+.product .function a:hover{
+	color: #363636;
+	background-color: #fff;	
+	border: 1px solid #959697;
+}
+
+.product .function .funico1{
+	display: inline-block;
+	width: 87px;
+	height: 62px;
+	margin-left:50px;
+	background-position: -674px 0;
+	/*vertical-align: middle;*/
+
+
+}
+.product .function a:hover .funico1{
+	background-position: -674px -83px;
+
+}
+.product .function .funico2{
+	display: inline-block;
+	width: 87px;
+	height: 62px;
+	margin-left:50px;
+	background-position: -783px 0;
+	/*vertical-align: middle;*/
+
+
+}
+.product .function a:hover .funico2{
+	background-position: -783px -83px;
+
+}
+
+.product .function .funico3{
+	display: inline-block;
+	width: 87px;
+	height: 62px;
+	margin-left:50px;
+	background-position: -573px 0;
+	/*vertical-align: middle;*/
+
+
+}
+.product .function a:hover .funico3{
+	background-position: -573px -83px;
+
+}
+.product .function .txt{
+	width: 240px;
+	text-align: center;
+}
+
+
+/*公司简介*/
+.compBG{
+	height: 578px;
+	background-image: url(../image/沃夫德尔首页_28.png);
+}
+.comp{
+	width: 725px;
+	margin: 0 auto;
+	padding: 80px 10px 60px;
+	/*text-align: center;*/
+}
+.comp h2{
+	display: block;
+	font-size:70px; 
+	height: 70px;
+	line-height: 70px;
+	color:#fff; 
+	font-family: '华文行楷';
+	margin:0 auto 45px;
+	text-align: center;
+
+}
+.comp a p{
+	color: #fff;
+	font: 12px;
+	line-height: 24px;
+	margin: 0 auto;
+}
+.comp a:hover p{
+	color: #ff9600;
+}
+.comp .switch{
+	width: 470px;
+	margin:130px auto 0;
+}
+.comp .switch .posir{
+	margin: 10px 12px;
+}
+.comp .switch input{
+	width: 132px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.comp .switch label{
+	display: inline-block;
+	text-align: center;
+	width: 132px;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	font-size:20px; 
+	
+}
+.comp .switch input:checked + label{
+	border-radius:16px;
+	background-color: #ff7300; 
+}
+.comp .switchbtm{
+	width: 724px;
+	margin: 0 auto;
+}
+
+.comp .switchbtm .lineL{
+	width: 187px;
+	height: 42px;
+	border-bottom: 1px solid #fff;
+}
+.comp .switchbtm .number h5{
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background-color: #045f9f;
+	color: #fff;
+}
+.comp .switchbtm .number p{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #ff7300;
+	margin: 13px auto 0;
+}
+.comp .switchbtm .lineS{
+	width: 139px;
+	height: 42px;
+	border-bottom: 1px solid #fff;
+}
+
+/*招商加盟*/
+.join{
+	width: 1020px;
+	margin: 0 auto;
+	padding: 112px 0 30px;
+	border-bottom: 1px solid #a0a0a0;
+}
+.join h3{
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	text-align: center;
+	color: #424242;
+}
+.join h4{
+	font-size: 22px;
+	color: #ff9000;
+	text-align: center;
+	/*line-height: 44px;*/
+	margin-top: 20px;
+
+}
+.join h4 span{
+	display: inline-block;
+	width: 47px;
+	height: 44px;
+	background-position: 0 -277px;
+	vertical-align: middle;
+	margin-right: 18px;
+}
+.join p{
+	color: #646464;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.join p span{
+	margin: 0 30px;
+}
+
+/*常见问题*/
+.question{
+	padding: 110px 0;
+}
+.question h3{
+	font-size: 32px;
+	line-height: 32px;
+	color: #424242;
+	text-align: center;
+}
+
+.question a{
+	color: #5c5c5d;
+
+}
+.question a:hover{
+	color: #ff9000;
+}
+.question p{
+	color: #5c5c5d;
+
+}
+.question .QA{	
+	
+	border-top:1px  solid #bdbec0;
+	border-bottom: 1px  solid #bdbec0;
+	color: #868789;
+	padding: 20px 0;
+	margin-top: 32px;
+}
+.question .QA>div{
+	width: 559px;
+	padding: 0 20px;
+
+}
+.question .QA a{
+	display: block;
+	padding-top: 15px;
+
+}
+.question .QA li{
+	margin-top: 10px;
+}
+.question .QA .br{
+	border-right: 1px dashed #bdbec0; 
+}
+.question .QA .Q{
+	width: 25px;
+	height: 25px;
+	background-position: -82px -276px;
+	margin-right: 10px;
+
+}
+.question .QA .A{
+	width: 25px;
+	height: 25px;
+	background-position: -119px -276px;
+	margin-right: 10px;
+}
+.question .QA .font14{
+	width: 520px;
+}
+
+
+/*联系我们*/
+.contectBG{
+	background-image: url(../image/沃夫德尔首页_02.png);
+	height: 564px;
+}
+.contect{
+	padding: 97px 0 90px;
+}
+.contect>h3{
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom:15px;
+	color: #fff;
+}
+.contect>h4{
+	font-size: 22px;
+	color: #a7acb0;
+	text-align: center;
+	margin-bottom: 65px;
+}
+.contect .contectPic{
+	margin-top: 86px;
+}
+.contect .contectPic a{
+	display: inline-block;
+	width: 296px;
+	text-align: center;
+}
+.contect .contectPic a .sprite{
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+
+}
+.contect .contectPic a .contectIco1{
+	display: inline-block;
+	
+	background-position: 0 -343px;
+}
+.contect .contectPic a .contectIco2{
+	display: inline-block;
+	
+	background-position: -191px -343px;
+}
+.contect .contectPic a .contectIco3{
+	display: inline-block;
+	
+	background-position: -385px -343px;
+}
+.contect .contectPic a .contectIco4{
+	display: inline-block;
+	
+	background-position: -577px -343px;
+}
+.contect .contectPic p{
+	padding-top:15px; 
+	color: #535353;
+
+}
+
+/*底部*/
+.footBG{
+	background-color: #264252;
+}
+.foot{
+	padding: 34px 100px 17px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.foot a{
+	display: block;
+	padding: 10px 10px 0;
+	font-size: 14px;
+	color: #cdced1;
+
+
+}
+.foot a:hover{
+	color: #ff9000;
+}
+.foot .txt div{
+	color: #cdced1;
+	font-size: 14px;
+	line-height: 28px;
+
+}
+.foot .txt .addr{
+	width: 240px;
+}
+.foot .sprite{
+	margin-top: 14px;
+	height: 170px;
+	background-position: 122px -542px;
+}
+.copy{
+	background-color: #171717;
+	text-align: center;
+	padding: 20px 0;
+}
+.copy span{
+	color: #cdced1;
+	font-size: 12px;
+	padding: 0 16px;
+}

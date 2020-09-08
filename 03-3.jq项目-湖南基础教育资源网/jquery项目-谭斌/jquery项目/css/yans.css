@@ -1,0 +1,17 @@
+.orange{
+	background: #FDF7DF;
+}
+.orangeb{
+	border: 1px solid #FDC69F;
+}
+.orcolor{
+	color:#F66304 ;
+}
+.orbj{
+	position: relative;
+	width: 1000px;
+	height: 42px;
+	background: url(../image/orange_skin/nav_bg.png) no-repeat;
+	background-size: 100%;
+	margin: 10px auto;
+}

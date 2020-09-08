@@ -1,0 +1,554 @@
+/* 设置头部的绿色导航条 */
+.greenbar-wrapper{
+    height: 27px;
+    line-height: 27px;
+    border-bottom: 1px solid #006633;
+}
+.login .name,.login .pw{
+    width: 91px;
+    height: 17px;
+    border:none;
+    border-left: 2px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+}
+.login .submit{
+    outline: none;
+    border: none;
+    width: 49px;
+    height: 18px;
+    line-height: 18px;
+    border:solid 1px #006f00;
+    border-radius: 3px;
+}
+.greenbar ul li a:hover{
+    color: #fff;
+}
+/* 设置头部的菜单栏 */
+.header-menu-wrapper{
+    background: url(../images/top-bg-line.png) repeat-x;
+}
+.header-menu-inner{
+    background: url(../images/green-topbg.png) no-repeat #fff;
+    overflow: hidden;
+}
+.header-menu .logo{
+    width: 153px;
+    height: 27px;
+    background: url(../images/logo.png);
+}
+.header-menu{
+    height: 228px;
+    overflow: hidden;
+}
+.header-menu-list{
+    margin-top: 85px;
+    overflow: hidden;
+}
+.header-menu-list li{
+    height: 28px;
+    line-height: 28px;
+}
+.header-menu-list li:first-child a{
+    display: inline-block;
+    width: 77px;
+    height: 28px;
+    background: url(../images/index-bg.png);
+}
+.header-menu-list li a:hover{
+    color: #006633;
+}
+.header-menu-list .right{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url(../images/right.png);
+}
+.header-menu-list .menu-line{
+    margin-right: 9px;
+    margin-left: 9px;
+}
+.header-menu-list{
+    position: absolute;
+    bottom: 8px;
+}
+/* 设置顶部搜索框的容器 */
+.top-search-wrapper{
+    height: 50px;
+    border: #ccc 1px solid;
+    border-top: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.fast-road-ul{
+    margin-left: 90px;
+}
+.fast-road-ul li{
+    line-height: 50px;
+}
+.fast-road-ul a{
+    text-decoration: underline;
+}
+.fast-road{
+    width: 66px;
+    height: 22px;
+    background: url(../images/sprite.png) no-repeat 0 0;
+    line-height: 22px;
+    position: absolute;
+    margin: auto;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+}
+.search-form{
+    border-radius: 3px;
+    position:absolute;
+    right: 0;
+    top:50%; 
+    transform:translate(0,-50%);
+}
+.search-form input{
+    width: 232px;
+    height: 22px;
+    border: none;
+    border-left: 1px solid #b5b5b5;
+    border-top: 1px solid #b5b5b5;
+    outline-color: #006633;
+}
+.subject-sources-select{
+    width: 91px;
+    height: 22px;
+    line-height: 22px;
+    border-left: 1px solid #b5b5b5;
+    border-top: 1px solid #b5b5b5;
+}
+.subject-sources-select .text{
+    width: 70px;
+}
+.subject-sources-select .select{
+    width: 15px;
+    height: 18px;
+    background: url(../images/sprite.png) no-repeat -75px 0;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.subject-sources-select ul{
+    background-color: #f5f5f5;
+    width: 90px;
+    border: 1px solid #b5b5b5;
+    border-top: 0;
+    position: absolute;
+    top: 22px;
+    left: -1px;
+}
+.subject-sources-select ul li{
+    line-height: 22px;
+    height: 22px;
+}
+.subject-sources-select ul li a{
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+}
+.subject-sources-select ul li a span{
+    width: 70px;
+}
+.subject-sources-select ul li a:hover{
+    color: #6fbe44;
+    background-color: #ccc;
+}
+.sup-search{
+    line-height: 22px;
+    text-decoration: underline;
+}
+.sup-search:hover{
+    text-decoration: underline;
+}
+.search-form .search{
+    width: 65px;
+    height: 24px;
+    border: none;
+    background-image: linear-gradient(#fff,#ccc);
+    border: #8fc571 solid 1px;
+    outline: none;
+}
+.search-form .search:hover{
+    background-image: linear-gradient(#fff,#bbb);
+}
+/* 设置主体 */
+.main-left-wrapper{
+    width: 250px;
+}
+.main-right-wrapper{
+    width: 700px;
+}
+/* 设置小学语文学科门户 */
+.yellow-top{
+    margin-top: 9px;
+    margin-left: 13px;
+    letter-spacing: -1px;
+}
+.subject-yellow,.comeout-display,.new-num{
+    width: 248px;
+    border: #ddd 1px solid;
+}
+.yellow-pic img{
+    padding: 3px;
+    border: #ddd 1px solid;
+}
+.yellow-more,.yellow-more:hover{
+    text-decoration: underline;
+}
+/* 设置学科统计信息 */
+.subject-all{
+    height: 25px;
+    width: 223px;
+    line-height: 25px;
+    margin-left: 8px;
+    margin-top: 17px;
+}
+.subject-all-icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+    background: url(../images/sprite.png) no-repeat 0 -70px;
+}
+/* 设置成果展示 */
+.comeout-display,.new-num{
+    padding: 1px;
+    /* width: 246px; */
+}
+.display-head,.new-num-head{
+    height: 27px;
+    background: url(../images/display.png) no-repeat 0 0;
+}
+.display-icon{
+    width: 11px;
+    height: 11px;
+    background: url(../images/sprite.png) no-repeat 0 -129px;
+}
+.dis-hot,.dis-new-inner{
+    width: 40px;
+    height: 17px;
+    line-height: 17px;
+}
+.dis-hot,.dis-new{
+    margin-top: 7px;
+}
+.dis-hot{
+    color: #666;
+    margin-left: 3px;
+}
+.dis-new{
+    height: 20px;
+    margin-left: 3px;
+    color: #fff;
+}
+.dis-new{
+    background: url(../images/sprite.png) no-repeat 0 -156px;
+}
+.dis-ul li{
+    list-style: square;
+    list-style-position: inside;
+}
+.dis-ul li a span{
+    width: 110px;
+}
+/* 设置最新成员 */
+.new-head-title{
+    width: 227px;
+    margin-left: 10px;
+    height: 27px;
+    line-height: 27px;
+    border-bottom: #6fbe44 1px solid;
+}
+.new-head-title-icon{
+    width: 6px;
+    height: 10px;
+    background: url(../images/sprite.png) no-repeat -4px -104px;
+}
+.new-num-ul li{
+    overflow: hidden;
+}
+.new-num-ul img,.new-num1-ul img{
+    padding: 2px;
+    border: #ccc 1px solid;
+    width: 50px;
+    height: 50px;
+}
+.new-num-ul p{
+    width: 56px;
+}
+.new-num-ul{
+    margin-left: 18px;
+}
+.new-num1-ul{
+    margin-bottom: 17px;
+    margin-top: 17px;
+    margin-left: 14px;
+}
+.new-num1-ul li{
+    overflow: hidden;
+    height: 56px;
+}
+/* 设置主体右列顶部的最新公告 */
+.main-right-top{
+    width: 698px;
+    height: 25px;
+    border:1px #d7f9db solid;
+    background-color: #fafff7;
+}
+.main-right-top-title{
+    width: 75px;
+    height: 24px;
+    line-height: 24px;
+    background: url(../images/sprite.png) no-repeat 0px -34px;
+    margin-left: 1px;
+    margin-top: 1px;
+}
+.main-right-top-text{
+    width: 250px;
+}
+/* 设置中间列 */
+.main-mid-wrapper{
+    width: 458px;
+}
+.main-r-wrapper{
+    width: 230px;
+}
+/* 设置热烈祝贺 */
+.mid-bom-title{
+    height: 26px;
+    line-height: 26px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+.mid-pic{
+    width: 227px;
+    height: 163px;
+}
+.mid-pic .dot{
+    width: 14px;
+    height: 14px;
+    background-color: #606060;
+}
+.dots{
+    position: absolute;
+    line-height: 14px;
+    bottom: 0;
+    top: 0;
+    right: 6px;
+    margin: auto;
+    height: 14px;
+} 
+.mid-pic .dots .on{
+    color: black;
+    background-color: #a50101;
+}
+.mid-pic .btn{
+    width: 10px;
+    height: 10px;
+    background-color: #f00;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.mid-pic>a{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.mid-pic .block{
+    display: block;
+}
+.mid-text{
+    width: 210px;
+}
+.main .mid-text ul li{
+    list-style: circle;
+    list-style-position: inside;
+}
+.mid-text ul li a{
+    width: 175px;
+}
+/* 设置学科资源导航 */
+.source-nav-head-icon{
+    width: 6px;
+    height: 10px;
+    background: url(../images/sprite.png) no-repeat -4px -104px; 
+}
+.subject-class{
+    width: 436px;
+    height: 35px;
+    line-height: 35px;
+}
+.subject-class>a,.subject-class>a:hover{
+    text-decoration: underline;
+}
+.chubanshe div{
+    padding-left: 7px;
+    padding-right:7px;
+}
+.chubanshe .light{
+    height: 24px;
+    background: url(../images/green-bg.png) no-repeat;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    margin-top: 5px;
+    background-size: 100% 24px;
+}
+.source-nav .grade{
+    letter-spacing: 1px;
+    width: 418px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+.source-nav .grade li:not(:nth-child(6n)){
+    margin-right: 21px;
+}
+/* 设置教研活动 */
+.main .act{
+    background-size: 100% 27px;
+}
+.act-wrapper .dis-ul li a span{
+    width: 218px;
+}
+.act-wrapper{
+    border: 1px solid #ccc;
+}
+.main .act-wrapper ul li{
+    list-style: square;
+    list-style: inside;
+}
+.main .act-wrapper ul li:not(:last-child){
+    border-bottom: 1px dotted #ccc;
+}
+/* 设置学生天地 */
+.act-top{
+    margin-top: 3px;
+}
+.act-wrapper .light{
+    background-color: #fff;
+    border: 1px solid;
+    border-image: linear-gradient(#ccc,#fff) 1 1;
+    border-bottom: none;
+}
+#last{
+    border: none;
+}
+#last .title li{
+    list-style: none;
+    border-bottom:none;
+    line-height: 24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding:0 10px;
+    width: 48px;
+}
+#last .title .on{
+    background-color: #f2f9ff;
+    border: #ccc 1px solid;
+    border-right: 0;
+}
+#last .erji{
+    width: 377px;
+    background-color: #f2f9ff;
+    border: #ccc 1px solid;
+    margin-top: 3px;
+    position: relative;
+    left: -1px;
+    top: 0;
+    z-index: -1;
+}
+#last .erji li{
+    border-bottom: none;
+}
+/* 设置用户动态 */
+.user-act,.tea-des{
+    width: 226px;
+}
+.user-act-head .new-head-title{
+    width: 206px;
+}
+.user-act-ul{
+    list-style: square;
+    list-style-position: inside;
+    overflow: hidden;
+}
+.user-act-ul li{
+    width: 210px;
+}
+.dis-ul3 li a span,.dis-ul4 li a span{
+    width: 120px;
+}
+/* 设置用户贡献排名 */
+.main .user-rank .new-num-head{
+    background: none;
+    background-color: #dffff4;
+}
+.main .user-rank .new-num-head .new-head-title{
+    border-bottom:none;
+}
+.user-rank-ul li{
+    margin-right: 10px;
+}
+.user-rank-ul li:not(:last-child){
+    border-bottom: 1px dotted #ccc;
+}
+.user-rank-ul-icon{
+    width: 13px;
+    height: 11px;
+    background: url(../images/sprite.png) no-repeat 0 -218px;
+}
+.user-rank-ul-icon2{
+    background: url(../images/sprite.png) no-repeat 0 -231px;
+}
+.user-rank-ul-icon3{
+    background: url(../images/sprite.png) no-repeat 0 -244px;
+}
+.user-rank-ul-icon4{
+    background: url(../images/sprite.png) no-repeat 0 -257px;
+}
+/* 设置论坛 */
+.main .forum .display-head{
+    background: none;
+    background-color: #ffffd9;
+}
+.dis-ul3 li,.dis-ul2 li,.dis-ul4 li{
+    list-style: square;
+    list-style-position: inside;
+}
+.main .forum .dis-new{
+    background: url(../images/sprite.png) no-repeat -45px -156px;
+}
+/* 设置底部的友情链接 */
+.fri-link{
+    background-color: #eff7ff;
+    border: #beddff solid 1px;
+    height: 33px;
+    line-height: 33px;
+    padding: 1px;
+}
+.fri-link-title{
+    width: 90px;
+    height: 33px;
+    background: url(../images/sprite.png) no-repeat 0px -179px;
+}
+.fri-link-ul li{
+    margin-left: 18px;
+}
+/* 设置底部的主办方信息等 */
+.footer-text{
+    border-top: #dcdcdc solid 1px;
+    height: 108px;
+    background: url(../images/footer-bg.png) repeat-x;
+}

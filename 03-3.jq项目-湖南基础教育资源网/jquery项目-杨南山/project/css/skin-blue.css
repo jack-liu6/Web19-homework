@@ -1,0 +1,126 @@
+/* 蓝色皮肤 */
+.tabs-cotent .loaction>li{
+    color: blue;
+}
+.f-source .done{
+    background: url(../images/blue_skin/search_bg.png) no-repeat;
+}
+.select .sel-bd{
+    border: 1px solid #a7cde6;
+}
+.nav .list{
+    background: url(../images/blue_skin/nav_bg.png) no-repeat;
+}
+.list .spacer{
+    background: url(../images/blue_skin/nav_line.png) no-repeat;
+}
+.soul .sCenter{
+    border-color: #8abbe4;
+}
+.sCenter>ul>li>a{
+    color: #1a5da4;
+}
+.sCenter>ul>li:hover{
+    background: #1e8ac8;
+}
+.demo1 .scroll{
+    border-color: #cbe7f9;
+    background: #f9fdff;
+}
+.demo1 .ranking{
+    border-color: #eaf6ff;
+}
+.sidebar .ranking{
+    border-color: #eaf6ff;
+}
+.demo1 .ranking .raing{
+    border-color:#bdd7f2;
+}
+.sidebar.ranking .raing{
+    border-color:#bdd7f2;
+}
+.raing .ra-hd{
+    border-bottom-color: #bdd7f2;
+}
+.ra-hd .title .icon{
+    background: url(../images/blue_skin/tt_ico.png) no-repeat;
+}
+.raing .ra-hd{
+    background: #f2fcfe;
+}
+.citys>li .count{
+    color: #457ebc;
+}
+.change-City .shi.on{
+    background: url(../images/blue_skin/tab_sm.png) no-repeat;
+}
+.change-City .xian.on{
+    background: url(../images/blue_skin/tab_sm.png) no-repeat;
+}
+.demo1 .login{
+    border-color: #eaf6ff;
+ }
+ .login .user-box{
+    border-color: #bdd7f2;
+}
+.user-box .use-hd{
+    border-bottom-color: #bdd7f2;
+}
+.k-2 .k-hd{
+    border-color:#bdd7f2 ;
+}
+.k-hd .aka{
+    border-color: #bdd7f2;
+}
+.famous{
+    border-color: #eaf6ff;
+}
+.famous .fu{
+    border-color: #bdd7f2;
+ }
+ .fu-hd{
+    border-bottom-color:#bdd7f2;
+    background: #bdd7f2;
+}
+.fu-hd .tit span{
+    color: #316eaf;
+}
+.fu-hd .tit .icon{
+    background: url(../images/blue_skin/tt_ico.png) no-repeat;
+}
+.tongji{
+    border-color: #bdd7f2;
+}
+.tongji .to{
+    border-color: #316eaf;
+}
+.to .to-hd{
+    background: #f4fdfe;
+ }
+ .to .to-hd{
+    border-bottom-color:#316eaf;
+}
+.hua .tbs span{
+    color: #306eb0;
+}
+.hua .tbs span.active{
+    background: url(../images/blue_skin/tab_big.png) no-repeat;
+}
+.friendly .ff{
+    border-color: #bdd7f2;
+}
+.ff .fre{
+    background: #306eb0;
+}
+.fre .tit span{
+    color: #316eaf;
+}
+.side-bar{
+    background: url(../images/blue_skin/app_menu_bg.png) no-repeat;
+}
+.side-bar .lists>li.active{
+    background: url(../images/blue_skin/all_app_hover.png) no-repeat;
+}
+.side-bar .lists>li{
+    color: #002a82;
+ }

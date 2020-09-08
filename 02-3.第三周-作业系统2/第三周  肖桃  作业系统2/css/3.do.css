@@ -1,0 +1,208 @@
+/* 设置顶部的容器  */
+.header-wrapper{
+    height: 70px;
+    background-image: url(../images/top-bg.gif);
+}
+.header{
+    position: relative;
+}
+/* 设置顶部的图片 */
+.topimg-wrapper{
+    width: 177px;
+    height: 70px;
+    background-image: url(../images/logo.gif);
+}
+/* 设置顶部的四个图标 */
+.topicon-wrapper{
+    position: absolute;
+    bottom: 0;
+    right: 253px;
+}
+.topicon{
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    background-image: url(../images/top-nav.gif);
+    margin-right: 22px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    
+}
+.topicon:hover{
+    transform: rotate(360deg);
+    transition: all 0.6s
+}
+.icon1{
+    background-position: -12px 0;
+}
+.icon2{
+    background-position: -55px 0;
+}
+.icon3{
+    background-position: -98px 0;
+}
+.icon4{
+    background-position: -141px 0;
+}
+/* 设置一下顶部的文字 */
+.toptext{
+    width: 244px;
+    line-height: 31px;
+    background-color: #e9f0f8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #5893ce;
+}
+/* -----------------------------------------------设置主体-------------------------------- */
+.main{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.zy{
+    font-family: '微软雅黑';
+}
+.inner-title{
+    width: 760px;
+    height: 33px;
+    background-color: #6c9dce;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.title-text{
+    width: 37px;
+    line-height: 31px;
+    border: #e4e4e4 solid 1px;
+    background-color: #fff;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #666;
+}
+.title-middle{
+    color: #fff;
+    font-weight: bold;
+    line-height: 32px;
+    margin-left: 10px;
+}
+.title-middle span{
+    font-weight: normal;
+    margin: 1px 0;
+}
+/* 设置一下表格 */
+.table{
+    margin: 5px auto;
+}
+.table tr td{
+    border: 1px  #ccc  solid;
+    width: 149px;
+    height: 35px;
+}
+.table tr td:nth-child(2){
+    width: 179px;
+}
+.table tr td:nth-child(3){
+    width: 429px;
+}
+#id{
+    text-align: left;
+    margin-left: 60px;
+}
+/* 课时知识掌握情况 */
+.tableb{
+    line-height: 20px;
+}
+/* 设置底部的版权信息 */
+.copy{
+    margin-top: 40px;
+    border-top: 5px solid #f4f4f4;
+    height: 36px;
+    line-height: 36px;
+    color: #999;
+}
+/* 设置选择题框框的内容 */
+.choice{
+    width: 758px;
+    height: 100px;
+    border: #e2e2e2 solid 1px;
+    margin:10px  auto;
+    border-radius: 3px;
+    background: url(../images/icos.gif) no-repeat;
+    background-position: 0 -43px;
+}
+.choice .underline{
+    text-decoration: underline;
+}
+.question{
+    margin-left: 38px;
+    margin-bottom: 18px;
+}
+.choices input{
+    margin-left: 38px;
+}
+.choices input{
+    vertical-align: middle;
+}
+.true{
+    width: 715px;
+    background-color: #eef8ec;
+    line-height: 30px;
+    margin-left: 38px;
+}
+.true .fas{
+    margin-top: 8px;
+}
+.choice2{
+    height: 280px;
+}
+.choice3{
+    background: url(../images/icos.gif) no-repeat -90px 0;
+    border: 3px #ffc2c2 solid;
+    width: 754px;
+    height: 370px;
+}
+.false{
+    height: 105px;
+    background-color: #fff7e5;
+}
+.jiexi{
+    margin-left: 40px;
+    line-height: 20px;
+    width: 709px;
+    width: 660px;
+}
+.long{
+    margin-bottom: 22px;
+}
+.button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 90px;
+    height: 28px;
+    margin: 25px auto 0;
+    background-image: url(../images/submit.png);
+}
+/* 设置第三个网页新的样式 */
+.fr2{
+    width: 675px;
+    
+}
+.haofan,.haofan2{
+    line-height: 20px;
+}
+.choice4{
+    height: 70px;
+}
+.choice5{
+    height: 260px;
+}
+.choice{
+    position: relative;
+}
+.number{
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}

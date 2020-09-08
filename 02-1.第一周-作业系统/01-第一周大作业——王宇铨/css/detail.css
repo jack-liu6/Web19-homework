@@ -1,0 +1,255 @@
+/*头部*/
+body{
+	background-color: #e9f0f8;
+}
+
+.head{
+	background-color: #f5f8fc;
+}
+
+.head .headset{
+	background-color: #e9f0f8;
+	border-radius: 5px;
+	color: #5893ce;
+	height: 32px;
+	line-height: 32px;
+	/*vertical-align: bottom;*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.head .headset a{
+	/*display: inline-block;*/
+	font-size: 12px;
+	color: #5893ce;
+	padding: 0 15px;
+	vertical-align: middle;
+}
+.head .headset .br{
+	border-right: 1px solid #5893ce;
+}
+
+.head .headico{
+	position: absolute;
+	right: 270px;
+	bottom: 0;
+	height: 27px;
+}
+.head .headico .sprite1{
+	display: inline-block;
+	width: 43px;    
+	height: 27px;   
+	/*margin: 3px 22px 3px 0;*/
+	background: url(../images/top-nav.png) no-repeat;
+}
+.head .headico .hico1{
+	background-position: -1px 3px;
+}
+.head .headico .hico2{
+	background-position: -44px 3px;
+}
+.head .headico .hico3{
+	background-position: -87px 3px;
+}
+.head .headico .hico4{
+	background-position: -130px 3px;
+}
+
+
+/*主体*/
+
+/*待做作业*/
+.detail{
+	padding: 0 10px;
+	margin-top: 10px;
+}
+.detail .waitfor{
+	margin-top: 22px;
+	}
+.detail .waitfor>h4{
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.detail .waitfor .waitdetail{
+	padding: 19px;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+	box-shadow:inset 0 0 0 4px #efefef;
+
+}
+
+.detail .waitfor .waitdetail>h3{
+	height: 34px;
+	line-height: 32px;
+	padding: 0 10px;
+	border-radius: 3px;
+	background-color: #6c9dce;
+}
+.detail .waitfor .waitdetail>h3 span{
+	display: inline-block;
+}
+.detail .waitfor .waitdetail>h3 .p1{
+	width: 37px;
+	/*height: 31px;
+	line-height: 31px;*/
+	border: 1px solid #e4e4e4;
+	text-align: center;
+	background-color: #fff;
+	font-weight: bold;
+}
+.detail .waitfor .waitdetail>h3 .p2{
+	/*font: 14px bold #fff;*/
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	margin: 0 10px;
+}
+.detail .waitfor .waitdetail>h3 .p3{
+	color: #fff;
+}
+
+.detail .waitfor .waitdetail>h3 a{
+	/*line-height: 32px;*/
+	font:12px;
+	color:#fff;
+}
+.detail .waitfor .waitdetail .sprite2{
+	display: inline-block;
+	width: 18px;
+	height: 13px;
+	vertical-align: middle;
+	background: url(../images/icos.gif) no-repeat;
+}
+
+.detail .waitfor .waitdetail>div {
+	padding: 16px;
+}
+.detail .waitfor .waitdetail .neirong{
+	display: inline-block;
+	width: 790px;
+	height: 55px;
+}
+.detail .waitfor .waitdetail .neirong table:hover{
+	color: #fe9900;
+}
+.detail .waitfor .waitdetail .neirong table{
+	font: 12px ;
+	color: #999;
+	line-height: 22px;
+	/*width: 790px;*/
+}
+.detail .waitfor .waitdetail .neirong table .td1{
+	width: 70px;
+	vertical-align: top;
+}
+.detail .waitfor .waitdetail .neirong table span{
+	margin-left: 40px;
+}
+.detail .waitfor .waitdetail .dohomework{
+	display: inline-block;
+	width: 89px;
+	height: 27px;
+	margin-top: 16px;
+	/*vertical-align: middle;*/
+	background: url(../images/作业系统-作业本-选择作业_03.png) no-repeat;
+	/*background-position: 0;*/
+}
+
+/*已完成作业*/
+.detail .waitfor>h4 a{
+	display: inline-block;
+	width: 50px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	border-right: 1px solid #999;
+}
+
+.detail .waitfor .waitdetail .comh3{
+	height: 34px;
+	line-height: 32px;
+	padding: 0 10px;
+	border-radius: 3px;
+	background-color: #dfdfdf;
+		
+}
+.detail .waitfor .waitdetail .comh3 span{
+	color: #666;
+}
+
+.detail .waitfor .waitdetail .check{
+	display: inline-block;
+	width: 110px;
+	height: 15px;
+	line-height: 15px;
+	color: #fe9900;
+	margin-top: 25px;
+}
+.detail .waitfor .waitdetail .check .checkico{
+	display: inline-block;
+	width: 16px;
+	height: 15px;
+	background-position: 0 -17px;
+	vertical-align: top;
+}
+
+
+/*翻页*/
+.detail .waitfor .waitdetail .fanye{
+	border-top: 1px dashed #dfdfdf;
+	padding: 0;
+	padding-top:10px ;
+	margin: 
+}
+.detail .waitfor .waitdetail .fanye span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+.detail .fanyebtn input[type="radio"]{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #dfdfdf;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;	
+}
+
+.detail .fanyebtn label{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	border: 1px solid #dfdfdf;
+	text-align: center;
+	color: #6c9dce;
+}
+
+.detail .fanyebtn input[type="radio"]:checked + label{
+	border: none;
+	background-color: #6c9dce;
+	color: #fff;
+}
+
+
+/*底部*/
+.detail .foot{
+	height: 36px;
+	line-height: 36px;
+	background-color: #fbfbfb;
+	border-top: 5px solid #f4f4f4;
+	color: #999;
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+
+
+
+

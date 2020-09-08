@@ -1,0 +1,877 @@
+/*通用*/
+.sprite{
+	background:url(../image/学科首页-sprite.png) no-repeat;
+}
+.wt960{
+	width: 960px;
+	margin:0 auto;
+}
+
+/*topBar*/
+.topBarBG{
+	background-color: #009900;
+	border-bottom: 1px solid #006633;
+}
+
+.topBar a{
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 12px;
+
+}
+.topBar form{
+	margin:0 20px;
+}
+.topBar form label{
+	height: 28px;
+	line-height: 28px;
+	color: #fff;
+	font-size: 12px;
+}
+.topBar form input{
+	height: 18px;
+	width: 95px;
+	vertical-align: middle;
+	outline: none;
+	border:none;
+}
+.topBar form input[type='submit']{
+	width: 50px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #40e540;
+}
+.topBar .bdr{
+	border-right:1px solid #cccccc;
+	color: #ccc;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+}
+
+/*头部*/
+.headBG{
+	/*background-image: url(../image/浙江学科主页定稿_02.png);
+	background-size: 100%;*/
+	background-image: linear-gradient(#abddab 0%, #ccebcc  20% ,#fff  35%)
+}
+.head{
+	height: 232px;
+	background-image: url(../image/浙江学科主页定稿_03.png);
+}
+.head .menu{
+	height:28px;
+	line-height: 28px;
+	position: absolute;
+	bottom: 5px;
+	left: 25px;
+}
+.head .menu li{
+	height: 14px;
+	line-height: 14px;
+	padding: 0 10px;
+	border-left: 1px solid #fff;
+	float: left;
+	vertical-align: top;
+	margin-top:7px;
+}
+.head .menu li a{
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+
+}
+.head .menu #menuChecked{
+	border:none;
+	height: 28px;
+	line-height: 28px;
+	margin:0;
+}
+.head .menu #menuChecked a{
+	display: inline-block;
+	width: 77px;
+	height: 28px;
+	line-height: 28px;
+	color: #006633;
+	font-weight: bold;
+	background-image: url(../image/浙江学科主页定稿_04.png);
+}
+.head .menu .more{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	top: 1px;
+	right: -25px;
+}
+
+/*搜索栏*/
+.search{
+	background-color: #f2f2f2;
+	border-bottom:1px solid #ccc;
+	border-radius:0 0 5px 5px;
+	height: 50px;
+}
+.search .leftP{
+	margin-top: 13px;
+}
+.search .leftP span{
+	display: inline-block;
+	width: 64px;
+	height: 22px;
+	line-height: 22px;
+	text-indent: 5px;
+	font-size: 12px;
+	color: #fff;
+	margin:0 10px;
+}
+.search .leftP a{
+	padding:0 5px;
+	font-size: 12px;
+	color: #0066cc;
+	text-decoration: underline;
+
+}
+
+.search form{
+	padding: 5px;
+	background-color: #6fbe44;
+	border-radius: 5px;
+	margin:5px;
+}
+.search form input{
+	width: 232px;
+	height: 24px;
+	border:none;
+	outline: none;
+}
+.search form input[type='submit']{
+	width: 65px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #40e540;
+	cursor: pointer;
+}
+.search form select{
+	height: 25px;
+	width: 80px;
+	font-size: 10px;
+	margin:0 5px;
+	cursor: pointer;
+}
+.search form a{
+	font-size: 12px;
+	color: #666666;
+	text-decoration: underline;
+}
+.search a:hover{
+	color: #ff9900;
+}
+
+
+/*主体内容*/
+.detail{
+	margin-top: 15px;
+}
+
+/*左边部分*/
+.leftPart{
+	width: 250px;
+}
+.leftPart .msg{
+	padding:10px 14px 20px;
+	border:1px solid #dddddd;
+	background-color: #e4ffca;
+}
+.leftPart .msg .msgtittle img{
+	padding:5px;
+	border:1px solid #dddddd;
+	background-color: #fff;
+}
+.leftPart .msg .msgtittle h4{
+	color: #006600;
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.leftPart .msg .msgtittle p{
+	font-size: 12px;
+	line-height: 20px;
+}
+.leftPart .msg .msgtittle p span{
+	color: #666;
+}
+.leftPart .msg .msgtittle .tlr{
+	text-align: right;
+}
+.leftPart .msg .msgtittle a{
+	color: #0066cc;
+	text-decoration: underline;
+}
+.leftPart .msg .msgtittle a:hover{
+	color: #ff9900;
+}
+.leftPart .msg h3{
+	background-color: #f6ffee;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	margin: 20px 0 15px;
+}
+.leftPart .msg h3 span{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-position: 0 -69px;
+	margin:0 5px 0 15px;
+	vertical-align: middle;
+
+}
+.leftPart .msg ul li{
+	line-height: 20px;
+	color: #666;
+	font-size: 12px;
+	padding-left: 10px;
+}
+.leftPart .msg ul li span{
+	margin-right: 15px;
+}
+
+/*tab切换共用样式*/
+.tabs{
+	padding:2px;
+	padding-bottom: 10px;
+	border:1px solid #dddddd;
+	margin-top: 10px;
+}
+.tabs h4{
+	padding: 5px 10px;
+	background-image: linear-gradient(#e4ffe4, #fff);
+	font-size:12px;
+}
+.tabs h4 i{
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background-position: 0 -129px;
+	vertical-align: top;
+	margin:7px 5px 0 0;
+}
+.tabs h4 span{
+	display: inline-block;
+	width: 40px;
+	height: 24px;
+	background-color: #d5d5d5;
+	color: #666666;
+	text-align: center;
+	cursor:pointer;
+}
+.tabs h4 .tabChecked{
+	background-color: #6fbe44;
+	color: #fff;
+}
+.tabs ul{
+	list-style-type: square;
+	text-indent: 15px;
+	font-size: 12px;
+	color: #999999;
+	padding: 0 10px;
+	display: none;
+}
+.tabs ul li>a{
+	/*text-indent: 0;*/
+	color: #999999;
+	margin-right: 10px;
+}
+.tabs ul p{
+	text-indent: 0;
+	height: 24px;
+}
+.tabs ul p a{
+	display: inline-block;
+	width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.tabs ul span{
+	text-indent: 0;
+}
+.tabs a:hover{
+	color: #ff9900;
+}
+/*.chengguo{
+	margin-top: 15px;
+}*/
+/*最新成员*/
+/*通用样式*/
+.tongyong{
+	border:1px solid #e1e1e1;
+	padding:1px;
+	margin-top: 10px;
+}
+.tongyong h4{
+	padding: 5px;
+	background-image: linear-gradient(#e4ffe4, #fff);
+	font-size:12px;
+}
+.tongyong h4 i{
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background-position: -1px -103px;
+	vertical-align: middle;
+	margin-left: 5px;
+}
+.tongyong ul{
+	width: 227px;
+	margin:0 auto;
+	border-top:1px solid #6fbe44;
+	padding-top: 15px;
+}
+/*个性样式*/
+.newUser {
+	padding-bottom: 10px;
+}
+.newUser ul a{
+	display: inline-block;
+	width: 72px;
+	height: 90px;
+	text-align: center;
+}
+.newUser ul a img{
+	padding:1px;
+	background-color: #fff;
+	border:1px solid #ccc;
+}
+.newUser ul a p{
+	font-size: 10px;
+	color: #4c7d08;
+	line-height: 20px;
+	overflow: hidden;
+
+}
+
+/*特教工作室*/
+.tejiao {
+	padding-bottom: 15px;
+}
+.tejiao ul li{
+	margin-bottom: 10px;
+}
+.tejiao ul li img{
+	width: 50px;
+	height: 50px;
+	padding: 2px;
+	background-color: #fff;
+	border:1px solid #ccc;
+}
+.tejiao ul li div{
+	padding-left:10px;
+}
+.tejiao ul li p{
+	font-size: 12px;
+	color: #666;
+	line-height: 18px;
+}
+.tejiao ul li p a{
+	color: #0066cc;
+}
+.tejiao ul li p a:hover{
+	color: #ff9900;
+}
+
+
+/*公告*/
+.radio{
+	width: 695px;
+	padding: 1px;
+	border:1px solid #d7f9db;
+	background-color: #fafff7;
+	font-size: 12px;
+	color: #333;
+}
+.radio .sprite{
+	display: inline-block;
+	width: 75px;
+	height: 24px;
+	background-position: 0 -34px;
+	text-align:center;
+	color: #006633;
+}
+.radio>div{
+	height: 28px;
+	overflow: hidden;
+}
+.radio span{
+	margin-right: 15px;
+}
+.radio a{
+	display: none;
+	
+}
+.radio a span{
+	display: inline-block;
+	width: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+/*中间部分*/
+.centerPart{
+	margin-top: 10px;
+	width: 456px;
+}
+.centerPart .tabs li{
+	height: 20px;
+	line-height: 20px;
+}
+.centerPart .tabs li p{
+	height: 20px;
+	line-height: 20px;
+}
+/*轮播图*/
+.bannerPic{
+	width: 227px;
+	height: 163px;
+	position: relative;
+}
+.banner .bannerList{
+	display: none;
+	height: 163px;
+}
+.banner .botomPart{
+	height: 26px;
+	line-height: 26px;
+	background-color: rgba(0,0,0,.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.banner .botomPart p{
+	color: #fff;
+	font-size: 12px;
+	padding:0 10px; 
+}
+.banner .botomPart p span{
+	display: none;
+}
+.banner .botomPart .bannerBtn{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height: 14px;
+	text-align: center;
+	font-size: 10px;
+	color: #ccc;
+	/*padding: 5px;*/
+	background-color: #50494a;
+	border:2px solid #7d7d7b;
+	font-weight: bold;
+	cursor:pointer;
+}
+.banner .botomPart .bannerChecked{
+	border:2px solid #bd0606;
+	background-color: #8a0203;
+	color: #333;
+}
+.banner .bannerTittle{
+	width: 214px;
+}
+.banner .bannerTittle{
+	margin-left: 15px;
+}
+.banner .bannerTittle h4{
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+}
+.banner .bannerTittle h5{
+	color: #999999;
+	font-size: 12px;
+	height: 40px;
+	width: 100%;
+	/*overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;*/
+}
+.banner .bannerTittle a:hover h4,.banner .bannerTittle a:hover h5{
+	color: #ff9900;
+}
+.banner .bannerTittle ul{
+	list-style-type: square;
+	text-indent: 1em;
+	margin-top: 15px;
+}
+.banner .bannerTittle li{
+	height: 24px;
+	line-height: 24px;
+	color: #666;
+}
+.banner .bannerTittle li a{
+	display: inline-block;
+	font-size: 12px;
+	color: #666;
+	width: 200px;
+	height: 24px;
+	line-height: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    text-indent: 0;
+    vertical-align: top;
+}
+.banner .bannerTittle li:hover a{
+	color: #ff9900;
+}
+
+/*学科资源导航*/
+.xkMenu{
+	background-color: #f6f6f6;
+	width: 100%;
+}
+.xkMenu>h4{
+	background-image: none;
+}
+.xkMenu .mkMenuTabs{
+	padding: 0 10px;
+}
+.xkMenu .mkMenuTabs h4{
+	background-color: #dbe3f7;
+	font-size: 12px;
+	padding: 5px 10px;
+}
+.xkMenu .mkMenuTabs h4 b{
+	color: #009933;
+	margin-right: 15px;
+}
+.xkMenu .mkMenuTabs h4 span{
+	cursor:pointer;
+}
+.xkMenu .mkMenuTabs h4 .tabChecked{
+	display: inline-block;
+	/*width: 73px;*/
+	padding: 0 10px;
+	height: 24px;
+	background-image: linear-gradient(#86f25f,#12ac3e,#86f25f);
+	border-radius: 3px;
+	text-align: center;
+	color: #fff;
+	margin-right: 5px;
+}
+.xkMenu .mkMenuTabs h4 .more{
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+.xkMenu .mkMenuTabs .mkMenuList{
+	display: none;
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+.xkMenu .mkMenuTabs .mkMenuList a{
+	font-size: 12px;
+	color: #666;
+	padding: 10px;
+}
+.xkMenu .mkMenuTabs .kbfl{
+	background-color: #fff;
+	margin:10px 0;
+}
+.xkMenu .mkMenuTabs .kbfl b{
+	margin: 0;
+}
+.xkMenu .mkMenuTabs  .fla{
+	padding: 0 5px;
+	color: #333333;
+	text-decoration: none;
+}
+.xkMenu .mkMenuTabs  a:hover{
+	color: #ff9900;
+}
+
+/*教研活动*/
+.centerTabs{
+	width: 100%;
+}
+.centerTabs ul li{
+	width: 100%;
+	border-bottom: 1px dotted #ccc;
+}
+.centerTabs ul .nobord{
+	border:none;
+}
+.centerTabs ul p a{
+	width: 300px;
+}
+.centerTabs ul p a span{
+	display: inline-block;
+	width: 200px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+/*学生天地*/
+.student{
+	width: 100%;
+	padding:2px;
+	padding-bottom: 10px;	
+	margin-top: 10px;
+}
+.student h4{
+	padding: 5px 10px;
+	background-image: linear-gradient(#e4ffe4, #fff);
+	font-size:12px;
+}
+.student h4 i{
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	background-position: 0 -129px;
+	vertical-align: top;
+	margin:7px 5px 0 0;
+}
+.student h4 b{
+	margin-right: 30px;
+}
+.student h4 span{
+	display: inline-block;
+	width: 52px;
+	height: 24px;
+	color: #999;
+	text-align: center;
+	cursor:pointer;
+}
+.student h4 .tabChecked{
+	width: 64px;
+	text-align: center;
+	background-color: #fff;
+	border:1px solid #ccc;
+	border-bottom: none;
+	color: #333;
+}
+.student  .tabList{
+	display: none;
+}
+.student .lv2MenuBtn{
+	width: 68px;
+	font-size: 12px;
+	padding: 10px ;
+	position: relative;
+	/*padding-bottom: 25px;*/
+	z-index: 20;
+}
+.student .lv2MenuBtn li{
+	text-align: center;
+	height: 28px;
+	cursor:pointer;
+	margin:10px 0;
+}
+.student .lv2MenuBtn .lv2Checked{
+	height: 26px;
+	border:1px solid #e1e1e1;
+	border-right: none;
+	background-color: #f2f9ff;
+	
+}
+.student .lv2Menu{
+	padding:20px 15px 0;
+	width: 349px;
+	height: 160px;
+	border:1px solid #e1e1e1;
+	background-color: #f2f9ff;
+	list-style-type: square;
+	text-indent: 1em;
+	font-size: 12px;
+	color: #666666;	
+	position: absolute;
+	bottom: 0;
+	left: 79px;
+	display: none;
+}
+.student .lv2Menu li{
+	height: 24px;
+}
+.student .lv2Menu li a{
+	display: inline-block;
+	width: 250px;
+	color: #666666;	
+	margin-left: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.student .lv2Menu li .fr{
+	width: 50px;
+	text-align: center;
+}
+.student .lv2Menu li a:hover{
+	color: #ff9900;
+}
+/*右边部分*/
+/*用户动态*/
+.rightPart{
+	width: 234px;
+}
+.rightPart .userDT ul{
+	width: 200px;
+	list-style-type: square;
+	font-size: 12px;
+	color: #999999;
+	text-indent: 20px;
+	padding: 10px 0 5px;
+}
+.rightPart .userDT ul li{
+	width: 210px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.rightPart .userDT ul i{
+	color: #333;
+}
+.rightPart .userDT ul a{
+	color: #0066cc;
+}
+.rightPart .userDT ul a:hover{
+	color: #ff9900;
+}
+
+/*教学设计*/
+.rightPart .tabs ul p a{
+	width: 95px;
+}
+
+/*用户排名*/
+.userPaiming h4{
+	background-image: none;
+	background-color: #dffff4;
+
+}
+.userPaiming ul{
+	border:none;
+	padding:10px;
+}
+.userPaiming li{
+	width: 210px;
+	font-size: 12px;
+	color: #666;
+	border-bottom: 1px dotted #ccc;
+}
+.userPaiming .nobord{
+	border:none;
+}
+.userPaiming li .sprite{
+	display: inline-block;
+	width: 13px;
+	height: 11px;
+	margin:7px 15px 0 0;
+
+}
+.userPaiming li .ico1{
+	background-position: 0 -204px;
+}
+.userPaiming li .ico2{
+	background-position: 0 -230px;
+}
+
+.userPaiming li .ico3{
+	background-position: 0 -256px;
+}
+
+.userPaiming li .ico4{
+	background-position: 0 -282px;
+}
+
+/*论坛*/
+.luntan h4{
+	background-image: none;
+	background-color: #ffffd9;
+}
+.luntan h4 i{
+	background-position: -1px -103px;
+}
+.luntan  h4 span{
+	background-color: #ffffd9;
+	color: #999;
+}
+.luntan  h4 .tabChecked{
+	background-color: #ffffd9;
+	height: 20px;
+	border-bottom:4px solid #ff6600;
+	color: #333;
+}
+.luntan ul{
+	padding-top:10px; 
+}
+.luntan ul li p{
+	margin-left: 15px;
+}
+
+/*名师讲堂*/
+.jiangtang h4{
+	background-image: none;
+	background-color: #dffff4;
+
+}
+.jiangtang>div{
+	padding: 15px;
+	text-align: center;
+	font-size: 12px;
+}
+.jiangtang>div h6{
+	font-size: 12px;
+}
+.jiangtang>div p a{
+	color: #999;
+}
+
+/*友情链接*/
+.friendLink{
+	height: 38px;
+	line-height: 38px;
+	padding: 1px;
+	background-color: #eff7ff;
+	border:1px solid #beddff;
+	margin:10px auto;
+}
+.friendLink span{
+	display: inline-block;
+	height: 100%;
+	width: 100px;
+	background-position: 0 -328px;
+	text-indent: 15px;
+	color: #336699;
+	font-weight: bold;
+	margin-right: 8px;
+}
+.friendLink a{
+	font-size: 12px;
+	color: #666666;
+	margin:0 8px;
+}
+/*底部*/
+.foot{
+	height: 80px;
+	padding-top: 30px;
+	background-image: linear-gradient(#deffef,#fff);
+	border-top: 1px solid #dcdcdc;
+}
+.foot p{
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+}

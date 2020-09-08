@@ -1,0 +1,169 @@
+/* 头部的换样式按钮 */
+
+.toubu-right button.btn {
+    background: url('../img/ico_sprite.png') no-repeat 0 -22px;
+    width: 17px;
+    height: 17px;
+}
+
+.toubu-right button.btn2 {
+    background: url('../img/ico_sprite.png') no-repeat -18px -49px;
+    width: 17px;
+    height: 17px;
+}
+
+
+/* 搜索框 */
+
+.sou {
+    background: url(../img/orange_skin/search_bg.png) no-repeat;
+}
+
+
+/* 导航部分 */
+
+.daohang {
+    background: url(../img/orange_skin/nav_bg.png) no-repeat;
+}
+
+.bgdaohang {
+    background: url(../img/orange_skin/nav_hover.png)no-repeat;
+}
+
+.daohang ul .bgdaohang {
+    color: #3B3B3B;
+}
+
+.daohang ul li.gang {
+    color: #FCD0A5;
+}
+
+.yingul {
+    background-color: #FDFFF6;
+    border: 1px solid #FECBA4;
+}
+
+.yingul li {
+    color: #E79257;
+}
+
+.yingul li:hover {
+    background-color: #F77A0F;
+    color: #fff;
+}
+
+.bgziyuan {
+    background-color: #FDFFF6;
+    color: #E37F41;
+    border-left: 1px solid #FECBA4;
+    border-right: 1px solid #FECBA4;
+}
+
+
+/* 首页的主体部分 */
+
+.bodyer-left {
+    border: 1px solid #F9EDC4;
+    background-color: #FEFAE9;
+}
+
+.gongborder,
+.tab-shang {
+    border: 1px solid #FEC397
+}
+
+.denglu {
+    background-color: #FFF2E5;
+}
+
+.borderd {
+    border: 1px solid #FEC397;
+}
+
+.denglup,
+.tab-nei {
+    border-bottom: 1px solid #FEC397;
+}
+
+.sanjiao {
+    background: url(../img/orange_skin/tt_ico.png) no-repeat;
+}
+
+.bodyer-right {
+    background-color: #FFF2E5;
+}
+
+.shi,
+.xian {
+    color: #FF781E;
+}
+
+.xiajian {
+    background: url(../img/orange_skin/tab_sm.png) no-repeat;
+    color: #fff;
+}
+
+.huoyuedu,
+.shuzi {
+    color: #F56D12;
+}
+
+.kongjian,
+.tabdiv {
+    background-color: #FFF2E5;
+}
+
+.gongxian,
+.xiazai {
+    border-top: 2px solid #FDF9EE;
+}
+
+.gongspan {
+    border-top: 2px solid #FE9F06;
+    color: #FF6A07;
+}
+
+.tab-nei li {
+    border-top: 1px solid #FDF9EC;
+    border-left: 1px solid #FEC397;
+    border-right: 1px solid #FEC397;
+}
+
+.tab-nei .neili {
+    border: none;
+    border-top: 2px solid #FE9F06;
+    color: #FF6A07;
+}
+
+
+/* 下面的额三类课堂 */
+
+.ktangimg {
+    background: url(../img/orange_skin/tab_big.png) no-repeat;
+    color: #fff;
+}
+
+.lianjiesp {
+    color: #FF7217;
+}
+
+
+/* 应用中心 */
+
+.yingyong {
+    background: url(../img/orange_skin/app_menu_bg.png) no-repeat;
+}
+
+.zhongxin p {
+    color: #DF5E0A;
+}
+
+.qita {
+    background: url(../img/orange_skin/all_app_hover.png) no-repeat;
+    font-weight: bold;
+}
+
+.tjapp {
+    background: url(../img/blue_skin/rec_app_hover.png) no-repeat;
+    font-weight: bold;
+}

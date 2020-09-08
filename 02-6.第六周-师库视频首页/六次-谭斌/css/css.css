@@ -1,0 +1,408 @@
+*{margin: 0;padding: 0;}
+.font{
+	font-size: 12px;
+}
+.fir{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1;
+}
+.box{
+	height: 30px;
+	line-height: 30px;
+	display: flex;
+	width: 1000px;
+	margin: 0 auto;
+	/* background: #ECECEC; */
+	position: relative;
+}
+#head a{
+	text-decoration: none;
+	color: #5E5E5E;
+}
+#head a:hover{
+	color: #006DC8;
+}
+.fie{
+	text-align: center;
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+.fore{
+	background:#E8E8E8;
+	position: absolute;
+	right: -7px;top: 30px;
+	width: 100px;
+	display: none;
+	z-index: 1;
+}
+.Es3{
+	position: relative;
+}
+.fore li{
+	list-style-type:none;
+}
+.fie div{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.fie_Img{
+	margin: 0 0 3px 2px;
+}
+#as{
+	width: 1000px;
+	margin: 0 auto;
+}
+#as img{
+	width: 1000px;
+}
+.thi{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	position: relative;
+}
+.thi img{
+	margin: 11px;
+}
+.thiw{
+	padding: 7px 5px;
+	background: #5E5E5E;
+	color: #FFFFFF;
+	margin: 20px 10px;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.kis{
+	position: absolute;
+	right: 0;top: 22px;
+}
+#hist{
+	width: 400px;
+	height: 30px;
+	display: flex;
+	position: relative;
+	border: 2px solid #ECECEC;
+	background: #FFFFFF;
+	border-radius: 3px;
+}
+.hist{
+	position: absolute;
+	left: 5px;
+	line-height: 30px;
+	font-size: 14px;
+}
+#hist img{
+	position: absolute;
+	left: 55px;
+	top: -1px;
+}
+#hist input{
+	position: absolute;
+	right: 50px;
+	top: 0;
+	width: 260px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	color: #ECECEC;
+}
+#hist button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	background: #F08318;
+	color: #FFFFFF;
+}
+.hist1{
+	padding-left: 5px;
+}
+.head{
+	font-size: 14px;
+	display: flex;
+	margin-top: 5px;
+}
+.head a{
+	padding-right: 10px;
+	text-decoration: none;
+}
+.chan{
+	width: 1000px;
+	display: flex;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	margin-top: 10px;
+	/* border-bottom: 2px solid #006DC8; */
+}
+.xbk{
+	width: 745px;
+	background: #006DC7;
+	height: 5px;
+	position: absolute;
+	top: 30px;
+	left: -20px;
+}
+.chan div{
+	margin: 0 20px;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 5px;
+	cursor: pointer;
+}
+.chaner{
+	background: #006DC8;
+	color: #FFFFFF;
+}
+.chan_sed{
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+.chan_sed div{
+	margin-left: 10px;
+	color: #F3AC6D;
+	font-size: 12px;
+	cursor: pointer;
+}
+.chan_sed div img{
+	margin: 0 5px;
+}
+.hand{
+	width: 1000px;
+	display: flex;
+	margin-top: 20px;
+}
+.hand_fir{
+	width: 745px;
+}
+.hand_sec{
+	border: 1px solid #D7E6F8;
+}
+.hand_thi{
+	display: flex;
+	border-bottom: 1px dashed #D7E6F8;
+	height: 30px;
+	line-height: 30px;
+}
+.hand_thi div{
+	margin: 0 10px;
+}
+.hand_thi a{
+	margin: 0 10px;
+	color: #006DC8;
+	text-decoration: none;
+}
+.hand_thi a:hover{
+	text-decoration:underline;
+	color: #F08318;
+}
+.hand_fou{
+	display: flex;
+	margin-top: 10px;
+	height: 30px;
+}
+.hand_fiv{
+	border: 1px solid #DCDCDC;
+	background: #F4F4F4;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 30px;
+}
+.hand_six{
+	color: #9B9B9B;
+	margin-left: 10px;
+	line-height: 30px;
+}
+.hand_sev{
+	
+	height: 23px;
+	color: #F08318;
+	border: 1px solid #F08318;
+	margin-left: 5px;
+}
+.hand_sev img{
+	padding: 2px 2px 0 2px;
+}
+.hand_eig{
+	margin-left: 30px;
+	color: #006DC8;
+	line-height: 30px;
+	position: relative;
+	cursor: pointer;
+}
+.hand_eig img{
+	position: absolute;
+	top: 7px;
+	left: -19px;
+}
+.hand_nine{
+	border: 1px solid #DCDCDC;
+	padding: 10px;
+}
+.hand_ten{
+	display: flex;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #DCDCDC;
+	position: relative;
+
+}
+.hand_ele{
+	position: absolute;
+	right: -6px;
+}
+.hand_ele a{
+	padding: 7px;
+	margin-right: -5px;
+	border: 1px solid #DCDCDC;
+	text-decoration: none;
+	color: #006DC8;
+}
+.hand_ele a:hover{
+	color: #000000;
+}
+.hand_ten div{
+	margin-right: 10px;
+	cursor: pointer;
+}
+.hand_ten div img{
+	margin-left: 2px;
+}
+#posi{
+	margin-right: 27px;
+}
+#posi img{
+	position: absolute;
+	top: 6px;
+}
+.hand_two{
+	border-bottom: 1px dashed #9B9B9B;
+	margin-top: 20px;
+	display: flex;
+}
+.hand_teen{
+	width: 135px;
+	height: 143px;
+	font-size: 10px;
+	margin: 0 auto;
+}
+.hand_teen img{
+	padding-left: 5px;
+}
+.hand-f{
+	display: flex;
+	border-bottom: 1px dashed #9B9B9B;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+.hand-f:hover{
+	background: #FFF8E2;
+}
+.hand_box{
+	margin: 10px;
+}
+.hand_sa{
+	font-size: 14px;
+	font-weight: bold;
+}
+.hang_fir{
+	font-size: 14px;
+	margin-top: 5px;
+}
+.hang_sec{
+	color: #006DC8;
+	display: flex;
+	font-size: 12px;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+.hang_sec div{
+	margin-right: 20px;
+}
+.hang_thi{
+	margin: 0 5px;
+}
+.right{
+	margin-left: 20px;
+}
+
+.eleventh{
+	margin: 5px 0;
+	border: 1px solid #9B9B9B;
+	padding-bottom: 5px;
+}
+.thir{
+	font-size: 14px;
+	padding: 5px;
+	background: #D7E6F8;
+	font-weight: bold;
+}
+.four{
+	display: flex;
+	font-size: 12px;
+	padding: 5.8px;
+	position: relative;
+	border-bottom: 1px dashed #9B9B9B;
+	cursor: pointer;
+}
+.five{
+	position: absolute;
+	top: 3px;
+	left: 7px;
+}
+.hree{
+	position: absolute;
+	right: 5px;
+}
+.mac{
+	width: 1000px;
+	margin: 0 auto;
+	color: #767676;
+	
+	padding: 20px 0 20px 0;
+}
+.mac-1{
+	width: 510px;
+	display: flex;
+	line-height: 30px;
+	margin-left: 280px;
+}
+.mac-1 div{
+	margin: 0 5px;
+	font-size: 12px;
+}
+.mac-2{
+	width: 1000px;
+	text-align: center;
+	line-height: 30px;
+	/* margin-left: 213px; */
+	font-size: 12px;
+}
+.mac-3{
+	width: 1000px;
+	text-align: center;
+	line-height: 30px;
+	/* margin-left: 194px; */
+	font-size: 12px;
+}
+.mac-4{
+	width: 1000px;
+	text-align: center;
+	/* margin-left: 194px; */
+	font-size: 12px;
+}
+.at{
+	position: relative;
+}
+.at img{
+	position: absolute;
+	right: -44px;
+	top: 0;
+}

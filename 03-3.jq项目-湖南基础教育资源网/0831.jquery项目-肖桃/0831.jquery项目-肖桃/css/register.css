@@ -1,0 +1,164 @@
+/* 设置body的背景图片和颜色 */
+body{
+    background: url(../images/reg-bg.png) no-repeat center 0 #b1e0fa;
+}
+/* 设置logo */
+.logo{
+    width: 381px;
+    height: 115px;
+    margin-left: 200px;
+    background: url(../images/reg-logo.png) no-repeat 0 0;
+}
+/* 设置中间的分割线 */
+.logo-line{
+    width: 5px;
+    height: 44px;
+    margin-top: 30px;
+    background: url(../images/login-line.png) no-repeat 0 0;
+}
+/* 设置基础管理平台 */
+.jichu{
+    font-family: "微软雅黑";
+    color: #115286;
+    margin-top: 40px;
+}
+/* 设置主体 */
+.main{
+    border-top: 1px solid #24afb9;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+/* 设置树叶 */
+.leaf{
+    position: absolute;
+    right: 25px;
+    top: -32px;
+    width: 170px;
+    height: 59px;
+    background: url(../images/leaf.png);
+}
+/* 设置注册的标题 */
+.main h2{
+    /* box-shadow:0 -3px 10px #dddddd; */
+    border-bottom: 1px solid #dddddd;
+    padding-left: 27px;
+    height: 48px;
+    line-height: 48px;
+}
+.main h2 span{
+    width: 89px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #ddd;
+    color: #747474;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+.main h2 .on{
+    background: url(../images/blue-title.png) no-repeat 0 -2px;
+    color: #fff;
+    height: 39px;
+    position: relative;
+    top: 5px;
+}
+/* 设置介绍 */
+.reg-content-right{
+    height: 410px;
+    border-left: 1px dashed #c4c4c4;
+}
+.reg-content-right .have{
+    border-bottom: 1px dotted #d0d0d0;
+}
+.intro{
+    border: solid 2px #d1d5d8;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+.intro-title{
+    width: 123px;
+    height: 34px;
+    background: url(../images/new.png);
+    color: #2083a2;
+    line-height: 34px;
+    position: absolute;
+    top: -17px;
+    left: 34px;
+}
+.bubian{
+    margin-top: 27px;
+    color: #2083a2;
+    margin-bottom: 8px;
+}
+.intro ul{
+    color: #959595;
+    margin-bottom: 18px;
+}
+.intro ul li{
+    width: 176px;
+    margin-left: 9px;
+    border-bottom: 1px dashed #c6c6c6;
+    margin-right: 10px;
+}
+.intro-icon{
+    width: 13px;
+    height: 11px;
+    background: url(../images/reg1.png);
+}
+.intro-icon2{
+    background: url(../images/reg2.png);
+}
+.intro-icon3{
+    background: url(../images/reg3.png);
+}
+.intro-icon4{
+    background: url(../images/reg4.png);
+}
+/* 设置验证的表单 */
+.form-title{
+    width: 130px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.form-input .input{
+    width: 278px;
+    height: 24px;
+    border: #ededed solid 1px;
+    border-left-color: #c5c5c5;
+    border-top-color: #c5c5c5;
+    outline-color: #b1e0fa;
+}
+.now{
+    width: 184px;
+    height: 50px;
+    background: url(../images/now.png);
+    text-indent: -9999999999999px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+/* 设置生日的图标 */
+.bir-icon{
+    width: 14px;
+    height: 13px;
+    background: url(../images/bir-icon.png);
+    position: absolute;
+    right: 250px;
+    top: 15px;
+}
+.input-fa{
+    width: 280px;
+}
+/* 表单验证错误信息的提示 */
+em.error {
+    color: #b1b1b0;
+    display: inline-block;
+    line-height: 26px;
+    margin-top: 2px;
+  }
+/* em.success {
+    color: green;
+} */
+td.form-input{
+    width: 520px;
+}

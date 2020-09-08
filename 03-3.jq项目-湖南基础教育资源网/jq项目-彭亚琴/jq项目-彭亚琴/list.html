@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>应用页</title>
+	<link rel="stylesheet" type="text/css" href="css/list.css">
+	<link id='link' rel="stylesheet" type="text/css" href="css/index.orange.css">
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/list.js"></script>
+</head>
+<body>
+	<!-- 顶部div -->
+	<div class="top">
+		<!-- 顶部中间div -->
+		<div class="top_title w">
+			<!-- 顶部左边 -->
+			<div class="topl">
+				您好，欢迎您进入湖南教育资源网！今日：
+				<span id="timer"></span>
+			</div>
+			<!-- 顶部右边 -->
+			<div class="topr">
+				<a href="javascritp:;">收藏首页</a>
+				<span>|</span>
+				<a href="javascritp:;">帮助中心</a>
+				<span>|</span>
+				<a href="javascritp:;">换肤</a>
+				<div class="choose">
+					<span class="xb blue"></span>
+					<span class="xb orange"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- logo+搜索框+导航栏 -->
+	<div class="nav">
+		<!-- logo+搜索框 -->
+		<div class="logodiv w">
+			<!-- 左边logo -->
+			<div class="logo">
+				<h1>
+					<img src="img/logo.png">
+				</h1>
+				<img class="line" src="img/logo_line.png">
+				<div class="select">
+					<p>省中心</p>
+					<div class="slt">
+						<span class="spn1" class="text">切换县市</span>
+						<img src="img/0_02.png">
+						<!-- 下拉框：地区选择 -->
+						<div class="region">
+							<!-- 市级 -->
+							<div class="shi">
+								<ul class="oul">
+									<li>省中心</li>
+									<li>长沙</li>
+									<li>株洲</li>
+									<li>湘潭</li>
+									<li>常德</li>
+									<li>衡阳</li>
+									<li>邵阳</li>
+									<li>岳阳</li>
+									<li>张家界</li>
+									<li>益阳</li>
+									<li>郴州</li>
+									<li>永州</li>
+									<li>怀化</li>
+									<li>湘西</li>
+									<li>娄底</li>
+								</ul>
+							</div>
+							<!-- 县级 -->
+							<div class="xian">
+								<span class="xb icon1">对应区县</span>
+								<div class="xianji">
+								
+									<ul class="oul2">
+										<li>岳麓区</li>
+										<li>芙蓉区</li>
+										<li>天心区</li>
+										<li>雨花区</li>
+										<li>开福区</li>
+										<li>浏阳市</li>
+										<li>长沙县</li>
+										<li>望城区</li>
+										<li>宁乡</li>
+										<li>全部</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 右边搜索框 -->
+			<div class="search">
+				<div class="srh">
+					<div class="selt">
+						<span class="spn2">国家资源网</span>
+						
+						<img src="img/0_02.png">
+						
+					</div>
+					<input class="ipt" type="text" name="" value="请输入您要查询的关键字">
+					<span class="searchbg fdj"></span>
+				</div>
+				<a href="javascritp:;">高级搜索</a>
+			</div>
+		</div>
+		<!-- 导航栏 -->
+		<div class="nav2 w">
+			<ul class="nav2_ul">
+				<li class="oli">
+					<a href="index.html">首页</a>
+				</li>
+				<li class="imgli"></li>
+				<li class="li">
+					资源中心
+					<div class="erji">
+						<p>公共资源</p>
+						<p>市场资源</p>
+						<p>同盟资源</p>
+						<p>本地资源</p>
+					</div>
+				</li>
+				<li class="imgli"></li>
+				<li class="li">
+					教室空间
+					<div class="erji">
+						<p>公共资源</p>
+						<p>市场资源</p>
+						<p>同盟资源</p>
+						<p>本地资源</p>
+					</div>
+				</li>
+				<li class="imgli"></li>
+				<li class="li">
+					在线备课
+					<div class="erji">
+						<p>公共资源</p>
+						<p>市场资源</p>
+						<p>同盟资源</p>
+						<p>本地资源</p>
+					</div>
+				</li>
+				<li class="imgli"></li>
+				<li class="li">
+					名师工作室
+					<div class="erji">
+						<p>公共资源</p>
+						<p>市场资源</p>
+						<p>同盟资源</p>
+						<p>本地资源</p>
+					</div>
+				</li>
+				<li class="imgli"></li>
+				<li class="sy">
+					应用中心
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 主体内容 -->
+	<div class="bigmain">
+		<div class="main w">
+			<!-- 左边大div -->
+			<div class="main_l">
+				<div class="i p1" id="p2">全部应用</div>
+				<div class="i">推荐应用</div>
+				<div class="i">免费应用</div>
+				<div class="i">收费应用</div>
+			</div>
+			<!-- 右边大div -->
+			<div class="main_r">
+				<div class="div1">
+					<div class="ding">
+						<p>推荐应用</p>
+						<span class="h"></span>
+						<div class="v1">
+							<span class="app s1"></span>
+							<span class="app s2"></span>
+						</div>
+					</div>
+					<!-- 盒子 -->
+					<div class="qie">
+						<!-- 胶卷 -->
+					<div class="huan">
+					<ul class="under">
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_02.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_03.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_04.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_05.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_06.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_07.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+					</ul>
+					<ul class="under">
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_02.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_03.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_04.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_05.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_06.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_07.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+					</ul>
+					</div>
+					</div>
+
+				</div>
+				
+				<div class="div1">
+					<div class="ding">
+						<p>免费应用</p>
+						<span class="h"></span>
+						<div>
+							<span class="app s1"></span>
+							<span class="app s2"></span>
+						</div>
+					</div>
+					<ul class="under">
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_02.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_03.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_04.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_05.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_06.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_07.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="div1">
+					<div class="ding">
+						<p>收费应用</p>
+						<span class="h"></span>
+						<div>
+							<span class="app s1"></span>
+							<span class="app s2"></span>
+						</div>
+					</div>
+					<ul class="under">
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_02.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_03.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_04.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_05.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_06.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_07.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+						<li>
+							<img src="img/pic/app_01.png">
+							<div class="divl">
+								<p class="cu">中小学成语词典</p>
+								<p class="xi">评分：4.5</p>
+								<p class="xi">
+									<span>222222</span>
+									人使用
+								</p>
+							</div>
+							<!-- 隐藏内容 -->
+							<div class="hide" style="display: none;">
+								<div class="d1">
+									<img src="img/pic/app_01.png">
+									<div>
+										<p class="cu">中小学成语词典</p>
+										<p class="xi">评分：4.5</p>
+										<a class="a1" href="#">+添加到空间</a>
+									</div>
+								</div>
+								<p>“学单词：用海词，海词同典是最好用的学习典，释义更隹确更青晰，独家拥有详尽的用法和讲解，比其它词典更快握个词。軟件共取录2000万汇，除具有“查词、翻、背单词、每日学习”等功能外，个性设置为...”</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<!-- 底部 -->
+	<div class="foot">
+		<p>湖南省基础教育资源平台版权所有 站内资源仅限于教育系统内部使用</p>
+		<p>电话：0731-82220187 企业QQ号:800009196 邮箱：hnszyzx@126.com </p>
+		<p>地址:湖南省长沙市文运街23号；邮编410005</p>
+		<p>湘教QS1-200505-00101</p>
+	</div>
+</body>
+</html>

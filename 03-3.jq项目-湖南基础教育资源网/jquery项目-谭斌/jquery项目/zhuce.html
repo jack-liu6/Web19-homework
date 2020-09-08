@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css" />
+		<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<title></title>
+	</head>
+	<body>
+		<div class="bj">
+
+			<div class="log">
+				<div class="log1"></div>
+				<div class="log2">
+					基础教育管理平台
+				</div>
+			</div>
+			<div class="kuan">
+				<div class="leaf"></div>
+				<div class="kuan1">
+					<div class="kuan1-1">学生注册</div>
+					<div class="kuan1-2">教师注册</div>
+				</div>
+				<div class="kuan2">
+					<form class="cmxform" id="commentForm" method="get" action="">
+						<!-- <fieldset> -->
+						<p>
+							<label for="cname">用户名：</label>
+							<input id="cname" name="name" type="text" class="you">
+						</p>
+						<p>
+							<label for="cemail">密码：</label>
+							<input type="password" id="pwd" name="pwd" class="you">
+						</p>
+						<p>
+							<label for="curl">确认密码：</label>
+							<input type="password" name="pwd2" class="you">
+						</p>
+						<p>
+							<label for="cname">真实姓名：</label>
+							<input id="cxm" name="xm" type="text" class="you">
+						</p>
+						<p>
+							<label for="cname">身份证号码：</label>
+							<input id="cID" name="ID" type="text" class="you">
+						</p>
+						<p>
+							<label for="ccomment">性别：</label>
+							<input name="a" type="radio" style="width: 15px;">男
+							<input name="a" type="radio" style="width: 15px;">女
+						</p>
+						<p>
+							<label for="ccomment">取回密码时的问题：</label>
+							<input type="cwenti" name="wenti" id="cwenti" value="" class="you" />
+						</p>
+						<p>
+							<label for="ccomment">取回密码时的答案：</label>
+							<input type="danan" name="danan" id="cdanan" value="" class="you" />
+						</p>
+						<p>
+							<label for="ccomment">生日：</label>
+							<input type="sr" name="sr" id="csr" value="" class="you" />
+						</p>
+						<p>
+							<label for="ccomment">电子邮箱：</label>
+							<input type="email" name="email" id="cemail" value="" class="you" />
+						</p>
+						<input type="submit" value="" class="ljzc" />
+						<!-- <div class="ljzc">
+							<img src="image/ljzc.png">
+						</div> -->
+						<!-- </fieldset> -->
+					</form>
+				</div>
+				<div class="kuan3">
+					<div class="kuan3-1">已有资源账号，<a href="#">立即登录</a></div>
+					<div class="kuan3-2">
+						<img src="image/53.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$("#commentForm").validate({
+			rules: {
+				//用户名
+				name: {
+					required: true,
+					minlength: 2
+				},
+				//密码
+				pwd: {
+					required: true,
+					minlength: 6,
+					maxlength: 12
+				},
+				//确认密码
+				pwd2: {
+					required: true,
+					minlength: 6,
+					maxlength: 12,
+					equalTo: "#pwd"
+				},
+				//名字
+				xm: {
+					required: true,
+					minlength: 2
+				},
+				//身份证号码
+				ID: {
+					required: true,
+				},
+				
+				//生日
+				sr: {
+					required: true,
+				},
+				//邮箱
+				email: {
+					required: true,
+				},
+			},
+			messages: {
+				name: {
+					required: "用户名必填！",
+					minlength: "少于长度2"
+				},
+				pwd: {
+					required: "密码非空",
+					minlength: "最小长度要6位以上",
+					maxlength: "最大长度不能大于12位"
+				},
+				pwd2: {
+					required: "密码非空",
+					minlength: "最小长度要6以上",
+					maxlength: "最大长度不能大于12位",
+					equalTo: "两次输入不一致"
+				},
+				xm: {
+					required: "姓名不能为空",
+					minlength: "姓名长度在2个以上"
+				},
+
+				ID: {
+					required: "不能为空",
+				},
+
+				
+
+				sr: {
+					required: "不能为空",
+				},
+
+				email: {
+					required: "不能为空",
+				},
+			}
+		});
+	</script>
+</html>

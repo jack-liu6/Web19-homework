@@ -1,0 +1,214 @@
+.selp{
+	color: royalblue;
+}
+
+.search{
+	background: url(../img/blue_skin/search_bg.png)no-repeat;
+}
+
+.logonav{
+	border: 2px solid #A9D6EF;
+}
+
+.logoul li:hover{
+	background-color: #A9D6EF;
+	
+}
+
+.logoul li:hover .lightblue{
+	color: white;
+}
+
+.tabqu{
+	border-top: 1px solid #A9D6EF;
+}
+
+.nav{
+	background: url(../img/blue_skin/nav_bg.png)no-repeat;
+}
+
+.content_li:hover{
+	background-color: #F6FBFF;
+}
+
+.content_li:hover .lia{
+	color: #4077B4;
+}
+
+.ycnav{
+	background-color:#F6FBFF ;
+	border: 1px solid #88ACD1;
+	border-top: none;
+}
+
+.ycnav p a{
+	color: #88ACD1;
+	font-size: 14px;
+}
+
+.ycnav p:hover{
+	background-color: #88ACD1;
+}
+.ycnav p:hover .pa{
+	color: white;
+}
+
+.tongzhi{
+	background-color: #E8F5FC;
+	border: 1px solid #D0E9FA;
+}
+
+.login{
+	background-color: #E8F5FC;
+	border: 1px solid #C3DBF3;
+	box-shadow: 0 0 3px #E8F5FC;
+}
+.content1you{
+	border: 1px solid #C3DBF3;
+	box-shadow: 0 0 3px #E8F5FC;
+}
+.sp{
+	background: url(../img/blue_skin/tt_ico.png)no-repeat;
+}
+
+.logintop,.youtop{
+	border-bottom: 1px solid #C3DBF3;
+	background-image: linear-gradient(#fff,#E8F5FC);
+}
+
+#ipt,#psd,#yzm{
+	border: 1px solid #C3DBF3;
+}
+
+.slide{
+	border: 2px solid #D0E9FA;
+}
+
+.sm{
+	color: royalblue;
+}
+.on{
+	background: url(../img/blue_skin/tab_sm.png)no-repeat;
+	color: white;
+}
+
+.huoyuedu{
+	color: royalblue;
+}
+
+.kj,.download,.tea,.xk,.zy{
+	border: 1px solid #C3DBF3;
+	box-shadow: 0 0 3px #E8F5FC;
+}
+
+.kjtop,.downloadtop,.zytop{
+	border-bottom: 1px solid #C3DBF3;
+	background-image: linear-gradient(#fff,#E8F5FC);
+}
+
+.scroll,.gzs,.san{
+	border: 1px solid #C3DBF3;
+	box-shadow: 0 0 3px #E8F5FC;
+}
+
+.scrolltop,.xktop{
+	background-image: linear-gradient(#fff,#E8F5FC);
+}
+.app a{
+	border-right: 1px solid #C3DBF3;
+}
+
+.app a:hover{
+	color: royalblue;
+}
+
+.appon{
+	color: royalblue!important;
+}
+
+.gzstop,.teatop,.santop{
+	border-bottom: 1px solid #C3DBF3;
+	background-image: linear-gradient(#fff,#E8F5FC);
+}
+
+.gzszuo span{
+	color: royalblue;
+}
+
+.downloadtop>span{
+	border-right: 1px solid #C3DBF3;
+}
+
+.downloadtop>span:hover{
+	color: royalblue;
+}
+.teatop>span{
+	color: royalblue;
+}
+
+.xktop>span{
+	border-right: 1px solid #C3DBF3;
+}
+
+.xktop>span:hover{
+	color: royalblue;
+}
+
+.shuliang,.sansp{
+	color: royalblue;
+}
+
+.sanon{
+	background: url(../img/blue_skin/tab_big.png)no-repeat;
+	color: #fff;
+}
+
+.lianjie{
+	background-color: #F7FCFF;
+	border: 1px solid #C3DBF3;
+	box-shadow: 0 0 3px #E8F5FC;
+}
+
+.line_li{
+	background: url(../img/blue_skin/nav_line.png)no-repeat;
+}
+
+.youq>span{
+	border-right: 2px solid #6C96C4;
+	color: #6C96C4;
+}
+
+/* 应用中心 */
+
+.app_contentzuo{
+	background: url(../img/blue_skin/app_menu_bg.png)no-repeat;
+}
+
+.app_contentzuo ul li{
+	color: royalblue;
+}
+
+.app0{
+	background: url(../img/blue_skin/all_app_hover.png)no-repeat;
+}
+
+.app1{
+	background: url(../img/blue_skin/rec_app_hover.png)no-repeat;
+}
+
+.app2{
+	background: url(../img/blue_skin/free_app_hover.png)no-repeat;
+}
+
+.app3{
+	background: url(../img/blue_skin/fee_app_hover.png)no-repeat;
+}
+
+.appcenter{
+	background-color: #3BA1E8!important;
+	
+}
+
+.appcenter>a{
+	color: #fff;
+}

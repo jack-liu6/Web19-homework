@@ -1,0 +1,135 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("../img/dl.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.con{
+	height: 326px;
+	margin-top: 120px;
+}
+/*登录框*/
+.login{
+	width: 240px;
+	height: 284px;
+	background-color: #F9F9F9;
+	border: 1px solid #E3E3E3;
+	float: right;
+	margin-right: 300px;
+	/*margin-top: 120px;*/
+	border-radius: 3px;
+	padding: 20px;
+}
+.top{
+	height: 25px;
+	padding-bottom: 10px;
+	line-height: 25px;
+	color: #868686;
+	font-size: 19px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #D7D7D7;
+	margin-bottom: 20px;
+}
+.p1{
+
+	font-size: 13px;
+	padding: 0 10px;	
+}
+.p1 span{
+	float: left;
+	color: #757575;
+	font-weight: bold;
+}
+.p1 a{
+	text-decoration: none;
+	float: right;
+}
+ .p1:after{
+	height:0;
+	content:" ";
+	display:block;
+	clear:both
+}
+.p1{
+	*zoom:1;
+}
+.div{
+	height: 30px;
+	background-color: #FFFFFF;
+	border: 1px solid #D7D7D7;
+	border-radius: 3px;
+	line-height: 30px;
+}
+.xb{
+	display: inline-block;
+	background-image: url("../img/login_sprite.png");
+	background-repeat: no-repeat;
+}
+.ren{
+	width: 11px;
+	height: 12px;
+	background-position: 0 0;
+	margin-left: 10px;
+}
+.inp{
+	width: 190px;
+	height: 20px;
+	outline: none;
+	border: 0;
+	float: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.suo{
+	width:10px; 
+	height:14px;
+	background-position: 0 -36px;
+	margin-left: 10px;
+}
+.inp2{
+	width: 175px;
+	height: 30px;
+	background-color: #FFFFFF;
+	border: 1px solid #D7D7D7;
+	border-radius: 3px;
+	line-height: 30px;
+	outline: none;
+}
+.div2 img{
+	float: right;
+	margin-top: 5px;
+}
+.big{
+	margin-bottom: 10px;
+}
+.ipt{
+	width: 240px;
+	height: 30px;
+	background-color: #FF7C0C;
+	color:#FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+	border: 0;
+	border-radius: 5px;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	outline: none;
+	line-height: 30px;
+}
+.title{
+	float: right;
+	margin-right: 10px;
+	color: red;
+	font-size: 13px;
+}
+/*底部*/
+.foot{
+	
+	font-size: 12px;
+	color: #9E9E9E;
+	text-align: center;
+	margin-top: 120px;
+}

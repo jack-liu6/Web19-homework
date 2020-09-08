@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<meta charset="utf-8">
+<title></title>
+<body>
+	<script>
+		//var arr=["绿色","蓝色","紫色",];
+		//arr.unshift("红色");
+		//console.log(arr);
+		
+		//splice:添加
+		//var arr1=["绿色","蓝色","紫色",];
+		//arr1.splice(2,0,"红色");
+		//console.log(arr1);
+		
+		//splice:替换
+		//var arr2=["绿色","蓝色","紫色"];
+		//arr2.splice(1,1,"红色");
+		//console.log(arr2);//["绿色","红色","紫色"]
+		//slice:切割（包前不包后）
+		var arr3=["绿色","蓝色","紫色"];
+		var newarr=arr3.slice(1);
+		console.log(newarr);// ["蓝色", "紫色"]
+		console.log(arr3); //["绿色", "蓝色", "紫色"]
+		//"蓝色"，包前不包后；
+		var newarr1=arr3.slice(1,2);
+		console.log(newarr1);//["蓝色"]
+	</script>
+</body>
+</html>

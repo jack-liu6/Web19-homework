@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/additional-methods.js"></script>
+    <link rel="stylesheet" href="../js/editor/themes/default/default.css" />
+    <script charset="utf-8" src="../js/editor/kindeditor-min.js"></script>
+    <script charset="utf-8" src="../js/editor/lang/zh_CN.js"></script>
+    <style>
+        .Jzz{
+            width: 100%;
+            height: 720px;
+            margin: 0 auto;
+            background: url("../images/41.png") center center no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        .jinX{
+            width: 273px;
+            border: 1px #E2E2E2 solid;
+            background: #F9F9F9;
+            border-radius: 5px;
+            position: absolute;
+            top: 108px;
+            left: 866px;
+        }
+        .yh{
+            height: 34px;
+            margin: 18px 26px 0 26px;
+            border-bottom: 1px #E2E2E2 solid;
+            font-size: 16px;
+        }
+        .ster{
+            height: 220px;
+            padding: 18px 26px 32px 26px;;
+        }
+        .yhm{
+            font-size: 12px;
+            font-weight: 600;
+            float: left;
+        }
+        .yhm1{
+            height: 27px;
+            border: 1px #D1D1D1 solid;
+            border-radius: 3px;
+            float: left;
+            margin-top: 5px;
+        }
+        .bgt{
+            background: #FBFBFB url("../images/login_sprite.png") 8px 8px no-repeat;
+        }
+        .bgt1{
+            background: #FBFBFB url("../images/login_sprite.png") 8px -30px no-repeat;
+        }
+        .srk{
+            width: 186px;
+            height: 23px;
+            margin: 2px 0 0 30px;
+            border: none;
+            outline: medium;
+            background: #FBFBFB;
+        }
+        .wt217{
+            width: 217px;
+        }
+        .wt149{
+            width: 149px;
+        }
+        .wt220{
+            width: 220px;
+            height: 30px;
+            background: url("../images/login_btn.png") no-repeat;
+            border: none;
+            outline: medium;
+        }
+        body{
+            background:#fff;margin:0;padding:0; font-size:12px;font-family:"Microsoft YaHei","微软雅黑",Tahoma,Arial;
+        }
+        .error{
+            color: #ff0000;
+        }
+    </style>
+    <script>
+        $(function (){
+            $("#jinx").validate({
+                rules:{
+                    user:{
+                        required:true,
+                        minlength:2
+                    },
+                    password: {
+                        required: true,
+                        minlength: 5
+                    },
+                },
+                messages:{
+                    user:{
+                        required: "请输入用户名",
+                        minlength: "用户名必需由两个字符组成"
+                    },
+                    password: {
+                        required: "请输入密码",
+                        minlength: "密码长度不能小于 5 个字符"
+                    },
+                },
+                submitHandler:function(form){
+                    alert("登录成功!");
+                    form.submit();
+                    window.location.href="project.html";
+                }
+            })
+
+        });
+    </script>
+
+</head>
+<body>
+    <div class="wt100b ma">
+        <div class="Jzz">
+            <form class="jinX" id="jinx">
+                <div class="yh col97">
+                    用户登录
+                </div>
+                <div class="ster clearfix">
+                    <p class="yhm">用户名：</p>
+                    <a href="" class="fr blue mr5">免费注册</a>
+                    <div class="yhm1 bgt wt217">
+                        <input type="text" class="srk" name="user" placeholder="请输入用户名" id="user"> <span class="red font12"> *</span>
+                    </div>
+                    <div class="mt12 fl">
+                        <p class="yhm">密码：</p>
+                        <a href="" class="fr blue mr5">忘记密码？</a>
+                        <div class="yhm1 bgt1 wt217">
+                            <input type="password" class="srk" placeholder="请输入密码" name="password" id="psd"> <span class="red font12"> *</span>
+                        </div>
+                    </div>
+                    <div class="mt12 fl">
+                        <p class="yhm wt217">验证码：</p>
+                        <div class="yhm1 wt149 cl"></div>
+                        <div class="fr mt10"><img src="../images/code_img.png" alt=""></div>
+                    </div>
+                    <div class="mt20 fl">
+                        <button class="yhm1 wt220" id="signupForm"></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,721 @@
+/* 设置主体的顶部的灰色导航条 */
+.header .top-nav-wrapper{
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/top_nav_bg.png) repeat-x;
+}
+.top-nav-ul .line,.top-nav-ul2 .line{
+    margin:0  5px;
+}
+.top-nav-ul .letter{
+    width: 16px;
+    height: 12px;
+    background: url(../images/ico_sprite.png) no-repeat 0 0;
+}
+.top-nav-ul .wel span{
+    margin:0 1px;
+}
+.top-nav-ul2 .skin-btn{
+    margin-top: -5px;
+    width: 17px;
+    height: 17px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -22px;
+}
+.top-nav-ul2 .orange-skin-btn{
+    background: url(../images/ico_sprite.png) no-repeat 0 -49px;
+}
+.header .top-nav-ul2 .clicked1{
+    background: url(../images/ico_sprite.png) no-repeat -17px -22px;
+}
+.header .top-nav-ul2 .clicked2{
+    background: url(../images/ico_sprite.png) no-repeat -17px -49px;
+}
+/* 设置主体的中部的logo和搜索框 */
+.head-mid-wrapper .logo{
+    width: 363px;
+    height: 80px;
+    background: url(../images/logo.png) no-repeat 0 0;
+}
+.head-mid-wrapper .logo-line{
+    width: 1px;
+    height: 66px;
+    margin-top: 7px;
+    background: url(../images/logo_line.png) no-repeat 0 0;
+}
+.head-mid-wrapper .center{
+    font-family: "Microsoft YaHei";
+}
+.center-tab-wrapper{
+    margin-left: 23px;
+    margin-top: 7px;
+}
+.center-tab-title{
+    width: 79px;
+    height: 21px;
+    line-height: 19px;
+    background: url(../images/select_bg.png) no-repeat 0 0;
+}
+.center-tab-content{
+    width: 400px;
+    border: #b8e1f3 2px solid;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 22px;
+    z-index: 99;
+}
+.center-tab-content-ul{
+    width: 390px;
+    padding: 8px 0;
+    border-bottom: #b5e0f2 solid 1px;
+}
+.center-tab-content-ul li{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 9px;
+    padding-right: 12px;
+    margin-right: 2px;
+}
+.qu-wrapper{
+    margin-top: 12px;
+    margin-left: 4px;
+}
+.qu-ul{
+    width: 329px;
+}
+.qu-title{
+    width: 56px;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 3px;
+    margin-right: 8px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -96px;
+}
+.center-tab-content-ul .on{
+    color: #fff;
+    background-color: #ff6500;
+}
+.search-wrapper>a{
+    text-decoration: underline;
+}
+.search-div{
+    width: 320px;
+    height: 28px;
+    line-height: 28px;
+}
+.search-select{
+    width: 83px;
+}
+.search-input{
+    height: 26px;
+    border: none;
+    width: 182px;
+    background-color:transparent ;
+    outline-color: #818181;
+}
+.search-button{
+    outline-color: #818181;
+    background-color:transparent ;
+    height: 28px;
+    width: 35px;
+    border: none;
+}
+/* 设置搜索框的二级菜单 */
+.sea-ul2{
+    background-color: #e5e5e5;
+    border: #ccc 1px solid;
+    border-top:none;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 92px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    z-index: 99;
+}
+.sea-ul2 li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.sea-ul2 li a:hover{
+    background-color: #818181;
+    color: #fff;
+    font-weight: bold;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.sec-icon{
+    width: 18px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* 设置头部底部的菜单 */
+.top-menu-wrapper{
+    height: 44px;
+    margin-top: 17px;
+    font-family: "Microsoft YaHei";
+}
+.top-menu-wrapper>ul>li>a{
+    line-height: 42px;
+}
+.top-menu-wrapper>ul>li>a{
+    /* height: 44px; */
+    position: relative;
+    /* top: -2px; */
+    width: 113px;
+}
+.menu-line{
+    width: 2px;
+    height: 21px;
+    margin:10px 19px 0;
+}
+.top-menu-ul .mouse{
+    background-color: #f6fbff;
+    border: #8abbe4 1px solid;
+    border-radius: 5px;
+    width: 95px;
+    margin-right: 8px;
+    margin-left: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+.top-menu-ul .mouse a{
+    color: #316eaf;
+    width: auto;
+    height: auto;
+    margin-top: -5px;
+}
+.top-menu-ul .hover-ul-fa .hover-ul li a{
+    display: inline-block;
+    width: 91px;
+    height: 23px;
+    line-height: 23px;
+    margin-bottom: 5px;
+}
+/* 修复二级导航的bug */
+.top-menu-ul{
+    overflow: hidden;
+}
+/* .hover-ul{
+    position: absolute;
+    top: 40px;
+    left: 1px;
+} */
+
+.hover-ul-fa,.hover-ul{
+    z-index: 9;
+}
+.top-menu-ul .mouse .hover-ul li a span{
+    margin-left: -15px;
+}
+.top-menu-ul .mouse .hover-ul li a:hover{
+    background-color: #1e8ac8;
+    color: #fff;
+    font-weight: bold;
+}
+/* 设置主体的顶部 */
+.main-top{
+    margin-top: 8px;
+}
+.main-top-left{
+    width: 740px;
+}
+.main-top-right{
+    width: 225px;
+}
+/* 设置通知公告 */
+.tellyou{
+    height: 24px;
+}
+.tellyou-ul{
+    height: 24px;
+    overflow: hidden;
+}
+.tellyou-ul li{
+    width: 370px;
+}
+.tellyou-ul .new{
+    display: inline-block;
+    width: 25px;
+    height: 10px;
+    background: url(../images/ico_new.png) no-repeat 0 0;
+}
+.tellyou .laba{
+    width: 11px;
+    height: 10px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -76px;
+}
+.tellyou .page{
+    margin-left: 17px;
+}
+.tellyou .more{
+    margin-right: 8px;
+}
+/* 设置用户登录 */
+.login{
+    width: 215px;
+}
+.login h2{
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 2px;
+}
+.main-top-left .login input{
+    height: 26px;
+    border: #bdd7f2 solid 1px;
+    width: 149px;
+}
+.main-top-left .login .yzm{
+    width: 79px;
+}
+.main-top-left .login form p{
+    margin-left: 8px;
+}
+.login-icon{
+    width: 8px;
+    height: 10px;
+}
+.yzm-icon{
+    width: 54px;
+    height: 21px;
+    background: url(../images/code_img.png);
+}
+.main-top-left .login .btns button{
+    width: 74px;
+    height: 24px;
+    border: none;
+    outline: none;
+    text-indent: -9999999px;
+    overflow: hidden;
+}
+.main-top-left .login .btns .reg{
+    background: url(../images/ico_sprite.png) no-repeat 0 -173px;
+}
+.main-top-left .login .btns .log{
+    background: url(../images/ico_sprite.png) no-repeat 0 -132px;
+}
+.main-top-left .login .forget a{
+    text-decoration: underline;
+}
+/* 设置轮播图 */
+.slide{
+    width: 502px;
+    height: 234px;
+    border: #c7e0f2 4px solid;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.slide img{
+    width: 502px;
+    height: 234px;
+}
+.slide .title{
+    height: 30px;
+    line-height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.slide .title .dots .dot{
+    width: 24px;
+    height: 6px;
+    display: inline-block;
+    background-color: #969696;
+    border-radius: 3px;
+    text-indent: -9999999px;
+    overflow: hidden;
+}
+.slide .title .dots .white{
+    background-color: #fff;
+}
+.slide .title .dots{
+    position: absolute;
+    right: 7px;
+    bottom: -3px;
+}
+/* 设置活跃度排行 */
+.main-top-right .rank{
+    width: 223px;
+}
+.shixian span{
+    width: 21px;
+    height: 24px;
+    line-height: 24px;
+}
+.rank h3{
+    height: 25px;
+    line-height: 25px;
+    margin: 4px;
+}
+.rank h3 .mc{
+    margin-left: 62px;
+}
+.rank h3 .hy{
+    margin-left: 55px;
+}
+.sx-ul li{
+    border-bottom: 1px #d5d5d5 dashed;
+    margin-bottom: 2px;
+}
+.sx-ul-icon{
+    margin-left: 4px;
+    margin-right: 39px;
+    width: 19px;
+    height: 15px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -220px;
+}
+.sx-ul-icon2{
+    background: url(../images/ico_sprite.png) no-repeat 0 -248px;
+}
+.sx-ul-icon3{
+    background: url(../images/ico_sprite.png) no-repeat 0 -276px;
+}
+.sx-ul-icon4{
+    background: url(../images/ico_sprite.png) no-repeat 0 -304px;
+}
+.sx-ul-icon5{
+    background: url(../images/ico_sprite.png) no-repeat 0 -332px;
+}
+.sx-ul-icon6{
+    background: url(../images/ico_sprite.png) no-repeat 0 -360px;
+}
+.sx-ul-icon7{
+    background: url(../images/ico_sprite.png) no-repeat 0 -388px;
+}
+.sx-ul-icon8{
+    background: url(../images/ico_sprite.png) no-repeat 0 -416px;
+}
+/* 设置第二楼层左边部分的图片广告 */
+.main-floor2-left{
+    width: 215px;
+}
+.main-floor2-left>.ad-left{
+    border: #dcdcdc 1px solid;
+    width: 215px;
+    overflow: hidden;
+    height: 53px;
+}
+.main-floor2-left>.ad-left img{
+    width: 100%;
+    height: 100%;
+}
+/* 设置空间访问量 */
+.person-icon{
+    width: 16px;
+    height: 16px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -454px;
+}
+.main-floor2-left .login h3 .mc{
+    margin-left: 45px;
+}
+.main-floor2-left .login h3 .hy{
+    margin-left: 73px;
+}
+.main-floor2-left .sx-tab-wrapper .sx-ul .sx-ul-icon{
+    margin-right: 18px;
+}
+.people{
+    width: 70px;
+}
+/* 设置推荐的应用 */
+.app-wrapper{
+    width: 745px;
+}
+.app-head{
+    height: 32px;
+}
+.app-head div{
+    height: 32px;
+    line-height: 32px;
+    width: 150px;
+    overflow: hidden;
+}
+.app-head .on{
+    background-color: #fff;
+    height: 30px;
+}
+.app-ul .title{
+    width: 70px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #acacac;
+    border-radius: 7px;
+    margin-top: 7px;
+}
+.app-ul li{
+    margin-right: 24px;
+}
+/* .app-ul{
+    margin-left: 55px;
+} */
+.app-btns .slide1{
+    width: 20px;
+    height: 100px;
+    background: url(../images/slide_left.png) no-repeat 0 0;
+}
+.slide-left{
+    position: absolute;
+    left: 8px;
+    top: 48px;
+}
+.app-btns .slide-right{
+    position: absolute;
+    right: 8px;
+    top: 48px;
+    background: url(../images/slide_right.png) no-repeat 0 0;
+}
+/* 设置名师工作室 */
+.famous-room{
+    width: 745px;
+}
+.famous-room h2{
+    height: 32px;
+    line-height: 32px;
+}
+.famous-room-ul{
+    margin-bottom: 17px;
+}
+.famous-room-ul li{
+    margin-top: 18px;
+}
+.famous-room-ul li:not(:nth-child(3n)){
+    margin-right: 55px;
+}
+.famous-room-ul li>a,.head-img>a{
+    width: 85px;
+    height: 85px;
+    background: url(../images/img_bg_85.png);
+}
+.famous-room-ul li a img,.head-img>a img{
+    margin-top: 4px;
+    margin-left: 7px;
+}
+.ml18{
+    margin-left: 18px;
+}
+/* 设置志愿填报 */
+.main-floor3-left .ad-left2{
+    width: 217px;
+    height: 53px;
+}
+.main-floor3-left .ad-left2 img{
+    width: 100%;
+    height: 100%;
+}
+.main-floor3-left{
+    width: 215px;
+}
+.main-floor3-right{
+    /* width: 215px; */
+    width: 745px;
+}
+.sx-ul-icon{
+    margin-top: 3px;
+}
+/* 设置用户贡献 */
+.main .main-floor3 .main-floor3-left .login .user-gx{
+    width: 107px;
+    margin-left: 0;
+}
+.user-g .on{
+    background-color: #fff;
+    border-top: #fe9f06 2px solid;
+    color: #ff6a07;
+    height: 30px;
+}
+/* 设置优秀教师空间 */
+.youx{
+    position: relative;
+    margin-left: -2px;
+}
+/* 设置优秀教师空间 */
+.famous-room-ul2{
+    border-bottom: #929292 dotted 1px;
+    width: 700px;
+}
+.small-pic-ul{
+    width: 700px;
+    margin-left: 18px;
+}
+.small-pic-outer{
+    width: 60px;
+    height: 60px;
+    background: url(../images/img_bg_60.png);
+}
+.small-pic-outer img{
+    margin-left: 7px;
+    margin-top: 5px;
+}
+.small-pic-ul .name{
+    width: 54px;
+    height: 17px;
+    border-radius: 5px;
+    background-color: #b1b1b1;
+    line-height: 17px;
+    margin-left: 3px;
+    margin-top: 7px;
+    margin-bottom: 13px;
+}
+.famous-room .famous-room-ul2{
+    margin-bottom: 9px;
+}
+/* 设置按学科分类 */
+.sub-class{
+    width: 726px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+.app-wrapper .sub-class:not(:last-child){
+    border-bottom: #929292 dotted 1px;
+}
+.sub-class .sub-icon{
+    width: 14px;
+    height: 15px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -498px;
+}
+.sub-title{
+    width: 83px;
+}
+/* 设置横条广告 */
+.width-banner{
+    border: #dedede solid 1px;
+    margin-top: 12px;
+    width: 978px;
+    height: 58px;
+    overflow: hidden;
+}
+.width-banner img{
+    width: 100%;
+    height: 100%;
+}
+/* 设置网站的第四部分 */
+.main-floor4{
+    margin-top: 12px;
+}
+.main-floor4-left{
+    width: 215px;
+}
+.main-floor4-right{
+    width: 745px;
+}
+/* 设置资源统计 */
+.total-ul{
+    padding: 3px;
+}
+.total-ul li{
+    height: 30px;
+    line-height: 30px;
+}
+.total-ul li:nth-child(2n){
+    background-color: #f6f6f6;
+}
+/* 设置三类课堂 */
+.three-class{
+    position: relative;
+    left: -2px;
+}
+.three-class .class-all{
+    margin-left: 70px;
+}
+.three-class .class-all span{
+    width: 64px;
+    height: 23px;
+    line-height: 23px;
+    margin-right: 20px;
+}
+.three-class .class-all .on{
+    color: #fff;
+    font-weight: bold;
+}
+.class-ul3{
+    margin: 17px;
+}
+.class-ul3-img{
+    width: 133px;
+    height: 104px;
+    background: url(../images/video_bg.png) no-repeat 0 0;
+}
+.class-ul3-img img{
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.class-ul3 .name{
+    width: 133px;
+    margin-top: 8px;
+}
+.class-ul3 li:not(:last-child){
+    margin-right: 11px;
+}
+/* 设置友情链接 */
+.fri-link{
+    height: 50px;
+}
+.fri-link-title{
+    height: 50px;
+    line-height: 50px;
+}
+.fri-link-ul{
+    width: 880px;
+    /* margin-left: 5px; */
+    padding-left: 10px;
+}
+.fri-link-ul li{
+    width: 145px;
+    line-height: 25px;
+    height: 25px;
+}
+/* 设置左右移动的轮播图 */
+.app-ul-wrap{
+    width: 2980px;
+    height: 134px;
+}
+.app-uls{
+    width: 658px;
+    overflow: hidden;
+    height: 133px;
+    margin-left: 55px;
+}
+.app-ul-wrap1,.app-ul-wrap2,.app-ul-wrap3{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* 设置登录后用户登录的样式 */
+.body-ul{
+    border-top: 1px dotted #6fc1fc;
+    border-bottom: 1px dotted #6fc1fc;
+    width: 185px;
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 12px;
+}
+.body-ul li{
+    /* width: 85px; */
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.body-ul .ni{
+    width: 100px;
+}
+.body-ul li a>span{
+    width: 16px;
+    height: 16px;
+    background: url(../images/ico_sprite.png) no-repeat 0 -535px;
+}
+.body-ul li a>.sapce-icon{
+    background: url(../images/ico_sprite.png) no-repeat 0 -562px;
+    
+}
+.body-ul li a>.shop-icon{
+    background: url(../images/ico_sprite.png) no-repeat 0 -593px;
+    
+}
+.body-ul li a>.manage-icon{
+    background: url(../images/ico_sprite.png) no-repeat 0 -623px;
+
+}

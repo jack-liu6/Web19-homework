@@ -1,0 +1,117 @@
+
+.dg{
+    display: inline-block;
+    background: url("../images/ico_sprite.png") -18px -22px no-repeat;
+    width: 17px;
+    height: 17px;
+    position: relative;
+    z-index: 2;
+}
+.dt3{
+    position: absolute;
+    left: 4px;
+    top: 52px;
+    width: 384px;
+    height: 110px;
+    padding: 9px 5px 15px 10px;
+    border: 2px #B8E1F3 solid;
+    z-index: 15;
+    background: #fff;
+}
+.ss{
+    width: 384px;
+    height: 38px;
+    padding-bottom: 13px;
+    border-bottom: 1px #B8E1F3 solid;
+}
+.ssk1{
+    width: 320px;
+    height: 28px;
+    background: url("../images/blue_skin/search_bg.png") no-repeat;
+    position: relative;
+}
+.nav{
+    height: 42px;
+    background: url("../images/4_03.png") no-repeat;
+    padding-bottom: 8px;
+    position: relative;
+}
+.nav2-bg{
+    background: url("../images/blue_skin/nav_hover.png") center center no-repeat;
+    color: #fff;
+}
+.mm2{
+    border: 2px #8ABBE4 solid;
+    border-radius: 5px;
+    background: #F6FBFF;
+}
+.zxz1{
+    color: #4279B5;
+}
+.mm1 div a:hover{
+    background: #1E8AC8;
+    color: #fff;
+}
+.bb{
+    border: 1px #CEE8F9 solid;
+    background: #F9FDFF;
+}
+.hf2{
+    border: 2px #BDD7F2 solid;
+    border-radius: 3px;
+}
+.ph1{
+    background: url("../images/blue_skin/inner_tt.png");
+    border-bottom: 1px #BDD7F2 solid;
+}
+.xz1{
+    color: #306EB0;
+}
+.bg2{
+    background: url("../images/blue_skin/tab_sm.png") no-repeat;
+    color: #fff;
+}
+.cel{
+    color: #457EBC;
+}
+.gx{
+    border-right: 1px #BDD7F2 solid;
+}
+.gx1{
+    height: 31px;
+    background: #fff;
+    border-top: 2px #53A1D1 solid;
+    color: #316EAF;
+}
+.sj{
+    width: 8px;
+    height: 10px;
+    margin: 10px 10px;
+    background: url("../images/blue_skin/tt_ico.png") no-repeat;
+}
+.gx3{
+    border-left: 2px #BDD7F2 solid;
+}
+.bg3{
+    background: url("../images/blue_skin/tab_big.png") no-repeat;
+    color: #fff!important;
+    font-weight: 520;
+}
+.bg4{
+    background: #F7FCFF;
+}
+.br1{
+    border-right: 2px #53A1D1 solid;
+}
+.bg5{
+    background: url("../images/16_03.png");
+    border: 1px #C4CCFC solid;
+}
+.bb2{
+    border-bottom: 1px #CDD3E8 solid;
+}
+.bg6{
+    background: #CCE6F3 url("../images/19_07.png") 138px 10px no-repeat;
+    color: #042B80;
+    z-index: 10;
+}

@@ -1,0 +1,157 @@
+.top{
+	background-color: #082939;
+	width: 1920px;
+
+}
+
+.top1{
+	width: 1200px;
+	margin: 0 auto;
+	height: 110px;
+	overflow: hidden;
+}
+
+.topa{
+	display: inline-block;
+}
+
+.toplogo{
+
+	vertical-align: middle;
+	line-height: 110px;
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+
+.topa>a{
+    margin: 20px;
+	color: white;
+	vertical-align: middle;
+	line-height: 110px;
+}
+
+.topa>a:hover{
+	color: #D27F12;
+}
+
+.content{
+	width: 1300px;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.contentzuo{
+	width: 865px;
+
+}
+
+.shou{
+	width: 820px;
+	height: 40px;
+	background-color: #F3F3F3;
+	border-radius: 5px;
+	line-height: 40px;
+	margin-top: 38px;
+	
+}
+
+.zuo1{
+	width: 820px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.contentyou{
+	width: 382px;
+	margin-top: 38px;
+}
+
+.you3{
+	width: 320px;
+	height: 220px;
+	border:1px solid #ddd;
+}
+
+.you3top{
+	width: 300px;
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+}
+
+.biaoti{
+	border-bottom: 1px dashed #ddd;
+}
+
+.laiyuan{
+	border-bottom: 1px dashed #ddd;
+}
+
+.text{
+	width: 800px;
+}
+
+.neirongtu{
+	width: 800px;
+}
+
+.ben{
+	margin-top: 60px;
+}
+
+.end{
+	background-color: #264252;
+	height: 300px;
+	width: 1920px;
+	overflow: hidden;
+}
+
+  ul li>a{
+	color: white;
+}
+
+.erweima{
+	background: url("../image/sprite.png") no-repeat -460px -292px;
+	display: inline-block;
+	width: 158px;
+	height: 158px;
+}
+
+.er{
+	width: 157px;
+	height: 169px;
+	background-color: white;
+	margin-left: 120px;
+}
+
+.ertop{
+	width: 146px;
+	height: 30px;
+	border-bottom: 1px solid #ddd;
+	margin-left: 5px;
+}
+
+.endlist{
+	margin-left: 300px;
+	margin-top: 40px;
+
+}
+
+.banquan{
+	width: 1920px;
+	height: 52px;
+	background-color: black;
+}
+
+.banquanzi{
+	margin-right: 400px;
+	line-height: 52px;
+}
+
+.you3list ul li>a{
+	color: black;
+	font-size: 14px;
+}
+
+.you3list ul li>a:hover{
+	color: brown;
+}

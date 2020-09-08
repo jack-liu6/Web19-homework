@@ -1,0 +1,276 @@
+/* 设置顶部的容器 */
+.header-wrapper{
+    height: 70px;
+    background-image: url(../images/top-bg.gif);
+}
+.header{
+    position: relative;
+}
+/* 设置顶部的图片 */
+.topimg-wrapper{
+    width: 177px;
+    height: 70px;
+    background-image: url(../images/logo.gif);
+}
+/* 设置顶部的四个图标 */
+.topicon-wrapper{
+    position: absolute;
+    bottom: 0;
+    right: 253px;
+}
+.topicon{
+    display: inline-block;
+    height: 21px;
+    width: 21px;
+    background-image: url(../images/top-nav.gif);
+    margin-right: 22px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    
+}
+.topicon:hover{
+    transform: rotate(360deg);
+    transition: all 0.6s
+}
+.icon1{
+    background-position: -12px 0;
+}
+.icon2{
+    background-position: -55px 0;
+}
+.icon3{
+    background-position: -98px 0;
+}
+.icon4{
+    background-position: -141px 0;
+}
+/* 设置一下顶部的文字 */
+.toptext{
+    width: 244px;
+    line-height: 31px;
+    background-color: #e9f0f8;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    color: #5893ce;
+}
+
+/* 开始设置主体 */
+.main-wrapper{
+    background-color: #e9f0f8;
+    /* height: 500px; */
+    padding-top: 5px;
+}
+.main{
+    /* margin-top: 5px; */
+    background-color: #fff;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.title{
+    display: inline-block;
+    margin: 18px 18px 12px 18px;
+    font-family: '微软雅黑';
+    
+}
+.page{
+    color: #999;
+}
+.frame{
+    width: 778px;
+    height: 252px;
+    border: #d0d0d0 solid 1px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background-color: #efefef;
+}
+.inner-frame{
+    width: 770px;
+    height: 229px;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 4px;
+    padding-top: 15px;
+}
+.inner-title{
+    width: 740px;
+    height: 33px;
+    background-color: #6c9dce;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.title-text{
+    width: 37px;
+    line-height: 31px;
+    border: #e4e4e4 solid 1px;
+    background-color: #fff;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #666;
+    
+}
+.title-middle{
+    color: #fff;
+    font-weight: bold;
+    line-height: 32px;
+    margin-left: 10px;
+}
+.title-middle span{
+    font-weight: normal;
+    margin: 1px 0;
+    
+}
+.top-right-text a{
+    color: #fff;
+    display: block;
+    line-height: 33px;
+    margin-right: 25px;
+}
+.top-right-text a:hover{
+    color: #ddd;
+    transform: scale(1.3);
+    transition: all .5s;
+}
+.left-text{
+    margin-left: 25px;
+    /* text-align: left; */
+}
+
+.haofan{
+    text-align: left;
+}
+.haofan{
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+.haofan,.haofan2{
+    color: #999;
+    margin-left: 25px;
+}
+.haofan2{
+    line-height: 20px;
+    width: 590px;
+}
+.haofan span,.haofan2 span{
+    display: inline-block;
+}
+.haofan2 .fr2{
+    width: 530px;
+}
+
+/* 设置一下写作业的按钮 */
+.write{
+    width: 87px;
+    height: 25px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    border: 1px solid #cb8c66;
+    color: #a25100;
+    background: radial-gradient(white,#eeb967);
+    position: relative;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.write div{
+    /* margin: 3px; */
+    background-color: #fff;
+    width: 81px;
+    height: 19px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 5px;
+    background: radial-gradient(#fef639,#ffd53a);
+}
+.write div:hover{
+    background: radial-gradient(white,#ffd53a);
+    /* color: slategray; */
+    /* transform: scale(1.1); */
+    
+}
+.write:hover{
+    box-shadow: 3px 3px rgba(0, 0, 0, .2);
+    transform: scale(1.1);
+    transition: all .2s;
+}
+.sec{
+    margin-top: 14px;
+}
+/* 现在设置第二个文本框 */
+.page a{
+    color: #999;
+}
+.todotitle .page a:hover{
+    color: blue;
+}
+#frame .inner-title{
+    background-color: #dfdfdf;
+  
+}
+#frame .title-middle{
+    color: #666;
+}
+#frame{
+    height:655px;
+}
+#frame .inner-frame{
+    height: 632px;
+}
+#frame .look .bgc{
+    display: inline-block;
+    background-color: #f90;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+#frame .look a{
+    color: #f90;
+    font-weight: bold;
+    margin-right: 30px;
+   
+}
+.look:hover{
+    transform: scale(1.1);
+    transition: all .2s;
+    
+}
+
+#frame .inner-title{
+    margin-top: 10px;
+    
+}
+.bottom{
+    height: 45px;
+    /* line-height: 45px; */
+    border-top: 1px dashed #dfdfdf;
+    width: 736px;
+    margin: 0 auto;
+    margin-top: 15px;
+    
+}
+.number{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border: #eee solid 1px;
+    margin-left: 4px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+.number:hover{
+    background-color: #6c9dce;
+    color: #fff;
+}
+/* 设置底部的版权信息 */
+.copy{
+    margin-top: 40px;
+    border-top: 5px solid #f4f4f4;
+    height: 36px;
+    line-height: 36px;
+    color: #999;
+}

@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/scratch.css">
+    <link rel="stylesheet" href="../css/scratch1.css" id="bluecss">
+    <link rel="stylesheet" href="../css/scratch2.css" id="orangecss">
+    <link rel="stylesheet" href="../layui/css/layui.css">
+    <script src="../js/jquery-1.11.1.min.js"></script>
+    <script src="../layui/layui.js"></script>
+    <script src="../js/style.js"></script>
+</head>
+<body>
+    <div class="ma wt100b">
+        <div class="top">
+            <div class="wt980 ma top_1">
+                <div class="fl top_2">
+                    <ul>
+                        <li><a href="#" class="col97">您好，张文莉（<a href="#" class="xx"></a><span class="red font12 er">2</span><a href="#" class="col97">）</a></a></li>
+                        <span class="font12 col97 fl lh18 ml2">|</span>
+                        <li class="ml6"><a href="#" class="col97">个人中心</a></li>
+                        <span class="font12 col97 fl lh18 ml8">|</span>
+                        <li class="ml6"><a href="#" class="col97">我的空间</a></li>
+                        <span class="font12 col97 fl lh18 ml8">|</span>
+                        <li class="ml6"><a href="#" class="col97">我的购物车</a></li>
+                        <span class="font12 col97 fl lh18 ml8">|</span>
+                        <li class="ml6"><a href="#" class="col97">后台管理</a></li>
+                        <span class="font12 col97 fl lh18 ml8">|</span>
+                        <li class="ml6"><a href="#" class="col97">注销</a></li>
+                    </ul>
+                </div>
+                <div class="fr top_3">
+                    <ul>
+                        <li><a href="#" class="col97 lh22">收藏首页</a></li>
+                        <span class="col97 fl lh18 ml8 pb5">|</span>
+                        <li class="ml6"><a href="#" class="col97 lh22">帮助中心</a></li>
+                        <span class="col97 fl lh18 ml8 pb5">|</span>
+                        <li class="ml6"><a href="#" class="col97 lh22">换肤</a></li>
+                        <div>
+                            <li class="ml6 mt2"><a href="javascript:;" class="hf aa" id="skinblue"></a></li>
+                            <li class="ml6 mt2"><a href="javascript:;" class="hf1 aa dg1" id="skinorange"></a></li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wt980 logo ma">
+            <div class="fl">
+                <img src="../images/logo.png" alt="" class="pr20">
+            </div>
+            <div class="fl logo_1"></div>
+            <div class="fl logo_2">
+                <p class="sz ml10">省中心</p>
+                <div class="dt mt6 ml4">
+                    <div class="fl dt1"><p class="font12 col97 ml4">切换市县</p></div>
+                    <div class="fl dt2"></div>
+                </div>
+                <div class="dt3 dn">
+                    <div class="clearfix ss">
+                        <a href="javascript:;" class="bg1">省中心</a>
+                        <a href="javascript:;">长沙</a>
+                        <a href="javascript:;">株洲</a>
+                        <a href="javascript:;">湘潭</a>
+                        <a href="javascript:;">衡阳</a>
+                        <a href="javascript:;">邵阳</a>
+                        <a href="javascript:;">岳阳</a>
+                        <a href="javascript:;">常德</a>
+                        <a href="javascript:;">张家界</a>
+                        <a href="javascript:;">益阳</a>
+                        <a href="javascript:;">郴州</a>
+                        <a href="javascript:;">永州</a>
+                        <a href="javascript:;">怀化</a>
+                        <a href="javascript:;">娄底</a>
+                        <a href="javascript:;">湘西</a>
+                    </div>
+                    <div>
+                        <div class="ss1">
+                            <a href="javascript:;" class="fl"><img src="../images/3_03.png" alt=""></a>
+                            <div class="clearfix fr ss2">
+                                <a href="javascript:;">岳麓区</a>
+                                <a href="javascript:;">芙蓉区</a>
+                                <a href="javascript:;">天心区</a>
+                                <a href="javascript:;">开福区</a>
+                                <a href="javascript:;">雨花区</a>
+                                <a href="javascript:;">浏阳市</a>
+                                <a href="javascript:;">长沙县</a>
+                                <a href="javascript:;">望城县</a>
+                                <a href="javascript:;">宁乡县</a>
+                                <a href="javascript:;">全部</a>
+                            </div>
+                        </div>
+                        <div class="ss1 dn">
+                            <a href="javascript:;" class="fl"><img src="../images/3_03.png" alt=""></a>
+                            <div class="clearfix fr ss2">
+                                <a href="javascript:;">芙蓉区</a>
+                                <a href="javascript:;">岳麓区</a>
+                                <a href="javascript:;">雨花区</a>
+                                <a href="javascript:;">天心区</a>
+                                <a href="javascript:;">开福区</a>
+                                <a href="javascript:;">望城县</a>
+                                <a href="javascript:;">浏阳市</a>
+                                <a href="javascript:;">宁乡县</a>
+                                <a href="javascript:;">长沙县</a>
+                                <a href="javascript:;">全部</a>
+                            </div>
+                        </div>
+                        <div class="ss1 dn">
+                            <a href="javascript:;" class="fl"><img src="../images/3_03.png" alt=""></a>
+                            <div class="clearfix fr ss2">
+                                <a href="javascript:;">芙蓉区</a>
+                                <a href="javascript:;">岳麓区</a>
+                                <a href="javascript:;">天心区</a>
+                                <a href="javascript:;">雨花区</a>
+                                <a href="javascript:;">开福区</a>
+                                <a href="javascript:;">长沙县</a>
+                                <a href="javascript:;">浏阳市</a>
+                                <a href="javascript:;">宁乡县</a>
+                                <a href="javascript:;">望城县</a>
+                                <a href="javascript:;">全部</a>
+                            </div>
+                        </div>
+                        <div class="ss1 dn">
+                            <a href="javascript:;" class="fl"><img src="../images/3_03.png" alt=""></a>
+                            <div class="clearfix fr ss2">
+                                <a href="javascript:;">岳麓区</a>
+                                <a href="javascript:;">芙蓉区</a>
+                                <a href="javascript:;">天心区</a>
+                                <a href="javascript:;">开福区</a>
+                                <a href="javascript:;">雨花区</a>
+                                <a href="javascript:;">浏阳市</a>
+                                <a href="javascript:;">长沙县</a>
+                                <a href="javascript:;">望城县</a>
+                                <a href="javascript:;">宁乡县</a>
+                                <a href="javascript:;">全部</a>
+                            </div>
+                        </div>
+                        <div class="ss1 dn">
+                            <a href="javascript:;" class="fl"><img src="../images/3_03.png" alt=""></a>
+                            <div class="clearfix fr ss2">
+                                <a href="javascript:;">芙蓉区</a>
+                                <a href="javascript:;">岳麓区</a>
+                                <a href="javascript:;">雨花区</a>
+                                <a href="javascript:;">天心区</a>
+                                <a href="javascript:;">开福区</a>
+                                <a href="javascript:;">望城县</a>
+                                <a href="javascript:;">浏阳市</a>
+                                <a href="javascript:;">宁乡县</a>
+                                <a href="javascript:;">长沙县</a>
+                                <a href="javascript:;">全部</a>
+                            </div>
+                        </div>
+                        <div class="ss1 dn">
+                            <a href="javascript:;" class="fl"><img src="../images/3_03.png" alt=""></a>
+                            <div class="clearfix fr ss2">
+                                <a href="javascript:;">芙蓉区</a>
+                                <a href="javascript:;">岳麓区</a>
+                                <a href="javascript:;">天心区</a>
+                                <a href="javascript:;">雨花区</a>
+                                <a href="javascript:;">开福区</a>
+                                <a href="javascript:;">长沙县</a>
+                                <a href="javascript:;">浏阳市</a>
+                                <a href="javascript:;">宁乡县</a>
+                                <a href="javascript:;">望城县</a>
+                                <a href="javascript:;">全部</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ssk fr">
+                <div class="ssk1 fl">
+                    <div class="ssk2">
+                        <a href="javascript:;" class="ssk3 fl">国家资源网</a>
+                        <input type="text" class="ssk4 fl" placeholder="请输入您要搜索的关键字">
+                        <a href="javascript:;" class="ssk5 fr"></a>
+                    </div>
+                </div>
+                <div class="fr ssk6"><a href="javascript:;">高级搜索</a></div>
+            </div>
+        </div>
+        <div class="wt980 ma">
+            <div class="nav">
+                <div class="nav1">
+                    <div class="nav2 ml30">
+                        <ul>
+                            <li><a href="javascript:;" class="nav2-bg">首页</a></li>
+                            <li class="mm"><a href="javascript:;" class="aa1">资源中心</a></li>
+                            <li><a href="javascript:;">教师空间</a></li>
+                            <li><a href="javascript:;">在线备课</a></li>
+                            <li><a href="javascript:;">名师工作室</a></li>
+                            <li><a href="javascript:;">应用中心</a></li>
+                        </ul>
+                    </div>
+                    <div class="mm1 mm2 dn">
+                        <a href="javascript:;" class="zyz zxz1">资源中心</a>
+                        <div>
+                            <a href="javascript:;" class="zxz1 gg mt10">公共资源</a>
+                            <a href="javascript:;" class="zxz1 gg">市场资源</a>
+                            <a href="javascript:;" class="zxz1 gg">同盟资源</a>
+                            <a href="javascript:;" class="zxz1 gg">本地资源</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wt980 ma posir clearfix">
+            <div class="banner fl bb">
+                <div class="tz fl">
+                    <div class="tz1 fl"></div>
+                    <p class="fl font10 col97 tz2">通知公告：</p>
+                    <p class="fl mt_2"><a href="javascript:;" class="font10" style="color: #000">关于召开湖南省2013年中小学部分学科教学资源开发研讨会的通知</a></p>
+                    <div class="fl"><img src="../images/ico_new.png" alt="" style="margin: -13px 0 0 4px;"></div>
+                    <p class="fl font10 col97 tz2">04/10</p>
+                </div>
+                <div class="fr tz3"><a href="javascript:;" class="font12 col97">更多>></a></div>
+            </div>
+            <div class="banner1 fr hf2">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 col97">各地活跃度排行</div>
+                    <div class="fr sj2">
+                        <a href="javascript:;" class="xz bg2 xz1">市</a>
+                        <a href="javascript:;" class="xz xz1">县</a>
+                    </div>
+                </div>
+                <div class="mc">
+                    <p>名称</p>
+                    <p>活跃度</p>
+                </div>
+                <div>
+                    <div class="mc1">
+                        <div class="phb">
+                            <div class="fl one mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">长沙市</p>
+                            <p class="fr font12 cel lh22">9865231</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl two mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">衡阳市</p>
+                            <p class="fr font12 cel lh22">3254224</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl three mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">株洲市</p>
+                            <p class="fr font12 cel lh22">1576866</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl fuor mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">益阳市</p>
+                            <p class="fr font12 cel lh22">856534</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl five mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">常德市</p>
+                            <p class="fr font12 cel lh22">821424</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl six mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">郴州市</p>
+                            <p class="fr font12 cel lh22">634313</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl seven mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">湘潭市</p>
+                            <p class="fr font12 cel lh22">546579</p>
+                        </div>
+                    </div>
+                    <div class="mc1 dn">
+                        <div class="phb">
+                            <div class="fl one mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">长沙市</p>
+                            <p class="fr font12 cel lh22">9865231</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl two mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">衡阳市</p>
+                            <p class="fr font12 cel lh22">3254224</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl three mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">株洲市</p>
+                            <p class="fr font12 cel lh22">1576866</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl fuor mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">常德市</p>
+                            <p class="fr font12 cel lh22">821424</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl five mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">益阳市</p>
+                            <p class="fr font12 cel lh22">856534</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl six mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">湘潭市</p>
+                            <p class="fr font12 cel lh22">546579</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl seven mt5 on1"></div>
+                            <p class="fl font12 ml44 lh22">郴州市</p>
+                            <p class="fr font12 cel lh22">634313</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="dl hf2 fl mt10">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 col97">用户登录</div>
+                </div>
+                <div class="dl1">
+                    <div class="mt6 overh"><p class="huise2 fl lh25">用户名：</p><input type="text" class="yh fr"></div>
+                    <div class="mt10 overh"><p class="huise2 fl lh25">密码：</p><input type="password" class="yh fr"></div>
+                    <div class="mt10 overh"><p class="huise2 fl lh25">验证码：</p><input type="password" class="yzm fl"><div class="fr overh mt2"><img src="../images/code_img.png" alt=""></div></div>
+                    <div class="fr mt15 posir clearfix">
+                        <div class="btn fr"></div>
+                        <div class="btn1 fr mr5"></div>
+                        <a href="login.html" class="btn_1"> </a>
+                        <a href="javascript:;" class="btn_"> </a>
+                        <p class="overh fr mt10"><a href="#" class="col000 mr5">忘记密码？请</a><a href="#" class="col000">点击这里</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="lb fl">
+                <div class="layui-carousel fl" id="test10">
+                    <div carousel-item="">
+                        <div><img src="../images/pic/slide_01.jpg" style="width: 100%; height: 100%;"></div>
+                        <div><img src="../images/a1.png" style="width: 100%; height: 100%;"></div>
+                        <div><img src="../images/a2.png" style="width: 100%; height: 100%;"></div>
+                        <div><img src="../images/a3.png" style="width: 100%; height: 100%;"></div>
+                        <div><img src="../images/a4.png" style="width: 100%; height: 100%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sm fl overh">
+                <a href="javascript:;"><img src="../images/pic/ad_01.png" alt=""></a>
+                <a href="javascript:;" class="sm1"><img src="../images/pic/ad_02.png" alt=""></a>
+            </div>
+            <div class="hf2 fr mt10">
+                <div class="ms1 ph1">
+                    <ul class="fl">
+                        <li class="gx gx1">推荐应用</li>
+                        <li class="gx">免费应用</li>
+                        <li class="gx">收费应用</li>
+                    </ul>
+                    <div class="fr mr5"><a href="#" class="col97 lh32">更多>></a></div>
+                </div>
+                <div class="yy">
+                    <a href="javascript:;" class="prev fl"></a>
+                    <a href="javascript:;" class="next fr"></a>
+                    <div class="content">
+                        <div class="lb1">
+                            <ul class="clearfix">
+                                <li><a href="#"><img src="../images/pic/app_01.png" alt=""></a><div class="wz mt10">成语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_02.png" alt=""></a><div class="wz mt10">汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_03.png" alt=""></a><div class="wz mt10">古汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_04.png" alt=""></a><div class="wz mt10">公式宝典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_05.png" alt=""></a><div class="wz mt10">新华字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_06.png" alt=""></a><div class="wz mt10">图解词典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_07.png" alt=""></a><div class="wz mt10">公式定律</div></li>
+                            </ul>
+                            <ul class="clearfix">
+                                <li><a href="#"><img src="../images/pic/app_01.png" alt=""></a><div class="wz mt10">成语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_02.png" alt=""></a><div class="wz mt10">汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_03.png" alt=""></a><div class="wz mt10">古汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_04.png" alt=""></a><div class="wz mt10">公式宝典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_05.png" alt=""></a><div class="wz mt10">新华字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_06.png" alt=""></a><div class="wz mt10">图解词典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_07.png" alt=""></a><div class="wz mt10">公式定律</div></li>
+                            </ul>
+                            <ul class="clearfix">
+                                <li><a href="#"><img src="../images/pic/app_01.png" alt=""></a><div class="wz mt10">成语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_02.png" alt=""></a><div class="wz mt10">汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_03.png" alt=""></a><div class="wz mt10">古汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_04.png" alt=""></a><div class="wz mt10">公式宝典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_05.png" alt=""></a><div class="wz mt10">新华字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_06.png" alt=""></a><div class="wz mt10">图解词典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_07.png" alt=""></a><div class="wz mt10">公式定律</div></li>
+                            </ul>
+                            <ul class="clearfix">
+                                <li><a href="#"><img src="../images/pic/app_01.png" alt=""></a><div class="wz mt10">成语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_02.png" alt=""></a><div class="wz mt10">汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_03.png" alt=""></a><div class="wz mt10">古汉语字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_04.png" alt=""></a><div class="wz mt10">公式宝典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_05.png" alt=""></a><div class="wz mt10">新华字典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_06.png" alt=""></a><div class="wz mt10">图解词典</div></li>
+                                <li class="ml22"><a href="#"><img src="../images/pic/app_07.png" alt=""></a><div class="wz mt10">公式定律</div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="kj fl hf2 overh">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 col97">空间访问量</div>
+                </div>
+                <div class="mc0">
+                    <p>名称</p>
+                    <p>活跃度</p>
+                </div>
+                <div>
+                    <div class="mc1 pb8 pt1">
+                        <div class="phb">
+                            <div class="fl one mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 张军勇</p>
+                            <p class="fr font12 cel lh22">9865231</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl two mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 周晋</p>
+                            <p class="fr font12 cel lh22">3254224</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl three mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 李丽</p>
+                            <p class="fr font12 cel lh22">1576866</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl fuor mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 玉锦</p>
+                            <p class="fr font12 cel lh22">856534</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl five mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 李笑云</p>
+                            <p class="fr font12 cel lh22">821424</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl six mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 杨尚礼</p>
+                            <p class="fr font12 cel lh22">634313</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl seven mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 朱娇</p>
+                            <p class="fr font12 cel lh22">546579</p>
+                        </div>
+                        <div class="phb">
+                            <div class="fl seven mt5 on1"></div>
+                            <p class="fl font12 ml34 lh22"><span class="tx"></span> 赵俊</p>
+                            <p class="fr font12 cel lh22">546579</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hf2 fr mt10">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 cel">名师工作室</div>
+                    <div class="fr mr5"><a href="#" class="col97 lh32">更多>></a></div>
+                </div>
+                <div class="yy1">
+                    <div class="yy2">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="../images/6_03.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">王晓松工作室</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                            <li class="ml34">
+                                <a href="javascript:;">
+                                    <img src="../images/6_03.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">皮特工作室</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                            <li class="ml34">
+                                <a href="javascript:;">
+                                    <img src="../images/6_03.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">李文杰工作室</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="yy3">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="../images/7_06.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">文君工作室</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                            <li class="ml34">
+                                <a href="javascript:;">
+                                    <img src="../images/7_06.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">蒋宇迪工作室</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                            <li class="ml34">
+                                <a href="javascript:;">
+                                    <img src="../images/7_06.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">张旭初工作室</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="sm fl overh">
+                <a href="javascript:;"><img src="../images/pic/ad_03.png" alt=""></a>
+                <a href="javascript:;" class="sm1"><img src="../images/pic/ad_04.png" alt=""></a>
+            </div>
+            <div class="hf2 fr mt10">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 cel">优秀教师空间</div>
+                    <div class="fr mr5"><a href="#" class="col97 lh32">更多>></a></div>
+                </div>
+                <div class="yy1">
+                    <div class="yy2">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="../images/8_11.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">李芸个人空间</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                            <li class="ml34">
+                                <a href="javascript:;">
+                                    <img src="../images/8_11.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">随遇而安个人空间</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                            <li class="ml34">
+                                <a href="javascript:;">
+                                    <img src="../images/8_11.png" alt="">
+                                </a>
+                                <div class="fl clearfix zz">
+                                    <div class="fl"><a href="javascript:;" class="bt">程静个人空间</a></div>
+                                    <div class="col97 font12 mt10 fl">学科：初中英语</div>
+                                    <div class="col97 font12 fl mt2">文章数：245639个</div>
+                                    <div class="col97 font12 fl mt2">浏览数：266235个</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="yy3">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                            <li class="ml20">
+                                <a href="javascript:;" style="float: none">
+                                    <img src="../images/10_03.png" alt="">
+                                </a>
+                                <div class="wz mt10">张小娟</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hf2 fl">
+                <div class="ph ph1">
+                    <ul>
+                        <li class="gx2 gx1">用户贡献排行</li>
+                        <li class="gx2 gx3">用户下载排行</li>
+                    </ul>
+                </div>
+                <div class="mc0">
+                    <p>名称</p>
+                    <p>活跃度</p>
+                </div>
+                <div>
+                    <div class="cc">
+                        <div class="mc1 pb8 pt1">
+                            <div class="phb">
+                                <div class="fl one mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 张军勇</p>
+                                <p class="fr font12 cel lh22">9865231</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl two mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 周晋</p>
+                                <p class="fr font12 cel lh22">3254224</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl three mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 李丽</p>
+                                <p class="fr font12 cel lh22">1576866</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl fuor mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 玉锦</p>
+                                <p class="fr font12 cel lh22">856534</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl five mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 李笑云</p>
+                                <p class="fr font12 cel lh22">821424</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl six mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 杨尚礼</p>
+                                <p class="fr font12 cel lh22">634313</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl seven mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 朱娇</p>
+                                <p class="fr font12 cel lh22">546579</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl seven mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 赵俊</p>
+                                <p class="fr font12 cel lh22">546579</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cc dn">
+                        <div class="mc1 pb8 pt1">
+                            <div class="phb">
+                                <div class="fl one mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 张军勇</p>
+                                <p class="fr font12 cel lh22">9865231</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl two mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 周晋</p>
+                                <p class="fr font12 cel lh22">3254224</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl three mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 李丽</p>
+                                <p class="fr font12 cel lh22">1576866</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl fuor mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 玉锦</p>
+                                <p class="fr font12 cel lh22">856534</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl seven mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 赵俊</p>
+                                <p class="fr font12 cel lh22">546579</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl five mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 李笑云</p>
+                                <p class="fr font12 cel lh22">821424</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl seven mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 朱娇</p>
+                                <p class="fr font12 cel lh22">546579</p>
+                            </div>
+                            <div class="phb">
+                                <div class="fl six mt5 on1"></div>
+                                <p class="fl font12 ml40 lh22"> 杨尚礼</p>
+                                <p class="fr font12 cel lh22">634313</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hf2 fr mt10">
+                <div class="ms1 ph1">
+                    <ul class="fl">
+                        <li class="gx gx1">按学科</li>
+                        <li class="gx">按版本</li>
+                        <li class="gx">按专题</li>
+                    </ul>
+                </div>
+                <div class="sb">
+                    <ul class="clearfix">
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">语文</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">数学</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">英语</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">政治生活</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">物理</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">生物</a></li>
+                    </ul>
+                </div>
+                <div class="sb2">
+                    <ul class="clearfix">
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">历史</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">地理</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">思想品德</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">科学</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">品德与社会</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">品德与生活</a></li>
+                    </ul>
+                </div>
+                <div class="sb3">
+                    <ul class="clearfix">
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">音乐</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">体育</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">美术</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">综合实践活动</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">艺术</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">信息技术</a></li>
+                    </ul>
+                </div>
+                <div class="sb2 mt10" style="margin-bottom: 6px;">
+                    <ul class="clearfix">
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">生命与健康常识</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">地理</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">思想品德</a></li>
+                        <li><a href="#" class="sb1"></a><a href="#" class="col97 ml4">劳动技术</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="fl mt10 yc">
+                <a href="#"><img src="../images/pic/ad_05.jpg" alt=""></a>
+            </div>
+            <div class="kj fl hf2 overh mt10">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 col97">资源统计</div>
+                </div>
+                <div class="bs">
+                    <ul class="clearfix">
+                        <li><a href="#" class="col000 fl ml6">资源总数量：</a><span class="col97 fr font12 lh30">个</span><span class="fr font12 cel lh30 mr5">546579</span></li>
+                        <li style="background: #F6F6F6;"><a href="#" class="col000 fl ml6">资源总容量：</a><span class="col97 fr font12 lh30">GB</span><span class="fr font12 cel lh30 mr5">1998.28</span></li>
+                        <li><a href="#" class="col000 fl ml6">注册用户：</a><span class="col97 fr font12 lh30">个</span><span class="fr font12 cel lh30 mr5">499636</span></li>
+                        <li style="background: #F6F6F6;"><a href="#" class="col000 fl ml6">资源访问次数：</a><span class="col97 fr font12 lh30">次</span><span class="fr font12 cel lh30 mr5">258199899</span></li>
+                        <li><a href="#" class="col000 fl ml6">资源下载次数：</a><span class="col97 fr font12 lh30">次</span><span class="fr font12 cel lh30 mr5">44040059</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hf2 fr mt10">
+                <div class="ph ph1">
+                    <div class="sj fl"></div>
+                    <div class="fl sj1 lh32 cel">三类课堂</div>
+                    <div class="fl xk">
+                        <ul class="clearfix">
+                            <li class="bg3">网络课堂</li>
+                            <li>名师讲堂</li>
+                            <li>专递讲堂</li>
+                        </ul>
+                    </div>
+                    <div class="fr mr5"><a href="#" class="col97 lh32">更多>></a></div>
+                </div>
+                <div>
+                    <div class="slk">
+                        <ul class="clearfix">
+                            <li><a href="#"><img src="../images/12_05.png" alt=""></a><p><a href="#">水彩画初级练习</a></p></li>
+                            <li><a href="#"><img src="../images/13_09.png" alt=""></a><p><a href="#">植物的光合作用</a></p></li>
+                            <li><a href="#"><img src="../images/14_11.png" alt=""></a><p><a href="#">物理空间</a></p></li>
+                            <li><a href="#"><img src="../images/12_05.png" alt=""></a><p><a href="#">初三年级网络课堂</a></p></li>
+                            <li><a href="#"><img src="../images/13_09.png" alt=""></a><p><a href="#">分式的乘除</a></p></li>
+                        </ul>
+                    </div>
+                    <div class="slk dn">
+                        <ul class="clearfix">
+                            <li><a href="#"><img src="../images/12_05.png" alt=""></a><p><a href="#">水彩画初级练习</a></p></li>
+                            <li><a href="#"><img src="../images/14_11.png" alt=""></a><p><a href="#">物理空间</a></p></li>
+                            <li><a href="#"><img src="../images/13_09.png" alt=""></a><p><a href="#">植物的光合作用</a></p></li>
+                            <li><a href="#"><img src="../images/13_09.png" alt=""></a><p><a href="#">分式的乘除</a></p></li>
+                            <li><a href="#"><img src="../images/12_05.png" alt=""></a><p><a href="#">初三年级网络课堂</a></p></li>
+                        </ul>
+                    </div>
+                    <div class="slk dn">
+                        <ul class="clearfix">
+                            <li><a href="#"><img src="../images/13_09.png" alt=""></a><p><a href="#">植物的光合作用</a></p></li>
+                            <li><a href="#"><img src="../images/12_05.png" alt=""></a><p><a href="#">水彩画初级练习</a></p></li>
+                            <li><a href="#"><img src="../images/14_11.png" alt=""></a><p><a href="#">物理空间</a></p></li>
+                            <li><a href="#"><img src="../images/13_09.png" alt=""></a><p><a href="#">分式的乘除</a></p></li>
+                            <li><a href="#"><img src="../images/12_05.png" alt=""></a><p><a href="#">初三年级网络课堂</a></p></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hf2 mt10 fl yq bg4">
+                <div class="yql fl">
+                    <div class="yq1 br1">
+                        <p class="cel">友情链接</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="yq2 fl">
+                        <ul class="clearfix">
+                            <li><a href="#" class="col97">湖南省政务网</a></li>
+                            <li><a href="#" class="col97">湖南教育网</a></li>
+                            <li><a href="#" class="col97">湖南省电化教育馆</a></li>
+                            <li><a href="#" class="col97">湖南省教育考试院</a></li>
+                            <li><a href="#" class="col97">基教在线</a></li>
+                            <li><a href="#" class="col97">中华人民共和国教育部</a></li>
+                        </ul>
+                    </div>
+                    <div class="yq2 fl">
+                        <ul class="clearfix">
+                            <li><a href="#" class="col97">中央电化教育馆</a></li>
+                            <li><a href="#" class="col97">湖南省教育政务网</a></li>
+                            <li><a href="#" class="col97">湖南教育网湖南省</a></li>
+                            <li><a href="#" class="col97">电化教育馆</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <p class="tc"><a href="#" class="col97">湖南省基础教育资源平台版权所有 站内资源仅限于教育系统内部使用</a></p>
+            <p class="tc"><a href="#" class="col97">电话：0731-82220187 企业Q号：800009196 邮箱：hnszyzx@126.com</a></p>
+            <p class="tc"><a href="#" class="col97">地址：湖南省长沙市文运街23号；邮编41005</a></p>
+            <p class="tc"><a href="#" class="col97">湘教QS1-200505-00101</a></p>
+        </div>
+    </div>
+</body>
+</html>

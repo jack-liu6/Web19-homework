@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>欢迎注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/laydate/laydate.js"></script>
+</head>
+
+<body>
+    <div class="bg">
+        <!-- logo -->
+        <div class="wt980 logo">
+            <img src="images/注册页/logo.png" alt="" class="posir logo_img">
+            <img src="images/注册页/分割线_03.png" alt="" class="posir slider">
+            <span>基础管理平台</span>
+        </div>
+        <!-- 注册框 -->
+        <div class="wt980 register_box posir">
+            <img src="images/注册页/树叶.png" alt="" class="tree">
+            <div class="box_head">
+                <a href="#javascript" class="register_a in posir">
+                    学生注册
+                </a>
+                <a href="#javascript" class="register_a posir">
+                    教师注册
+                </a>
+            </div>
+            <div class="posir">
+                <img src="images/注册页/小箭头.png" alt="" style="display: block;" class="jian jian2">
+                <img src="images/注册页/小箭头.png" alt="" class="jian jian1">
+            </div>
+            <div class="box_b">
+                <!-- 学生注册 -->
+                <div class="cont clearfix regi_box">
+                    <!-- 左边登录注册框 -->
+                    <div class="fl left">
+                        <form action="#" id="register_form">
+                            <label for="" class="posir user_name color1a">
+                                用户名:
+                                <input type="text" name="user_name">
+                                <span class="tips_hide"><span class="red">&nbsp;*&nbsp;&nbsp;</span>只允许为字母数字和下划线</span>
+                            </label>
+                            <br>
+                            <label for="" class="password posir color1a">
+                                密码:
+                                <input type="text" name="password">
+                                <span class="tips_hide"><span
+                                        class="red">&nbsp;*&nbsp;&nbsp;</span>密码长度必须在6-12个字符之间</span>
+                            </label>
+                            <br>
+                            <label for="" class="password_ posir color1a">
+                                确认密码:
+                                <input type="text" name="confirm_password">
+                                <span class="tips_hide"><span class="red">&nbsp;*&nbsp;&nbsp;</span>请再一次输入密码</span>
+                            </label>
+                            <br>
+                            <label for="" class="real_name posir color1a">
+                                真实姓名:
+                                <input type="text" name="real_name">
+                                <span class="tips_hide"><span
+                                        class="red">&nbsp;*&nbsp;&nbsp;</span>非真实姓名学校管理员将停用账号</span>
+                            </label>
+                            <br>
+                            <label for="" class="id_number posir color1a">
+                                身份证号码:
+                                <input type="text" name="id_number">
+                                <span class="tips_hide">&nbsp;&nbsp;&nbsp;&nbsp;请填写真实身份证</span>
+                            </label>
+                            <br>
+                            <span class="sex posir color1a">
+                                姓名：
+                                <label for="sex">
+                                    男：<input type="radio" name="sex" id="sex" class="posir">
+                                </label>
+                                <label for="sex2">
+                                    女：<input type="radio" name="sex" id="sex2" class="posir">
+                                </label>
+                            </span>
+                            <br>
+                            <label for="" class="question posir color1a">
+                                取回密码时的问题:
+                                <input type="text" name="question">
+                                <span class="tips_hide"><span
+                                        class="red">&nbsp;*&nbsp;&nbsp;</span>忘记密码时可通过该问题取回您的密码</span>
+                            </label>
+                            <br>
+                            <label for="" class="answer posir color1a">
+                                取回密码时的答案:
+                                <input type="text" name="answer">
+                                <span class="tips_hide"><span class="red">&nbsp;*&nbsp;&nbsp;</span>取回密码时的答案</span>
+                            </label>
+                            <br>
+                            <label for="" class="birthday posir color1a">
+                                生日:
+                                <input type="text" id="birthday">
+                                <span class="tips_hide">&nbsp;&nbsp;&nbsp;&nbsp;请选择您的生日</span>
+                            </label>
+                            <br>
+                            <label for="" class="email posir color1a">
+                                电子邮箱:
+                                <input type="text" name="email">
+                                <span class="tips_hide">&nbsp;&nbsp;&nbsp;&nbsp;请输入有效的电子邮箱地址</span>
+                            </label>
+                            <br>
+                            <input type="submit" id="submit" value="立即注册" valid ="editGroupHandler (event)" >
+                            <button class="posir isOk">
+                                <span class="font14" id="fff">填好了，</span class="tips_hide">立即注册<img
+                                    src="images/注册页/ok_03.png" alt="" class="posir">
+                            </button>
+                        </form>
+                    </div>
+                    <div class="fl right">
+                        <p class="yiyou posir">
+                            已有资源网账号,
+                            <a href="#javascript">立即登录>></a>
+                            <!-- 立即登录隐藏框 -->
+                        <div class="deng posir">
+                            <span class="close"></span>
+                            <div class="deng_head font15 fontw700">
+                                个人会员登录
+                            </div>
+                            <div>
+                                用户名:
+                                <input type="text" class="deng_name">
+                            </div>
+                            <div class="posir pass">
+                                密码:
+                                <input type="text" class="deng_pass">
+                            </div>
+                            <button class="deng_b posir">登&nbsp;&nbsp;录
+                                <span>LOGIN</span>
+                            </button>
+                            <div class="forget mt15">
+                                <a href="#" class="mr15">忘记密码</a>
+                                <span class="mr15">|</span>
+                                <a href="#">登录不了怎么办？</a>
+                            </div>
+                            <ul class="if ml15">
+                                <li class="bb mt5">
+                                    <p>如果您还不是我们的会员</p>
+                                    <p class="red">注册成为我们的会员<b>！</b></p>
+                                </li>
+                                <li class="mt15">
+                                    <p>客户服务热线</p>
+                                    <p class="orange">0731-0000-0000</p>
+                                    <p>
+                                        <a href="#" class="color029">联系我们</a>、
+                                        <a href="#" class="color029">意见反馈</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        </p>
+                        <div class="right_cont posir">
+                            <div class="cont_head font14">
+                                新版资源网
+                            </div>
+                            <p>账号不变、资源扩容、功能升级</p>
+                            <ul class="quan mt10">
+                                <li>
+                                    <img src="images/注册页/序号图标_03.png" alt="" class="mr3">
+                                    全面的学科和专题资源
+                                </li>
+                                <li>
+                                    <img src="images/注册页/序号图标_06.png" alt="" class="mr3">
+                                    同步更新的海量名校优质资源
+                                </li>
+                                <li>
+                                    <img src="images/注册页/序号图标_08.png" alt="" class="mr3 no_3 posir">
+                                    <span>个性化个人空间，多套模版各种风格任你换</span>
+
+                                </li>
+                                <li>
+                                    <img src="images/注册页/序号图标_10.png" alt="" class="mr3 no_3 posir">
+                                    <span> 收费低，让人人都能享有名校优质教育资源</span>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- 教师注册 -->
+                <div class="fast clearfix regi_box" style="display: none;">
+                    <div class="fast_head ml10">
+                        <span class="font14">快速注册</span>
+                        <i>切换至&nbsp;<a href="#" class="mr12">邮箱注册</a>或&nbsp;<a href="#">手机注册</a></i>
+                    </div>
+                    <div class="fast_box">
+                        <!-- 左边注册框 -->
+                        <div class="fl fast_left">
+                            <form action="">
+                                <div class="user-name mb20 posir">
+                                    用户名：<input type="text" name="fast_userName">
+                                    <!-- 提示文字 -->
+                                    <ul class="nametips">
+                                        <li>4-16个字符，1个汉字为2个字符</li>
+                                        <li>不能以数字开头</li>
+                                    </ul>
+                                    <!-- 错误提示文字 -->
+                                    <div class="no_tips no_tips_name">
+                                        <img src="images/注册页/images/提示图标_03.png" alt="">
+                                        <!-- 用户名提示的文字显示在这这里 -->
+                                        <span class="name_tips"></span>
+                                    </div>
+                                </div>
+                                <div class="set-password mb20 posir">
+                                    密码：<input type="password" name="fast_password">
+                                    <!-- 长度提示 -->
+                                    <div class="passlen">密码长度必须在6-12个字符之间</div>
+                                    <!-- 错误提示文字 -->
+                                    <div class="no_tips no_tips_password">
+                                        <img src="images/注册页/images/提示图标_03.png" alt="">
+                                        <!-- 密码提示的文字显示在这这里 -->
+                                        <span class="word_tips"></span>
+                                    </div>
+                                </div>
+                                <div class="mb20 posir">
+                                    确认密码：<input type="password" name="fast_confirmPassword">
+                                    <!-- 错误提示文字 -->
+                                    <div class="no_tips no_tips_password2">
+                                        <img src="images/注册页/images/提示图标_03.png" alt="">
+                                        <!-- 确认提示的文字显示在这这里 -->
+                                        <span class="word2_tips"></span>
+                                    </div>
+                                </div>
+                                <div class="mb20 posir">
+                                    邮箱地址：<input type="text" name="fast_email">
+                                    <!-- 错误提示文字 -->
+                                    <div class="no_tips no_tips_email">
+                                        <img src="images/注册页/images/提示图标_03.png" alt="">
+                                        <!-- 邮箱提示的文字显示在这这里 -->
+                                        <span class="email_tips"></span>
+                                    </div>
+                                </div>
+                                <div class="ye" class="posir">
+                                    <label for="agree">
+                                        <input type="checkbox" id="agree" class="posir">我接受
+                                        <span class="color006">《猪八戒网服务条款协议(试行)》</span>
+                                    </label>
+                                </div>
+                                <!-- 错误提示文字 -->
+                                <div class="no_tips no_tips_agree">
+                                    <img src="images/注册页/images/提示图标_03.png" alt="">
+                                    <!-- 邮箱提示的文字显示在这这里 -->
+                                    <span class="agree_tips"></span>
+                                </div>
+                                <br>
+                                <input type="submit" class="fast_submit" >
+                            </form>
+                        </div>
+                        <!-- 右边已有账号登录 -->
+                        <div class="fr fast_right">
+                            <p>已有八戒账号？</p>
+                            <a href="signIn.html" target="_blanck" class="ljdeng">立即登录</a>
+                            <div class="font14">猪八戒网是全球领先的创意服务交易平台，在这里您可以：</div>
+                            <span class="mt5">凭自己的一技之长，赚取真金白银</span>
+                            <br>
+                            <i>
+                                已有
+                                <span class="colorff5">412390</span>
+                                人在猪八戒网上获得收入，共领走
+                                <span class="colorff5">1322064997</span>元赏金。
+                                <a href="#">我要赚钱</a>
+                            </i>
+                            <span>发布需求，获得七百万威客的帮助</span>
+                            <i>
+                                已有
+                                <span class="colorff5">1059923</span>
+                                人在猪八戒网发布需求，并获得成功解决方案。<a href="#">立即发布需求</a>
+                            </i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 版权 -->
+        <div class="banquan wt980">
+            <p>
+                <span>主办：浙江省教育厅</span>
+                <span>承办：浙江省教育技术中心</span>
+                <span>本站资源仅限于教育系统内部使用</span>
+            </p>
+            <p>
+                <span>浙ICP备05000083号 </span>
+                <span>最佳分辨率：1024×736</span>
+                <span>建议使用火狐、谷歌浏览器</span>
+            </p>
+        </div>
+    </div>
+    <script src="js/additional-methods.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/register.js"></script>
+</body>
+
+</html>

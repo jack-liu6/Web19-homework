@@ -1,0 +1,423 @@
+.zhuce {
+    width: 100%;
+    height: 800px;
+    background: url(../img/注册_01.png) no-repeat;
+    background-position: top;
+    margin: 0 auto;
+}
+
+.logoa {
+    display: inline-block;
+    background: url('../img/logo2.png') no-repeat -4px -6px;
+    width: 363px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.logospan {
+    display: inline-block;
+    height: 60px;
+    margin-top: -20px;
+    color: #135386;
+    font-size: 26px;
+    letter-spacing: 2px/*字与字的间距 */
+}
+
+
+/* 下面的注册主要内容 */
+
+.zhuti {
+    height: 559px;
+    background-color: #fff;
+    border-top: 2px solid #25B0BA;
+}
+
+.daohang {
+    padding-top: 15px;
+    padding-left: 25px;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.zhucespan {
+    display: inline-block;
+    width: 90px;
+    height: 34px;
+    background-color: #DDDDDD;
+    color: #747474;
+    line-height: 34px;
+    border-radius: 5px;
+}
+
+.zhucelan {
+    color: #fff;
+    background: url(../img/blue_skin/nav_hover.png) no-repeat;
+}
+
+
+/* 注册验证 */
+
+.zcyanzheng {
+    padding: 32px 15px 40px 25px;
+}
+
+.zuce {
+    width: 680px;
+    border-right: 1px dashed #D6D6D6;
+}
+
+.yonghuming {
+    height: 26px;
+    color: #333;
+}
+
+.yonghuming span.yanspan {
+    display: inline-block;
+    width: 120px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.yonghuming input {
+    width: 278px;
+    height: 24px;
+    border: 1px solid #CCCCCC;
+}
+
+.yonghuming .xingbie {
+    width: auto;
+    height: auto;
+    border: none;
+    margin-top: 2px;
+}
+
+.yonghuming .lab {
+    width: 260px;
+}
+
+.lab {
+    color: #B1B1B0;
+}
+
+.xin {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.tijiao {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.tijiao input {
+    width: 178px;
+    height: 44px;
+    border: 1px solid #EAB37B;
+    background-color: #FFBD5C;
+    color: #fff;
+    letter-spacing: 5px
+}
+
+
+/* 右边的已有账号部分 */
+
+.zhanghao {
+    width: 230px;
+}
+
+.zhanghaop .liji {
+    color: #4768D4;
+}
+
+.bo {
+    border-top: 1px dashed #DCDCDC;
+}
+
+.xinban {
+    margin-top: 50px;
+    width: 198px;
+    height: 224px;
+    border: 2px solid #D1D5D8;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.bubian {
+    color: #318CA9;
+    margin-top: 25px;
+}
+
+.xinbanul {
+    padding: 10px;
+}
+
+.shu {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-color: #63C9EB;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 8px;
+    margin-top: 1px;
+}
+
+.xinbanul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #C6C6C6;
+    color: #979797;
+}
+
+.guwei {
+    position: absolute;
+    top: -18px;
+    left: 35px;
+    display: inline-block;
+    width: 120px;
+    height: 32px;
+    border: 1px solid #ADD1ED;
+    background-color: #D3F2FD;
+    color: #2083A2;
+    border-radius: 10px;
+    line-height: 32px;
+}
+
+
+/* 固定定位的登录 */
+
+.wei {
+    width: 980px;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    height: auto;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.juedui {
+    margin-left: 400px;
+    width: 214px;
+    height: 321px;
+    border: 2px solid #F97E07;
+    background-color: #fff;
+}
+
+.denglu {
+    padding: 15px 15px;
+}
+
+.yon {
+    height: 19px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.yon input {
+    width: 124px;
+    height: 17px;
+    border: 1px solid #CCCCCC;
+}
+
+.yon .dengsub {
+    width: 98px;
+    height: 23px;
+    border: 1px solid #B3B3B3;
+    color: #373737;
+}
+
+.buliao {
+    color: #FF6605;
+}
+
+.buliao a {
+    color: #FF6605;
+    text-decoration: underline;
+}
+
+.ruguo li {
+    list-style-type: square;
+    color: #000;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.ruguo .keg {
+    padding-bottom: 0px;
+    border: none;
+}
+
+.ruguo li a {
+    color: #FE0009;
+}
+
+.lainx {
+    color: #323232;
+}
+
+.lainx a {
+    color: #169FFF;
+    text-decoration: underline;
+}
+
+.cha {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.huiyuan {
+    position: absolute;
+    top: -17px;
+    left: 50px;
+}
+
+.huiyuan span {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background-image: linear-gradient(#fff, #FCEBD7);
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+}
+
+
+/* 老师注册的框 */
+
+.jiashi {
+    padding: 10px;
+    height: 390px;
+    border: 2px solid #F8F8F8;
+}
+
+.kua {
+    padding: 0px 10px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.kua .ppp {
+    padding: 0px 10px;
+    height: 35px;
+    line-height: 35px;
+    color: #999999;
+}
+
+.kua span.zc {
+    color: #3E3E3E;
+}
+
+.kua .zuc {
+    color: #006DD2;
+}
+
+.jsdl {
+    padding: 28px 0px 30px 60px;
+}
+
+.jiaoform {
+    width: 585px;
+    padding-right: 20px;
+    border-right: 1px dashed #E0E0E0;
+}
+
+.jshm {
+    height: 28px;
+    line-height: 28px;
+}
+
+.jshm .m {
+    color: #6A6A6A;
+    letter-spacing: 5px
+}
+
+.mma .m {
+    letter-spacing: 1px
+}
+
+.jshm input {
+    width: 226px;
+    height: 26px;
+    border: 1px solid #84D2FF;
+}
+
+.jshm .lav {
+    /* display: inline-block; */
+    width: 240px;
+    padding-left: 10px;
+    color: #46484A;
+    background-color: #FFF5F5;
+}
+
+.jieshou {
+    margin-left: 65px;
+}
+
+.jieshou a {
+    color: #4192DE;
+}
+
+.chenggong {
+    margin-left: 80px;
+}
+
+.chenggong input {
+    width: 87px;
+    height: 32px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #FF8D00;
+}
+
+
+/* 右边的已有猪八戒新账号 */
+
+.zhubaj {
+    padding-left: 15px;
+    width: 225px;
+}
+
+.zhubaj .yy {
+    color: #333333;
+}
+
+.zhubaj .ll {
+    display: inline-block;
+    width: 116px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #CECECE;
+    background-image: linear-gradient(#fff, #F0F0F0);
+    border-radius: 10px;
+}
+
+.zhubaj .ping {
+    color: #008000;
+}
+
+.zi {
+    color: #FF6E1E;
+}
+
+.qian {
+    color: #1C7DD7;
+    text-decoration: underline;
+}
+
+
+/* 下部 */
+
+.foot {
+    margin-top: 30px;
+    position: absolute;
+    bottom: -80px;
+    left: 0px;
+}
+
+.weibu {
+    line-height: 30px;
+    color: #818181;
+}

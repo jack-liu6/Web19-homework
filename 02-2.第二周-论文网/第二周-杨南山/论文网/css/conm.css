@@ -1,0 +1,124 @@
+/* 公共样式 */
+a{
+	text-decoration: none;
+}
+.container{
+	margin: 0 auto;
+	width: 990px;
+}
+/*这里是左侧文本框公共样式*/
+.box1{
+	width: 342px;
+	height: 380px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #fffff5;
+}
+
+.siteL{
+	width: 700px;
+	font-size: 12px;
+	
+}
+
+.box-hd{
+	padding: 2px 20px 3px 7px;
+	background-color: #f2f2f2;
+}
+.box-bd{
+	padding: 5px 6px 0 9px;
+	background-color: #fffff5;
+}
+
+.text-l>.sprite {
+	display: inline-block;
+	background: url('../image/zonesprite.png') no-repeat 0 -74px;
+	width: 12px;
+	height: 13px;
+}
+.bd-one{
+	height: 90px;
+	border-bottom: 1px dashed red;
+	padding-bottom: 10px;
+} 
+.bd-one .text{
+	width: 203px;
+}
+.bd-one>img{
+	border: 1px solid gray;
+}
+.box1 .box-bd>ul{
+	line-height: 20px;
+	padding: 0 10px;
+	list-style-type: square;
+	
+}
+.box1 .box-bd>ul>li:hover{
+	background: #b0b0b0;
+}
+.box-bd .dot{
+	outline: 1px dashed red;
+}
+.box1 .box-bd .text{
+	line-height: 20px;
+}
+/*截至*/
+
+/*最右边div的样式*/
+.siteR{
+	margin-top: 14px;
+}
+.siteR a{
+	font-size: 12px;
+	line-height: 22px;
+}
+.siteR ul>li:hover{
+	background: #b0b0b0;
+}
+.b1{
+	width: 226px;
+	border: 1px solid #ff9962;
+	padding: 0 10px;
+	background-color: #fffaf6;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.b1>p{
+	padding: 10px 0 5px 0;
+	border-bottom: 1px dashed gray;
+}
+.spp.sprite {
+	background: url('../image/zonesprite.png') no-repeat -333px -288px;
+	width: 6px;
+	height: 6px;
+}
+.b1.box4>ul>li:before{
+	content: "";
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+	background-color: #b0b0b0;
+	border-radius: 100%;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+/*最右边div的样式截至*/
+/*尾部样式*/
+.footer{
+ 	 background-color: #ff7c24;
+}
+
+/*尾部样式*/
+.foo ul>li{
+	float: left;
+	padding: 16px 0;
+	margin-right: 30px;
+
+}
+
+/* 尾部列表公共样式 */
+.come{
+	
+}

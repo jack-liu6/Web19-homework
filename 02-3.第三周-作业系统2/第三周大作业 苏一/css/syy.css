@@ -1,0 +1,330 @@
+.top{
+	width: 100%;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.sy{
+	background: url(../images/top-nav.gif) no-repeat;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+    margin: 0 10px;
+}
+
+.tu1{
+	background-position: -10px 0;
+}
+
+.tu2{
+	background-position: -55px 0;
+}
+
+.tu3{
+	background-position: -97px 0;
+}
+
+.tu4{
+	background-position: -140px 0;
+}
+
+.toplogo{
+	margin-left: 240px;
+}
+
+
+.toptu{
+	
+	width: 220px;
+	height: 30px;
+	position:absolute;
+	left: 700px;
+	bottom: 0;
+}
+
+.topyou{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #E9F0F8;
+	margin-bottom: 20px;
+	position: absolute;
+	left: 1000px;
+	top: 37px;
+	background-color: #E9F0F8;
+	border-radius: 5px;
+
+}
+
+.topyou li a{
+	color: #6C9DCE;
+}
+
+.topyou li a:hover{
+	color: red
+}
+
+.topyou li{
+	margin:0 15px;
+
+}
+
+
+
+
+.neirong{
+	width: 1058px;
+	margin: 20px auto;
+	background-color: white;
+	border-radius: 5px;
+	padding-bottom: 40px;
+
+}
+
+.zuoye1{
+	width: 1000px;
+	height: 370px;
+    margin-left: 25px;
+	border: 4px solid #ddd;
+	border-radius: 5px;
+
+}
+
+.dai{
+	margin-left: 35px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.lank{
+	width: 860px;
+	height: 40px;
+	background-color: #6C9DCE;
+	margin: 20px 55px;
+	padding-left:  20px;
+	border-radius: 5px;
+
+}
+
+.a1{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #ddd;
+	display: inline-block;
+	line-height: 40px;
+	padding-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
+.xuebi{
+	background: url(../images/icos.gif) no-repeat;
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+
+}
+
+.zil1{
+	background-position: 0 3px;
+}
+
+.zil{
+	margin: 10px 10px 0 0;
+}
+
+.shige>a:hover{
+	color: red;
+}
+
+.a1:hover{
+	background-color: pink;
+}
+
+.text{
+	width: 660px;
+	margin-left: 70px;
+	
+}
+
+.anniu1{
+	width: 144px;
+	height: 40px;
+	background-color: #F8BF2A;
+	border-radius: 5px;
+	border: 1px solid #D8A16D;
+	margin-right: 63px;
+	margin-top: 20px;
+}
+
+.anniu1-1 a>img{
+	margin-left: 10px;
+	margin-top: 5px;
+
+	
+}
+
+.anniu1>button{
+	color: #A25100;
+	background-color: #F8BF2A;
+	border: none;
+	outline-color: #6C9DCE;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 15px;
+
+
+
+}
+
+.anniu1:hover{
+	background-color: #6C9DCE;
+}
+
+.anniu1>button:hover{
+	background-color: #F8BF2A;
+}
+
+.anniu1>button:active{
+	background-color: #6C9DCE;
+}
+
+
+.lank1{
+	width: 860px;
+	height: 40px;
+	background-color: #6C9DCE;
+	margin: 20px 55px;
+	padding-left:  20px;
+	border-radius: 5px;
+	}
+
+
+.wanc ul>li{
+	border-right: 1px solid #ddd;
+	float: left;
+	margin: 0 10px;
+	padding-right: 10px;
+}
+
+.wanc ul li>a{
+	color: gray;
+}
+
+.wanc ul li>a:hover{
+	color: red;
+}
+
+ul{
+	margin-left: 10px;
+}
+
+.wanc{
+	margin-left: 35px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.zuoye2{
+	width: 1000px;
+	height: 960px;
+    margin-left: 25px;
+	border: 4px solid #ddd;
+	border-radius: 5px;
+}
+
+.huik1{
+	width: 860px;
+	height: 40px;
+	background-color: #DFDFDF;
+	margin: 20px 55px;
+	padding-left:  20px;
+	border-radius: 5px;
+}
+
+.chakan{
+	color: #FFA319;
+}
+
+.chakan:hover{
+	color: red;
+}
+
+
+
+.baogao a .s1{
+	background-position: 0 -17px;
+}
+
+.baogao{
+	margin-right: 100px;
+	margin-top: 30px;
+}
+
+.end ul>li{
+	float: right;
+	margin: 5px;
+
+}
+
+.end ul{
+	margin-top: 10px;
+}
+
+.end{
+	width: 880px;
+	border-top: dashed 1px #ddd;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.end ul li>button{
+	background-color: white;
+	border: 1px solid #ddd;
+	font-weight: bold;
+	color: #6C9DCE;
+	outline: none;
+
+}
+
+.end ul li>button:hover{
+	background-color:#6C9DCE;
+	color: white;
+}
+
+.banq{
+	width: 1058px;
+	height: 40px;
+	background-color: #FBFBFB;
+	margin: 0 auto;
+	line-height: 40px;
+	margin-top: -10px;
+
+}
+
+
+.toplogo:hover img{
+	transform: translateY(-30px);
+    filter: drop-shadow(#66ccff 0 0);
+    //颜色、x轴偏移量、y轴偏移量
+}
+
+.toplogo{
+	overflow: hidden;
+}
+
+.xuebi:hover{
+	width: 20px;
+	height: 20px;
+	background: url(../images/icos.gif) no-repeat;
+	background-position: 0 -17px;
+}
+
+.sy:hover{
+	background: url(../images/04-雪碧图-1.jpg) no-repeat;
+	height: 35px;
+	width: 35px;
+	background-position: -284px -40px;
+	
+}

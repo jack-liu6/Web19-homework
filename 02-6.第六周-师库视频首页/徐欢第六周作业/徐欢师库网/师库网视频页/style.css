@@ -1,0 +1,867 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+a {
+    text-decoration: none;
+}
+
+.wt980 {
+    width: 980px;
+    margin: 0px auto;
+}
+
+.clearfix:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.posit {
+    position: relative;
+}
+
+.wt1400 {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+
+/*头部的logo图部分 */
+
+.header {
+    height: 29px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.logo {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -195px -319px;
+    width: 112px;
+    height: 29px;
+}
+
+.oul {
+    width: 455px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.oul a {
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-right: 5px;
+}
+
+.heixian {
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    background-color: #D2D2D2;
+    margin-right: 5px;
+}
+
+
+/* 头部的搜索部分 */
+
+.ybzc {
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ybzc a {
+    font-size: 12px;
+    color: #8F8F8F;
+    margin-right: 5px;
+}
+
+.sousuo {
+    width: 239px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #C7C7C7;
+    background-color: #fff;
+    margin: 3px;
+}
+
+.shipin {
+    font-size: 12px;
+    color: #D84600;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.jiantou {
+    display: inline-block;
+    background: url("images/sprite.png") no-repeat -249px -162px;
+    width: 11px;
+    height: 11px;
+    margin-right: 3px;
+    margin-top: 5px;
+}
+
+.input {
+    height: 16px;
+    width: 110px;
+    border: none;
+    border-left: 1px solid #D6D6D6;
+    margin-top: 2px;
+}
+
+.button {
+    width: 55px;
+    height: 21px;
+    margin-top: -1px;
+    border: none;
+    background-color: #FCE77E;
+}
+
+
+/* 中间部分 */
+
+.bodyer {
+    margin-top: 1px;
+    background-image: linear-gradient(#DEEFF7, #fff, #fff);
+}
+
+.duan {
+    padding-top: 20px;
+}
+
+.tou {
+    margin-bottom: 20px;
+}
+
+.shouye {
+    width: 210px;
+}
+
+.shouye a {
+    font-size: 12px;
+    color: #696A6B;
+    margin-right: 5px;
+}
+
+.shouye span {
+    color: #696A6B;
+}
+
+.fengyun {
+    width: 240px;
+}
+
+.fengyun a {
+    color: #EF7B14;
+    font-size: 12px;
+}
+
+.fy {
+    display: inline-block;
+    width: 55px;
+    margin-right: 10px;
+}
+
+.bodong {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -283px -162px;
+    width: 15px;
+    height: 11px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+.kangou {
+    display: inline-block;
+    width: 80px;
+}
+
+.zhi {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -327px -161px;
+    width: 12px;
+    height: 12px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.quan {
+    display: inline-block;
+    width: 75px;
+    margin-right: 10px;
+}
+
+.yaok {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -237px -253px;
+    width: 12px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.xiajian {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -358px -165px;
+    width: 7px;
+    height: 5px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+
+
+/* 左边浮动部分 */
+
+.left {
+    width: 736px;
+}
+
+.sp {
+    width: 688px;
+    height: 469px;
+    padding: 17px 0px 0px 46px;
+    background-color: #fff;
+    border: 1px solid #DBDBDB;
+}
+
+.hei img {
+    width: 639px;
+    height: 451px;
+}
+
+.pinlun {
+    margin-top: 8px;
+    width: 728px;
+    height: 30px;
+    line-height: 30px;
+    border: 4px solid #EAEAEA;
+}
+
+
+/* 评论星星的代码 */
+
+.pin {
+    width: 170px;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.pin a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(images/sprite.png);
+    background-position: -40px -390px;
+    vertical-align: middle;
+}
+
+.pin a.active {
+    background-position: 0 -390px;
+}
+
+.jia {
+    font-size: 12px;
+    color: #4C4C4C;
+}
+
+.red {
+    color: red;
+}
+
+
+/* 分享图 */
+
+.fen {
+    display: inline-block;
+    width: 124px;
+    height: 25px;
+    vertical-align: middle;
+    background: url('images/sprite.png') no-repeat -328px -319px;
+}
+
+.cuow {
+    width: 165px;
+}
+
+.jub {
+    color: #0C03B0;
+    font-size: 12px;
+}
+
+.xiaz {
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    line-height: 27px;
+    background-color: #FF9A27;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 5px;
+    padding-left: 10px;
+    border: 1px solid #BF7141;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.xai {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -125px -388px;
+    width: 12px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+
+/* 视频简介 */
+
+.jianjie {
+    width: 734px;
+    height: 94px;
+    border: 1px solid #E4E4E4;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+
+.jj {
+    height: 29px;
+    width: 726px;
+    line-height: 29px;
+    background-color: #EEEEEE;
+    padding-left: 10px;
+}
+
+.go {
+    color: #505050;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.cbp {
+    color: #6E6E6E;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.smp a {
+    font-size: 12px;
+    color: #261EB8;
+}
+
+.smp {
+    color: #6E6E6E;
+    font-size: 12px;
+    padding: 10px 10px 5px;
+}
+
+.shouming {
+    width: 734px;
+    height: 87px;
+    border: 1px solid #E4E4E4;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+
+.shouminp {
+    color: #6E6E6E;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+
+/* 用户评论的代码 */
+
+.pl {
+    width: 734px;
+    height: 381px;
+    border: 1px solid #E4E4E4;
+    padding-top: 1px;
+    margin-top: 10px;
+}
+
+.canyu {
+    display: inline-block;
+    width: 160px;
+    font-size: 12px;
+    color: #AAAAAA;
+}
+
+.canyu a {
+    font-size: 12px;
+    color: #0E04BE;
+}
+
+.kuang {
+    margin: 10px 10px;
+    width: 714px;
+    height: 128px;
+    border: 1px solid #E2E2E2;
+}
+
+.zishu {
+    width: 716px;
+    height: 29px;
+    line-height: 29px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.zishu span {
+    font-size: 12px;
+    color: #707070;
+}
+
+.zishu .daib {
+    font-size: 12px;
+    color: #969696;
+}
+
+.tijiao {
+    width: 57px;
+    height: 27px;
+    line-height: 27px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid #00559F;
+    background-color: #017DC1;
+}
+
+.biaoti {
+    margin: 0px 10px;
+}
+
+.bottom {
+    border-bottom: 1px dashed #F0F0F0;
+    margin-bottom: 10px;
+}
+
+.bt {
+    font-size: 12px;
+    color: #3D72BD;
+    margin-right: 10px;
+}
+
+.fn {
+    font-size: 12px;
+    color: #424242;
+}
+
+.shijian {
+    font-size: 12px;
+    color: #B2B2B2;
+}
+
+.zc a {
+    font-size: 12px;
+    color: #404040;
+}
+
+.fenge {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #CDCDCD;
+    margin: 0px 10px;
+    vertical-align: middle;
+}
+
+.juli {
+    margin: 15px 0px;
+    font-size: 12px;
+    color: #767676;
+}
+
+.plp {
+    margin: 15px 0px 8px;
+    color: #767676;
+    font-size: 12px;
+}
+
+.gengdou {
+    font-size: 12px;
+    color: #757575;
+}
+
+
+/* 右边的浮动部分 */
+
+.right {
+    width: 234px;
+}
+
+.xingxi {
+    width: 230px;
+    height: 230px;
+    border: 1px solid #E2E2E2;
+    padding: 1px 1px;
+    background-color: #fff;
+}
+
+.pp {
+    width: 230px;
+    height: 26px;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.spxx {
+    width: 220px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    background-color: #F1F1F1;
+    color: #494949;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.jtxx {
+    margin: 10px 8px 0px 8px;
+    border-bottom: 1px dashed #DDDDDB;
+}
+
+.gy {
+    margin-bottom: 10px;
+}
+
+.tun {
+    width: 50px;
+    height: 36px;
+    border: 1px solid #D7D7D7;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.tupian {
+    display: inline-block;
+    background: url(images/视频内容页_13.png) no-repeat;
+    width: 50px;
+    height: 36px;
+}
+
+.fabu {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #404040;
+}
+
+.fenlei {
+    font-size: 12px;
+    color: #6E6E6E;
+}
+
+.shilu {
+    margin-right: 5px;
+    font-size: 12px;
+    color: #0B94CC;
+}
+
+.bofli {
+    margin-top: 5px;
+}
+
+.bofli li {
+    list-style: none;
+    font-size: 12px;
+    width: 220px;
+    height: 16px;
+    margin-bottom: 5px;
+}
+
+.gong {
+    color: #6C6C6C;
+}
+
+.jiage {
+    margin-right: 26px;
+}
+
+.shichang {
+    margin-right: 7px;
+}
+
+.cishu {
+    color: #9A9A9A;
+    margin-left: 5px;
+}
+
+.guanzhu {
+    margin-top: 5px;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin: 2px 0px 0px 8px
+}
+
+.gz {
+    color: #6E6E6E;
+    margin-right: 5px;
+}
+
+.guanzhu a {
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    border: 1px solid #E4E4E4;
+    font-size: 12px;
+    line-height: 20px;
+    margin-right: 5px;
+    color: #616161;
+}
+
+.guanzhu .color {
+    color: #3E7593;
+}
+
+.weibo {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -269px -254px;
+    width: 17px;
+    height: 15px;
+    vertical-align: text-top;
+}
+
+.guanfa {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -302px -252px;
+    width: 16px;
+    height: 17px;
+    vertical-align: text-top;
+}
+
+
+/* 右边的相关视频代码 */
+
+.zuixin {
+    width: 233px;
+    height: 258px;
+    border: 1px solid #E2E2E2;
+    margin-top: 10px;
+    background-image: linear-gradient(#F8F8F8, #fff);
+}
+
+.cuxiao {
+    width: 231px;
+    height: 27px;
+    border-bottom: 1px solid #A9D9F3;
+    padding: 1px 1px;
+}
+
+.xin {
+    width: 221px;
+    height: 27px;
+    line-height: 27px;
+    color: #494949;
+    padding-left: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(#F4FBFF, #CAE3F0);
+}
+
+.lie {
+    width: 231px;
+    height: 225px;
+    padding: 2px 1px;
+}
+
+.quanli {
+    width: 215px;
+    height: 221px;
+    margin-left: 5px;
+    padding-right: 5px;
+}
+
+.wenzi {
+    display: inline-block;
+    background: url(images/第五次大855师库视频列表页_03.png)no-repeat;
+    height: 5px;
+    width: 5px;
+    margin-right: 5px;
+}
+
+.quanli li {
+    list-style: none;
+    border-bottom: 1px dashed #CBCBCB;
+    height: 21px;
+    padding-bottom: 5px;
+}
+
+.quanli a {
+    color: #4D4D4D;
+    font-size: 12px;
+}
+
+.quanli .shuzi {
+    color: #898989;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/* Tab切换页 */
+
+.notion {
+    width: 233px;
+    height: 258px;
+    border: 1px solid #E2E2E2;
+    border-top: none;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.tab-hd {
+    width: 233px;
+    height: 30px;
+    /* border-bottom: 1px solid #A9D9F3; */
+}
+
+.tab-nav li {
+    list-style: none;
+    float: left;
+    width: 64px;
+    height: 25px;
+    padding-top: 5px;
+    padding-left: 12px;
+    background-color: #F0F0F0;
+    border: 1px solid #E2E2E2;
+    border-right: none;
+}
+
+.tab-nav .oli {
+    border-left: none;
+}
+
+.tab-hd a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #494949;
+}
+
+.notion .tab-hd .tab-nav .on {
+    border-top: 3px solid #45B2ED;
+    background-color: #fff;
+    height: 26px;
+    padding-top: 2px;
+    border-bottom: none;
+}
+
+.dis {
+    display: block;
+}
+
+.notion .tab-pal {
+    display: none;
+}
+
+
+/* 下部的代码 */
+
+.xiabu {
+    background-color: #F3F3F3;
+    margin-top: 40px;
+}
+
+.foot {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.guanyu {
+    text-align: center;
+}
+
+.guanyu a {
+    color: #767676;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.foot p {
+    text-align: center;
+    color: #767676;
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.guanyu span {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #767676;
+    vertical-align: middle;
+}
+
+.cop {
+    color: #767676;
+    font-size: 12px;
+}
+
+.cn {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat 0 -535px;
+    width: 50px;
+    height: 12px;
+    margin-right: 20px;
+}
+
+
+/* 固定定位 */
+
+.gufu {
+    position: fixed;
+    top: 62px;
+    right: 300px;
+    width: 25px;
+    height: 185px;
+}
+
+.kefu {
+    width: 25px;
+    background-color: #FBF9FA;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.dianhua {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat 0 -480px;
+    width: 21px;
+    height: 21px;
+    margin-top: 5px;
+}
+
+.kefu a {
+    display: inline-block;
+    width: 18px;
+    height: 55px;
+    font-size: 10px;
+    color: #333;
+}
+
+.gufu a:hover {
+    background-color: #fff;
+}
+
+.zhi {
+    display: inline-block;
+    background: url('images/sprite.png') no-repeat -36px -481px;
+    width: 16px;
+    height: 19px;
+    margin-top: 5px;
+}

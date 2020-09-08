@@ -1,0 +1,2117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>jQuery项目</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/skinorange.css"/ id="orangecss">
+		<link rel="stylesheet" type="text/css" href="css/skinblue.css"/ id="bluecss" disabled="disabled">
+		<link rel="stylesheet" type="text/css" href="轮播图插件/css/layui.css" />
+		<link rel="stylesheet" type="text/css" href="./轮播图插件/css/modules/layer/default/layer.css" />
+		<link rel="stylesheet" type="text/css" href="js/顶部火箭/css/style.css"/>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="轮播图插件/layui.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		
+		<div class="topbg">
+		<div class="top clearfix">
+			<div class="topzuo fl">
+				<span class="brown">您好，欢迎您进入湖南基础教育资源网！</span>
+				<span class="brown">今日：<span class="nian brown">2019</span>年
+				<span class="yue brown">4</span>月
+				<span class="ri brown">19</span>日
+				<span class="xq brown">星期五</span>
+				</span>
+			</div>
+			<div class="topyou fr">
+				<a href="" class="brown">收藏首页</a>
+				<span class="topline"></span>
+				<a href="" class="brown">帮助中心</a>
+				<span class="topline"></span>
+				
+				<span class="brown">换肤</span>
+				<span class="skinblue" id="skinblue"></span>
+				<span class="skinorange check1" id="skinorange"></span>
+			</div>
+		</div>
+		</div>
+		<div class="logo clearfix">
+			<div class="logopic fl"><img src="img/logo.png" ></div>
+			<div class="logobg fl"><img src="img/logo_line.png" ></div>
+			<div class="sel fl posir">
+				<p class="selp font18 fb">省中心</p>
+				<input type="text" name="" id="logoipt" value="切换市县" />
+				<div class="logonav" style="display: none;">
+					<ul class="logoul mt5 clearfix">
+						<li><a href="" class="lightblue">省中心</a></li>
+						<li><a href="" class="lightblue">长沙</a></li>
+						<li><a href="" class="lightblue">株洲</a></li>
+						<li><a href="" class="lightblue">湘潭</a></li>
+						<li><a href="" class="lightblue">衡阳</a></li>
+						<li><a href="" class="lightblue">邵阳</a></li>
+						<li><a href="" class="lightblue">岳阳</a></li>
+						<li><a href="" class="lightblue">常德</a></li>
+						<li><a href="" class="lightblue">张家界</a></li>
+						<li><a href="" class="lightblue">益阳</a></li>
+						<li><a href="" class="lightblue">郴州</a></li>
+						<li><a href="" class="lightblue">永州</a></li>
+						<li><a href="" class="lightblue">怀化</a></li>
+						<li><a href="" class="lightblue">娄底</a></li>
+						<li><a href="" class="lightblue">湘西</a></li>
+					</ul>
+					<div class="tabqu clearfix">
+						<div class="fl mt10"><span class="qusp brown">对应区县</span></div>
+						<div class="tabul fl ml5 mt10">
+							<ul class="clearfix">
+								<li><a href="" class="brown">湖南</a></li>
+								<li><a href="" class="brown">湖北</a></li>
+								<li><a href="" class="brown">广东</a></li>
+								<li><a href="" class="brown">广西</a></li>
+								<li><a href="" class="brown">海南</a></li>
+								<li><a href="" class="brown">河北</a></li>
+								<li><a href="" class="brown">河南</a></li>
+								<li><a href="" class="brown">北京</a></li>
+								<li><a href="" class="brown">上海</a></li>
+								<li><a href="" class="brown">天津</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">岳麓区</a></li>
+								<li><a href="" class="brown">芙蓉区</a></li>
+								<li><a href="" class="brown">天心区</a></li>
+								<li><a href="" class="brown">开福区</a></li>
+								<li><a href="" class="brown">雨花区</a></li>
+								<li><a href="" class="brown">浏阳市</a></li>
+								<li><a href="" class="brown">长沙县</a></li>
+								<li><a href="" class="brown">望城县</a></li>
+								<li><a href="" class="brown">宁乡县</a></li>
+								<li><a href="" class="brown">全部</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">荷塘区</a></li>
+								<li><a href="" class="brown">芦淞区</a></li>
+								<li><a href="" class="brown">石峰区</a></li>
+								<li><a href="" class="brown">天元区</a></li>
+								<li><a href="" class="brown">渌口区</a></li>
+								<li><a href="" class="brown">醴县</a></li>
+								<li><a href="" class="brown">炎陵县</a></li>
+								<li><a href="" class="brown">醴陵市</a></li>
+								<li><a href="" class="brown">茶陵县</a></li>
+								<li><a href="" class="brown">全部</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">雨湖区</a></li>
+								<li><a href="" class="brown">岳塘区</a></li>
+								<li><a href="" class="brown">湘潭县</a></li>
+								<li><a href="" class="brown">湘乡市</a></li>
+								<li><a href="" class="brown">韶山市</a></li>
+								
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">衡阳区</a></li>
+								<li><a href="" class="brown">岳塘区</a></li>
+								<li><a href="" class="brown">衡阳县</a></li>
+								<li><a href="" class="brown">湘乡市</a></li>
+								<li><a href="" class="brown">韶山市</a></li>	
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+								<li><a href="" class="brown">邵阳区</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">云溪区</a></li>
+								<li><a href="" class="brown">岳阳楼</a></li>
+								<li><a href="" class="brown">华容县</a></li>
+								<li><a href="" class="brown">岳阳市</a></li>
+								<li><a href="" class="brown">临湘市</a></li>
+								<li><a href="" class="brown">湘阴县</a></li>
+								<li><a href="" class="brown">平江县</a></li>
+								<li><a href="" class="brown">汨罗市</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">武陵区</a></li>
+								<li><a href="" class="brown">鼎城区</a></li>
+								<li><a href="" class="brown">安乡县</a></li>
+								<li><a href="" class="brown">汉寿县</a></li>
+								<li><a href="" class="brown">临澧县</a></li>
+								<li><a href="" class="brown">桃源县</a></li>
+								<li><a href="" class="brown">石门县</a></li>
+								<li><a href="" class="brown">津市</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">张家界</a></li>
+								<li><a href="" class="brown">鼎城区</a></li>
+								<li><a href="" class="brown">安乡县</a></li>
+								<li><a href="" class="brown">汉寿县</a></li>
+								<li><a href="" class="brown">临澧县</a></li>
+								<li><a href="" class="brown">桃源县</a></li>
+								<li><a href="" class="brown">石门县</a></li>
+								<li><a href="" class="brown">津市</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">资阳区</a></li>
+								<li><a href="" class="brown">赫山区</a></li>
+								<li><a href="" class="brown">南县</a></li>
+								<li><a href="" class="brown">安化县</a></li>
+								<li><a href="" class="brown">沅江市</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">郴州市</a></li>
+								<li><a href="" class="brown">赫山区</a></li>
+								<li><a href="" class="brown">南县</a></li>
+								<li><a href="" class="brown">安化县</a></li>
+								<li><a href="" class="brown">沅江市</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">娄底县</a></li>
+								<li><a href="" class="brown">赫山区</a></li>
+								<li><a href="" class="brown">南县</a></li>
+								<li><a href="" class="brown">安化县</a></li>
+								<li><a href="" class="brown">沅江市</a></li>
+							</ul>
+							<ul class="clearfix" style="display: none;">
+								<li><a href="" class="brown">湘西区</a></li>
+								<li><a href="" class="brown">赫山区</a></li>
+								<li><a href="" class="brown">南县</a></li>
+								<li><a href="" class="brown">安化县</a></li>
+								<li><a href="" class="brown">沅江市</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fr clearfix">
+				<div class="search fl">
+					<select name="">
+						<option value="">国家资源网</option>
+						<option value ="">国家教学网</option>
+					</select>
+					<input type="text" name="" id="searchipt" value="请输入您要查询的关键字" />
+					
+				</div>
+				<div class="fr ml5 mt5">
+					<a href="" class="brown">高级搜索</a>
+				</div>
+			</div>
+		</div>
+		<!-- 菜单 -->
+		
+		<ul class="nav clearfix">
+			<li class="content_li">
+				<a href="" class="lia">首页</a>
+				<div class="ycnav">
+					<p><a href="" class="pa">资源中心</a></p>
+					<p><a href="" class="pa">教师空间</a></p>
+					<p><a href="" class="pa">在线备课</a></p>
+				</div>
+			</li>
+			<li class="line_li"></li>
+			<li class="content_li">
+				<a href="" class="lia">资源中心</a>
+				<div class="ycnav">
+					<p><a href="" class="pa">公共资源</a></p>
+					<p><a href="" class="pa">市场资源</a></p>
+					<p><a href="" class="pa">同盟资源</a></p>
+					<p><a href="" class="pa">本地资源</a></p>
+				</div>
+			</li>
+			<li class="line_li"></li>
+			<li class="content_li">
+				<a href="" class="lia">教师空间</a>
+				<div class="ycnav">
+					<p><a href="" class="pa">公共空间</a></p>
+					<p><a href="" class="pa">市场空间</a></p>
+					<p><a href="" class="pa">同盟空间</a></p>
+					<p><a href="" class="pa">本地空间</a></p>
+				</div>
+			</li>
+			<li class="line_li"></li>
+			<li class="content_li">
+				<a href="" class="lia">在线备课</a>
+				<div class="ycnav">
+					<p><a href="" class="pa">公共备课</a></p>
+					<p><a href="" class="pa">市场备课</a></p>
+					<p><a href="" class="pa">同盟备课</a></p>
+					<p><a href="" class="pa">本地备课</a></p>
+				</div>
+			</li>
+			<li class="line_li"></li>
+			<li class="content_li">
+				<a href="" class="lia">名师工作室</a>
+				<div class="ycnav">
+					<p><a href="" class="pa">公共工作室</a></p>
+					<p><a href="" class="pa">市场工作室</a></p>
+					<p><a href="" class="pa">同盟工作室</a></p>
+					<p><a href="" class="pa">本地工作室</a></p>
+				</div>
+			</li>
+			<li class="line_li"></li>
+			<li class="content_li">
+				<a href="app.html" class="lia">应用中心</a>
+				<div class="ycnav">
+					<p><a href="" class="pa">公共中心</a></p>
+					<p><a href="" class="pa">市场中心</a></p>
+					<p><a href="" class="pa">同盟中心</a></p>
+					<p><a href="" class="pa">本地中心</a></p>
+				</div>
+			</li>
+		</ul>
+		
+		<div class="content1 clearfix">
+			<div class="content1zuo fl clearfix">
+				<div class="tongzhi">
+					<span class="laba"></span>
+					<span class="gray">通知公告：</span>
+					<a href="">关于召开湖南省2013年中小学部分学科教学资源开发研讨会的通知 </a>
+					<span class="new"></span>
+					<span class="gray inline-block ml10">01/10</span>
+					<a href="" class="more brown">更多>></a>
+				</div>
+				<div class="login mt10 fl">
+					<div class="logintop">
+						<span class="sp"></span>
+						<span class="fb brown">用户登录</span>
+					</div>
+					<div class="loginmid">
+					  <div class="username mt10">
+						  <span class="brown">用户名：</span>
+						  <input type="text" name="" id="ipt" value="" />
+					  </div>
+					  <div class="mt10">
+						  <span class="brown">密&nbsp;&nbsp;&nbsp;码：</span>
+						  <input type="password" name="" id="psd" value="" />
+					  </div>
+					  <div class="mt10">
+						  <span class="brown">验证码：</span>
+						  <input type="text" name="" id="yzm" value="" />
+						  <span class="yzm"></span>
+					  </div>
+					</div>
+					<div class="loginxia">
+						<a class="loginsp1"></a>
+						<a class="loginsp2" href="rec.html"></a>
+						<div class="mt10">
+							<span class="bro">忘记密码？ 请</span>
+							<a href="rec.html" class="brown">点击这里</a>
+						</div>
+					</div>
+				</div>
+				<!-- 轮播图盒子 -->
+				<div class="slide fl">
+					<div class="layui-carousel" id="test1">
+						<div carousel-item id="">
+							<!--里面可以加图片，文字等-->
+							<div><img src="img/pic/p1.jpg" ></div>
+							<div><img src="img/pic/p2.jpg" /></div>
+							<div><img src="img/pic/p3.jpg" /></div>
+							<div><img src="img/pic/p4.jpg" /></div>
+							<!-- <div><img src="img/adv5.jpg" /></div> -->
+						</div>
+					</div>
+				</div>
+				<!-- 轮播图end -->
+			</div>
+			<div class="content1you fl">
+				<div class="youtop clearfix">
+					<div class="fl">
+						<span class="sp"></span>
+						<span class="fb brown">各地活跃度排行</span>
+					</div>
+					<div class="fr">
+						<span class="sm on">市</span>
+						<span class="sm">县</span>
+					</div>
+				</div>
+				<div class="mc">
+				<div class="mingchen">
+					<span class="brown fb inline-block fl mingchen1">名称</span>
+					<span class="brown fb inline-block fr">活跃度</span>
+				</div>
+				</div>
+				<div class="tab">
+					
+					<!-- 市 -->
+					<ul class="shi">
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num1"></span>
+								<a class="brown shi">长沙市</a>
+							</div>
+							<div class="fr huoyuedu">
+								9865231
+							</div>
+							
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num2"></span>
+								<a class="brown shi">衡阳市</a>
+							</div>
+							<div class="fr huoyuedu">
+								4636636
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num3"></span>
+								<a class="brown shi">株洲市</a>
+							</div>
+							<div class="fr huoyuedu">
+								3535632
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num4"></span>
+								<a class="brown shi">益阳市</a>
+							</div>
+							<div class="fr huoyuedu">
+								4242525
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num5"></span>
+								<a class="brown shi">常德市</a>
+							</div>
+							<div class="fr huoyuedu">
+								53536
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num6"></span>
+								<a class="brown shi">郴州市</a>
+							</div>
+							<div class="fr huoyuedu">
+								98652
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num7"></span>
+								<a class="brown shi">湘潭市</a>
+							</div>
+							<div class="fr huoyuedu">
+								57774
+							</div>
+						</li>
+					</ul>
+					<!-- 县 -->
+					<ul class="shi" style="display: none;">
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num1"></span>
+								<a class="brown shi">长沙县</a>
+							</div>
+							<div class="fr huoyuedu">
+								9865231
+							</div>
+							
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num2"></span>
+								<a class="brown shi">湘潭市</a>
+							</div>
+							<div class="fr huoyuedu">
+								4636636
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num3"></span>
+								<a class="brown shi">宁乡市</a>
+							</div>
+							<div class="fr huoyuedu">
+								3535632
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num4"></span>
+								<a class="brown shi">华容县</a>
+							</div>
+							<div class="fr huoyuedu">
+								4242525
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num5"></span>
+								<a class="brown shi">南县</a>
+							</div>
+							<div class="fr huoyuedu">
+								53536
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num6"></span>
+								<a class="brown shi">桃源县</a>
+							</div>
+							<div class="fr huoyuedu">
+								98652
+							</div>
+						</li>
+						<li class="clearfix">
+							<div class="fl">
+								<span class="num7"></span>
+								<a class="brown shi">安乡县</a>
+							</div>
+							<div class="fr huoyuedu">
+								57774
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		<!-- 第二个内容盒子-->
+		<div class="content2 clearfix">
+			<div class="content2zuo fl">
+				<div class="2pic1">
+					<img src="img/pic/ad_01.png" >
+				</div>
+				<div class="2pic2 mt10">
+					<img src="img/pic/ad_02.png" >
+				</div>
+				<div class="kj mt10">
+					<div class="kjtop">
+						<span class="sp"></span>
+						<span class="fb brown">空间访问量</span>
+					</div>
+					<div class="mingchen" style="margin-left: 0;">
+						<span class="brown fb inline-block fl mingchen1">名称</span>
+						<span class="brown fb inline-block fr">活跃度</span>
+					</div>
+					<div class="ren">
+						<ul>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num1"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">张军勇</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									9876574
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num2"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">周晋</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									4756832
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num3"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">李丽</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									8756473
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num4"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">玉锦</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									5647383
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num5"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">李笑云</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									3456438
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num6"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">杨尚礼</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									453728
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num7"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">朱娇</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									45732
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="num8"></span>
+									<label>
+									<span class="rensp"></span>
+									<span class="brown">赵俊</span>
+									</label>
+								</div>
+								<div class="huoyuedu fr">
+									12462
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="content2you fl ml10">
+				<div class="scroll posir">
+					<div class="scrolltop clearfix">
+						<div class="app fl">
+							<a href="" class="appon">推荐应用</a>
+							<a href="">免费应用</a>
+							<a href="">收费应用</a>
+						</div>
+						<div class="fr more1">
+							<a href="" class="brown inline-block">更多>></a>
+						</div>
+					</div>
+					<div class="scr">
+						<!-- 第一个scroll -->
+						<ul class="scrollul">
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">成语字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">汉语词典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">古汉语字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">公式宝典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">新华字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">图解词典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">公式定律</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">成语字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">汉语词典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">古汉语字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">公式宝典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">新华字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">图解词典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">公式定律</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">成语字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">汉语字典</a>
+								</div>
+							</li>
+							<!--  -->
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">古汉语字典1</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">公式宝典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">新华字典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">图解词典</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">公式定律</a>
+								</div>
+							</li>
+						</ul>
+					    <!-- 第一个scrollend -->
+						
+						<!-- 第二个scroll -->
+						<ul class="scrollul" style="display: none;">
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<!--  -->
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">免费应用</a>
+								</div>
+							</li>
+						</ul>
+						<!-- 第二个scrollend -->
+						<!-- 第三个scroll -->
+						<ul class="scrollul" style="display: none;">
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_01.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_02.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<!--  -->
+							<li>
+								<div class="appbg"><img src="img/pic/app_03.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_04.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_05.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_06.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+							<li>
+								<div class="appbg"><img src="img/pic/app_07.png" ></div>
+								<div>
+									<a class="scrollsp">收费应用</a>
+								</div>
+							</li>
+						</ul>
+						<!-- 第三个scrollend -->
+					</div>
+					<div class="scrollbtn">
+						<span class="left"></span>
+						<span class="right"></span>
+					</div>
+				</div>
+				<!-- 工作室 -->
+				<div class="gzs">
+					<div class="gzstop clearfix">
+						<div class="gzszuo fl">
+							<span class="sp"></span>
+							<span class="fb font14 inline-block ml5">名师工作室</span>
+						</div>
+						<div class="gengduo fr">
+							<a href="" class="brown">更多>></a>
+						</div>
+					</div>
+					<div class="gzspic">
+						<div class="gzs1 clearfix">
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/people_75.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">王晓松工作室</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!-- 工作室图 -->
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/people_75.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">王晓松工作室</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!-- 工作室图 -->
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/people_75.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">皮特工作室</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!--  -->
+						</div>
+						<div class="gzs2 clearfix">
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/people_75.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">王晓松工作室</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!-- 工作室图 -->
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/people_75.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">王晓松工作室</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!-- 工作室图 -->
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/people_75.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">皮特工作室</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!--  -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 第三个内容盒子 -->
+		<div class="content3 clearfix">
+			<div class="content3zuo fl">
+				<div class="zuo3pic">
+					<img src="img/pic/ad_03.png" >
+				</div>
+				<div class="zuo3pic mt10">
+					<img src="img/pic/ad_04.png" >
+				</div>
+				<div class="download mt10">
+					<div class="downloadtop">
+						<span class="appon">用户贡献排行</span>
+						<span>用户下载排行</span>
+					</div>
+					<div class="mingchen" style="margin-left: 2px; width: 191px;">
+						<span class="brown fb inline-block fl mingchen1">名称</span>
+						<span class="brown fb inline-block fr">活跃度</span>
+					</div>
+					<div class="downtab">
+						<!-- tab第一个盒子 -->
+						<div class="ren">
+							<ul>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num1"></span>
+										<label>
+										
+										<span class="brown">张军勇</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										9876574
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num2"></span>
+										<label>
+										
+										<span class="brown">周晋</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										4756832
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num3"></span>
+										<label>
+										
+										<span class="brown">李丽</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										8756473
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num4"></span>
+										<label>
+										
+										<span class="brown">玉锦</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										5647383
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num5"></span>
+										<label>
+										
+										<span class="brown">李笑云</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										3456438
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num6"></span>
+										<label>
+										
+										<span class="brown">杨尚礼</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										453728
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num7"></span>
+										<label>
+										
+										<span class="brown">朱娇</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										45732
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num8"></span>
+										<label>
+										
+										<span class="brown">赵俊</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										12462
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- tab第二个盒子 -->
+						<div class="ren" style="display: none;">
+							<ul>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num1"></span>
+										<label>
+										
+										<span class="brown">杨南山</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										9876574
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num2"></span>
+										<label>
+										
+										<span class="brown">孟汝佳</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										4756832
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num3"></span>
+										<label>
+										
+										<span class="brown">曾迪</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										8756473
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num4"></span>
+										<label>
+										
+										<span class="brown">陈森然</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										5647383
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num5"></span>
+										<label>
+										
+										<span class="brown">肖桃</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										3456438
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num6"></span>
+										<label>
+										
+										<span class="brown">刘莹</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										453728
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num7"></span>
+										<label>
+										
+										<span class="brown">徐欢</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										45732
+									</div>
+								</li>
+								<li class="clearfix">
+									<div class="fl">
+										<span class="num8"></span>
+										<label>
+										
+										<span class="brown">向娇</span>
+										</label>
+									</div>
+									<div class="huoyuedu fr">
+										12462
+									</div>
+								</li>
+							</ul>
+						</div>
+						<!-- 第二个盒子end -->
+					</div>
+				</div>
+				
+			</div>
+			<div class="content3you fl">
+				<div class="tea">
+					<div class="teatop">
+						<div class="fl">
+						<span class="sp"></span>
+						<span class="font14 fb inline-block ml5">优秀教师空间</span>
+					    </div>
+						<div class="fr">
+							<a href="" class="brown">更多>></a>
+						</div>
+					</div>
+					<div class="teapic">
+						<div class="gzs1 clearfix">
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/teacher1.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">李芸个人空间</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">小学数学</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!-- 工作室图 -->
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/teacher2.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">陈静个人空间</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">初中英语</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!-- 工作室图 -->
+							<div class="fl clearfix" id="gzstu">
+								<div class="fl imgbox">
+									<img src="img/pic/pite.png" >
+								</div>
+								<div class="fl ml10 mt5">
+									<h3 class="font14">皮特个人空间</h3>
+									<p class="mt5 gzsp">
+										<span class="brown">学科：</span>
+										<a href="" class="brown">高中物理</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">文章数：</span>
+										<a href="" class="brown">245639个</a>
+									</p>
+									<p class="gzsp">
+										<span class="brown">浏览数：</span>
+										<a href="" class="brown">266235个</a>
+									</p>
+								</div>
+							</div>
+							<!--  -->
+						</div>
+					    
+						<ul class="tealist mt10 clearfix">
+							<li>
+								<div class="teabg">
+									<img src="img/pic/people_50.png" >
+								</div>
+								<div class="smallbg">
+									张小娟
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/name1.png" >
+								</div>
+								<div class="smallbg">
+									李丽
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/name2.png" >
+								</div>
+								<div class="smallbg">
+									李丽
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/name3.png" >
+								</div>
+								<div class="smallbg">
+									张小娟
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/people_50.png" >
+								</div>
+								<div class="smallbg">
+									张小娟
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/name1.png" >
+								</div>
+								<div class="smallbg">
+									李丽
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/name2.png" >
+								</div>
+								<div class="smallbg">
+									李丽
+								</div>
+							</li>
+							<li>
+								<div class="teabg">
+									<img src="img/pic/name3.png" >
+								</div>
+								<div class="smallbg">
+									张小娟
+								</div>
+							</li>
+							<li style="margin-right: 0;">
+								<div class="teabg">
+									<img src="img/pic/name2.png" >
+								</div>
+								<div class="smallbg">
+									李丽
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 学科盒子 -->
+				<div class="xk">
+					<div class="xktop">
+						<span class="appon">按学科</span>
+						<span>按版本</span>
+						<span>按专题</span>
+					</div>
+					<!-- 学科tab -->
+					<div class="xktab">
+						<!-- 第一个 -->
+						<div>
+							<ul class="clearfix whiteul">
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">语文</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">语文</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">英语</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">政治生活</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">物理</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">生物</a>
+								</li>
+							</ul>
+							
+							<ul class="grayul clearfix">
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">历史</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">地理</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">思想品德</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">科学</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">品德与社会</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">品德与生活</a>
+								</li>
+							</ul>
+							
+							<ul class="clearfix whiteul">
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">音乐</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">体育</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">美术</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">综合实践活动</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">艺术</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">信息技术</a>
+								</li>
+							</ul>
+							
+							<ul class="grayul clearfix" style="border-bottom: none;">
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">生命与健康常识</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">化学</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">思想政治</a>
+								</li>
+								<li>
+									<span class="book"></span>
+									<a href="" class="brown">劳动技术</a>
+								</li>
+								
+							</ul>
+						</div>
+					    <!-- 第二个 -->
+						<div style="display: none;">
+							<ul class="clearfix whiteul">
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">语文2</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">语文</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">英语</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">政治生活</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">物理</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">生物</a>
+								</li>
+							</ul>
+							
+							<ul class="grayul clearfix">
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">历史</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">地理</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">思想品德</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">科学</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">品德与社会</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">品德与生活</a>
+								</li>
+							</ul>
+							
+							<ul class="clearfix whiteul">
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">音乐</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">体育</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">美术</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">综合实践活动</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">艺术</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">信息技术</a>
+								</li>
+							</ul>
+							
+							<ul class="grayul clearfix" style="border-bottom: none;">
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">生命与健康常识</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">化学</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">思想政治</a>
+								</li>
+								<li>
+									<span class="banben"></span>
+									<a href="" class="brown">劳动技术</a>
+								</li>
+								
+							</ul>
+						</div>
+					    <!-- 第三个 -->
+						<div style="display: none;">
+							<ul class="clearfix whiteul">
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">语文3</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">语文</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">英语</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">政治生活</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">物理</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">生物</a>
+								</li>
+							</ul>
+							
+							<ul class="grayul clearfix">
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">历史</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">地理</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">思想品德</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">科学</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">品德与社会</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">品德与生活</a>
+								</li>
+							</ul>
+							
+							<ul class="clearfix whiteul">
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">音乐</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">体育</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">美术</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">综合实践活动</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">艺术</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">信息技术</a>
+								</li>
+							</ul>
+							
+							<ul class="grayul clearfix" style="border-bottom: none;">
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">生命与健康常识</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">化学</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">思想政治</a>
+								</li>
+								<li>
+									<span class="zhuangti"></span>
+									<a href="" class="brown">劳动技术</a>
+								</li>
+								
+							</ul>
+						</div>
+						<!-- end -->
+					</div>
+					<!-- 学科tabend -->
+				</div>
+				<!-- 学科end -->
+			</div>
+			<!-- 第三个盒子结束 -->
+		</div>
+		
+		<div class="onlychu">
+			<img src="img/pic/ad_05.jpg" >
+		</div>
+		<!-- 第四个内容盒子 -->
+		<div class="content4 clearfix">
+			<div class="content4zuo fl">
+				<div class="zy">
+					<div class="zytop">
+						<span class="sp"></span>
+						<span class="fb brown">资源统计</span>
+					</div>
+					<div class="zyul">
+						<ul>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="brown">资源总数量：</span>
+								</div>
+								<div class="fr">
+									<span class="brown shuliang">2200239</span>
+									<span class="brown">个</span>
+								</div>
+							</li>
+							<li class="clearfix grayli">
+								<div class="fl">
+									<span class="brown">资源总容量：</span>
+								</div>
+								<div class="fr">
+									<span class="brown shuliang">1998.28</span>
+									<span class="brown">GB</span>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="brown">注册用户：</span>
+								</div>
+								<div class="fr">
+									<span class="brown shuliang">499636</span>
+									<span class="brown">个</span>
+								</div>
+							</li>
+							<li class="clearfix grayli">
+								<div class="fl">
+									<span class="brown">资源访问次数：</span>
+								</div>
+								<div class="fr">
+									<span class="brown shuliang">258199899</span>
+									<span class="brown">次</span>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="fl">
+									<span class="brown">资源下载次数：</span>
+								</div>
+								<div class="fr">
+									<span class="brown shuliang">44040059</span>
+									<span class="brown">次</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="content4you fl">
+				<div class="san">
+					<div class="santop clearfix">
+						<div class="fl">
+							<span class="sp"></span>
+							<span class="fb font14 sansp">三类课堂</span>
+						</div>
+						<div class="fl sanbtn">
+							<span class="sanbg sanon">网络课堂</span>
+							<span class="sanbg">名师讲堂</span>
+							<span class="sanbg">专家课堂</span>
+						</div>
+						<div class="fr">
+							<a href="" class="brown">更多>></a>
+						</div>
+					</div>
+					<div class="sanpic">
+						<!-- 第一个tab切换 -->
+						<ul class="clearfix">
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video.jpg" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">水彩画初级练习</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_02.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">植物的光合作用</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_03.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">物理空间</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video.jpg" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">初三年级网络课堂</a>
+								</p>
+							</li>
+							<li>
+								<div class="sanpicbg">
+									<img src="./img/pic/video.jpg" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">分式的乘除</a>
+								</p>
+							</li>
+						</ul>
+						<!-- end -->
+						<!-- 第二个tab切换 -->
+						<ul class="clearfix" style="display: none;">
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_02.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">水彩画初级练习</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_02.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">植物的光合作用</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_02.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">物理空间</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_02.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">初三年级网络课堂</a>
+								</p>
+							</li>
+							<li>
+								<div class="sanpicbg">
+									<img src="./img/pic/video_02.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">分式的乘除</a>
+								</p>
+							</li>
+						</ul>
+						<!-- end -->
+						<!-- 第三个tab切换 -->
+						<ul class="clearfix" style="display: none;">
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_03.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">水彩画初级练习</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_03.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">植物的光合作用</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_03.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">物理空间</a>
+								</p>
+							</li>
+							<li class="mr10">
+								<div class="sanpicbg">
+									<img src="./img/pic/video_03.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">初三年级网络课堂</a>
+								</p>
+							</li>
+							<li>
+								<div class="sanpicbg">
+									<img src="./img/pic/video_03.png" >
+								</div>
+								<p class="tc mt10">
+									<a href="" class="brown">分式的乘除</a>
+								</p>
+							</li>
+						</ul>
+						<!-- end -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部链接 -->
+		<div class="lianjie clearfix">
+			<div class="youq">
+				<span class="fb">友情链接</span>
+			</div>
+			<ul class="clearfix">
+				<li><a href="" class="brown">湖南省教育政务网 </a></li>
+				<li><a href="" class="brown">湖南教育网 </a></li>
+				<li><a href="" class="brown">湖南省电化教育馆 </a></li>
+				<li><a href="" class="brown">湖南省教育考试院 </a></li>
+				<li><a href="" class="brown">基教在线 </a></li>
+				<li><a href="" class="brown">中华人民共和国教育部 </a></li>
+				<li><a href="" class="brown">中央电化教育馆  </a></li>
+				<li class="mt5"><a href="" class="brown">湖南省教育政务网 </a></li>
+			    <li class="mt5"><a href="" class="brown">电化教育馆 </a></li>
+				<li class="mt5"><a href="" class="brown">湖南省教育政务网 </a></li>
+				<li class="mt5"><a href="" class="brown">湖南省教育政务网 </a></li>
+				
+			</ul>
+		</div>
+		<div class="bq">
+			<p class="gray">湖南省基础教育资源平台版权所有 站内资源仅限于教育系统内部使用</p>
+			<p class="gray">电话：0731-82220187 企业QQ号:800009196 邮箱：hnszyzx@126.com </p>
+			<p class="gray">地址:湖南省长沙市文运街23号；邮编410005 </p>
+			<p class="gray">湘教QS1-200505-00101 </p>
+		</div>
+		<div style="display:none;" id="rocket-to-top">
+		
+			<div style="opacity:0;display:block;" class="level-2"></div>
+		
+			<div class="level-3"></div>
+		
+		</div>
+		<script src="js/顶部火箭/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/顶部火箭/js/script.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

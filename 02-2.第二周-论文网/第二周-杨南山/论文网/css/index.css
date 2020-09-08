@@ -1,0 +1,187 @@
+/* 首页样式 */
+.header{
+	padding-top: 20px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid red;
+	background-color: #fff8e6;
+}
+
+.logo.sprite {
+	background: url('../image/zonesprite.png') no-repeat 0 0;
+	width: 230px;
+	height: 69px;
+}
+.register{
+	display: inline-block;
+}
+.register.sprite {
+	background: url('../image/zonesprite.png') no-repeat -29px -151px;
+	width: 84px;
+	height: 32px;
+	vertical-align: middle;
+	margin-right: 28px;
+}
+.register:active {
+	background: url('../image/zonesprite.png') no-repeat -29px -101px;
+	width: 84px;
+	height: 28px;
+}
+.btn{
+	background: url('../image/zonesprite.png') no-repeat -201px -151px;
+	width: 34px;
+	height: 32px;
+	outline: none;
+	border: 0;
+	cursor: pointer;
+	vertical-align:middle;
+}
+.btn:active{
+	background: url('../image/zonesprite.png') no-repeat -201px -101px;
+}
+.search{
+	width: 176px;
+	height: 26px;
+	border:1px solid gray;
+}
+.search:focus{
+	outline: none;
+}
+.nav{
+	background-image:linear-gradient(#ff8742,#ff6600)
+}
+
+.nav_list a{
+	color: #fff;
+	font-weight: 600;
+}
+.nav_list a:hover{
+	color: #ccc;
+}
+.nav_list .content>a{
+	display: inline-block;
+	margin-right: 22px;
+	padding: 16px 0 14px 0;
+	
+}
+.nav_list .sp{
+	margin: 0 36px 0 14px;
+	color: #fff;
+} 
+.user a{
+	padding: 16px 0 14px 0;
+	display: inline-block;
+}
+.user a:first-child{
+	margin-right: 32px;
+}
+
+.bd{
+	background-color: #fef5e4; 
+	padding-bottom: 70px;
+}
+.siteL{
+	margin-top: 14px;
+}
+.b1.box3 {
+	padding-bottom: 14px;
+}
+.b1.box3 li{
+	margin-top: 10px; 
+}
+.b1.box4{
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.footer .help>a{
+	display: inline-block;
+	margin-left: 30px;
+	padding: 10px 0;
+	color: #fff;
+}
+.footer .help>a:last-child{
+	margin-left: 60px;
+}
+.footer .help>a:hover{
+	color: #ddd;
+}
+.footer .help{
+	padding-right: 60px;
+}
+.weibu{
+	background-color: #2f2f2f;
+}
+
+.weibu .content>div{
+	float: left;
+}
+.links ,.other,.need,.our,.contact{
+	width: 137px;
+	padding-left: 8px;
+	border-right: 2px groove #1d1814;
+}
+
+
+.weibu .content{
+	background-color: #222222;
+	padding-top: 18px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+.space{
+	padding-left: 8px;
+}
+.space .dv1.sprite{
+	background: url('../image/zonesprite.png') no-repeat 0 -246px;
+	width: 223px;
+	height: 40px;
+}
+.contact .a1.sprite {
+	background: url('../image/zonesprite.png') no-repeat -77px -208px;
+	width: 23px;
+	height: 23px;
+}
+
+.contact .a2.sprite {
+	background: url('../image/zonesprite.png') no-repeat -39px -208px;
+	width: 22px;
+	height: 23px;
+}
+.contact .a3.sprite {
+	background: url('../image/zonesprite.png') no-repeat -117px -209px;
+	width: 24px;
+	height: 21px;
+}
+
+.space .sa1.sprite {
+	background: url('../image/zhifuSprite.png') no-repeat 0 0;
+	width: 21px;
+	height: 25px;
+	margin-right: 16px;
+}
+.space .sa2.sprite {
+	background: url('../image/zhifuSprite.png') no-repeat -34px 0;
+	width: 21px;
+	height: 25px;
+	margin-right: 16px;
+}
+.space .sa3.sprite {
+	background: url('../image/zhifuSprite.png') no-repeat -68px 0;
+	width: 36px;
+	height: 25px;
+}
+.space .dd1,.dd2{
+	line-height: 24px;
+}
+.weibu .content a{
+	color: #7d7d7d; 
+}
+.weibu .content a:hover{
+	color: #fff; 
+}
+.weibu .content .p1{
+	color: #a1905c;
+	font-weight: 600;
+}
+.space span{
+	color: #444444;
+}

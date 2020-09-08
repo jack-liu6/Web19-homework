@@ -1,0 +1,282 @@
+/**{
+	border: 1px solid red;
+}*/
+.bgzt{
+	background-color: #FFF6E5;
+	
+
+}
+.tou1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.xuebi{
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 235px;
+	height: 70px;
+}
+.xuebi-1{
+	background-position: 0 0;
+}
+.kele{margin-right: 15px;
+	margin-top: 5px;
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 84px;
+	height: 28px;
+}
+.kele-2{background-position: -30px -101px;
+
+}
+.fenda{
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 35px;
+
+	height: 28px;
+}
+.anniu{display: inline-block;
+	margin-top: 5px;
+	border: 1px #FE5720 solid;
+	width: 28px;
+	height: 28px;
+}
+.dx{margin-right: 10px;
+	margin-top: 2px;
+	width: 175px;
+	height: 28px;
+}
+.fenda-1{
+	background-position: -205px -101px;
+
+}
+/*下拉框*/
+.xiala{background-color: #FF6600;
+		padding:10px 0px;
+}
+.xuebi2{position: absolute;
+	top: 3px;
+
+	background: url(image/topline.gif)no-repeat;
+	display: inline-block;
+	width: 2px;
+
+	height: 18px;
+	background-position: 0 0;
+
+}
+.xawz{
+	color: #fff;
+	margin-right: 25px;
+}
+/*内容主体*/
+.neirongzhuti{padding-bottom: 25px;
+	padding-top: 15px;
+	background-color:  #FFF6E5;
+}
+
+
+.jixie{border:2px solid #fe9a66;
+	width: 339px;
+	background-color: #fff;
+	display: inline-block;
+	margin-bottom: 10px;
+	border-radius:5px;
+}
+.jixiebg{padding: 6px 0px;
+	background-color: #E9E9E9;
+	border-radius:5px;
+}
+.jixiebg>a{font-size: 18px;
+	color: red;
+}
+.xb{
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+}
+.xb-1{margin-left: 10px;
+
+	background-position: 0 -69px;
+}
+.logo1{
+	margin-top: 14px;
+	margin-right: 15px;
+}
+.t1{width: 100px;
+	height: 75px;
+	border: 1px solid #CCCCCA;
+	margin:5px
+}
+.xiak{
+	border-top: 2px dashed #CCCCCA;
+
+}
+.xiak li{
+	list-style-type :square;
+	margin-left: 22px;
+}
+.suliao{display: inline-block;
+	border:2px solid #fe9a66;
+	width: 339px;
+	background-color: #fff;
+	margin-left: 14px;
+	margin-bottom: 10px;
+	border-radius:5px;
+}
+.cixun{
+	width: 150px;
+	height: 150px;
+	border: 1px solid red
+}
+.dise{
+	border-bottom: 3px solid #dbdcd7;
+}
+.dise2{
+	border-bottom: 3px solid #dbdcd7;
+}
+.biaoge{
+	display: inline-block;
+}
+.youce{width: 270px;
+
+}
+.wenzi9{
+	color: green;
+}
+.youce1{width: 250px;	
+	border: 2px solid #fe9a66;
+	display: inline-block;
+		margin-bottom: 14px;
+		padding: 10px;
+		border-radius:5px;
+
+}
+.wenzi{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 16px;
+	border-bottom: 1px dashed #CCCCCA;
+}
+
+.youce ul{margin-left: 10px;
+}
+	
+.la1{
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-position: -333px -286px;
+}
+.logo2{display: inline-block;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.dianhua{color: #95b850;
+	position: absolute;
+	top: 4px;
+	left: 60px;
+}
+.shij{
+	position: absolute;
+	top:25px;
+	left: 60px;
+}
+.qq{
+	position: absolute;
+	top: 4px;
+	left: 65px;
+	color: red;
+}
+.qq1{
+	position: absolute;
+	top: 30px;
+	left: 65px;
+	color: red;
+}
+.youce2{width: 250px;	
+	border: 2px solid #fe9a66;
+	display: inline-block;
+		margin-bottom: 10px;
+		padding: 10px;
+		border-radius:5px;
+
+	}
+.xiak1 li{
+	list-style-type :disc;
+	margin-left: 10px;
+}
+/*下拉框2*/
+.xial2{
+	padding: 10px;
+	background-color: #ff6a06
+}
+.xlwz2{height: 20px;
+	margin-left: 30px;
+	color: #fff;
+}
+
+.banquan {
+	background-color: #333333;
+}
+.dibu1{
+	background-color: #222222;
+	padding: 10px;
+}
+.dibu2{width: 155px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-right:  2px solid #1d1814;
+}
+.dibu3{width: 130px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-right:  2px solid #1d1814;
+}
+.dibu2 p{
+	margin-left: 20px;
+
+}
+.dibu3 p{
+	margin-left: 20px;
+}
+.dibuwenzi{margin-left: 10px;
+	color: #a5937d;
+}
+.dibuwz{
+	color: #7b7b7b;
+}
+.xbt{
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.xbt-1{
+	background-position: -77px -206px;
+}
+.xbt-2{margin-left: 15px;
+	background-position: -39px -206px;
+}
+.xbt-3{margin-left: 15px;
+	background-position: -118px -206px;
+}
+.xbd{margin-left: 5px;
+	background: url(image/zonesprite.png)no-repeat;
+	display: inline-block;
+	width: 224px;
+	height: 40px;
+}
+.xbd-4{
+	background-position: 0 -248px;
+}
+.qq2{
+	height: 25px;
+	width: 25px;
+}
+.dibuwz3{
+	margin-left: 15px;
+}

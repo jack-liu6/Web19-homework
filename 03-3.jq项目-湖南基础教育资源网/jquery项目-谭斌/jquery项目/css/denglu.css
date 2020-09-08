@@ -1,0 +1,107 @@
+*{margin: 0; padding: 0;}
+.dt{
+	margin: 0 auto;
+	width: 1238px;
+	height: 500px;
+	background: url(../image/bg.png);
+	position: relative;
+}
+.dt1{
+	position: absolute;
+	width: 408px;
+	height: 128px;
+	background: url(../image/logo1.png);
+	top: 110px;
+	left: 256px;
+}
+.fge{
+	margin: 0 auto;
+	width:973px ;
+	height: 37px;
+	background: url(../image/log2.png);
+}
+.dibu{
+	margin: 0 auto;
+	width: 1238px;
+	height: 100px;
+	/* border: 1px solid #000000; */
+	text-align: center;
+	color: #8C8C8C;
+	font-size: 13px;
+}
+.dt2{
+	position: absolute;
+	right: 140px;
+	top: 120px;
+	width: 270px;
+	height: 320px;
+	border: 1px solid #C0C0C0;
+	background: #F9F9F9;
+}
+.dt2-1{
+	margin: 15px auto;
+	width: 230px;
+	height: 40px;
+	border-bottom: 1px solid #C0C0C0;
+	font-size: 25px;
+	color:#C0C0C0 ;
+}
+.dt2-2{
+	margin: 0 auto;
+	position: relative;
+	width: 230px;
+	height: 60px;
+	/* border: 1px solid #C0C0C0; */
+	color: #8C8C8C;
+	font-size: 13px;
+}
+.dt2-2 label{
+	position: absolute;
+	left: 50px;
+}
+.dt2-2 span{
+	font-weight: 900;
+	position: absolute;
+	left: 0;
+	color: #8C8C8C;
+	font-size: 13px;
+}
+.dt2-2 a{
+	position: absolute;
+	right: 0;
+	font-size: 13px;
+	color: #0044DD;
+}
+.dt2-2 input{
+	width: 228px;
+	height: 30px;
+	position: absolute;
+	top: 18px;
+	left: 0;
+}
+.dt2-3{
+	margin: 0 auto;
+	position: relative;
+	width: 230px;
+	height: 60px;
+	/* border: 1px solid #C0C0C0; */
+	color: #8C8C8C;
+	font-size: 13px;
+}
+.dt2-3 input{
+	margin-top: 2px;
+	width: 140px;
+	height: 30px;
+}
+.dt2-3 img{
+	position: absolute;
+	top: 25px;
+	right: 15px;
+}
+.denglu{
+	margin-left: 20px;
+	width: 220px;
+	height: 30px;
+	border: none;
+	background: url(../image/login_btn.png);
+}

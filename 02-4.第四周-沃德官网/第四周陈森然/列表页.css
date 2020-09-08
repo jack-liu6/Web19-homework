@@ -1,0 +1,190 @@
+.toububg{
+	background-color:  #082939;
+}
+.toubu{height: 100px;
+	width:1165px; margin:0 auto;
+	padding-left: 35px;
+	padding-top: 30px;
+	/*padding-bottom: 25px;*/
+}
+.toubuwz{
+	margin-top: 15px;
+	margin-left: 77px;
+}
+.tbwz{color: #fff;
+
+}
+.toubuwz1{
+	margin-top: 15px;
+	margin-left: 50px;
+}
+.tbwz1{color:#ff9600;
+
+}
+/*版权快*/
+.banquan{
+/*	background: url(image/沃夫德尔首页_37.png)no-repeat;	
+	height: 580px;
+	width: 1686.25px;*/
+	
+
+}
+.banquan img{
+	width: 1716px;
+	position: absolute;
+	left: -30px;
+}
+
+
+.wenzi13 strong{
+
+	margin-top: 50px;
+	font-size: 34px;
+	position: absolute;
+	left: 700px;
+	color: #fff;
+}
+.wenzi13 p{
+	position: absolute;
+	left: 660px;
+	color: #fff;
+	font-size: 34px;
+	margin-top: 80px;
+}
+.wenzi13 span{
+	color: #696969;
+	position: absolute;
+	left: 380px;
+	margin-top: 370px;
+}
+.s2{
+	margin-left: 230px;
+}
+.s3{
+	margin-left: 495px;
+}
+.s4{
+	margin-left: 800px;
+}
+.banquan2{
+	background-color: #264252;
+}
+.shouye{
+	color: #fff;
+	margin-left: 110px;
+}
+.banquan3{padding-bottom: 40px;
+	padding-top: 25px;
+
+}
+ li a{
+ 	margin-left: 10px;
+		color: #fff;
+}
+.wenzi15,.bqyc p{
+	color: #fff;
+}
+.logo-5{
+
+	margin-right: 200px;
+}
+.logo-6{
+	margin-left: 20%;
+	margin-top:15%;
+}
+.wenzi14{background-color: #fff;
+	padding: 10px;
+	color:#101010 ;
+}
+.baise{background-color: #fff;
+	height: 138px;
+	width: 161px;
+	border-top: 1px solid;
+}
+.dibu{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: black;
+}
+.dibu span{
+	color: #fff;
+	margin-left: 200px;
+}
+.wenzi-5{
+		position: absolute;
+	left: 550px;
+	top: 200px;
+
+	color: #fff;
+	
+
+}
+/*内容主体*/
+.nryz{
+	margin-top: 42px;
+	width: 815px;
+	
+}
+.brzc{
+	margin-top: 42px;
+	width: 322px;
+	
+}
+.nr-1{
+	background-color: #f3f3f3;
+	padding: 10px;
+}
+.nr-2,.nr-3{
+	margin-top: 20px;
+}
+.nr-4{padding-bottom: 20px;
+	border-bottom: 1px dashed  #f3f3f3;
+	margin-top: 10px;
+}
+.lanse{
+	color: #0066cc;
+}
+.anniu{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+.aniu-1{
+	border-radius:5px;
+	border:none;
+	margin-left: 10px;
+	padding:5px 8px;
+	background-color: #0066cc;
+	color: #fff;
+}
+.anniu-2{
+	border-radius:5px;
+	border:none;
+	margin-left: 10px;
+	padding:5px 8px;
+	color: #fff;
+	background-color: #215167;
+}
+.aniu-3{
+	border-radius:5px;
+	border:none;
+	margin-left: 250px;
+	padding:5px 8px;
+	background-color: #0066cc;
+	color: #fff;
+}
+.aniu-4{
+	border-radius:5px;
+	border:none;
+	margin-left: 10px;
+	padding:3px 8px 5px 8px;
+	background-color: #0066cc;
+	color: #fff;
+}
+.brzc-1{
+	border:1px solid #dddddd;
+	padding: 10px;
+}
+.brzc-2{
+	padding-bottom:5px;
+	border-bottom: 1px solid #dddddd;
+}

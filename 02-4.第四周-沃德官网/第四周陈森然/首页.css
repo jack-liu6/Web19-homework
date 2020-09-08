@@ -1,0 +1,342 @@
+.toububg{
+	background-color:  #082939;
+}
+.toubu{height: 100px;
+	width:1165px; margin:0 auto;
+	padding-left: 35px;
+	padding-top: 30px;
+	/*padding-bottom: 25px;*/
+}
+.toubuwz{
+	margin-top: 15px;
+	margin-left: 77px;
+}
+.tbwz{color: #fff;
+
+}
+.toubuwz1{
+	margin-top: 15px;
+	margin-left: 50px;
+}
+.tbwz1{color:#ff9600;
+
+}
+/*轮播图*/
+.lunbo{background: url(image/沃夫德尔首页_06.png)no-repeat;
+	height: 600px;
+
+}
+.lbwz{margin-bottom: 30px;
+	font-size: 36px;
+	color: #fff;
+	
+}
+.lbwz1{display: inline-block;
+	margin-left: 1150px;
+	margin-top: 350px;
+}
+/*咨询*/
+.zw{margin-top: 65px;
+	margin-left: 550px;
+}
+.yw{color: #a7acb0;
+	margin-left: 500px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.youce{width: 396px;
+	padding: 20px;
+	background-color: #1975a5; 
+}
+.wenzi1{color: #fff;
+	margin-top: 20px;
+}
+.wenzi2,.wenzi3{
+	color: #fff;
+}
+.zuoce{width:712px;
+	height: 315px;
+	padding: 25px;
+	border: 1px solid #c1c1c1;
+}
+.zuoce span{
+	margin-top: 6px;
+}
+.anniu1{color: #fff;
+	width: 126px;
+	height: 36px;
+	background-color: #1975a5;
+	border-radius: 10px;
+	border: none;
+}
+.anniu2{
+	margin-left: 30px;
+	width: 126px;
+	height: 36px;
+	background-color: #fff;
+	border-radius: 10px;
+	border: 1px solid #1975a5;
+}
+
+.liebiao{
+	margin-bottom: 8px;
+
+	border-bottom: dashed 1px #c1c1c1;
+}
+.shuzi{
+	font-size: 24px;
+	color: #d8d8d8;
+}
+.nr{
+	margin-left: 10px;
+}
+.shijian{
+	color: #d8d8d8;
+	
+}
+.mb{
+	margin-bottom: 80px;
+}
+/*产品系列*/
+.xiliebg{
+	padding-bottom: 40px;
+	background-color: #eff1f4;
+}
+.xilielan{
+	width:1200px; margin:0 auto;
+	padding-top: 10px;
+	
+}
+.cpzs1{
+	margin-right: 90px;
+	width: 268px;
+}
+.xilewz{
+	margin-bottom: 8px;
+	margin-left: 90px;
+}
+.cpyz-1{
+	width: 420px;
+	height: 85px;
+	border: 1px solid #9a9b9c;
+	border-radius:20px;
+}
+.cpyz-2,.cpyz-3{
+	margin-top: 30px;
+	width: 420px;
+	height: 85px;
+	background-color: #1975a5;
+	border-radius:20px;
+}
+.logo-1{
+	margin-left: 76px;
+	margin-top: 13px;
+}
+.wenzi4{
+	position: absolute;
+	left: 200px;
+	top: 30px;
+
+}
+.wenzi5{
+	position: absolute;
+	left: 215px;
+	top: 30px;
+
+}
+/*产品展示*/
+.lunbo-1{
+	background: url(image/沃夫德尔首页_25.png)no-repeat;
+	height: 580px;
+}
+.wenzi6{
+	position: absolute;
+	left: 765px;
+	top: 428px;
+	color: #fff;
+}
+.wenzi7{
+	position: absolute;
+	left: 920px;
+	top: 428px;
+	color: #fff;
+}
+.wenzi8{
+	position: absolute;
+	left: 1070px;
+	top: 428px;
+	color: #fff;
+}
+/*招商加盟*/
+.zsk1{
+	background-color: #eff1f4;
+}
+.zsk{width:1085px;
+	margin: 0 auto;
+	background-color: #eff1f4;
+	padding-top: 50px;
+	padding-left: 132px;
+	padding-right: 132px;
+
+}
+.wenzi10{
+	
+}
+.wenzi9{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 500px;
+}
+.logo-2{position: absolute;
+	left: 410px;
+	top: -10px;
+	}
+.dianhua{
+	margin-left:480px;
+}
+.wenzi11{border-bottom: 1px solid #a0a0a0;
+	padding-bottom: 20px;
+	margin-top: 15px;
+}
+.wenzi11-1{
+	margin-left: 130px;
+}
+.wenzi11-2{
+	margin-left: 50px;
+}
+.wenzi11-3{
+	margin-left: 50px;
+}
+.wenzi12{margin-top: 100px;
+	margin-left: 500px;
+}
+/*常见问题*/
+
+.cjwt-1{
+	margin-left: 20px;
+	
+	
+	
+	
+}
+.logo-4{
+	position: absolute;
+	top: -1px;
+}
+.cjwt-2{
+	margin-bottom: 10px;
+}
+.cjwt-2 a{
+	
+	margin-left: 35px;
+}
+.cjwt-k{margin-right: 20px;
+	margin-left: 20px;
+	height: 260px;
+	border-right: dashed 1px #a0a0a0;
+	
+}
+.cjwt{
+	padding-top: 30px;
+	border: solid 1px #a0a0a0;
+	
+	
+}
+/*版权快*/
+.banquan{
+/*	background: url(image/沃夫德尔首页_37.png)no-repeat;	
+	height: 580px;
+	width: 1686.25px;*/
+	
+
+}
+.banquan img{
+	width: 1716px;
+	position: absolute;
+	left: -30px;
+}
+
+
+.wenzi13 strong{
+
+	margin-top: 50px;
+	font-size: 34px;
+	position: absolute;
+	left: 700px;
+	color: #fff;
+}
+.wenzi13 p{
+	position: absolute;
+	left: 660px;
+	color: #fff;
+	font-size: 34px;
+	margin-top: 80px;
+}
+.wenzi13 span{
+	color: #696969;
+	position: absolute;
+	left: 380px;
+	margin-top: 370px;
+}
+.s2{
+	margin-left: 230px;
+}
+.s3{
+	margin-left: 495px;
+}
+.s4{
+	margin-left: 800px;
+}
+.banquan2{
+	background-color: #264252;
+}
+.shouye{
+	color: #fff;
+	margin-left: 110px;
+}
+.banquan3{padding-bottom: 40px;
+	padding-top: 25px;
+
+}
+ li a{
+ 	margin-left: 10px;
+		color: #fff;
+}
+.wenzi15,.bqyc p{
+	color: #fff;
+}
+.logo-5{
+
+	margin-right: 200px;
+}
+.logo-6{
+	margin-left: 20%;
+	margin-top:15%;
+}
+.wenzi14{background-color: #fff;
+	padding: 10px;
+	color:#101010 ;
+}
+.baise{background-color: #fff;
+	height: 138px;
+	width: 161px;
+	border-top: 1px solid;
+}
+.dibu{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: black;
+}
+.dibu span{
+	color: #fff;
+	margin-left: 200px;
+}
+.wenzi-5{
+		position: absolute;
+	left: 550px;
+	top: 200px;
+
+	color: #fff;
+	
+
+}

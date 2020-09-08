@@ -1,0 +1,167 @@
+/*
+*
+    作者：张三
+    创建日期：2019-5-08 09:37:55
+    修改日期：2019-5-08 09:38:00
+    项目地址：http://www.baidu.com
+    版本号：ver 1.0
+*
+*/
+
+body{background:#fff;margin:0;padding:0;line-height:24px; font-size:14px;font-family:"Microsoft YaHei","微软雅黑",Tahoma,Arial}
+/*清空浏览器的默认样式*/
+div,p,ul,ol,li,dd,h1,h2,h3,h4,h5,h6,dt,dl,form,input,textarea,blockquote,th,td{padding:0;margin:0}
+        /*cursor鼠标光标
+        cursor:pointer 手的形状;
+               default 默认：箭头
+                text  可输入，大I
+        */
+label {cursor:pointer}
+h1,h2,h3,h4,h5,h6{font-size:16px; font-weight:400}
+ul,ol{list-style:none}
+em,i { font-style:normal}
+/*a{ color:#333;text-decoration:none;}*/
+/*a:hover{color: #e68323;*//* text-decoration:none; */}
+/*告诉部分浏览器不要给图片添加边框*/
+img{ border:none}
+table, th, td {border-collapse: collapse;border-spacing: 0}
+/*文本处理与对齐方式*/
+.tc{text-align:center}
+.tl{text-align:left} 
+.txj{text-align: justify;color:gray}
+.tr{text-align:right}
+.fb{font-weight:bold}
+/*将超出宽度的文字截字并用省略号表示*/
+.cutFont{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+/*颜色*/
+.blue,a.blue{ color:#157ff6}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#ff6400}
+.red{ color:#f00}
+.white,a.white { color:#fff}
+.skyblue{
+    color: #0aa1ed;
+}
+.gary{
+    color: #8a8a8a
+}
+.red{
+    color: red;
+}
+/*字体大小*/
+.font12 { font-size:12px}
+.font14 { font-size:14px}
+.font16 { font-size:16px}
+.font18 { font-size:18px}   
+.font22 {font-size: 22px;}
+/*浮动公共样式*/
+.fl{float:left}
+.fr{float:right}
+.cl{clear:both}
+/*外间距公共样式*/
+.mt5{ margin-top:5px}
+.mt10{ margin-top:10px}
+.mt20{ margin-top:20px}
+.mt28{ margin-top:28px}
+.mt50{ margin-top:50px}
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb20{ margin-bottom:20px}
+.mb30{ margin-bottom:30px}
+.ml30{
+     margin-left:30px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.ml12{
+    margin-left: 12px;
+}
+.ml20{
+    margin-left: 20px;
+}
+.ml18{
+    margin-left: 18px;
+}
+.ml40{
+    margin-left:40px;
+}
+.ml45{
+    margin-left:45px;
+}
+.mr5{ margin-right: 5px }
+.mr10{margin-right: 10px}
+.mr12{margin-right: 12px}
+.mr20{margin-right: 20px}
+.mr40{margin-right: 40px}
+.mr80{
+    margin-right: 80px
+}
+.mr190{
+    margin-right: 190px
+}
+.mr100{
+    margin-right: 100px
+}
+.pl10{
+    padding-left: 10px;
+}
+.pl10{
+    padding-left: 10px;
+}
+.pt10{padding-top: 10px;}
+.pt20{padding-top: 20px;}
+.pb5{ padding-bottom: 5px }
+.pl10{
+     padding-bottom: 10px
+}
+.ml30{
+    margin-left: 30px;
+}
+.pb10{ padding-bottom: 10px }
+.pb20{ padding-bottom: 20px }
+.ml20{
+    margin-left: 20px;
+}
+.ml45{
+    margin-left: 45px;
+}
+
+/*清除浮动公共样式*/
+.clearfix:after{content:"\20";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*zoom:1}
+/*显示方式与定位*/
+.posir{position: relative;}
+.block{display: block;}
+.inline-block{
+    display:inline-block;
+}
+.none{display: none;}
+/*页面布局*/
+.wt1000{ width:1000px; margin:0 auto}
+.w220{width: 220px}
+.layout{ width:100%; }
+/*背景样式*/
+.bgcolor { background-color:#f5f5f5;}
+.bgGray{background-color: #f2f2f2}
+.bgRed{ background-color: red; }
+
+.cur_pointer{
+    cursor: pointer;
+}
+.ver_middle{
+    vertical-align: middle;
+}
+.ak{
+    display: block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background-color:  #0aa1ed;
+}  
+.f_weight_b{
+    font-weight: 700;
+}

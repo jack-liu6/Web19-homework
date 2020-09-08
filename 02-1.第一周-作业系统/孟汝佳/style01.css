@@ -1,0 +1,95 @@
+/*logo*/
+*{margin: 0; padding: 0;}
+.logo{
+	width: 1200px; height:70px; 
+	 background: #F9FAFE;}
+.fl{float: left;}
+
+.mgl{margin: 0px 0px 0px 10px;}
+
+.mglf{margin-left: 20px;}
+
+.mgtl{margin: 20px 0px 0px 20px;}
+
+.martl1{margin: 10px 0px 0px 20px;}
+
+.marg{margin:20px 6px 0px 0px;}
+
+.martl2{margin-top: 20px;}
+
+.mgat{margin: 0 auto;}
+
+.bg1{background: #6D9DCE;}
+
+.bg2{background: #DFDFDF;}
+
+.bk{border: 1px #6D9DCE solid;}
+
+.bk1{border: 1px #DFDFDF solid;}
+
+.logo1{width: 500px; margin: 0px 0px 0px 100px;}
+.nav{width: 200px; margin: 44px 0px 0px 0px;}
+.nav ul{list-style: none;}
+.f1{width:30px; height: 30px; background: url(images/top-nav.gif) no-repeat; 
+margin-left: 10px;}
+.shouye1{background-position: -44px 0px;}
+.shouye2{background-position: -88px 0px;}
+.shouye3{background-position: -132px 0px;}
+.right{width: 300px; height:30px;   background:#E9F0F8; 
+margin: 40px 0px 0px 0px;}
+.right ul{list-style: none; font-size: 12px; line-height: 30px; margin: 0px 0px 0px 20px;}
+.right a{text-decoration: none;  color:#9DC3EC;}
+.right ul li,span{float:left;  color:#9DC3EC; margin: 0px 0px 0px 10px;}
+/*banner*/
+.banner{width: 1200px;  background: #E9F0F8;}
+.daizuo{width: 1000px; height: 6px; background:#E9F0F8;}
+.daizuo1{width: 1000px; height: 1274px; background: #ffff;}
+.daizuo2{width: 980px; height: 50px;
+ margin: 0px 0px 0px 10px; line-height: 50px;
+font-weight: bold; font-size: 20px;}
+.daizuo2 span{float: none; font-size: 12px; color: #C5C5C5;}
+.p1{width: 980px; height: 4px; background: #EFEFEF; }
+.beijing{width: 980px; height: 286px;
+ margin: 0px 0px 0px 10px; background: #EFEFEF;}
+ .beijing1{width: 972px; height: 282px; background: #fff; margin: 0 auto;}
+.beijing2{width: 972px; height: 20px;}
+.mulu{width: 952px; height: 40px; line-height: 40px;}
+.yuwen{width: 40px; height: 38px; background: #ffff; margin: 0px 0px 0px 10px;}
+.yuwen p{font-weight: bold; text-align: center;}
+.yuwen1{width: 740px; height: 40px; margin: 0px 0px 0px 10px; color: #ffff;}
+.yuwen1 span{float: none; font-size: 12px; color:#ffff; }
+.yuwen2 ul li{list-style: none; float: left; font-size: 12px; color:#ffff; }
+.f2{width: 30px; height: 30px; background: url(images/icos.gif) 10px 14px no-repeat;}
+.shijian{width: 880px; height: 20px;
+ font-size: 12px; color:#CCCCCC; float: left;}
+.shijian div{float: left;}
+.laoshi{margin: 0px 0px 0px 100px;}
+.yaoqiu{width: 780px; height: 60px; margin: 0px 0px 0px 20px;
+ font-size: 12px; color:#CCCCCC; }
+ .bot{float: right; border: 1px #FAC830 solid; width: 100px; height: 40px;
+  margin: 0px 40px 0px 0px; line-height: 40px; background: #FAC830;}
+ .bot ul li{list-style: none; float: left; font-size: 12px; }
+ .bot ul li a{text-decoration: none; color:#A25200; font-weight: bold;}
+ .f3{width: 16px; height: 14px;  background: url(images/logo1.png) no-repeat;
+ 	 margin: 13px 0px 0px 20px;}
+.cf1{width: 952px; height: 40px; background: #6D9DCE; margin:0px 0px 0px 10px;  line-height: 40px; float: left;}
+ .wancheng{margin:20px 0px 0px 10px;} 
+ .wancheng p{float: left; font-weight: bold; font-size: 20px;}
+ .wancheng ul li{float: left; list-style: none; margin:4px 0px 0px 10px;}
+ .wancheng ul li a{text-decoration: none; font-size: 14px; color: #A8A8A8;}
+ .wancheng ul span{margin-top: 4px; color:#A8A8A8;}
+.k2{width: 980px; height: 790px; background: #EFEFEF; margin: 10px 0px 0px 10px;}
+.k3{width:972px;height: 782px; background: #fff; margin: 4px 0px 0px 4px;}
+.zhantie1{width: 740px; height: 40px; float: left; margin: 0px 0px 0px 10px; font-weight: bold;}
+.zhantie1 span{float: none; font-size: 12px; color: #000;}
+ .bot2{float: right; width: 120px; height: 20px; margin-right: 18px;}
+ .bot2 ul li{list-style: none; float: left; font-size: 14px; }
+ .bot2 ul li a{text-decoration: none; color:#FAC830; font-weight: bold; margin-left: 4px;}
+ .zi2{width: 16px; height: 14px;  background: url(images/icos.gif) 0px -17px no-repeat;
+ 	 margin-top:2px;}
+ .yuxian{border-top: 1px #DFDFDF dashed;}
+ .aa{width: 18px; height: 18px; border: 1px #F0F0F0 solid; float:right;}
+ .aa:hover{background: #8BCC29;}
+ .aa1{text-decoration: none; font-size: 12px; font-weight: bold; color: #6D9DCE; margin: -10px 0px 0px 5px;}
+.banquan{width: 1000px; height: 40px; background: #FBFBFB; margin-top: 48px;}
+.banquan p{text-align: center; line-height: 40px;}

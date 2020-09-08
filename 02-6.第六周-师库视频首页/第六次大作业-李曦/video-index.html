@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>师库网</title>
+    <!-- 引入网页图标 -->
+    <link rel="shortcut icon" href="favicon .ico" type="image/x-icon" />
+    <!-- 引入css初始化的css文件-->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入视频页的css文件 -->
+    <link rel="stylesheet" href="css/video-index.css">
+    <!-- 引入video-index页的js文件 -->
+    <script src="js/video-index.js"></script>
+</head>
+
+<body>
+    <!-- 顶部快捷导航start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>您好，欢迎来到师库网！</li>
+                    <li>
+                        <a href="#" class="style-grey">请登录</a>
+                        <span>新用户？</span>
+                        <a href="#" class="style-grey">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul class="orderul">
+                    <li class="orderul-li">
+                        <a href="#">我的订单</a>
+                        <i class="icomoon"></i>
+                        <ul class="shop-list cf">
+                            <li>二级菜单1</li>
+                            <li>二级菜单2</li>
+                            <li>二级菜单3</li>
+                        </ul>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <i class="icomoon style-orange"></i>
+                        <a href="#">购物车 </a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的师库</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">帮助中心</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">网站导航</a>
+                        <i class="icomoon"></i>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">加入收藏</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航end -->
+    <!-- header开始 -->
+    <div class="bg">
+        <div class="header w">
+            <!-- 星空 -->
+            <div class="star"></div>
+            <!-- logo -->
+            <div class="logo">
+                <!-- h1里面放个链接返回首页,给链接一个大小和logo背景图片 -->
+                <h1>
+                    <a href="video-index.html" title="师库网">师库网</a>
+                </h1>
+            </div>
+            <!-- search -->
+            <div class="search">
+                <select name="" id="search-a">
+                    <option value="">教学视频</option>
+                    <option value="">师库课件</option>
+                    <option value="">师库教案</option>
+                    <option value="">师库试卷</option>
+                </select>
+                <span class="heart"></span>
+                <input type="text" class="text" value="请输入关键字">
+                <button class="btn">搜索</button>
+            </div>
+            <!-- hotwords -->
+            <div class="hotwords">
+                <a href="">热门搜索：</a>
+                <a href="">教学视频</a>
+                <a href="" class="style-hot">课堂实录</a>
+                <a href="">实习演习</a>
+                <a href="">教学参考</a>
+                <a href="">课堂实录</a>
+            </div>
+            <!-- 高级搜索 -->
+            <div class="customized-search">
+                <a href="">高级搜索</a>
+                <a href="">使用帮助</a>
+            </div>
+        </div>
+    </div>
+    <!-- header结束 -->
+    <!-- nav start -->
+    <div class="nav w">
+        <!-- 左边导航 -->
+        <div class="nav-items fl">
+            <ul>
+                <li>
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">师库课件</a>
+                </li>
+                <li>
+                    <a href="#">师库教案</a>
+                </li>
+                <li>
+                    <a href="#">师库试卷</a>
+                </li>
+                <li>
+                    <a href="#">教学视频</a>
+                </li>
+                <li>
+                    <a href="#">教书匠</a>
+                </li>
+                <li>
+                    <a href="#">师说论坛</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 右边导航 -->
+        <div class="dropdown fr">
+            <ul class="">
+                <li>
+                    <a href="#" class="icos-1"></a>
+                    <a href="#">风云榜</a>
+                </li>
+                <li class="wokan">
+                    <a href="#"><span class="icos-2"></span></a>
+                    <a href="#">我看过的</a>
+                    <i class="icomoon"></i>
+                    <!-- 历史记录 -->
+                    <div class="record-list cf">
+                        <ul id="RL-list">
+                            <li>
+                                <a href="#">1、视频历史一</a>
+                                <span class="replay">
+                                        <a href="">重播</a>
+                                        <em class="icos-wrong"></em>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="#">2、视频历史二</a>
+                                <span class="replay">
+                                        <a href="">重播</a>
+                                        <em class="icos-wrong"></em>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="#">3、视频历史三</a>
+                                <span class="replay">
+                                        <a href="">重播</a>
+                                        <em class="icos-wrong"></em>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="#">4、视频历史四</a>
+                                <span class="replay">
+                                        <a href="">重播</a>
+                                        <em class="icos-wrong"></em>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="clearAll"><a href="#">清空播放历史</a></span>
+                            </li>
+                        </ul>
+                        <div class="recomV cf">
+                            <p class="recomV-hd">推荐视频:</p>
+                            <p><a href="#">1、视频历史一</a></p>
+                            <p><a href="#">2、视频历史二</a></p>
+                            <div class="recomV-s">
+                                建议<a href="" style="color: tomato;">登录</a>后在不同电脑上同步观看历史
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="dropdown fr" style="display: none;">
+            <div class="ranklist fl">
+                <a href="#" class="icos-1"></a>
+                <a href="#">风云榜</a>
+            </div>
+            <div class="play_history fr" id="play_history">
+                <ul id="PH-list">
+                    <li>
+                        <a href="#"><span class="icos-2"></span></a>
+                        <a href="#">我看过的</a>
+                        <i class="icomoon"></i>
+                    </li>
+                </ul>
+                <!-- 历史记录 -->
+                <div class="record-list cf">
+                    <ul id="RL-list">
+                        <li>
+                            <a href="#">1、视频历史一</a>
+                            <span class="replay fr">
+                                <a href="">重播</a>
+                                <em class="icos-wrong"></em>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">2、视频历史二</a>
+                            <span class="replay fr">
+                                <a href="">重播</a>
+                                <em class="icos-wrong"></em>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">3、视频历史三</a>
+                            <span class="replay fr">
+                                <a href="">重播</a>
+                                <em class="icos-wrong"></em>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="#">4、视频历史四</a>
+                            <span class="replay fr">
+                                <a href="">重播</a>
+                                <em class="icos-wrong"></em>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="clearAll fr"><a href="#">清空播放历史</a></span>
+                        </li>
+                    </ul>
+                    <div class="recomV cf">
+                        <p class="recomV-hd">推荐视频:</p>
+                        <p><a href="#">1、视频历史一</a></p>
+                        <p><a href="#">2、视频历史二</a></p>
+                        <div class="recomV-s">
+                            建议<a href="" style="color: tomato;">登录</a>后在不同电脑上同步观看历史
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- nav end -->
+    <!-- main start -->
+    <div class="w">
+        <div class="main">
+            <!-- main分为左、中、右 -->
+            <div class="dd">
+                <ul>
+                    <li class="menu_item">
+                        <a href="">语文</a>
+                        <i></i>
+                        <!-- 三级菜单 -->
+                        <div class="submenu_item" style="display:none">
+                            <ul>
+                                <p class="style-red">小学:</p>
+                                <li><a href="#">课堂实录</a></li>
+                                <li>
+                                    <a href="#">实验演习</a>
+                                </li>
+                                <li>
+                                    <a href="#">教学参考</a>
+                                </li>
+                                <p class="style-red">初中:</p>
+                                <li>
+                                    <a href="#">课堂实录</a>
+                                </li>
+                                <li>
+                                    <a href="#">实验演习</a>
+                                </li>
+                                <li>
+                                    <a href="#">教学参考</a>
+                                </li>
+                                <p class="style-red">高中:</p>
+                                <li>
+                                    <a href="#">课堂实录</a>
+                                </li>
+                                <li>
+                                    <a href="#">实验演习</a>
+                                </li>
+                                <li>
+                                    <a href="#">教学参考</a>
+                                </li>
+                                <p class="style-red">类型：</p>
+                                <li>
+                                    <a href="">特供</a>
+                                </li>
+                                <li>
+                                    <a href="">精品</a>
+                                </li>
+                                <li>
+                                    <a href="">免费</a>
+                                </li>
+                                <li>
+                                    <a href="">促销</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu_item"><a href="">数学</a><i></i>
+
+                    </li>
+                    <li class="menu_item"><a href="">英语</a><i></i></li>
+                    <li class="menu_item"><a href="">物理</a><i></i></li>
+                    <li class="menu_item"><a href="">化学</a><i></i></li>
+                    <li class="menu_item"><a href="">历史</a><i></i></li>
+                    <li class="menu_item"><a href="">地理</a><i></i></li>
+                    <li class="menu_item"><a href="">生物</a><i></i></li>
+                    <li class="menu_item"><a href="">思想政治</a><i></i></li>
+                    <li class="menu_item"><a href="">历史与社会</a><i></i></li>
+                    <li class="menu_item"><a href="">信息技术</a><i></i></li>
+                </ul>
+            </div>
+            <div class="focus">
+                <!-- 分为上、下 -->
+                <div class="focus_top">
+                    <ul class="picList">
+                        <li>
+                            <a href="#"><img src="images/Bigpic_03.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/bidpic3_03.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/bigpic2_03.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/timg.jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/timg-(1).jpg" alt=""></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/timg-(3).jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <a href="#" class="arrow-l"></a>
+                    <a href="#" class="arrow-r"></a>
+                    <ol class="square">
+                        <li class="current"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                    </ol>
+                </div>
+                <div class="focus_bottom">
+                    <ul>
+                        <li>
+                            <a href=""><img src="images/pic_03.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 登录页 -->
+            <div class="register" style="display: block;">
+                <div class="register_part">
+                    <h3 class="fl">用户登录</h3>
+                    <div class="username-bg fr"></div>
+                    <div class="reg_form cf">
+                        <form action="list.html">
+                            <ul>
+                                <li>
+                                    <label for="">用户名：</label>
+                                    <input type="text">
+                                    <!-- <span class="error">
+                                    <i class="error_icon"></i>
+                                  输入不合法，请重新输入!</span> -->
+                                </li>
+                                <li>
+                                    <label for="">密码：</label>
+                                    <input type="text">
+                                </li>
+                                <li>
+                                    <label for="">验证码：</label>
+                                    <input type="text">
+                                </li>
+                                <button class="reg-btn">登录</button>
+                                <a href="#" class="free">免费注册</a>
+                                <a href="#" class="forget">?忘记密码</a>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <!-- 登录说明 -->
+                <div class="register_info">
+                </div>
+
+            </div>
+            <!-- 小广告 -->
+
+            <!-- 登录页小广告 -->
+            <div class="register_cake fr">
+                <img src="images/piccake_03.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- main end -->
+    <!-- 最新上传start -->
+    <div class="newest w">
+        <div class="newest-videos fl">
+            <div class="nv-hd">
+                <h3 class="fl">最新上传视频</h3>
+                <div class="more fr">
+                    <a href="">MORE</a>
+                    <i class="icomoon"></i>
+                </div>
+            </div>
+            <div class="nv-bd">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quick-search fr">
+            <div class="qs-hd">快速检索</div>
+            <div class="qs-bd">
+                <div>
+                    <span class="icon-pen fl"></span>
+                    <p>按学科：</p>
+                    <a href="#">语文</a>
+                    <a href="#">数学</a>
+                    <a href="#">英语</a>
+                    <a href="#">物理</a>
+                    <a href="#">化学</a>
+                    <a href="#">历史</a>
+                    <a href="#">地理</a>
+                    <a href="#">生物</a>
+                    <a href="#">思想政治</a>
+                    <a href="#">历史与社会</a>
+                    <a href="#">信息技术</a>
+                </div>
+                <div>
+                    <span class="icon-pen fl"></span>
+                    <p>按级别：</p>
+                    <a href="#">免费</a>
+                    <a href="#">精品</a>
+                    <a href="#">特供</a>
+                    <a href="#">促销</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最新上传end -->
+
+    <!-- 楼层start  -->
+    <!-- 一 -->
+    <div class="ref w">
+        <div class="ref-l fl">
+            <div class="ref-hd">
+                <h3 class="fl">教学参考</h3>
+                <div class="more fr">
+                    <a href="">MORE</a>
+                    <i class="icomoon"></i>
+                </div>
+            </div>
+            <div class="nv-bd">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ref-r fr">
+            <div class="ref-r-hd">
+                <span class="remen"><a href="">热门</a></span>
+                <span class="haoping"><a href="">好评</a></span>
+            </div>
+            <div class="ref-r-bd">
+                <ul>
+                    <li>
+                        <span class="icon-1 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-2 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-3 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-4 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-5 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-6 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- 二 -->
+    <div class="ref w">
+        <div class="ref-l fl">
+            <div class="ref-hd">
+                <h3 class="fl">教学参考</h3>
+                <div class="more fr">
+                    <a href="">MORE</a>
+                    <i class="icomoon"></i>
+                </div>
+            </div>
+            <div class="nv-bd">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ref-r fr">
+            <div class="ref-r-hd">
+                <span class="remen"><a href="">热门</a></span>
+                <span class="haoping"><a href="">好评</a></span>
+            </div>
+            <div class="ref-r-bd">
+                <ul>
+                    <li>
+                        <span class="icon-1 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-2 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-3 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-4 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-5 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-6 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- 三 -->
+    <div class="ref w">
+        <div class="ref-l fl">
+            <div class="ref-hd">
+                <h3 class="fl">教学参考</h3>
+                <div class="more fr">
+                    <a href="">MORE</a>
+                    <i class="icomoon"></i>
+                </div>
+            </div>
+            <div class="nv-bd">
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/pc_03.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="ref-r fr">
+            <div class="ref-r-hd">
+                <span class="remen"><a href="">热门</a></span>
+                <span class="haoping"><a href="">好评</a></span>
+            </div>
+            <div class="ref-r-bd">
+                <ul>
+                    <li>
+                        <span class="icon-1 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-2 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-3 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-4 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-5 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                    <li>
+                        <span class="icon-6 fl"></span>
+                        <p class="fl"><a href="">对着镜子哭</a></p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <!-- 楼层end  -->
+
+    <!-- banner -->
+    <div class="banner w">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/banner_03.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 注册向导 -->
+    <div class="guidance w">
+        <ul>
+            <li>
+                <p class="g-hd">注册向导</p>
+                <p><a href="">注册流程图</a></p>
+                <p><a href="">流程介绍</a></p>
+
+            </li>
+            <li>
+                <p class="g-hd">充值向导</p>
+                <p><a href="">充值流程图</a></p>
+                <p><a href="">如何充值</a></p>
+                <p><a href="">如何兑换学币</a></p>
+            </li>
+            <li>
+                <p class="g-hd">购物向导</p>
+                <p><a href="">购物流程图</a></p>
+                <p><a href="">如何购买课件</a></p>
+                <p><a href="">如何下载课件</a></p>
+            </li>
+            <li>
+                <p class="g-hd">上传向导</p>
+                <p><a href="">如何上传资源</a></p>
+                <p><a href="">上传资源评判规则</a></p>
+            </li>
+            <li>
+                <p class="g-hd">送货说明</p>
+                <p><a href="">网上下载</a></p>
+                <p><a href="">网下发货</a></p>
+            </li>
+            <li class="last">
+                <p class="g-hd">积分向导</p>
+                <p><a href="">如何获得积分</a> </p>
+                <p><a href="">如何快速积累积分</a></p>
+                <p><a href="">积分扣除规则</a></p>
+            </li>
+        </ul>
+    </div>
+    <!-- 友情链接 -->
+    <div class="related-links w">
+        <div class="rl-top">
+            <a href="#" class="rl-top-hd">友情链接</a>
+            <a href="#">师库网旗下站点:师库课件</a>
+            <a href="#">师库教案</a>
+            <a href="#">师库试卷</a>
+            <a href="#">教书“匠”</a>
+            <a href="#">师库论坛</a>
+        </div>
+        <div class="rl-bottom">
+            <p>
+                <a href="#">中国教育部| 中国中学生联盟网| 北京国之源| 喜福网| 学易网校| DIY留学| 小学语文| 同考网| 学网| 课件| 华夏大地教育网| 英语口语培训| 英语网| 中华考试网| 津桥留学|
+                课件之家| 代写硕士论文| 达利通留学| 3edu教育网| 英语培训| MBA环球网| 中国辅导班网| 同考高考网| 中级会计师| 英语论文| 凤凰网出国| 同考高考网| 中级会计师</a>
+            </p>
+        </div>
+    </div>
+    <!-- footer start -->
+    <div class="footer">
+        <div class="w">
+            <div class="copyright">
+                <p class="copyright_links"> <a href="">关于我们</a> | <a href="">商务合作</a> | <a href="">客服中心</a> | <a href="">网站地图</a> | <a href="">用户留言</a> | <a href="">帮助中心</a></p>
+                <p class="copyright_info">跨地区ICP证：B2 - 20040040 《网络文化经营许可证》编号：文网文[2003] 0066号
+                    <br/>Copyright © Fortel Technology Holdings Limited and its affiliates All Rights Reserved
+                    <br/>北京国之源软件技术有限公司提供技术支持 客服电话：0731-84531868
+                    <span class="footer_icos"></span>跟踪访问速度
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+</body>
+
+</html>
+
+</html>
+
+</html>
+
+</html>

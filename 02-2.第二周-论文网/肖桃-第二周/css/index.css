@@ -1,0 +1,275 @@
+/* ---------------------------设置头部-------------------------- */
+/* 设置logo的容器 */
+.logo-wrapper{
+    height: 105px;
+}
+/* 设置logo */
+.logoin{
+    width: 230px;
+    height: 69px;
+    background-image: url(../image/zonesprite.png);
+}
+/* 设置注册立减 */
+.minus{
+    width: 85px;
+    height: 30px;
+    background-image: url(../image/zonesprite.png);
+    background-position: -30px -100px;
+}
+.minus:hover{
+    background-position: -30px -150px;
+}
+/* 设置输入的文本框 */
+.input{
+    width: 170px;
+    height: 28px;
+    border: #aba7a6 1px solid;
+    outline-color: #f3683f;
+}
+ /* 设置搜索按钮 */
+ .search{
+    width: 35px;
+    height: 30px;
+    background-image: url(../image/zonesprite.png);
+    background-position: -200px -100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+ }
+.search:hover{
+    background-position: -200px -150px;
+}
+ /* 设置导航条的容器 */
+ .nav-wrapper{
+     height: 45px;
+     background-image: url(../image/top-bg.png);
+ }
+ /* 设置导航条 */
+ .nav a{
+     line-height: 45px;
+ }
+/* 设置导航条的线 */
+ .line{
+    height: 43px;
+    width: 2px;
+    background-image: url(../image/top-line.png);
+ }
+/* ------------------------------设置主体--------------------------- */
+ /* 设置主体的容器 */
+ .main-wrapper{
+     padding-bottom: 77px;
+ }
+ /* 设置主体左边的框框 */
+ .left{
+     width: 700px;
+ }
+ /* 设置主体左边框框里的圆角框 */
+ .leftin{
+     border: solid 2px #ff9764;
+     width: 340px;
+     height: 360px;
+     border-radius: 7px;
+ }
+ /* 设置主体右边框框里的圆角框 */
+ .rightin{
+     width: 230px;
+     border: solid 2px #ff9764;
+     border-radius: 7px;
+ }
+ /* 设置右边圆角框框的高度 */
+ .rightul .rightin:nth-child(1){
+     height: 245px;
+ }
+ .rightul .rightin:nth-child(2){
+     height: 265px;
+ }
+ .rightul .rightin:nth-child(3){
+     height: 225px;
+ }
+ .rightul .rightin:nth-child(4){
+     height: 80px;
+ }
+ .rightul .rightin:nth-child(5){
+     height: 245px;
+ }
+/* 设置主体的第一列表项 */
+.li-title{
+    line-height: 34px;
+    background: linear-gradient(#fffffd,#e4e5e0);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.li-title h2{
+    margin-left: 6px;
+    color: #be1500;
+}
+.title-in{
+    width: 12px;
+    height: 13px;
+    background-image: url(../image/zonesprite.png);
+    background-position: 0 -74px;
+    vertical-align: middle;
+    margin-left: 7px;
+}
+.text-right{
+    width: 205px;
+    line-height: 20px;
+}
+.pic-text div,.pic-text img{
+    margin-left: 8px;
+}
+.pic-text img{
+    border: 1px solid #cccbc7;
+    width: 99px;
+}
+.pic-text{
+    margin-top: 7px;
+}
+.lilitext{
+    border-top: dashed 1px #999;
+    width: 317px;
+    margin: 0 auto;
+}
+.lilitext li{
+    list-style: square;
+    text-indent: 1em;
+    line-height: 22px;
+}
+/* 设置主体右边的内容！ */
+.rightin h2{
+    width: 200px;
+    margin: 15px auto 0;
+    border-bottom: 1px dashed #ddd;
+}
+.rightin li{
+    line-height: 22px;
+    list-style: url(../image/zonesprite_03.png);
+    margin-left: 30px;
+}
+.three ul{
+    margin-top: 8px;
+}
+.three li{
+    list-style: square;
+    margin-left: 20px;
+}
+.floor1 img,.floor2 img,.floor3 img{
+    margin:  10px 10px 0;
+}
+.floor1 p,.floor2 p,.floor3 p{
+    display: inline-block;
+    margin-top: 10px;
+}
+ /* 设置网页的底部 */
+ .bnav{
+     line-height: 45px;
+     background: linear-gradient(#ffc69c,#fc6902);
+     font-weight: bold;
+ }
+ .bnav a{
+     display: block;
+     padding: 0 15px;
+ }
+ /* 设置底部的版权信息 */
+ .foot-wrapper{
+     padding-bottom: 7px;
+     background: linear-gradient(#262024,#393939);
+ }
+ .foot{
+     background-color: #222;
+     padding-bottom: 30px;
+ }
+ .foot div:nth-child(1),
+ .foot div:nth-child(4),
+ .foot div:nth-child(7),
+ .foot div:nth-child(10),
+ .foot div:nth-child(13){
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 30px;
+ }
+ #foot a{
+    color: #707070;
+ }
+ #foot a:hover{
+     color: #5893ce;
+ }
+ /* 设置四个图标 */
+ .friends li,.others li,.help li,.partners li{
+     margin-left: 10px;
+     line-height: 20px;
+ }
+ .friends>span,.others>span,.help>span,.partners>span,.contact>span{
+     color: #92938b;
+     font-weight: bold;
+     line-height: 20px;
+ }
+ .weibo,.boke,.letter,.qq{
+     width: 24px;
+     height: 24px;
+     background-image: url(../image/zonesprite.png);
+ }
+ .qq{
+     background: url(../image/QQ.png) no-repeat;
+     background-size: 24px;
+ }
+ .weibo{
+     background-position: -75px -207px;
+ }
+ .boke{
+     background-position:-37px -207px;
+ }
+ .letter{
+     background-position: -116px -207px;
+ }
+ .contactul{
+     width: 70px;
+     margin-left: 10px;
+ }
+ .contactul li{
+     margin-top: 15px;
+ }
+ .contactul li:nth-child(2n+1){
+     margin-right: 20px;
+     
+ }
+ /* 设置底部的论文空间 */
+ .lunwen{
+    width: 200px;
+    height: 39px;
+    background-image: url(../image/zonesprite.png);
+    background-position: 0 -248px;
+    margin-left: 5px;
+ }
+ /* 设置底部的分割线 */
+ .bleft{
+     height: 140px;
+     width: 1px;
+     background-color: #302c29;
+     margin-top: 20px;
+ }
+ .foot div:nth-child(11),
+ .foot div:nth-child(12){
+     height: 100px;
+ }
+ .foot div:nth-child(14),
+ .foot div:nth-child(15){
+     height: 110px;
+ }
+ .bright{
+    height: 140px;
+    width: 1px;
+    background-color: #1d1814;
+    margin-top: 20px;
+ }
+ .lastlast span,.lastlast p{
+     color: #464646;
+     line-height: 24px;
+ }
+ .ftext{
+     margin-left: 10px;
+ }
+ /* 设置最后的三个图标 */
+.icons3 img{
+    margin-left: 10px;
+}

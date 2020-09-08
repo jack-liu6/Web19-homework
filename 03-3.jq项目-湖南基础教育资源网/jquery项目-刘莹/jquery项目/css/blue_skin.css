@@ -1,0 +1,181 @@
+#bul{
+	background: url('../img/ico_sprite.png') no-repeat -18px -22px;
+}
+#ora{
+		background: url('../img/ico_sprite.png') no-repeat 0 -49px;
+		
+}
+.dh-1{
+	background: url('../img/blue_skin/nav_bg.png') no-repeat 0 0;
+	
+}
+.shouye{
+	background: url('../img/blue_skin/nav_hover.png') no-repeat 0 0;
+	
+}
+.dh-1 li a{
+	color: white;
+}
+.shouye-1{
+	color: #83C4EE;
+}
+.ziyuan-1:hover{
+	color: #1A5DA4;
+	background-color: #F6FBFF;
+}
+.ziyuan-2 li{
+	background-color: #F6FBFF;
+	border:1px solid #8ABBE4 ;
+}
+.ziyuan-2 a:hover{
+	background-color: #1E8AC8;
+	color: white;
+}
+.ziyuan-2 li a{
+	color: #1A5DA4;
+}
+/* 通知公告 */
+.gong{
+	border: 1px solid #CBE7F9;
+	background-color: #F9FDFF;
+}
+/* 登录页 */
+.denglu{
+	border: 1px solid #BDD7F2;
+	background-color: #F9FEFF;
+}
+.denglu-1{
+	border-bottom:1px solid #BDD7F2 ;
+}
+.dlt{
+	display: inline-block;
+	background: url('../img/blue_skin/tt_ico.png') no-repeat;
+	margin-left: 5px;
+	width: 8px;
+	height: 10px;
+}
+#yh-2{
+	border: 1px solid #BDD7F2;
+}
+#yh-3{
+	border: 1px solid #BDD7F2;
+}
+/* 轮播图 */
+.outer{
+border: 1px solid #BDD7F2;	
+}
+/* 排行榜 */
+.paiban{
+	border: 1px solid #BDD7F2;
+}
+.paihan-1{
+	border-bottom:1px solid #BDD7F2;
+	background-color: #F7FDFF;
+}
+.paihan-3{
+	display: inline-block;
+	background: url('../img/blue_skin/tab_sm.png') no-repeat;
+	width: 21px;
+	height: 24px;
+	
+}
+.sz-2{
+	color: #457EBC;
+}
+/* 访问空间量 */
+.fw{
+	border: 1px solid #CEE2F7;
+}
+.fw-1{border-bottom:1px solid #BDD7F2;
+	background-color: #F7FDFF;
+	} 
+/* 用户贡献排名 */
+.gx{
+	border: 1px solid #BDD7F2;
+}
+.gx-1{
+	background-color: #F6FDFF;
+	border-bottom: 1px solid #CEE2F7;
+}
+.yonghu3{
+	border-left:1px solid #BDD7F2;
+}
+/* 中间主体内容右边部分 */
+/* 书本轮播图 */
+.you{
+	border: 1px solid #BDD7F2;
+}
+.nav-menu{border-right:1px solid #BDD7F2;
+	background-color: #F9FEFF;
+	height: 30px;
+	border-bottom: 1px solid #BDD7F2;
+}
+/* 名师工作 */
+.ming{
+	border: 1px solid #BDD7F2;
+	
+}
+.gzs{
+	background-color: #F9FEFF;
+}	
+.mingshi{
+	color: #336699;
+	
+}
+/* 优秀教师空间*/
+.youxiu{
+	border: 1px solid #BDD7F2;
+	
+}
+/* 学科 */
+.xueke{
+	border: 1px solid #BDD7F2;
+}
+.xueke-3{
+	background-color: #F2FCFE;
+	border-bottom:1px solid  #BDD7F2;
+}
+.xueke-4{
+	border-right:1px solid #BDD7F2;
+}
+/* 下部分内容左边 */
+.neir{
+	border: 1px solid #BDD7F2;
+}
+.tongji{
+	background-color: #F6FDFF;
+}
+.ziyuan-3 span{
+	color: #3366cc;
+}
+/* 底部右边 */
+.sanlei{
+	border: 1px solid #BDD7F2;
+}
+.sanlei-2{
+	background-color: #F2FCFE;
+}
+.sanlei-3 a{
+	color: #336699;
+}
+.sanlei-4 a{
+	color: #336699;
+}
+.sanlei-5{
+	    margin-top: 10px;
+	    height: 30px;
+}
+/* 尾部 */
+.wb{
+	border: 1px solid #BDD7F2;
+}
+.yq{
+	color: #336699;
+}
+.yq-2{
+color: #336699;
+font-weight: 600;
+}
+.wb-2{
+	background-color: #F2FCFE;
+}

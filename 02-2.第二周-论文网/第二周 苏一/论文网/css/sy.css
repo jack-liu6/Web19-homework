@@ -1,0 +1,372 @@
+.head{
+    
+	
+	background-color: #FFF8E6;
+   
+}
+
+.sprite {
+	background: url(../image/zonesprite.png) no-repeat 0 0;
+	width: 230px;
+	height: 69px;
+	
+
+}
+
+.headzuo{
+	width: 276px;
+	height: 70px;
+   margin: 20px 0;
+}
+
+.headyou{
+	margin: 30px 0;
+}
+
+.top{
+	width: 990px;
+	margin: 0 auto;
+}
+
+.bt1{
+	width: 86px;
+	height: 26px;
+    border: none;
+    background: url(../image/zonesprite.png) no-repeat -29px -151px;
+	width: 84px;
+	height: 28px;
+	outline: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.bt1:active{
+	background: url(../image/zonesprite.png) no-repeat -29px -101px;
+	width: 84px;
+	height: 28px;
+}
+
+.headyou input{
+	width: 180px;
+	height: 28px;
+	border: 1px solid gray;
+	outline: none;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.bt2{
+	width: 34px;
+	height: 28px;
+	vertical-align: middle;
+	background: url(../image/zonesprite.png) no-repeat -201px -101px;
+	width: 34px;
+	height: 28px;
+	border: none;
+	outline: none;
+}
+
+.bt2:active{
+	background: url(../image/zonesprite.png) no-repeat -201px -151px;
+	width: 34px;
+	height: 28px;
+}
+
+.search{
+	background-image:linear-gradient(#FF893E,#FF6600);
+	height: 35px;
+	padding-top: 10px;
+}
+
+.lianjie{
+	width: 990px;
+	margin: 0 auto;
+}
+
+.lianjie>a{
+	margin:20px 20px 20px 0;
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+}
+
+.sp1{
+	margin:0 19px;
+}
+
+.sp2>a{
+	margin:20px 30px 20px 0;
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+}
+
+.lianjie>a:hover{
+	color: black;
+}
+
+.sp2>a:hover{
+	color: black;
+}
+
+.neirong{
+	width: 990px;
+	margin: 0 auto;
+}
+
+.box1{
+	width: 362px;
+	height: 380px;
+    border: 2px solid #FDA26E;
+    border-radius: 5px;
+    background-color: #FFFFF5;
+    margin: 10px 10px 10px 0;
+}
+
+.sprite1{
+	background: url(../image/zonesprite.png) no-repeat 0 -74px;
+	width: 12px;
+	height: 13px;
+	display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.t1{
+	color: #CD1935;
+	font-weight: bold;
+    vertical-align: middle;
+}
+
+.tu1{
+	margin-left: 210px;
+	vertical-align: middle;
+}
+
+.top1{
+	height: 35px;
+	background-image:linear-gradient(#F7F7F7,#E8E8E8);
+}
+
+.box2{
+	width: 230px;
+	height: 260px;
+	border: 2px solid #FDA26E;
+    border-radius: 5px;
+    background-color: #FFFAF6;
+    margin: 10px 0;
+}
+
+.top2{
+	height: 36px;
+	border-bottom: 1px dashed #ddd;
+	line-height: 36px;
+	padding-left: 10px;
+}
+
+.boxtu{
+	width: 362px;
+    height: 100px;
+    border-bottom: 1px dashed #ddd;
+    overflow: hidden;
+}
+
+.boxtu1{
+	width: 110px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+.boxtu1>img{
+	border: 1px solid #ddd;
+}
+.boxtu2{
+	width: 210px;
+	margin-right: 10px;
+}
+
+.boxlist>ul{
+	margin-left: 30px;
+	list-style: square;
+}
+
+.box2list{
+	width: 210px;
+	margin-left: 20px;
+}
+
+.box2list>ul{
+	
+
+
+}
+
+.box3{
+	width: 230px;
+	height: 240px;
+	border: 2px solid #FDA26E;
+    border-radius: 5px;
+    background-color: #FFFAF6;
+    margin: 10px 0;
+}
+
+.fu1-1,.fu2-1,.fu3-1{
+	margin-left: 15px;
+}
+
+.fu1-2{
+	margin-right: 15px;
+}
+
+.fu2tu{
+	background: url(../image/zonesprite.png) no-repeat -333px -288px;
+	width: 6px;
+	height: 6px;
+	display: inline-block;
+    margin-bottom: 2px;
+}
+
+.fu2-2{
+	margin-right: 50px;
+}
+
+.fu3-2{
+	margin-right: 15px;
+}
+
+.box4{
+	width: 230px;
+	height: 90px;
+	border: 2px solid #FDA26E;
+    border-radius: 5px;
+    background-color: #FFFAF6;
+    margin: 10px 0;
+}
+
+.box4>ul{
+	margin:10px 10px 10px 20px;
+	list-style: square;
+}
+
+
+.search2{
+	background-image:linear-gradient(#FFC198,#FE7316);
+	height: 35px;
+	padding-top: 10px;
+	margin-top: 50px;
+}
+
+.lianjie2>a{
+	
+	margin:20px 20px 20px 0;
+	vertical-align: middle;
+	color: white;
+	font-weight: bold;
+}
+
+.lianjie2>a:hover{
+	color: black;
+}
+
+.lianjie2 span>a:hover{
+	color: black;
+}
+
+.lianjie2{
+	width: 990px;
+	margin: 0 auto;
+	position: absolute;
+	left: 840px;
+}
+
+.end{
+	height: 200px;
+	background-image:linear-gradient(#232323,#333333);
+}
+
+.endlist{
+	width: 990px;
+	height: 184px;
+	margin: 0 auto;
+	background-color: #222222;
+}
+
+.list1>div{
+	color: #A59075;
+}
+
+.list1 ul li>a{
+	color: #737373;
+	font-size: 12px;
+}
+
+.list1 ul li>a:hover{
+	color: white;
+}
+
+.list1{
+	margin:20px 20px;
+}
+
+.sprite2{
+	background: url(../image/zonesprite.png) no-repeat -77px -208px;
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	margin-right: 10px;
+	
+}
+
+.sprite3{
+	background: url(../image/zonesprite.png) no-repeat -39px -208px;
+	width: 22px;
+	height: 23px;
+	display: inline-block;
+
+}
+
+.sprite4{
+	background: url(../image/zonesprite.png) no-repeat -161px -208px;
+	width: 24px;
+	height: 24px;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.sprite5{
+	background: url(../image/zonesprite.png) no-repeat -117px -209px;
+	width: 24px;
+	height: 21px;
+	display: inline-block;
+}
+
+.sprite6{
+	background: url(../image/zonesprite.png) no-repeat 0 -246px;
+	width: 223px;
+	height: 40px;
+}
+
+.boxlist li>a:hover{
+	color: green;
+}
+
+.box2list li>a:hover{
+	color: green;
+}
+
+.list1 div>a{
+	margin-right: 10px;
+}
+
+
+.hong{
+	background: url(../image/zonesprite.png) no-repeat -333px -288px;
+	width: 6px;
+	height: 6px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+

@@ -1,0 +1,81 @@
+ /* 设置一个灰不拉几的颜色背景 */
+ body{
+     background: url(../images/login-body-bg.png) repeat-x center 0;
+ }
+ /* 设置主体的背景图 */
+.main{
+    height: 565px;
+    background: url(../images/login-bg.png);
+}
+/* 设置logo */
+.logo{
+    width: 419px;
+    height: 137px;
+    background: url(../images/login-logo.png);
+    position: absolute;
+    top: 130px;
+    left: 60px;
+}
+/* 设置用户登录 */
+.login-box{
+    position: absolute;
+    right: 115px;
+    top: 120px;
+    width: 273px;
+    background-color: #f9f9f9;
+    border: #e3e3e3 solid 1px;
+    border-radius: 3px;
+}
+.login-box h2{
+    font-family: "幼圆";
+    height: 50px;
+    line-height: 50px;
+    margin: 0 25px;
+    border-bottom: #d7d7d7 solid 1px;
+}
+.login-box form{
+    margin: 0 25px 30px;
+}
+.login-box form .kuang{
+    border: #c8c8c8 1px solid;
+    height: 28px;
+    line-height: 28px;
+    background-color: #fff;
+    /* margin-left: 28px; */
+    border-radius: 3px;
+}
+.login-box form .kuang input{
+    margin-left: 28px;
+    height: 28px;
+    border: none;
+    width: 192px;
+    outline: none;
+}
+.login-box form input.kuang{
+    border-radius: 3px;
+    outline: none;
+    padding-left: 10px;
+    width: 139px;
+}
+.submit{
+    width: 220px;
+    height: 30px;
+    background: url(../images/login_btn.png);
+    text-indent: -9999999999999px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+}
+.people{
+    background: url(../images/login_sprite.png) no-repeat 0 0;
+    background-position: 10px 10px;
+}
+.suo{
+    background: url(../images/login_sprite.png) no-repeat 0 0;
+    background-position: 10px -30px;
+}
+/* 设置中间的渐变线 */
+.linear-line{
+    height: 1px;
+    background-image: linear-gradient(to right, #fff,#eaeaea,#fff);
+}

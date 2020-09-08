@@ -1,0 +1,139 @@
+/* 橙色皮肤 */
+.tabs-cotent .loaction>li{
+    color: #f29a54;
+}
+.f-source .done{
+    background: url(../images/orange_skin/search_bg.png) no-repeat;
+}
+.select .sel-bd{
+    border: 1px solid #ffbb8e;
+}
+.nav .list{
+    background: url(../images/orange_skin/nav_bg.png) no-repeat;
+}
+.list .spacer{
+    background: url(../images/orange_skin/nav_line.png) no-repeat;
+}
+.soul .sCenter{
+    border-color: #fec397;
+}
+.soul .sCenter{
+    /* background: #fdfff6; */
+}
+.sCenter>ul>li>a{
+    color: #e06c1f;
+}
+.sCenter>ul>li:hover{
+    background: #f77a0f;
+}
+.sCenter>ul>li:hover a{
+    color: #fff;
+}
+.demo1 .scroll{
+    border-color: #f7e8b5;
+    background: #fefae9;
+}
+.demo1 .ranking{
+    border-color: #fff2e5;
+}
+.sidebar .ranking{
+    border-color: #fff2e5;
+}
+.demo1 .ranking .raing{
+    border: 1px solid #fec397;
+}
+.sidebar.ranking .raing{
+    border: 1px solid #fec397;
+}
+.raing .ra-hd{
+    border-bottom-color: #fec397;
+}
+.ra-hd .title .icon{
+    background: url(../images/orange_skin/tt_ico.png) no-repeat;
+}
+.raing .ra-hd{
+    background: #fef7de;
+}
+.citys>li .count{
+    color: #f56d12;
+}
+.change-City .shi.on{
+    background: url(../images/orange_skin/tab_sm.png) no-repeat;
+}
+.change-City .xian.on{
+    background: url(../images/orange_skin/tab_sm.png) no-repeat;
+}
+.demo1 .login{
+   border-color: #fff2e5;
+}
+.login .user-box{
+    border-color: #fec397;
+}
+.user-box .use-hd{
+    border-bottom-color: #fec397;
+    background-image: linear-gradient(#fdf9ee,#fef6dd,#fff3ca);
+}
+.k-2 .k-hd{
+    border-color:#fec397 ;
+}
+.k-hd .aka{
+    border-color: #fec397;
+}
+.mama .books{
+    width: 746px;
+    height: 169px;
+    border: 2px solid #fff2e5;
+}
+.famous{
+    border-color: #fff2e5;
+}
+.famous .fu{
+   border-color: #fec397;
+}
+.fu-hd{
+    border-bottom-color:#fec397;
+    background: #fff3cb;
+}
+.fu-hd .tit span{
+    color: #ff6a07;
+}
+.fu-hd .tit .icon{
+    background: url(../images/orange_skin/tt_ico.png) no-repeat;
+}
+.tongji{
+    border-color: #fff2e5;
+}
+.tongji .to{
+    border-color: #fec397;
+}
+.to .to-hd{
+   background: #fef6da;
+}
+.to .to-hd{
+    border-bottom-color:#ff6a07;
+}
+.hua .tbs span{
+    color: #707070;
+}
+.hua .tbs span.active{
+    background: url(../images/orange_skin/tab_big.png) no-repeat;
+}
+.friendly .ff{
+    border-color: #fff2e5;
+}
+.ff .fre{
+    border-color: #fec397;
+}
+.fre .tit span{
+    color: #ff6a07;
+}
+.side-bar{
+    background: url(../images/orange_skin/app_menu_bg.png) no-repeat;
+}
+.side-bar .lists>li.active{
+    background: url(../images/orange_skin/all_app_hover.png) no-repeat;
+}
+.side-bar .lists>li{
+   color: #db5d23;
+}
+

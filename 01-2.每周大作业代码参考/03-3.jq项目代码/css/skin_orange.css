@@ -1,0 +1,54 @@
+@charset "utf-8";
+/******
+*description:橙色皮肤样式
+*copyright:北京好之源网络科技有限公司
+*create time:2014-04-22 
+*update time:2014-04-26
+*******/
+a:hover,.imgTxt p a:hover,#friendln a:hover{color:#ff8400}
+.skin_blue{ background-position:0 -22px;}
+.skin_orange{ background-position:-18px -49px;}
+
+.arealist{ border-color:#f60; }
+
+.arealist dl{ border-top-color:#f60}
+
+.searchBox{ background:url(../img/orange_skin/search_bg.png) no-repeat}
+
+.nav{ background:url(../img/orange_skin/nav_bg.png) no-repeat left bottom}
+.navInner .fm{ background:url(../img/orange_skin/nav_line.png) no-repeat right center}
+.navInner .current a,.navInner li a:hover{ background:url(../img/orange_skin/nav_hover.png) no-repeat; color:#000}
+.navInner .sfHover .sf-with-ul,.navInner .sfHover .sf-with-ul:hover{ color:#e06c1f; border-top:1px solid #fec397; border-left:1px solid #fec397; border-right:1px solid #fec397 }
+.subNav { border-left:1px solid #fec397; border-right:1px solid #fec397;border-bottom:1px solid #fec397;}
+.subNav li a{ color:#e06c1f;}
+.navInner .subNav li a:hover{ background:#f77a0f; color:#fff}
+
+.box{ border-color:#fff2e5}
+.inner{border-color:#fec397}
+
+.notice{ border-color:#f7e8b5; background-color:#fefae9}
+
+.inner .tt{ background:url(../img/orange_skin/inner_tt.png) repeat-x;}
+.ico_arr { background:url(../img/orange_skin/tt_ico.png) no-repeat left center}
+.skinColor{ color:#f60}
+
+#loginBox .bd{ background-color:#fefbe4}
+.field .login-text{ border-color:#fec397}
+#loginBox .userInfo,#loginBox .userMnt { border-bottom-color:#fe9f06}
+
+#areaRank .modTab .tabOn a{ background:url(../img/orange_skin/tab_sm.png) no-repeat;}
+#areaRank .modTab a{ color:#f60}
+.linum li span{ color:#f60}
+
+.tabLine{border-right-color:#fe9f06;}
+#userRank .tabOn,#appSlide .tabOn,#subjectSlide .tabOn{border-top-color:#fe9f06; }
+#userRank .tabOn a,#stat .bd b,#appSlide .tabOn a,#subjectSlide .tabOn a,#friendln h5{color:#f60}
+
+#classSlide .modTab .tabOn a{ background:url(../img/orange_skin/tab_big.png) no-repeat;}
+/*应用中心*/
+.appLeft{ background:url(../img/orange_skin/app_menu_bg.png) left top no-repeat}
+.allApp.tabOn a,.allApp a:hover{ background:#cae4f3 url(../img/orange_skin/all_app_hover.png) left center no-repeat}
+.recApp.tabOn a,.recApp a:hover{ background:#cae4f3 url(../img/orange_skin/rec_app_hover.png) left center no-repeat}
+.freeApp.tabOn a,.freeApp a:hover{ background:#cae4f3 url(../img/orange_skin/free_app_hover.png) left center no-repeat}
+.feeApp.tabOn a,.feeApp a:hover{ background:#cae4f3 url(../img/orange_skin/fee_app_hover.png) left center no-repeat}
+

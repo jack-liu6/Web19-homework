@@ -1,0 +1,86 @@
+/* 版心 */
+
+.w {
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+/* 顶部快捷导航 */
+
+.shortcut {
+    height: 33px;
+    line-height: 33px;
+    background: linear-gradient(#fdfdfd, #f9f9f9, #f2f2f2, #ececec);
+}
+
+
+/* 字体颜色 */
+
+.f85 {
+    color: #858585;
+}
+
+.f91 {
+    color: #919191;
+}
+
+.f79 {
+    color: #797979;
+}
+
+.f72 {
+    color: #727272;
+}
+
+.f70 {
+    color: #707070;
+}
+
+.f5c {
+    color: #5c5c5c!important;
+}
+
+.f65 {
+    color: #ff6500;
+}
+
+.f62 {
+    color: #626262!important;
+}
+
+.ad1 {
+    color: #1a1ad1;
+}
+
+.f87 {
+    color: #878787;
+}
+
+.f8c {
+    color: #8c8c8c;
+}
+
+.f5 {
+    color: #555555;
+}
+
+
+/* li的浮动 */
+
+li {
+    float: left;
+}
+
+
+/* 图片边框 */
+
+.imgBorder {
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #333;
+}
+
+.greyBg {
+    background: #f8f8f8;
+}

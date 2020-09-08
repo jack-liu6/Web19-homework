@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*
+create time:2014-6-17 
+copyright:北京国资源，师库网
+http://www.chinaschool.net
+*/
+body{ background:url(../img/bg.gif) repeat; line-height:22px}
+.header-wrapper,.wrapper,.footer-wrapper{ width:980px; margin:0 auto; overflow:hidden}
+select,input{ vertical-align:middle}
+/*header*/
+.header{ background:url(../img/header-146.jpg) repeat-x; height:146px; width:100%}
+.top-nav{line-height: 30px;color:#666; height:30px }
+.top-nav .left {width: 50%;margin-left: 10px;overflow: hidden}
+.top-nav .right { margin-right:10px; overflow:hidden}
+.top-nav .right p{ float:left; margin:0 3px}
+.top-nav a{ color:#666}
+/*资源统一搜索框*/
+.c-search{ width:845px; margin:0 auto; padding:20px 0 0 0}
+.c-search .tab { height:25px; padding:0 0 0 135px;}
+.c-search .tab li{ float:left; width:66px; height:25px; line-height:24px; margin:0 3px; text-align:center}
+.c-search .tab li.current{ background:url(../img/sch-hover.png) no-repeat; font-weight:bold;position: relative;z-index: 5; top:1px}
+.c-search .tab li a{ color:#fff}
+.c-search p{ background:url(../img/sch-h1.png) no-repeat; width:121px; text-align:center; hanging-punctuation:23px; margin:10px 5px 0 0}
+.sch-form { background:url(../img/sch-bg.png) no-repeat; width:717px; height:45px}
+.sch-form form{ padding:9px 0 0 10px}
+.sch-form .txt{ border:1px solid #579bc0;border-color:#579bc0 #65b5e0 #65b5e0 #579bc0; background:url(../img/sch-input.png) no-repeat; padding:3px 5px; height:21px;  line-height:21px; width:502px;font-size:14px}
+.sch-form .sch-btn{ background:url(../img/sch-btn.png) no-repeat; width:87px; height:29px; border:none;_border:0; cursor:pointer}
+.sch-form .baidu-btn{ background:url(../img/baidu.png) no-repeat; width:87px; height:29px; border:none;_border:0; cursor:pointer}
+/*资源搜索呈现*/
+.s{ border:1px solid #ddd; width:978px; background-color:#fff}
+.stt{ background:url(../img/stt.png) repeat-x; height:35px;  padding:12px 10px 0 10px}
+.stt p.count{ width:460px;}
+.stt p.count strong{ font-size:14px; margin-right:20px; color:#666}
+.stt p.filter{ margin-right:25px}
+.stt p.filter select{ width:85px; text-align:center}
+.stt .view a{ padding-left:13px; margin-right:5px}
+.stt .view a:hover{ text-decoration:none}
+.stt .list-mode{ background:url(../img/ico/list-mode.png) 0 3px no-repeat}
+.stt .list-mode-selected{ background:url(../img/ico/list-mode-selected.png) 0 3px no-repeat}
+.stt .summary-mode{ background:url(../img/ico/summary-mode.png) 0 3px no-repeat}
+.stt .summary-mode-selected{ background:url(../img/ico/summary-mode-selected.png) 0 3px no-repeat}
+.stt .thumb-mode{ background:url(../img/ico/thumb-mode.png) 0 3px no-repeat}
+.stt .thumb-mode-selected{ background:url(../img/ico/thumb-mode-selected.png) 0 3px no-repeat}
+.stt .sort a{ padding:2px 5px 3px 5px; margin-right:5px; border:1px solid #ddd; background-color:#fefefe}
+.stt .sort .selected,.stt .sort a:hover{ background-color:#6fbe44; color:#fff; text-decoration:none}
+.sbd{ border:1px solid #ddd; margin:10px; overflow:hidden}
+.sbd .leftbar{ padding:10px 0 10px 20px; width:180px}
+.sbd .leftbar h4,.sbd .leftbar li{ margin-bottom:5px}
+.sbd .leftbar ul{ margin-bottom:15px}
+.sbd .leftbar li a{ display:block; padding:2px 10px }
+.sbd .leftbar li a:hover{ background-color:#dbeef4;text-decoration:none; cursor:pointer}
+.sbd .leftbar .now a { color:#06c}
+.sbd .leftbar select,.sbd .leftbar input.author{ margin:0; padding:3px 0; width:130px; border:1px solid #ddd}
+.sbd .leftbar input.author{ width:128px; margin-right:3px}
+.sbd .main{ margin:10px 0 10px 10px; width:730px;overflow:hidden}
+.list-mod,.list-summary{ margin-bottom:10px; padding-bottom:10px; border-bottom:1px dashed #ddd;overflow:hidden; width:100%}
+.list-mod .modtt strong{ color:#093; font-size:14px}
+.list-mod .modbd{ color:#555}
+.list-summary .sortpic { margin-right:10px}
+.list-summary .sortpic img{ margin-top:4px; width:110px; height:80px; border:1px solid #ddd; padding:2px}
+.list-summary .sortContent{ overflow:hidden; padding:3px 2px;}
+.list-summary .sortContent:hover{ background-color:#fff8e2;}
+.list-summary .sortinfo h4 a,.list-mod .modtt strong a{color:#06c; }
+.list-summary .sortinfo h4 span{ font-weight:normal; margin-left:10px }
+.list-summary .sortinfo h6{ color:#444; font-weight:normal}
+.list-summary .sortinfo p em{ color:#666; margin-right:15px }
+.v-list{ overflow:hidden}
+.v-list li{ float:left; margin:5px 11px 5px 8px}
+.v-list .vimg{ padding:1px; border:1px solid #ddd;}
+.v-list .vimg img{width:155px; height:100px; }
+.v-list li p,.v-list li h5{ text-align:center; font-weight:normal; line-height:17px}
+/*-------footer--------*/
+.footer{ margin:0 auto; width:960px; background:url(../img/foot-bg.png) repeat-x; min-height:92px; padding:10px 0; overflow:hidden}
+.footer p{ text-align:center; margin-top:10px; color:#666}

@@ -1,0 +1,115 @@
+a:hover{color: #f76802}
+.table-tp{
+    background: url(../images/orange_skin/app_menu_bg.png)no-repeat;
+    
+}
+.on{
+    background: url(../images/orange_skin/all_app_hover.png)no-repeat;
+}
+.on1{
+    background: url(../images/orange_skin/rec_app_hover.png)no-repeat;
+    
+}
+.on2{
+    background: url(../images/orange_skin/free_app_hover.png)no-repeat;
+    
+}
+.on3{
+    background: url(../images/orange_skin/fee_app_hover.png)no-repeat;
+}
+.color-f16527{
+    color: #f16527;
+}
+a:hover{
+    color:#e06c1f
+}
+.search-box{
+    border:2px solid #fcbd94;
+    width: 317px;
+    height: 24px;
+    display: inline-block;
+}
+.search-tb{
+    width: 32px;
+    height: 23px;
+    background-color: #ffeee3;
+    border-left: 1px solid #f5c09e;
+    display: inline-block;
+    /* float: right; */
+} 
+.bg-dh{
+    background:url(../images/orange_skin/nav_bg.png)no-repeat;
+}
+.nav-top{
+    background: url(../images/orange_skin/nav_line.png)no-repeat;
+}
+.oul-box>li a{
+    color: #e06c1f;
+}
+
+.color-df6f2d{
+    color:#df6f2d;
+}
+.affiche{
+   border: 1px solid #f3e9b6;
+   background-color: #faf7e6;
+}
+.Login-box{
+    background-color: #fff2e5;
+}
+.Login{
+    border: 1px solid #fec397;
+}
+.bgcolor-fef6dd{
+    background-color: #fef6dd;
+    border-bottom: 1px solid #fec397;
+}
+.bg-zj{
+    background: url(../images/orange_skin/tt_ico.png)no-repeat;
+    width: 8px;
+    height: 10px;
+    display: inline-block;
+}
+.dl-ipt{
+    border: 1px solid #bdd7f2;
+}
+.yzm-ipt{
+    border: 1px solid #bdd7f2;
+} 
+
+.navigation{
+    background-image: url(../images/orange_skin/nav_bg.png);
+}
+.li_on{
+    background-color: #f0f0f0;
+    border:1px solid #dbdbdb;
+    border-bottom:none;
+    margin:0px!important;
+}
+.li_on a{
+    color:#353535!important
+}
+.nav_slider{
+    display: inline-block;
+    width:2px;
+    height:21px;
+    background-image: url(../images/orange_skin/nav_line.png);
+}
+.nav_menu{
+    background-color: #fdfff6;
+    border:1px solid #fec397;
+    color:#e06c1f;
+    border-top:none
+}
+.nav_a:hover i{
+    color:#e06c1f;
+    font-size:17px
+}
+.nav_a:hover{
+    background-color: #fdfff6;
+    border:1px solid #fec397;
+}
+.nav_menu li:hover{
+    background-color: #f77a0f;
+    color:#fff
+}

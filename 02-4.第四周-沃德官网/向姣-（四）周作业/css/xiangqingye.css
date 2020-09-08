@@ -1,0 +1,194 @@
+/*导航栏*/
+.head{
+	width: 100%;
+	height: 109PX;
+	background-color: #082939;
+}
+.head1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head2{
+	margin-left: 35px;
+	margin-top:20px;
+}
+.head33{
+	line-height: 109px;
+}
+.head3{
+	color: white;
+	font-size: 16px;
+	margin-left: 55px;
+}
+/*中间文字栏目*/
+.language{
+	width: 100%;
+	height: 1645px;
+}
+.chinese{
+	width: 1200px;
+	height: 1645px;
+	margin:0 auto;
+}
+.chinese1{
+	width: 800px;
+}
+.sheng{
+	width: 800px;
+	height: 36px;
+	background-color: #E3E3E3;
+	margin-top: 43px;
+}
+.yy{
+	margin-left: 20px;
+	line-height: 36px;
+}
+.new{
+	color: #666666;
+	line-height: 36px;
+}
+.rui0{
+	margin-top: 10px;
+}
+.rui{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.xux{
+	width: 800px;
+	border:1px dashed #DDDDDD;
+}
+.yuan0{
+	text-align: center;
+}
+.yuan{
+	color: #999999;
+	font-size: 12px;
+	margin-left: 24px;
+}
+span{
+	font-size: 12px;
+	margin-left: 10px;
+	color: #333333
+}
+.xux1{
+	width: 800px;
+	border:1px dashed #DDDDDD;
+}
+.wenzi,.wenzi1{
+	margin-top:10px;
+	text-align: justify;
+}
+p{
+	font-size:16px;
+}
+.yuedu{
+	text-align: center;
+	color: #009D4F;
+}
+.wenzi2{
+	margin-top: 30px;
+}
+.wenhao{
+	margin-top: 60px;
+}
+.xiang{
+	color: #666666;
+	margin-top:20px;
+}.xiang-1{
+	color: #333333;
+	font-size: 12px;
+}
+.xiang-2{
+	margin-top: 20px;
+	font-size: 12px;
+	color: black;
+}
+.xiang-3{
+	font-size: 12px;
+	color: black;
+}
+/*右边框*/
+.right{
+	width: 396px;
+	margin-top: 43px;
+}
+.right-1{
+	margin-left: 75px;
+}
+.right-2{
+	width: 320px;
+	height: 180px;
+	border:1px solid #DDDDDD;
+	margin-left: 73px;
+}
+.mm{
+	margin-left: 210px;
+}
+.shi{
+	width: 298px;
+	border:1px solid #DDDDDD;
+	margin-left: 12px;
+	margin-bottom:10px;
+}
+.shi-1{
+	font-size:12px;
+	margin-left: 10px;
+}
+/*底部框*/
+.dibu{
+	width: 100%;
+	height: 290px;
+	background-color:#264252;
+}
+.dibu1{
+	width: 1200px;
+	height: 290px;
+	margin:0 auto;
+}
+.dibu1 a{
+	color: #fff
+}
+.di-a{
+	margin-top:40px;
+	margin-left: 50px;
+	font-size:16px;
+}
+.di-c{
+	margin-top:38px;
+	margin-left:20px;
+	font-size:16px;
+	line-height: 30px;
+}
+
+.di-i{
+	width: 314px;
+	font-size:16px;
+	margin-top: 40px;
+	margin-right: 20px;
+	line-height: 29px;
+}
+.wei{
+	margin-top: 10px;
+	margin-left: 70px;
+}
+.zuidb{
+	width: 100%;
+	height: 52px;
+	background-color: #171717;
+}
+.zuidb1{
+	width: 1200px;
+	height: 52px;
+	margin:0 auto;
+}
+.zuidb2{
+	text-align: center;
+}
+.zuidb3{
+	color: white;
+	font-size: 16px;
+	line-height: 52px;
+	margin-left: 40px;
+}
